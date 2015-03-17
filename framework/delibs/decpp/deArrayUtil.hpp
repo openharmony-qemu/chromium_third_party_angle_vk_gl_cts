@@ -24,13 +24,14 @@
  *//*--------------------------------------------------------------------*/
 
 #include "deDefs.hpp"
+#include "deMeta.hpp"
 
 namespace de
 {
 
 //! Get an element of an array with a specified size.
 template <int LastElementIndex, int Size, typename Elem>
-const Elem& getSizedArrayElement (const Elem (&array)[Size], typename de::EnableIf<int, LastElementIndex==Size>::Type offset)
+const Elem& getSizedArrayElement (const Elem (&array)[Size], typename de::meta::EnableIf<int, LastElementIndex==Size>::Type offset)
 {
 	DE_ASSERT(inBounds(offset, 0, Size));
 	return array[offset];
