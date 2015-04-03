@@ -135727,65 +135727,85 @@
 				<TestCase name="disabled">
 					<Test name="gradient_white">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_red">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_green">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_blue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_alpha">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_white">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_red">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_green">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_blue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_alpha">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
 				<TestCase name="enabled">
 					<Test name="gradient_white">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_red">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_green">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_blue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="gradient_alpha">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_white">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_red">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_green">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_blue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="unicolored_quad_alpha">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
 			</TestSuite>
