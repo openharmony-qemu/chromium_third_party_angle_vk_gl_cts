@@ -98155,11 +98155,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="4">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="5">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
