@@ -38853,6 +38853,2061 @@
 						</TestCase>
 					</TestSuite>
 				</TestSuite>
+				<TestSuite name="border_clamp">
+					<TestSuite name="formats">
+						<TestCase name="luminance">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="alpha">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="luminance_alpha">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="bgra">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r8_snorm">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg8_snorm">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb8_snorm">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb565">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba4">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb5_a1">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba8_snorm">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb10_a2">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb10_a2ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="srgb8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="srgb8_alpha8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg16f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb16f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba16f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg32f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb32f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba32f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r11f_g11f_b10f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb9_e5">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r8i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r8ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg8i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg8ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg16i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg16ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg32i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rg32ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb8i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb8ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb16i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb16ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb32i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgb32ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba8i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba8ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba16i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba16ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba32i">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="rgba32ui">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth_component16">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth_component24">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth_component32f">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="stencil_index8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth24_stencil8_sample_depth">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth32f_stencil8_sample_depth">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth24_stencil8_sample_stencil">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth32f_stencil8_sample_stencil">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_r11_eac">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_signed_r11_eac">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_rg11_eac">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_signed_rg11_eac">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_rgb8_etc2">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_srgb8_etc2">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_rgb8_punchthrough_alpha1_etc2">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_srgb8_punchthrough_alpha1_etc2">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_rgba8_etc2_eac">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="compressed_srgb8_alpha8_etc2_eac">
+							<Test name="nearest_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_not_tile_multiple">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestCase name="range_clamp">
+						<Test name="nearest_unorm_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="linear_unorm_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_snorm_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="linear_snorm_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_float_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_int_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_uint_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_srgb_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="linear_srgb_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_unorm_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_float_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_uint_stencil">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_float_depth_uint_stencil_sample_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_float_depth_uint_stencil_sample_stencil">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_unorm_depth_uint_stencil_sample_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_unorm_depth_uint_stencil_sample_stencil">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="nearest_compressed_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="linear_compressed_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+					</TestCase>
+					<TestCase name="sampler">
+						<Test name="unorm_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="snorm_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="float_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="int_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="uint_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="unorm_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="float_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="uint_stencil">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="compressed_color">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+					</TestCase>
+					<TestSuite name="per_axis_wrap_mode">
+						<TestSuite name="texture_2d">
+							<TestSuite name="unorm_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="linear">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="snorm_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="linear">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="float_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="int_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="uint_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="unorm_depth">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="float_depth">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="uint_stencil">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="compressed_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="linear">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="gather">
+									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+						</TestSuite>
+						<TestSuite name="texture_3d">
+							<TestSuite name="unorm_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="linear">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="snorm_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+								<TestCase name="linear">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="float_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="int_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+							<TestSuite name="uint_color">
+								<TestCase name="nearest">
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_clamp_to_border_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_mirrored_repeat_t_clamp_to_border_r_repeat_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_pot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+									<Test name="s_repeat_t_mirrored_repeat_r_clamp_to_border_npot">
+										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+									</Test>
+								</TestCase>
+							</TestSuite>
+						</TestSuite>
+					</TestSuite>
+					<TestSuite name="depth_compare_mode">
+						<TestCase name="depth_component16">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth_component24">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth24_stencil8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="depth32f_stencil8">
+							<Test name="nearest_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="nearest_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="linear_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_pot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="gather_size_npot">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestCase name="unused_channels">
+						<Test name="r8">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg8_snorm">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgb8">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg32f">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r16i">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="luminance">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="alpha">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="luminance_alpha">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="depth_component16">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="depth_component32f">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="stencil_index8">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="depth32f_stencil8_sample_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="depth32f_stencil8_sample_stencil">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="depth24_stencil8_sample_depth">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="depth24_stencil8_sample_stencil">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="compressed_r11_eac">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+					</TestCase>
+				</TestSuite>
 			</TestSuite>
 			<TestSuite name="state_query">
 				<TestCase name="boolean">
