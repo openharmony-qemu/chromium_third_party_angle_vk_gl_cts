@@ -46199,77 +46199,62 @@
 					<Test name="multiply">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="screen">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="overlay">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="darken">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="lighten">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="colordodge">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="colorburn">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hardlight">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="softlight">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="difference">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="exclusion">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_hue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_saturation">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_color">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_luminosity">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
 				<TestCase name="srgb">
@@ -46370,154 +46355,124 @@
 					<Test name="multiply">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="screen">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="overlay">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="darken">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="lighten">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="colordodge">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="colorburn">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hardlight">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="softlight">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="difference">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="exclusion">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_hue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_saturation">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_color">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_luminosity">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
 				<TestCase name="coherent">
 					<Test name="multiply">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="screen">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="overlay">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="darken">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="lighten">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="colordodge">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="colorburn">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hardlight">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="softlight">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="difference">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="exclusion">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_hue">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_saturation">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_color">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="hsl_luminosity">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
 				<TestCase name="coherent_msaa">
