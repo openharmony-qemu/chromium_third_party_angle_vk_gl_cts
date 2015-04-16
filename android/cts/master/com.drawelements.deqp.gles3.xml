@@ -141581,6 +141581,11 @@
 					</Test>
 				</TestCase>
 			</TestSuite>
+			<TestCase name="default_vertex_array_object">
+				<Test name="vertex_attrib_divisor">
+					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+				</Test>
+			</TestCase>
 		</TestSuite>
 	</TestSuite>
 </TestPackage>
