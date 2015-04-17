@@ -133229,9 +133229,6 @@
 					<Test name="compressedtexsubimage2d_invalid_buffer_target">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="teximage3d">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="teximage3d_neg_level">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
