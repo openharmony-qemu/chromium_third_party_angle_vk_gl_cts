@@ -139921,19 +139921,11 @@
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 				</Test>
-				<Test name="default_result_depth_clamp">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-				</Test>
 				<Test name="default_render_with_factor">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 				</Test>
 				<Test name="default_factor_0_slope">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-				</Test>
-				<Test name="default_factor_1_slope">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 				</Test>
@@ -139952,9 +139944,6 @@
 				<Test name="fixed16_factor_0_slope">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
-				<Test name="fixed16_factor_1_slope">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-				</Test>
 				<Test name="fixed24_enable">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
@@ -139964,16 +139953,10 @@
 				<Test name="fixed24_render_with_units">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
-				<Test name="fixed24_result_depth_clamp">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-				</Test>
 				<Test name="fixed24_render_with_factor">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
 				<Test name="fixed24_factor_0_slope">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-				</Test>
-				<Test name="fixed24_factor_1_slope">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
 				<Test name="float32_enable">
@@ -139985,16 +139968,10 @@
 				<Test name="float32_render_with_units">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
-				<Test name="float32_result_depth_clamp">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-				</Test>
 				<Test name="float32_render_with_factor">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
 				<Test name="float32_factor_0_slope">
-					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-				</Test>
-				<Test name="float32_factor_1_slope">
 					<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 				</Test>
 			</TestCase>
