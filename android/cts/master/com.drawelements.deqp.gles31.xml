@@ -6744,6 +6744,20 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
+							<TestCase name="mediump_compute">
+								<Test name="scalar">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec2">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec3">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec4">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+							</TestCase>
 							<TestCase name="highp_compute">
 								<Test name="scalar">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -6863,6 +6877,20 @@
 								</Test>
 							</TestCase>
 							<TestCase name="mediump_compute">
+								<Test name="scalar">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec2">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec3">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec4">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+							</TestCase>
+							<TestCase name="highp_compute">
 								<Test name="scalar">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -7201,6 +7229,20 @@
 								</Test>
 							</TestCase>
 							<TestCase name="mediump_compute">
+								<Test name="scalar">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec2">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec3">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+								<Test name="vec4">
+									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								</Test>
+							</TestCase>
+							<TestCase name="highp_compute">
 								<Test name="scalar">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
