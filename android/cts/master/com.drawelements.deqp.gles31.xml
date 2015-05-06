@@ -12151,17 +12151,19 @@
 							</Test>
 						</TestCase>
 					</TestSuite>
+					<TestCase name="declaration">
+						<Test name="empty_declaration_without_var_name_vertex">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="empty_declaration_without_var_name_fragment">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+					</TestCase>
 					<TestCase name="invalid">
 						<Test name="dynamic_expression_array_size_vertex">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="dynamic_expression_array_size_fragment">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="empty_declaration_without_var_name_vertex">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="empty_declaration_without_var_name_fragment">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="empty_declaration_with_var_name_vertex">
