@@ -133152,6 +133152,9 @@
 					<Test name="compressedteximage2d_invalid_buffer_target">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
+					<Test name="compressedteximage2d_invalid_astc_target">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
 					<Test name="copyteximage2d_invalid_target">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
@@ -133377,6 +133380,9 @@
 					<Test name="compressedteximage3d_invalid_buffer_target">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
+					<Test name="compressedteximage3d_invalid_astc_target">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
 					<Test name="compressedtexsubimage3d">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
@@ -133410,6 +133416,9 @@
 					<Test name="texstorage2d_invalid_levels">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
+					<Test name="texstorage2d_invalid_astc_target">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
 					<Test name="texstorage3d">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
@@ -133417,6 +133426,9 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="texstorage3d_invalid_levels">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texstorage3d_invalid_astc_target">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
