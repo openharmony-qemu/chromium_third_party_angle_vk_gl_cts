@@ -125584,33 +125584,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="lines_wide">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="line_strip_wide">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="line_loop_wide">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 					</TestCase>
 					<TestCase name="projected">
 						<Test name="triangles">
@@ -125647,33 +125620,6 @@
 							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="line_loop">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="lines_wide">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="line_strip_wide">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="line_loop_wide">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
