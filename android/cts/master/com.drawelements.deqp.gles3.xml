@@ -56017,62 +56017,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
-							<TestCase name="mediump_vertex">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="mediump_fragment">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="highp_vertex">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="highp_fragment">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
 						</TestSuite>
 						<TestSuite name="atan">
 							<TestCase name="highp_vertex">
