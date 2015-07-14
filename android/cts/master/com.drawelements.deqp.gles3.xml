@@ -5130,9 +5130,6 @@
 							<Test name="layout_qualifier_mismatch_2">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="layout_qualifier_mismatch_3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="layout_qualifier_mismatch_4">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
