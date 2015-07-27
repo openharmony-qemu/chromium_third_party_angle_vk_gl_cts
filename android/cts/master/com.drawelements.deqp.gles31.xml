@@ -7040,20 +7040,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
-							<TestCase name="highp_compute">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
 						</TestSuite>
 						<TestSuite name="asinh">
 							<TestCase name="lowp_compute">
@@ -8319,50 +8305,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="refract">
-							<TestCase name="lowp_compute">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="mediump_compute">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="highp_compute">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
@@ -10055,15 +9997,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="negative">
-							<Test name="vec4_identity_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4_crop_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4_mixed_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="interpolate_ivec4">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -10074,33 +10007,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="interpolate_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_local">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_global">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_constant">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="interpolate_at_centroid">
 						<TestCase name="negative">
-							<Test name="vec4_identity_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4_crop_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4_mixed_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="interpolate_ivec4">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -10111,18 +10023,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="interpolate_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_local">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_global">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_constant">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -10359,15 +10259,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="negative">
-							<Test name="vec4_identity_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4_crop_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4_mixed_swizzle">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="interpolate_ivec4">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -10378,18 +10269,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="interpolate_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_local">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_global">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="interpolate_constant">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -12043,12 +11922,6 @@
 								<Test name="output_different_precision">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="input_no_declaration">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="output_no_declaration">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="input_superfluous_declaration">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -12288,15 +12161,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="internal_different_precision">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="input_no_declaration">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="output_no_declaration">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="internal_no_declaration">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="input_superfluous_declaration">
@@ -12549,9 +12413,6 @@
 								<Test name="different_precision">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="no_output_declaration">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="superfluous_output_declaration">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -12709,9 +12570,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="mismatch_block_array_size">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="missing_output_block">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="ambiguous_variable_name_1">
@@ -16660,12 +16518,6 @@
 						<Test name="invalid_number_block_name_fragment">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="invalid_identifier_block_name_vertex">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="invalid_identifier_block_name_fragment">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="invalid_hash_block_name_vertex">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -16690,12 +16542,6 @@
 						<Test name="invalid_number_instance_name_fragment">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="invalid_identifier_instance_name_vertex">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="invalid_identifier_instance_name_fragment">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="invalid_hash_instance_name_vertex">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -16706,12 +16552,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="invalid_dollar_instance_name_fragment">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="repeated_block_vertex">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="repeated_block_fragment">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="repeated_block_no_instance_name_vertex">
@@ -18306,9 +18146,6 @@
 					<Test name="gl_position_vs_to_tcs_to_tes">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="barrier">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 				</TestCase>
 				<TestCase name="misc_draw">
 					<Test name="fill_cover_triangles_equal_spacing">
@@ -19250,41 +19087,6 @@
 							</Test>
 						</TestCase>
 					</TestSuite>
-					<TestSuite name="per_vertex">
-						<TestCase name="vertex_io_array_size_implicit">
-							<Test name="triangles">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="quads">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="isolines">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="vertex_io_array_size_shader_builtin">
-							<Test name="triangles">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="quads">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="isolines">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="vertex_io_array_size_query">
-							<Test name="triangles">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="quads">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="isolines">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-					</TestSuite>
 					<TestSuite name="per_vertex_block">
 						<TestCase name="vertex_io_array_size_implicit">
 							<Test name="triangles">
@@ -19320,14 +19122,6 @@
 							</Test>
 						</TestCase>
 					</TestSuite>
-					<TestCase name="negative">
-						<Test name="per_patch_array_of_structs">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="per_patch_structs_containing_arrays">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-					</TestCase>
 				</TestSuite>
 			</TestSuite>
 			<TestSuite name="ssbo">
@@ -27987,9 +27781,6 @@
 						<Test name="19">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="20">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="21">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -28048,9 +27839,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="40">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="41">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="42">
@@ -39174,12 +38962,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="stencil_index8">
-							<Test name="nearest_size_pot">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="nearest_size_npot">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="gather_size_pot">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -39216,12 +38998,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="depth24_stencil8_sample_stencil">
-							<Test name="nearest_size_pot">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="nearest_size_npot">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="gather_size_pot">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -39230,12 +39006,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="depth32f_stencil8_sample_stencil">
-							<Test name="nearest_size_pot">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="nearest_size_npot">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="gather_size_pot">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -39460,12 +39230,6 @@
 						<Test name="nearest_float_color">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="nearest_int_color">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="nearest_uint_color">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="nearest_srgb_color">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -39478,19 +39242,10 @@
 						<Test name="nearest_float_depth">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="nearest_uint_stencil">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="nearest_float_depth_uint_stencil_sample_depth">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="nearest_float_depth_uint_stencil_sample_stencil">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="nearest_unorm_depth_uint_stencil_sample_depth">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="nearest_unorm_depth_uint_stencil_sample_stencil">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="nearest_compressed_color">
@@ -39520,9 +39275,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="float_depth">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="uint_stencil">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="compressed_color">
@@ -39866,26 +39618,6 @@
 								</TestCase>
 							</TestSuite>
 							<TestSuite name="uint_stencil">
-								<TestCase name="nearest">
-									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="s_clamp_to_edge_t_clamp_to_border_npot">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="s_repeat_t_clamp_to_border_pot">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="s_repeat_t_clamp_to_border_npot">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="s_mirrored_repeat_t_clamp_to_border_pot">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="s_mirrored_repeat_t_clamp_to_border_npot">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
 								<TestCase name="gather">
 									<Test name="s_clamp_to_edge_t_clamp_to_border_pot">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -40278,19 +40010,10 @@
 						<Test name="depth_component32f">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="stencil_index8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="depth32f_stencil8_sample_depth">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="depth32f_stencil8_sample_stencil">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="depth24_stencil8_sample_depth">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="depth24_stencil8_sample_stencil">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="compressed_r11_eac">
@@ -42799,18 +42522,6 @@
 						<Test name="height_float">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="depth_integer">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="depth_float">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="internal_format_integer">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="internal_format_float">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="red_size_integer">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -44286,34 +43997,16 @@
 					</Test>
 				</TestCase>
 				<TestCase name="emit">
-					<Test name="points_emit_0_end_0">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="points_emit_0_end_1">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="points_emit_1_end_1">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="points_emit_0_end_2">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="points_emit_1_end_2">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="line_strip_emit_0_end_0">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="line_strip_emit_0_end_1">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="line_strip_emit_1_end_1">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="line_strip_emit_2_end_1">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="line_strip_emit_0_end_2">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="line_strip_emit_1_end_2">
@@ -44325,12 +44018,6 @@
 					<Test name="line_strip_emit_2_end_2_emit_2_end_0">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="triangle_strip_emit_0_end_0">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="triangle_strip_emit_0_end_1">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="triangle_strip_emit_1_end_1">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
@@ -44338,9 +44025,6 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="triangle_strip_emit_3_end_1">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="triangle_strip_emit_0_end_2">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="triangle_strip_emit_1_end_2">
@@ -53093,16 +52777,10 @@
 					</Test>
 				</TestCase>
 				<TestCase name="error_filters">
-					<Test name="case_0">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="case_1">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_2">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_3">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_4">
@@ -53115,9 +52793,6 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_7">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_8">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_9">
@@ -53141,13 +52816,7 @@
 					<Test name="case_15">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="case_16">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="case_17">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_18">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_19">
@@ -53171,9 +52840,6 @@
 					<Test name="case_25">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="case_26">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="case_27">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
@@ -53191,16 +52857,10 @@
 					</Test>
 				</TestCase>
 				<TestCase name="error_groups">
-					<Test name="case_0">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="case_1">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_2">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_3">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="case_4">
@@ -53215,28 +52875,10 @@
 					<Test name="case_7">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="case_8">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_9">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_10">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_11">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="case_12">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="case_13">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="case_14">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="case_15">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
@@ -59514,39 +59156,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="empty">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_eval">
-							<Test name="empty">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_geometry">
-							<Test name="empty">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestCase name="compute">
 							<Test name="empty">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -59566,74 +59175,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_in">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -59669,30 +59210,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_eval">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_geometry">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestSuite name="interface_blocks">
 							<TestSuite name="in">
 								<TestCase name="named_block">
@@ -59707,74 +59224,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_in">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -59825,48 +59274,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_eval">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_geometry">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestSuite name="interface_blocks">
 							<TestSuite name="in">
 								<TestCase name="named_block">
@@ -59890,128 +59297,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_in">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -60056,30 +59341,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_eval">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_geometry">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestSuite name="interface_blocks">
 							<TestSuite name="in">
 								<TestCase name="named_block">
@@ -60094,74 +59355,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_in">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -60535,272 +59728,6 @@
 								</Test>
 							</TestCase>
 						</TestSuite>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="float">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="int">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uint">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="ivec2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="ivec3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="ivec4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uvec2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uvec3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uvec4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat2x3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat2x4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat3x2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat3x4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat4x2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat4x3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestSuite name="separable_tess_eval">
-							<TestCase name="basic_type">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="patch_var">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="patch_var_struct">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="patch_var_array">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestCase name="separable_geometry">
-							<Test name="float">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="int">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uint">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="vec4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="ivec2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="ivec3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="ivec4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uvec2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uvec3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="uvec4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat2x3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat2x4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat3x2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat3x4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat4x2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat4x3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="mat4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestSuite name="interface_blocks">
 							<TestSuite name="in">
 								<TestSuite name="named_block">
@@ -60875,434 +59802,6 @@
 									</TestCase>
 								</TestSuite>
 								<TestSuite name="named_block_explicit_location">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="unnamed_block">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="block_array">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-							</TestSuite>
-							<TestSuite name="patch_in">
-								<TestSuite name="named_block">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="named_block_explicit_location">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="unnamed_block">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="block_array">
 									<TestCase name="basic_type">
 										<Test name="float">
 											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -61398,30 +59897,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_eval">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_geometry">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestSuite name="interface_blocks">
 							<TestSuite name="in">
 								<TestCase name="named_block">
@@ -61436,74 +59911,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_in">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -61553,23 +59960,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="empty">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -61630,74 +60020,6 @@
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
 								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_out">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
 							</TestSuite>
 						</TestSuite>
 					</TestSuite>
@@ -61726,20 +60048,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -61779,74 +60087,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_out">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -61909,32 +60149,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array_explicit_location">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestCase name="separable_tess_eval">
 							<Test name="var">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -61949,9 +60163,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="var_array_explicit_location">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -61998,128 +60209,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_out">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array_explicit_location">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -62170,20 +60259,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestCase name="separable_tess_eval">
 							<Test name="var">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -62220,74 +60295,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_out">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
 									<Test name="var">
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
@@ -62687,142 +60694,6 @@
 								</Test>
 							</TestCase>
 						</TestSuite>
-						<TestSuite name="separable_tess_ctrl">
-							<TestCase name="basic_type">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="patch_var">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="patch_var_struct">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="patch_var_array">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-						</TestSuite>
 						<TestSuite name="separable_tess_eval">
 							<TestCase name="basic_type">
 								<Test name="float">
@@ -63193,362 +61064,6 @@
 										</Test>
 									</TestCase>
 								</TestSuite>
-								<TestSuite name="unnamed_block">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="block_array">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-							</TestSuite>
-							<TestSuite name="patch_out">
-								<TestSuite name="named_block">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="named_block_explicit_location">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="unnamed_block">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
-								<TestSuite name="block_array">
-									<TestCase name="basic_type">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="int">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uint">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="vec3">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="array">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-									<TestCase name="struct">
-										<Test name="float">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="ivec2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="uvec4">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-										<Test name="mat3x2">
-											<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-										</Test>
-									</TestCase>
-								</TestSuite>
 							</TestSuite>
 						</TestSuite>
 					</TestSuite>
@@ -63577,20 +61092,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="var_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
-						<TestCase name="separable_tess_ctrl">
-							<Test name="var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_struct">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="patch_var_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -63640,74 +61141,6 @@
 										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									</Test>
 								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-							</TestSuite>
-							<TestSuite name="patch_out">
-								<TestCase name="named_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="named_block_explicit_location">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="unnamed_block">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
-								<TestCase name="block_array">
-									<Test name="var">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_struct">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-									<Test name="var_array">
-										<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									</Test>
-								</TestCase>
 							</TestSuite>
 						</TestSuite>
 					</TestSuite>
@@ -63719,9 +61152,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63738,9 +61168,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63753,9 +61180,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63772,9 +61196,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63787,9 +61208,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63806,9 +61224,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63821,9 +61236,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63842,9 +61254,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63857,9 +61266,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63876,9 +61282,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63891,9 +61294,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63910,9 +61310,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63927,9 +61324,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63942,9 +61336,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63963,9 +61354,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -63978,9 +61366,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -63997,9 +61382,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -64012,9 +61394,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -64031,9 +61410,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -64048,9 +61424,6 @@
 							<Test name="default_block_basic_type">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="default_block_struct_member">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="default_block_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -64063,9 +61436,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_basic_type">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="default_block_struct_member">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="default_block_array">
@@ -64278,71 +61648,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
-							<TestCase name="struct">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
 						</TestSuite>
 						<TestSuite name="vertex_tess_fragment">
 							<TestCase name="builtin">
@@ -64397,29 +61702,6 @@
 								</Test>
 							</TestCase>
 							<TestCase name="whole_array">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="struct">
 								<Test name="float">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -64518,29 +61800,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
-							<TestCase name="struct">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
 						</TestSuite>
 						<TestSuite name="vertex_tess_geo_fragment">
 							<TestCase name="builtin">
@@ -64595,29 +61854,6 @@
 								</Test>
 							</TestCase>
 							<TestCase name="whole_array">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="struct">
 								<Test name="float">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -64842,71 +62078,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
-							<TestCase name="struct">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat2x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4x3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
 						</TestSuite>
 						<TestSuite name="separable_tess_eval">
 							<TestCase name="builtin">
@@ -64983,29 +62154,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
-							<TestCase name="struct">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
 						</TestSuite>
 						<TestSuite name="separable_geometry">
 							<TestCase name="builtin">
@@ -65060,29 +62208,6 @@
 								</Test>
 							</TestCase>
 							<TestCase name="whole_array">
-								<Test name="float">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="int">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uint">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="ivec3">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="uvec2">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="mat3x4">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-							</TestCase>
-							<TestCase name="struct">
 								<Test name="float">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -67642,9 +64767,6 @@
 								<Test name="float_unsized_array">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="float_unsized_struct_array">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 							</TestCase>
 							<TestCase name="unnamed_block">
 								<Test name="float">
@@ -67693,9 +64815,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="float_unsized_array">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="float_unsized_struct_array">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
@@ -67748,9 +64867,6 @@
 								<Test name="float_unsized_array">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="float_unsized_struct_array">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 							</TestCase>
 							<TestCase name="unnamed_block">
 								<Test name="float">
@@ -67799,9 +64915,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="float_unsized_array">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="float_unsized_struct_array">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
@@ -67854,9 +64967,6 @@
 								<Test name="float_unsized_array">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="float_unsized_struct_array">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 							</TestCase>
 							<TestCase name="unnamed_block">
 								<Test name="float">
@@ -67905,9 +65015,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="float_unsized_array">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="float_unsized_struct_array">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 							</TestCase>
@@ -69343,9 +66450,6 @@
 						<Test name="21">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="22">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="23">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -69367,9 +66471,6 @@
 						<Test name="29">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="30">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="31">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -69385,9 +66486,6 @@
 						<Test name="35">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="36">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="37">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -69395,9 +66493,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="39">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="40">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="41">
@@ -69463,9 +66558,6 @@
 						<Test name="61">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="62">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="63">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -69478,16 +66570,10 @@
 						<Test name="66">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="67">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="68">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="69">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="70">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="71">
@@ -69503,12 +66589,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="75">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="76">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="77">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="78">
