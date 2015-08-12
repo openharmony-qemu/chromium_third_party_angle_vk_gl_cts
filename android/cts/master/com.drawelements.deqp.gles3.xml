@@ -46311,7 +46311,6 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="pointcoord">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -132684,7 +132683,6 @@
 					</Test>
 					<Test name="poly_fan">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 					</Test>
 				</TestCase>
 				<TestSuite name="triangle_vertex">
@@ -132707,11 +132705,9 @@
 						</Test>
 						<Test name="clip_neg_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -132809,11 +132805,9 @@
 						</Test>
 						<Test name="clip_neg_x_and_neg_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_and_pos_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -132881,11 +132875,9 @@
 						</Test>
 						<Test name="clip_pos_x_and_neg_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_and_pos_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -132949,11 +132941,9 @@
 						</Test>
 						<Test name="clip_pos_y_and_neg_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_y_and_pos_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133013,11 +133003,9 @@
 						</Test>
 						<Test name="clip_neg_y_and_neg_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_and_pos_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133077,119 +133065,90 @@
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133309,7 +133268,6 @@
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133361,7 +133319,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133397,7 +133354,6 @@
 						</Test>
 						<Test name="clip_pos_x_pos_z_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_z_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133445,7 +133401,6 @@
 						</Test>
 						<Test name="clip_neg_x_pos_z_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_pos_z_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133497,11 +133452,9 @@
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133613,11 +133566,9 @@
 						</Test>
 						<Test name="clip_neg_y_pos_z_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_pos_z_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133795,7 +133746,6 @@
 						</Test>
 						<Test name="clip_neg_x_and_neg_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_and_pos_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133803,7 +133753,6 @@
 						</Test>
 						<Test name="clip_neg_x_and_pos_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133867,7 +133816,6 @@
 						</Test>
 						<Test name="clip_pos_x_and_neg_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_and_neg_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133875,7 +133823,6 @@
 						</Test>
 						<Test name="clip_pos_x_and_pos_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -133995,11 +133942,9 @@
 						</Test>
 						<Test name="clip_pos_y_and_neg_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_y_and_pos_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_y_and_neg_x_neg_z_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134051,11 +133996,9 @@
 						</Test>
 						<Test name="clip_neg_y_and_neg_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_and_pos_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_and_pos_x_pos_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134111,87 +134054,66 @@
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_y_and_pos_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_pos_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_pos_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_y_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_x_neg_z_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_z_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_pos_z_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_y_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_y_and_pos_x_neg_y_pos_z_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134203,79 +134125,60 @@
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_pos_y_and_neg_x_pos_y">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_neg_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_pos_x_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_pos_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_y_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_neg_z_and_pos_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_x_neg_z_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_pos_z_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_pos_y_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_y_and_neg_x_neg_y_pos_z_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134291,7 +134194,6 @@
 						</Test>
 						<Test name="clip_pos_x_pos_y_and_neg_x_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_y_and_pos_x_neg_z_and_neg_x_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134299,7 +134201,6 @@
 						</Test>
 						<Test name="clip_pos_x_pos_y_and_neg_x_pos_z_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_y_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134327,11 +134228,9 @@
 						</Test>
 						<Test name="clip_neg_x_pos_y_and_pos_x_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_pos_y_and_pos_x_pos_z_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_pos_y_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134351,7 +134250,6 @@
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134363,11 +134261,9 @@
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_pos_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134387,7 +134283,6 @@
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_pos_z_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134403,11 +134298,9 @@
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_y_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_neg_x_neg_y_pos_z_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_neg_z_and_pos_x_neg_y_pos_z_and_pos_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134427,7 +134320,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134439,7 +134331,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134447,7 +134338,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_pos_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_pos_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134459,7 +134349,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134479,7 +134368,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_pos_y_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_neg_x_neg_y_pos_z_and_neg_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134491,7 +134379,6 @@
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_pos_x_neg_y_pos_z_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_neg_z_and_pos_x_pos_y_pos_z_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134503,7 +134390,6 @@
 						</Test>
 						<Test name="clip_pos_x_pos_z_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_z_and_pos_y_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134523,7 +134409,6 @@
 						</Test>
 						<Test name="clip_pos_x_pos_z_and_neg_x_pos_y_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_x_pos_z_and_neg_x_neg_y_neg_z_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134531,7 +134416,6 @@
 						</Test>
 						<Test name="clip_neg_x_pos_z_and_neg_y_neg_z_and_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_pos_z_and_pos_y_neg_z_and_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134547,7 +134431,6 @@
 						</Test>
 						<Test name="clip_neg_x_pos_z_and_pos_x_pos_y_pos_z_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_x_pos_z_and_neg_x_pos_y_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134559,11 +134442,9 @@
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_y_pos_z_and_neg_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_y_pos_z_and_pos_x_neg_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_y_pos_z_and_pos_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134591,11 +134472,9 @@
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_neg_x_neg_y_pos_z_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_x_neg_y_pos_z_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_neg_z_and_pos_x_pos_y_pos_z_and_neg_x_pos_y_pos_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134627,11 +134506,9 @@
 						</Test>
 						<Test name="clip_pos_y_neg_z_and_neg_y_pos_z_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_y_neg_z_and_neg_y_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_pos_y_neg_z_and_neg_y_pos_z_and_pos_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -134691,11 +134568,9 @@
 						</Test>
 						<Test name="clip_neg_y_pos_z_and_pos_x_pos_y_pos_z_and_neg_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_pos_z_and_neg_x_pos_y_pos_z_and_pos_x_neg_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="clip_neg_y_pos_z_and_pos_x_pos_y_neg_z_and_neg_x_pos_y_neg_z">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
