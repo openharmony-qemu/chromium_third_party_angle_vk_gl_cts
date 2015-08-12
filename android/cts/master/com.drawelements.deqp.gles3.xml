@@ -45943,10 +45943,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="fragcoord_z">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="uniform_conditional_write">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
@@ -134871,9 +134867,6 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="49">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
-					<Test name="50">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="51">
