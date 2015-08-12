@@ -50038,14 +50038,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="float_highp">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="vec2_lowp">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
@@ -50062,22 +50054,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="vec2_highp">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3_highp">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="vec4_lowp">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
@@ -50087,14 +50063,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="vec4_mediump">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4_highp">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
@@ -50164,14 +50132,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="float_highp">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="vec2_lowp">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
@@ -50188,22 +50148,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 								</Test>
-								<Test name="vec2_highp">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec3_highp">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="vec4_lowp">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
@@ -50213,14 +50157,6 @@
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="vec4_mediump">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
-									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-								</Test>
-								<Test name="vec4_highp">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
