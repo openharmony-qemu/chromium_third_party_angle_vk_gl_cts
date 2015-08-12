@@ -4904,20 +4904,6 @@
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="uniform">
-						<TestCase name="basic">
-							<Test name="precision_conflict_1">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precision_conflict_2">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precision_conflict_3">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precision_conflict_4">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-						</TestCase>
 						<TestCase name="struct">
 							<Test name="basic">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
