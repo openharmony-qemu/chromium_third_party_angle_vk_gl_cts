@@ -8295,9 +8295,6 @@
 								</Test>
 							</TestCase>
 							<TestCase name="highp_compute">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="vec2">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
