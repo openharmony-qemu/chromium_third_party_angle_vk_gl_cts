@@ -4985,9 +4985,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="block">
-							<Test name="differing_precision">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="type_mismatch">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
