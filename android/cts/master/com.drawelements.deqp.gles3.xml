@@ -84259,7 +84259,6 @@
 								<Test name="dst_color_one_minus_dst_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="dst_color_constant_color">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -84274,7 +84273,6 @@
 								<Test name="dst_color_constant_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="dst_color_one_minus_constant_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -84284,7 +84282,6 @@
 								<Test name="dst_color_src_alpha_saturate">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_minus_dst_color_zero">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85116,7 +85113,6 @@
 								<Test name="one_zero">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_one">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85131,7 +85127,6 @@
 								<Test name="one_one_minus_src_color">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_dst_color">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85141,7 +85136,6 @@
 								<Test name="one_one_minus_dst_color">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_src_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85161,12 +85155,10 @@
 								<Test name="one_one_minus_dst_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_constant_color">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_one_minus_constant_color">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85176,7 +85168,6 @@
 								<Test name="one_constant_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="one_one_minus_constant_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85186,7 +85177,6 @@
 								<Test name="one_src_alpha_saturate">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="src_color_zero">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85671,7 +85661,6 @@
 								<Test name="dst_alpha_src_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="dst_alpha_one_minus_src_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
@@ -85701,7 +85690,6 @@
 								<Test name="dst_alpha_constant_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 									<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-									<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
 								<Test name="dst_alpha_one_minus_constant_alpha">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
