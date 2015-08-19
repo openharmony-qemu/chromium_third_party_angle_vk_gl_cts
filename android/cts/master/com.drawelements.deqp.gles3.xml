@@ -128931,10 +128931,6 @@
 			</TestSuite>
 			<TestSuite name="dither">
 				<TestCase name="disabled">
-					<Test name="gradient_white">
-						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
-					</Test>
 					<Test name="gradient_red">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						<TestInstance glconfig="rgb565d0s0ms0" rotation="unspecified" surfacetype="window"/>
