@@ -8295,9 +8295,6 @@
 								</Test>
 							</TestCase>
 							<TestCase name="highp_compute">
-								<Test name="scalar">
-									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-								</Test>
 								<Test name="vec2">
 									<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 								</Test>
@@ -19119,6 +19116,20 @@
 							</Test>
 						</TestCase>
 					</TestSuite>
+					<TestCase name="negative">
+						<Test name="per_vertex_incorrect_control_explicit_output_array_size_1">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="per_vertex_incorrect_control_explicit_output_array_size_2">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="per_vertex_incorrect_control_explicit_output_array_size_3">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="per_vertex_incorrect_eval_explicit_input_array_size">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+					</TestCase>
 				</TestSuite>
 			</TestSuite>
 			<TestSuite name="ssbo">
@@ -87134,9 +87145,6 @@
 							<Test name="texture2d_array_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="viewclass_astc_5x4_rgba">
@@ -87336,9 +87344,6 @@
 							<Test name="texture2d_array_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="viewclass_astc_5x5_rgba">
@@ -87467,9 +87472,6 @@
 							<Test name="texture3d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -87493,9 +87495,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="srgb8_alpha8_astc_5x5_khr_srgb8_alpha8_astc_5x5_khr">
-							<Test name="texture2d_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -87939,12 +87938,6 @@
 							<Test name="texture2d_array_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="viewclass_astc_8x5_rgba">
@@ -88049,9 +88042,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="srgb8_alpha8_astc_8x5_khr_rgba_astc_8x5_khr">
-							<Test name="texture2d_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -88071,9 +88061,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cubemap_to_texture3d">
@@ -88105,9 +88092,6 @@
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -88142,9 +88126,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -88548,9 +88529,6 @@
 							<Test name="texture2d_array_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="viewclass_astc_10x5_rgba">
@@ -88750,9 +88728,6 @@
 							<Test name="texture2d_array_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 					</TestSuite>
 					<TestSuite name="viewclass_astc_10x6_rgba">
@@ -88864,9 +88839,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture2d">
@@ -89089,12 +89061,6 @@
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_array_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -89113,9 +89079,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_to_texture2d_array">
@@ -89152,9 +89115,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -89341,9 +89301,6 @@
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -89354,9 +89311,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -89487,13 +89441,7 @@
 							<Test name="texture3d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cubemap_to_texture2d_array">
@@ -89513,9 +89461,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="srgb8_alpha8_astc_12x10_khr_srgb8_alpha8_astc_12x10_khr">
-							<Test name="texture2d_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -91683,9 +91628,6 @@
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -91693,9 +91635,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture3d_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture2d_array">
@@ -92119,9 +92058,6 @@
 							<Test name="texture2d_array_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -92351,9 +92287,6 @@
 							<Test name="texture3d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -92449,12 +92382,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cubemap_to_cubemap">
@@ -92554,9 +92481,6 @@
 							<Test name="cubemap_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -92630,9 +92554,6 @@
 							<Test name="texture2d_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -92658,9 +92579,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cubemap_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d">
@@ -94684,9 +94602,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32ui_srgb8_alpha8_astc_5x4_khr">
 							<Test name="texture2d_to_texture2d">
@@ -94794,9 +94709,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -94908,9 +94820,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32ui_srgb8_alpha8_astc_6x5_khr">
 							<Test name="texture2d_to_texture2d">
@@ -94993,9 +94902,6 @@
 							<Test name="texture3d_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -95018,9 +94924,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -95244,9 +95147,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32ui_srgb8_alpha8_astc_8x6_khr">
 							<Test name="texture2d_to_texture2d">
@@ -95332,9 +95232,6 @@
 							<Test name="cubemap_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -95368,9 +95265,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture2d">
@@ -95553,9 +95447,6 @@
 							<Test name="texture3d_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -95627,9 +95518,6 @@
 							<Test name="texture2d_array_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -95663,12 +95551,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cubemap_to_cubemap">
@@ -95804,9 +95686,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32ui_srgb8_alpha8_astc_10x10_khr">
 							<Test name="texture2d_to_texture2d">
@@ -95939,9 +95818,6 @@
 							<Test name="texture3d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture3d_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture3d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -96004,16 +95880,7 @@
 							<Test name="cubemap_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d">
@@ -98052,9 +97919,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32i_srgb8_alpha8_astc_5x4_khr">
 							<Test name="texture2d_to_texture2d">
@@ -98099,9 +97963,6 @@
 							<Test name="texture2d_array_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -98117,9 +97978,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture3d_to_texture2d">
@@ -98373,9 +98231,6 @@
 							<Test name="cubemap_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_array_to_texture2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -98386,9 +98241,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -98500,9 +98352,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32i_srgb8_alpha8_astc_8x5_khr">
 							<Test name="texture2d_to_texture2d">
@@ -98555,9 +98404,6 @@
 							</Test>
 						</TestCase>
 						<TestCase name="srgb8_alpha8_astc_8x5_khr_rgba32i">
-							<Test name="texture2d_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -98610,9 +98456,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -98724,9 +98567,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32i_srgb8_alpha8_astc_8x8_khr">
 							<Test name="texture2d_to_texture2d">
@@ -98836,9 +98676,6 @@
 							<Test name="texture2d_array_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_array_to_renderbuffer">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="rgba32i_srgb8_alpha8_astc_10x5_khr">
 							<Test name="texture2d_to_texture2d">
@@ -98921,9 +98758,6 @@
 							<Test name="texture3d_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -98983,9 +98817,6 @@
 							<Test name="cubemap_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="cubemap_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="cubemap_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -98993,9 +98824,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="texture2d_array_to_cubemap">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d_array">
@@ -99295,9 +99123,6 @@
 							<Test name="texture2d_to_texture3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="texture2d_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 							<Test name="texture2d_to_texture2d_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -99370,18 +99195,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cubemap_to_texture2d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture3d">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_cubemap">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_texture2d_array">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="cubemap_to_renderbuffer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texture2d_array_to_texture2d">
