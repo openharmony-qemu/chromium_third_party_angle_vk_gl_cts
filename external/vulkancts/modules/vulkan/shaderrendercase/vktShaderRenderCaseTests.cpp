@@ -37,6 +37,8 @@
 
 #include "deUniquePtr.hpp"
 
+#include "vktShaderDiscardTests.hpp"
+
 namespace vkt
 {
 namespace shaderrendercase
@@ -45,6 +47,8 @@ namespace shaderrendercase
 tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 {
 	de::MovePtr<tcu::TestCaseGroup> shaderRenderCaseTests (new tcu::TestCaseGroup(testCtx, "shaderRenderCase", "ShaderRenderCase Tests"));
+
+	shaderRenderCaseTests->addChild(new ShaderDiscardTests(testCtx));
 
 	return shaderRenderCaseTests.release();
 }
