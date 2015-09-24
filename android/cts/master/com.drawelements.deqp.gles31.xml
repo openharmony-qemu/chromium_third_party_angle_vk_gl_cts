@@ -17977,18 +17977,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="drawelements_separate_grid_1000x1000_drawcount_1">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_separate_grid_1200x1200_drawcount_1">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_separate_grid_1500x1500_drawcount_1">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="drawelements_separate_grid_100x100_drawcount_8">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
@@ -17998,18 +17986,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="drawelements_separate_grid_500x500_drawcount_8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_separate_grid_1000x1000_drawcount_8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_separate_grid_1200x1200_drawcount_8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_separate_grid_1500x1500_drawcount_8">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -18025,10 +18001,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="drawelements_separate_grid_1000x1000_drawcount_5000">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="drawelements_combined_grid_100x100_drawcount_1">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
@@ -18038,18 +18010,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="drawelements_combined_grid_500x500_drawcount_1">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_combined_grid_1000x1000_drawcount_1">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_combined_grid_1200x1200_drawcount_1">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_combined_grid_1500x1500_drawcount_1">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -18065,18 +18025,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
-						<Test name="drawelements_combined_grid_1000x1000_drawcount_8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_combined_grid_1200x1200_drawcount_8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_combined_grid_1500x1500_drawcount_8">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
 						<Test name="drawelements_combined_grid_100x100_drawcount_200">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
@@ -18086,10 +18034,6 @@
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="drawelements_combined_grid_500x500_drawcount_2500">
-							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
-						</Test>
-						<Test name="drawelements_combined_grid_1000x1000_drawcount_5000">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 						</Test>
