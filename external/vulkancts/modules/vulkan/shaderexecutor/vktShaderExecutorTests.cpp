@@ -38,6 +38,7 @@
 #include "deUniquePtr.hpp"
 
 #include "vktShaderBuiltinConstantTests.hpp"
+#include "vktShaderBuiltinPrecisionTests.hpp"
 #include "vktShaderCommonFunctionTests.hpp"
 #include "vktShaderIntegerFunctionTests.hpp"
 #include "vktShaderPackingFunctionTests.hpp"
@@ -51,6 +52,7 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 {
 	de::MovePtr<tcu::TestCaseGroup> shaderExecutorTests (new tcu::TestCaseGroup(testCtx, "ShaderExecutor", "shaderExecutor Tests"));
 
+	shaderExecutorTests->addChild(new BuiltinPrecisionTests(testCtx));
 	shaderExecutorTests->addChild(new ShaderBuiltinConstantTests(testCtx));
 	shaderExecutorTests->addChild(new ShaderCommonFunctionTests(testCtx));
 	shaderExecutorTests->addChild(new ShaderIntegerFunctionTests(testCtx));
