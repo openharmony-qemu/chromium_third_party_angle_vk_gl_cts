@@ -3193,6 +3193,36 @@
 						<Test name="basic_2_fragment">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
+						<Test name="defined_macro_defined_test_vertex">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="defined_macro_defined_test_fragment">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="defined_macro_undef_vertex">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="defined_macro_undef_fragment">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="define_defined_vertex">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="define_defined_fragment">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="define_defined_outside_if_vertex">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="define_defined_outside_if_fragment">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="defined_invalid_before_all_macros_replaced_vertex">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="defined_invalid_before_all_macros_replaced_fragment">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
 						<Test name="basic_3_vertex">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
