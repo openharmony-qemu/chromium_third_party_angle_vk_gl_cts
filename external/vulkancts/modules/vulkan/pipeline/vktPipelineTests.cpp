@@ -34,6 +34,7 @@
  *//*--------------------------------------------------------------------*/
 
 #include "vktPipelineTests.hpp"
+#include "vktPipelineStencilTests.hpp"
 #include "vktPipelineDepthTests.hpp"
 #include "deUniquePtr.hpp"
 
@@ -46,6 +47,7 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 {
 	de::MovePtr<tcu::TestCaseGroup> pipelineTests (new tcu::TestCaseGroup(testCtx, "pipeline", "Pipeline Tests"));
 
+	pipelineTests->addChild(createStencilTests(testCtx));
 	pipelineTests->addChild(createDepthTests(testCtx));
 
 	return pipelineTests.release();
