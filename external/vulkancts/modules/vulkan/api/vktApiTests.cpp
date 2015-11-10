@@ -43,6 +43,7 @@
 #include "vktApiBufferViewCreateTests.hpp"
 #include "vktApiBufferViewAccessTests.hpp"
 #include "vktApiFeatureInfo.hpp"
+#include "vktApiCommandBuffersTests.hpp"
 
 namespace vkt
 {
@@ -74,7 +75,7 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 	apiTests->addChild(createObjectManagementTests		(testCtx));
 	apiTests->addChild(createBufferTests				(testCtx));
 	apiTests->addChild(createBufferViewTests			(testCtx));
-
+	apiTests->addChild(createCommandBuffersTests		(testCtx));
 	return apiTests.release();
 }
 
