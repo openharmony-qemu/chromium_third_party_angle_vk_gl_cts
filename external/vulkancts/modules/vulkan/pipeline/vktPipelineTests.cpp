@@ -39,6 +39,7 @@
 #include "vktPipelineDepthTests.hpp"
 #include "vktPipelineImageTests.hpp"
 #include "vktPipelineSamplerTests.hpp"
+#include "vktPipelineImageViewTests.hpp"
 #include "deUniquePtr.hpp"
 
 namespace vkt
@@ -55,6 +56,7 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 	pipelineTests->addChild(createDepthTests(testCtx));
 	pipelineTests->addChild(createImageTests(testCtx));
 	pipelineTests->addChild(createSamplerTests(testCtx));
+	pipelineTests->addChild(createImageViewTests(testCtx));
 
 	return pipelineTests.release();
 }
