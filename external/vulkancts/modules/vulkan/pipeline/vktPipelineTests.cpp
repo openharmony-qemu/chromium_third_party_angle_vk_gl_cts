@@ -38,6 +38,7 @@
 #include "vktPipelineBlendTests.hpp"
 #include "vktPipelineDepthTests.hpp"
 #include "vktPipelineImageTests.hpp"
+#include "vktPipelineInputAssemblyTests.hpp"
 #include "vktPipelineSamplerTests.hpp"
 #include "vktPipelineImageViewTests.hpp"
 #include "vktPipelinePushConstantTests.hpp"
@@ -61,6 +62,7 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 	pipelineTests->addChild(createImageViewTests	(testCtx));
 	pipelineTests->addChild(createPushConstantTests	(testCtx));
 	pipelineTests->addChild(createMultisampleTests	(testCtx));
+	pipelineTests->addChild(createInputAssemblyTests(testCtx));
 
 	return pipelineTests.release();
 }
