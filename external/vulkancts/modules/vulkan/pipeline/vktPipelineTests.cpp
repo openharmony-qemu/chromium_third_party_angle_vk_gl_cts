@@ -41,6 +41,7 @@
 #include "vktPipelineSamplerTests.hpp"
 #include "vktPipelineImageViewTests.hpp"
 #include "vktPipelinePushConstantTests.hpp"
+#include "vktPipelineMultisampleTests.hpp"
 #include "deUniquePtr.hpp"
 
 namespace vkt
@@ -52,13 +53,14 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 {
 	de::MovePtr<tcu::TestCaseGroup> pipelineTests (new tcu::TestCaseGroup(testCtx, "pipeline", "Pipeline Tests"));
 
-	pipelineTests->addChild(createStencilTests(testCtx));
-	pipelineTests->addChild(createBlendTests(testCtx));
-	pipelineTests->addChild(createDepthTests(testCtx));
-	pipelineTests->addChild(createImageTests(testCtx));
-	pipelineTests->addChild(createSamplerTests(testCtx));
-	pipelineTests->addChild(createImageViewTests(testCtx));
-	pipelineTests->addChild(createPushConstantTests(testCtx));
+	pipelineTests->addChild(createStencilTests		(testCtx));
+	pipelineTests->addChild(createBlendTests		(testCtx));
+	pipelineTests->addChild(createDepthTests		(testCtx));
+	pipelineTests->addChild(createImageTests		(testCtx));
+	pipelineTests->addChild(createSamplerTests		(testCtx));
+	pipelineTests->addChild(createImageViewTests	(testCtx));
+	pipelineTests->addChild(createPushConstantTests	(testCtx));
+	pipelineTests->addChild(createMultisampleTests	(testCtx));
 
 	return pipelineTests.release();
 }
