@@ -43,6 +43,7 @@
 #include "vktPipelineImageViewTests.hpp"
 #include "vktPipelinePushConstantTests.hpp"
 #include "vktPipelineMultisampleTests.hpp"
+#include "vktPipelineVertexInputTests.hpp"
 #include "deUniquePtr.hpp"
 
 namespace vkt
@@ -62,6 +63,7 @@ tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
 	pipelineTests->addChild(createImageViewTests	(testCtx));
 	pipelineTests->addChild(createPushConstantTests	(testCtx));
 	pipelineTests->addChild(createMultisampleTests	(testCtx));
+	pipelineTests->addChild(createVertexInputTests	(testCtx));
 	pipelineTests->addChild(createInputAssemblyTests(testCtx));
 
 	return pipelineTests.release();
