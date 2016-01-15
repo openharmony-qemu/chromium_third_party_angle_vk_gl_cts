@@ -46581,6 +46581,7 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+						<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="pointcoord">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
