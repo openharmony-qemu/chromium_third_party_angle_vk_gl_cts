@@ -12733,6 +12733,149 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 					</TestCase>
+					<TestSuite name="uniform">
+						<TestCase name="basic">
+							<Test name="precision_conflict_1">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="struct">
+							<Test name="basic">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_only">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fragment_only">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vec4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_only_vec4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fragment_only_vec4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vec4_vec3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_only_vec4_vec3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fragment_only_vec4_vec3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec4_vec3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vec4_float">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_only_vec4_float">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fragment_only_vec4_float">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec4_float">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec4_struct">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec4_vec3_struct">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec2_vec3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_vec2_int">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_int_float">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_bvec2_vec2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_ivec2_vec2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="partial_ivec2_ivec2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="type_conflict_1">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="type_conflict_2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="type_conflict_3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_1">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="precision_conflict_4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="light_struct_highp">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="light_struct_mediump">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="block">
+							<Test name="differing_precision">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="type_mismatch">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="members_mismatch">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="layout_qualifier_mismatch_1">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="layout_qualifier_mismatch_2">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="layout_qualifier_mismatch_3">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="layout_qualifier_mismatch_4">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="layout_qualifier_mismatch_5">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+					</TestSuite>
 				</TestSuite>
 				<TestSuite name="builtin_constants">
 					<TestCase name="core">
