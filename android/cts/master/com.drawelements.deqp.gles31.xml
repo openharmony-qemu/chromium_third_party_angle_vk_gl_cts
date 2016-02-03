@@ -40454,6 +40454,51 @@
 					<Test name="sample_mask_getfloat">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
+					<Test name="sample_shading_isenabled">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="sample_shading_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="sample_shading_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="sample_shading_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="sample_shading_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_isenabled">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_synchronous_isenabled">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_synchronous_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_synchronous_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_synchronous_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_output_synchronous_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
 				</TestCase>
 				<TestCase name="integer">
 					<Test name="max_color_texture_samples_getboolean">
@@ -40526,6 +40571,18 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="texture_binding_cube_map_array_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_binding_buffer_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_binding_buffer_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_binding_buffer_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_binding_buffer_getfloat">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="max_vertex_attrib_relative_offset_getboolean">
@@ -41140,6 +41197,594 @@
 					<Test name="max_program_texture_gather_offset_getfloat">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
+					<Test name="max_framebuffer_layers_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_framebuffer_layers_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_framebuffer_layers_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_framebuffer_layers_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="fragment_interpolation_offset_bits_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="fragment_interpolation_offset_bits_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="fragment_interpolation_offset_bits_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="fragment_interpolation_offset_bits_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_texture_buffer_size_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_texture_buffer_size_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_texture_buffer_size_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_texture_buffer_size_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_offset_alignment_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_offset_alignment_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_offset_alignment_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_offset_alignment_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_gen_level_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_gen_level_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_gen_level_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_gen_level_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_patch_vertices_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_patch_vertices_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_patch_vertices_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_patch_vertices_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_patch_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_patch_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_patch_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_patch_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_texture_image_units_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_texture_image_units_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_texture_image_units_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_texture_image_units_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_output_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_output_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_output_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_output_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_total_output_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_total_output_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_total_output_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_total_output_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_input_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_input_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_input_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_input_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_blocks_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_blocks_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_blocks_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_uniform_blocks_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counter_buffers_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counter_buffers_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counter_buffers_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counter_buffers_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counters_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counters_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counters_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_atomic_counters_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_shader_storage_blocks_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_shader_storage_blocks_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_shader_storage_blocks_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_shader_storage_blocks_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_texture_image_units_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_texture_image_units_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_texture_image_units_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_texture_image_units_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_output_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_output_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_output_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_output_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_input_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_input_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_input_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_input_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_blocks_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_blocks_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_blocks_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_uniform_blocks_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counter_buffers_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counter_buffers_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counter_buffers_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counter_buffers_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counters_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counters_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counters_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_atomic_counters_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_shader_storage_blocks_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_shader_storage_blocks_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_shader_storage_blocks_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_shader_storage_blocks_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_blocks_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_blocks_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_blocks_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_uniform_blocks_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_input_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_input_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_input_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_input_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_vertices_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_vertices_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_vertices_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_output_vertices_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_total_output_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_total_output_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_total_output_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_total_output_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_texture_image_units_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_texture_image_units_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_texture_image_units_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_texture_image_units_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_invocations_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_invocations_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_invocations_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_invocations_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counter_buffers_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counter_buffers_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counter_buffers_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counter_buffers_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counters_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counters_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counters_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_atomic_counters_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_storage_blocks_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_storage_blocks_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_storage_blocks_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_shader_storage_blocks_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_image_uniforms_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_image_uniforms_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_image_uniforms_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_control_image_uniforms_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_image_uniforms_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_image_uniforms_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_image_uniforms_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_tess_evaluation_image_uniforms_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_image_uniforms_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_image_uniforms_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_image_uniforms_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_geometry_image_uniforms_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_logged_messages_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_logged_messages_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_logged_messages_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_logged_messages_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_next_logged_message_length_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_next_logged_message_length_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_next_logged_message_length_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_next_logged_message_length_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_group_stack_depth_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_group_stack_depth_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_group_stack_depth_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="debug_group_stack_depth_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_message_length_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_message_length_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_message_length_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_message_length_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_logged_messages_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_logged_messages_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_logged_messages_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_logged_messages_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_group_stack_depth_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_group_stack_depth_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_group_stack_depth_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_debug_group_stack_depth_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_label_length_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_label_length_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_label_length_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_label_length_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_binding_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_binding_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_binding_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="texture_buffer_binding_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_control_uniform_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_control_uniform_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_control_uniform_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_control_uniform_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_evaluation_uniform_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_evaluation_uniform_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_evaluation_uniform_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_tess_evaluation_uniform_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_geometry_uniform_components_getboolean">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_geometry_uniform_components_getinteger">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_geometry_uniform_components_getinteger64">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="max_combined_geometry_uniform_components_getfloat">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
 				</TestCase>
 				<TestCase name="indexed">
 					<Test name="sample_mask_value_getbooleani_v">
@@ -41196,31 +41841,31 @@
 					<Test name="atomic_counter_buffer_size_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_binding_getbooleani_v">
+					<Test name="shader_storage_buffer_binding_getbooleani_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_binding_getintegeri_v">
+					<Test name="shader_storage_buffer_binding_getintegeri_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_binding_getinteger64i_v">
+					<Test name="shader_storage_buffer_binding_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_start_getbooleani_v">
+					<Test name="shader_storage_buffer_start_getbooleani_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_start_getintegeri_v">
+					<Test name="shader_storage_buffer_start_getintegeri_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_start_getinteger64i_v">
+					<Test name="shader_storage_buffer_start_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_size_getbooleani_v">
+					<Test name="shader_storage_buffer_size_getbooleani_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_size_getintegeri_v">
+					<Test name="shader_storage_buffer_size_getintegeri_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_size_getinteger64i_v">
+					<Test name="shader_storage_buffer_size_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="image_binding_name_getbooleani_v">
@@ -43415,6 +44060,27 @@
 						<Test name="rgba32ui_samples">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
+						<Test name="r16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgba16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgba32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r11f_g11f_b10f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
 						<Test name="depth_component16_samples">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -43519,6 +44185,27 @@
 						<Test name="rgba32ui_samples">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
+						<Test name="r16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgba16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgba32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r11f_g11f_b10f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
 						<Test name="depth_component16_samples">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
@@ -43621,6 +44308,27 @@
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="rgba32ui_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgba16f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rg32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="rgba32f_samples">
+							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+						</Test>
+						<Test name="r11f_g11f_b10f_samples">
 							<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 						</Test>
 						<Test name="depth_component16_samples">
@@ -43795,6 +44503,12 @@
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="active_atomic_counter_buffers_get_programiv">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="geometry_shader_state_get_programiv">
+						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+					</Test>
+					<Test name="tesselation_shader_state_get_programiv">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="info_log_vertex_fragment_link_fail">
@@ -50669,6 +51383,12 @@
 							<Test name="compressedteximage2d_invalid_size">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compressedteximage2d_neg_size">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="compressedteximage2d_invalid_width_height">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="compressedteximage2d_invalid_buffer_target">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -50700,6 +51420,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="copytexsubimage2d_invalid_target">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="copytexsubimage2d_read_buffer_is_none">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="copytexsubimage2d_texture_internalformat">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="copytexsubimage2d_neg_level">
@@ -50787,6 +51513,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texparameterfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texparameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texparameterIuiv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="compressedtexsubimage2d">
@@ -50897,6 +51629,12 @@
 							<Test name="compressedteximage3d_invalid_size">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compressedteximage3d_invalid_width_height">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="compressedteximage3d_invalid_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="compressedteximage3d_invalid_buffer_target">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51001,6 +51739,12 @@
 							<Test name="get_sampler_parameterfv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="get_sampler_parameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_sampler_parameterIuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="sampler_parameteri">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51011,6 +51755,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="sampler_parameterfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="sampler_parameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="sampler_parameterIuiv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_attrib_location">
@@ -51127,6 +51877,12 @@
 							<Test name="transform_feedback_varyings">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compile_compute_shader">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="link_compute_shader">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 						</TestCase>
 						<TestCase name="fragment">
 							<Test name="scissor">
@@ -51156,13 +51912,25 @@
 							<Test name="blend_equation">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="blend_equationi">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="blend_equation_separate">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="blend_equation_separatei">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="blend_func">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="blend_funci">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="blend_func_separate">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="blend_func_separatei">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cull_face">
@@ -51218,6 +51986,12 @@
 							<Test name="vertex_attrib_i_pointer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="vertex_attrib_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_attrib_i_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="enable_vertex_attrib_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51248,6 +52022,9 @@
 							<Test name="draw_elements">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="draw_elements_base_vertex">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="draw_elements_invalid_program">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51272,6 +52049,9 @@
 							<Test name="draw_elements_instanced_incomplete_primitive">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="draw_elements_instanced_base_vertex">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="draw_range_elements">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51279,6 +52059,9 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="draw_range_elements_incomplete_primitive">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="draw_range_elements_base_vertex">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -51302,6 +52085,9 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_integeri_v">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_booleani_v">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_integer64i_v">
@@ -51416,6 +52202,67 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="hint">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="enablei">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="disablei">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_tex_parameteriiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_tex_parameteriuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="is_enabledi">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="atomic_counter">
+							<Test name="atomic_max_counter_bindings">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_precision">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_binding_offset_overlap">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_binding_omitted">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_struct">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_body_write">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_body_declare">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_load_store">
+							<Test name="image_store">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_load">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_atomic">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_atomic_exchange">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -51568,6 +52415,12 @@
 							<Test name="compressedteximage2d_invalid_size">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compressedteximage2d_neg_size">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="compressedteximage2d_invalid_width_height">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="compressedteximage2d_invalid_buffer_target">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51599,6 +52452,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="copytexsubimage2d_invalid_target">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="copytexsubimage2d_read_buffer_is_none">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="copytexsubimage2d_texture_internalformat">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="copytexsubimage2d_neg_level">
@@ -51686,6 +52545,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texparameterfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texparameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texparameterIuiv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="compressedtexsubimage2d">
@@ -51796,6 +52661,12 @@
 							<Test name="compressedteximage3d_invalid_size">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compressedteximage3d_invalid_width_height">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="compressedteximage3d_invalid_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="compressedteximage3d_invalid_buffer_target">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51900,6 +52771,12 @@
 							<Test name="get_sampler_parameterfv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="get_sampler_parameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_sampler_parameterIuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="sampler_parameteri">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -51910,6 +52787,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="sampler_parameterfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="sampler_parameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="sampler_parameterIuiv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_attrib_location">
@@ -52026,6 +52909,12 @@
 							<Test name="transform_feedback_varyings">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compile_compute_shader">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="link_compute_shader">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 						</TestCase>
 						<TestCase name="fragment">
 							<Test name="scissor">
@@ -52055,13 +52944,25 @@
 							<Test name="blend_equation">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="blend_equationi">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="blend_equation_separate">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="blend_equation_separatei">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="blend_func">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="blend_funci">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="blend_func_separate">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="blend_func_separatei">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cull_face">
@@ -52117,6 +53018,12 @@
 							<Test name="vertex_attrib_i_pointer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="vertex_attrib_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_attrib_i_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="enable_vertex_attrib_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -52147,6 +53054,9 @@
 							<Test name="draw_elements">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="draw_elements_base_vertex">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="draw_elements_invalid_program">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -52171,6 +53081,9 @@
 							<Test name="draw_elements_instanced_incomplete_primitive">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="draw_elements_instanced_base_vertex">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="draw_range_elements">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -52178,6 +53091,9 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="draw_range_elements_incomplete_primitive">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="draw_range_elements_base_vertex">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -52201,6 +53117,9 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_integeri_v">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_booleani_v">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_integer64i_v">
@@ -52315,6 +53234,67 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="hint">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="enablei">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="disablei">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_tex_parameteriiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_tex_parameteriuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="is_enabledi">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="atomic_counter">
+							<Test name="atomic_max_counter_bindings">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_precision">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_binding_offset_overlap">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_binding_omitted">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_struct">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_body_write">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_body_declare">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_load_store">
+							<Test name="image_store">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_load">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_atomic">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_atomic_exchange">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -52467,6 +53447,12 @@
 							<Test name="compressedteximage2d_invalid_size">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compressedteximage2d_neg_size">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="compressedteximage2d_invalid_width_height">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="compressedteximage2d_invalid_buffer_target">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -52498,6 +53484,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="copytexsubimage2d_invalid_target">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="copytexsubimage2d_read_buffer_is_none">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="copytexsubimage2d_texture_internalformat">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="copytexsubimage2d_neg_level">
@@ -52585,6 +53577,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="texparameterfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texparameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texparameterIuiv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="compressedtexsubimage2d">
@@ -52695,6 +53693,12 @@
 							<Test name="compressedteximage3d_invalid_size">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compressedteximage3d_invalid_width_height">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="compressedteximage3d_invalid_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="compressedteximage3d_invalid_buffer_target">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -52799,6 +53803,12 @@
 							<Test name="get_sampler_parameterfv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="get_sampler_parameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_sampler_parameterIuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="sampler_parameteri">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -52809,6 +53819,12 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="sampler_parameterfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="sampler_parameterIiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="sampler_parameterIuiv">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_attrib_location">
@@ -52925,6 +53941,12 @@
 							<Test name="transform_feedback_varyings">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="compile_compute_shader">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="link_compute_shader">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 						</TestCase>
 						<TestCase name="fragment">
 							<Test name="scissor">
@@ -52954,13 +53976,25 @@
 							<Test name="blend_equation">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="blend_equationi">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="blend_equation_separate">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="blend_equation_separatei">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="blend_func">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="blend_funci">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="blend_func_separate">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="blend_func_separatei">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="cull_face">
@@ -53016,6 +54050,12 @@
 							<Test name="vertex_attrib_i_pointer">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="vertex_attrib_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="vertex_attrib_i_format">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="enable_vertex_attrib_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -53046,6 +54086,9 @@
 							<Test name="draw_elements">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="draw_elements_base_vertex">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="draw_elements_invalid_program">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -53070,6 +54113,9 @@
 							<Test name="draw_elements_instanced_incomplete_primitive">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
+							<Test name="draw_elements_instanced_base_vertex">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="draw_range_elements">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -53077,6 +54123,9 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="draw_range_elements_incomplete_primitive">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="draw_range_elements_base_vertex">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -53100,6 +54149,9 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_integeri_v">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_booleani_v">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="get_integer64i_v">
@@ -53211,6 +54263,67 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="hint">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="enablei">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="disablei">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_tex_parameteriiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_tex_parameteriuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformfv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="get_nuniformuiv">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="is_enabledi">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="atomic_counter">
+							<Test name="atomic_max_counter_bindings">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_precision">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_binding_offset_overlap">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_binding_omitted">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_struct">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_body_write">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="atomic_body_declare">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_load_store">
+							<Test name="image_store">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_load">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_atomic">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="image_atomic_exchange">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>

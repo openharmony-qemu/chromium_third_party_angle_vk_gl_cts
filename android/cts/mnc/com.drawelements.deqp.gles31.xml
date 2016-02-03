@@ -40731,31 +40731,31 @@
 					<Test name="atomic_counter_buffer_size_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_binding_getbooleani_v">
+					<Test name="shader_storage_buffer_binding_getbooleani_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_binding_getintegeri_v">
+					<Test name="shader_storage_buffer_binding_getintegeri_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_binding_getinteger64i_v">
+					<Test name="shader_storage_buffer_binding_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_start_getbooleani_v">
+					<Test name="shader_storage_buffer_start_getbooleani_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_start_getintegeri_v">
+					<Test name="shader_storage_buffer_start_getintegeri_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_start_getinteger64i_v">
+					<Test name="shader_storage_buffer_start_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_size_getbooleani_v">
+					<Test name="shader_storage_buffer_size_getbooleani_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_size_getintegeri_v">
+					<Test name="shader_storage_buffer_size_getintegeri_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
-					<Test name="shader_storager_buffer_size_getinteger64i_v">
+					<Test name="shader_storage_buffer_size_getinteger64i_v">
 						<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 					</Test>
 					<Test name="image_binding_name_getbooleani_v">
