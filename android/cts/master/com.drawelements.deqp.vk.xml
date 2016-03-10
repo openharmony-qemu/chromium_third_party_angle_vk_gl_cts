@@ -3977,6 +3977,9 @@
 				<Test name="create_instance_invalid_api_version">
 					<TestInstance/>
 				</Test>
+				<Test name="create_instance_null_appinfo">
+					<TestInstance/>
+				</Test>
 				<Test name="create_instance_unsupported_extensions">
 					<TestInstance/>
 				</Test>
