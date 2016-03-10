@@ -43289,7 +43289,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.r5g5b5a1_unorm_pack16.mipmap.line
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g5b5a1_unorm_pack16.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube.format.a2b10g10r10_unorm_pack32.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.a2b10g10r10_unorm_pack32.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube.format.a2b10g10r10_unorm_pack32.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.a2b10g10r10_unorm_pack32.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.a2b10g10r10_unorm_pack32.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.a2b10g10r10_unorm_pack32.mipmap.nearest.lod.select_min_1
@@ -43388,7 +43387,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.b5g5r5a1_unorm_pack16.mipmap.line
 dEQP-VK.pipeline.sampler.view_type.cube.format.b5g5r5a1_unorm_pack16.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8_srgb.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8_srgb.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube.format.r8_srgb.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8_srgb.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8_srgb.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8_srgb.mipmap.nearest.lod.select_min_1
@@ -43496,7 +43494,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.r8_sint.mipmap.nearest.lod.select
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8_sint.mipmap.nearest.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8b8a8_srgb.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8b8a8_srgb.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8b8a8_srgb.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8b8a8_srgb.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8b8a8_srgb.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8b8a8_srgb.mipmap.nearest.lod.select_min_1
@@ -43568,7 +43565,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.b8g8r8_srgb.mipmap.linear.lod.sel
 dEQP-VK.pipeline.sampler.view_type.cube.format.b8g8r8_srgb.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8_srgb.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8_srgb.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8_srgb.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8_srgb.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8_srgb.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.r8g8_srgb.mipmap.nearest.lod.select_min_1
@@ -43861,7 +43857,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_unorm_block.mipmap.li
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_unorm_block.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_unorm_block.mipmap.linear.lod.select_bias_3_7
-dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_srgb_block.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_srgb_block.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_srgb_block.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8_srgb_block.mipmap.nearest.lod.select_min_1
@@ -43893,7 +43888,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_unorm_block.mipmap.
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_3_7
-dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_srgb_block.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_srgb_block.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_srgb_block.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a1_srgb_block.mipmap.nearest.lod.select_min_1
@@ -43925,7 +43919,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_unorm_block.mipmap.
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_unorm_block.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_unorm_block.mipmap.linear.lod.select_bias_3_7
-dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_srgb_block.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_srgb_block.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_srgb_block.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.etc2_r8g8b8a8_srgb_block.mipmap.nearest.lod.select_min_1
@@ -44239,7 +44232,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.r5g5b5a1_unorm_pack16.mipma
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r5g5b5a1_unorm_pack16.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.a2b10g10r10_unorm_pack32.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.a2b10g10r10_unorm_pack32.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.a2b10g10r10_unorm_pack32.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.a2b10g10r10_unorm_pack32.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.a2b10g10r10_unorm_pack32.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.a2b10g10r10_unorm_pack32.mipmap.nearest.lod.select_min_1
@@ -44338,7 +44330,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.b5g5r5a1_unorm_pack16.mipma
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.b5g5r5a1_unorm_pack16.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_srgb.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_srgb.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_srgb.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_srgb.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_srgb.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_srgb.mipmap.nearest.lod.select_min_1
@@ -44446,7 +44437,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_sint.mipmap.nearest.lod.
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8_sint.mipmap.nearest.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_srgb.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_srgb.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_srgb.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_srgb.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_srgb.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8b8a8_srgb.mipmap.nearest.lod.select_min_1
@@ -44518,7 +44508,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.b8g8r8_srgb.mipmap.linear.l
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.b8g8r8_srgb.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8_srgb.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8_srgb.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8_srgb.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8_srgb.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8_srgb.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.r8g8_srgb.mipmap.nearest.lod.select_min_1
@@ -44811,7 +44800,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_unorm_block.mip
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_unorm_block.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_unorm_block.mipmap.linear.lod.select_bias_3_7
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_srgb_block.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_srgb_block.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_srgb_block.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8_srgb_block.mipmap.nearest.lod.select_min_1
@@ -44843,7 +44831,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_unorm_block.m
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_unorm_block.mipmap.linear.lod.select_bias_3_7
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_srgb_block.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_srgb_block.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_srgb_block.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a1_srgb_block.mipmap.nearest.lod.select_min_1
@@ -44875,7 +44862,6 @@ dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_unorm_block.m
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_unorm_block.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_unorm_block.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_unorm_block.mipmap.linear.lod.select_bias_3_7
-dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_srgb_block.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_srgb_block.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_srgb_block.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube_array.format.etc2_r8g8b8a8_srgb_block.mipmap.nearest.lod.select_min_1
