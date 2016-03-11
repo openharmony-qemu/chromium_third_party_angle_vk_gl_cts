@@ -33,6 +33,9 @@
 #include "vkDefs.hpp"
 #include "vkRef.hpp"
 
+#include <vector>
+#include <string>
+
 namespace tcu
 {
 class CommandLine;
@@ -41,8 +44,14 @@ class CommandLine;
 namespace vk
 {
 
-Move<VkInstance>	createDefaultInstance	(const PlatformInterface& vkPlatform);
-VkPhysicalDevice	chooseDevice			(const InstanceInterface& vkInstance, VkInstance instance, const tcu::CommandLine& cmdLine);
+Move<VkInstance>	createDefaultInstance	(const PlatformInterface&			vkPlatform);
+Move<VkInstance>	createDefaultInstance	(const PlatformInterface&			vkPlatform,
+											 const std::vector<std::string>&	enabledLayers,
+											 const std::vector<std::string>&	enabledExtensions);
+
+VkPhysicalDevice	chooseDevice			(const InstanceInterface&			vkInstance,
+											 VkInstance							instance,
+											 const tcu::CommandLine&			cmdLine);
 
 } // vk
 
