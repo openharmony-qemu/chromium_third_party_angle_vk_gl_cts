@@ -258747,5 +258747,23 @@
 				</TestCase>
 			</TestSuite>
 		</TestSuite>
+		<TestSuite name="wsi">
+			<TestSuite name="android">
+				<TestCase name="surface">
+					<Test name="create">
+						<TestInstance/>
+					</Test>
+					<Test name="query_support">
+						<TestInstance/>
+					</Test>
+					<Test name="query_capabilities">
+						<TestInstance/>
+					</Test>
+					<Test name="initial_size">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+		</TestSuite>
 	</TestSuite>
 </TestPackage>
