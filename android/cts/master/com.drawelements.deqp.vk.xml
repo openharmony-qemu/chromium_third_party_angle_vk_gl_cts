@@ -137822,9 +137822,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -138211,9 +138208,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -138647,9 +138641,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -138927,9 +138918,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -140118,9 +140106,6 @@
 							</TestSuite>
 							<TestSuite name="etc2_r8g8b8_srgb_block">
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -140242,9 +140227,6 @@
 							</TestSuite>
 							<TestSuite name="etc2_r8g8b8a1_srgb_block">
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -140366,9 +140348,6 @@
 							</TestSuite>
 							<TestSuite name="etc2_r8g8b8a8_srgb_block">
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -141588,9 +141567,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -141977,9 +141953,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -142413,9 +142386,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -142693,9 +142663,6 @@
 									</Test>
 								</TestCase>
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -143884,9 +143851,6 @@
 							</TestSuite>
 							<TestSuite name="etc2_r8g8b8_srgb_block">
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -144008,9 +143972,6 @@
 							</TestSuite>
 							<TestSuite name="etc2_r8g8b8a1_srgb_block">
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
@@ -144132,9 +144093,6 @@
 							</TestSuite>
 							<TestSuite name="etc2_r8g8b8a8_srgb_block">
 								<TestCase name="mag_filter">
-									<Test name="linear">
-										<TestInstance/>
-									</Test>
 									<Test name="nearest">
 										<TestInstance/>
 									</Test>
