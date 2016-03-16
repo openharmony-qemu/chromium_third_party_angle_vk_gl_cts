@@ -80291,4 +80291,6 @@ dEQP-VK.image.image_size.buffer.readonly_writeonly_7
 dEQP-VK.wsi.android.surface.create
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
+dEQP-VK.wsi.android.surface.query_formats
+dEQP-VK.wsi.android.surface.query_present_modes
 dEQP-VK.wsi.android.surface.initial_size

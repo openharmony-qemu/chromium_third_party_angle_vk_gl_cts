@@ -258759,6 +258759,12 @@
 					<Test name="query_capabilities">
 						<TestInstance/>
 					</Test>
+					<Test name="query_formats">
+						<TestInstance/>
+					</Test>
+					<Test name="query_present_modes">
+						<TestInstance/>
+					</Test>
 					<Test name="initial_size">
 						<TestInstance/>
 					</Test>
