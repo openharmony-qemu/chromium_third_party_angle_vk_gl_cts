@@ -80294,3 +80294,6 @@ dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_present_modes
 dEQP-VK.wsi.android.surface.initial_size
+dEQP-VK.synchronization.fences
+dEQP-VK.synchronization.semaphores
+dEQP-VK.synchronization.events
