@@ -258771,5 +258771,16 @@
 				</TestCase>
 			</TestSuite>
 		</TestSuite>
+		<TestCase name="synchronization">
+			<Test name="fences">
+				<TestInstance/>
+			</Test>
+			<Test name="semaphores">
+				<TestInstance/>
+			</Test>
+			<Test name="events">
+				<TestInstance/>
+			</Test>
+		</TestCase>
 	</TestSuite>
 </TestPackage>
