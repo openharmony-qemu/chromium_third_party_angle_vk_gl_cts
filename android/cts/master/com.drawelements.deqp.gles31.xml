@@ -53492,18 +53492,6 @@
 							<Test name="precise_as_function_argument">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="precise_as_macro_name">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_variable">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_function">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_argument">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="advanced_blend">
 							<Test name="blend_qualifier_mismatch">
@@ -54811,18 +54799,6 @@
 							<Test name="precise_as_function_argument">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="precise_as_macro_name">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_variable">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_function">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_argument">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
 						</TestCase>
 						<TestCase name="advanced_blend">
 							<Test name="blend_qualifier_mismatch">
@@ -56125,18 +56101,6 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 							<Test name="precise_as_function_argument">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_name">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_variable">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_function">
-								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
-							</Test>
-							<Test name="precise_as_macro_and_argument">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
