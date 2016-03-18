@@ -80294,6 +80294,16 @@ dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_present_modes
 dEQP-VK.wsi.android.surface.initial_size
+dEQP-VK.wsi.android.swapchain.create.min_image_count
+dEQP-VK.wsi.android.swapchain.create.image_format
+dEQP-VK.wsi.android.swapchain.create.image_extent
+dEQP-VK.wsi.android.swapchain.create.image_array_layers
+dEQP-VK.wsi.android.swapchain.create.image_usage
+dEQP-VK.wsi.android.swapchain.create.image_sharing_mode
+dEQP-VK.wsi.android.swapchain.create.pre_transform
+dEQP-VK.wsi.android.swapchain.create.composite_alpha
+dEQP-VK.wsi.android.swapchain.create.present_mode
+dEQP-VK.wsi.android.swapchain.create.clipped
 dEQP-VK.synchronization.fences
 dEQP-VK.synchronization.semaphores
 dEQP-VK.synchronization.events
