@@ -258753,6 +258753,12 @@
 					<Test name="create">
 						<TestInstance/>
 					</Test>
+					<Test name="create_custom_allocator">
+						<TestInstance/>
+					</Test>
+					<Test name="create_simulate_oom">
+						<TestInstance/>
+					</Test>
 					<Test name="query_support">
 						<TestInstance/>
 					</Test>
@@ -258771,6 +258777,38 @@
 				</TestCase>
 				<TestSuite name="swapchain">
 					<TestCase name="create">
+						<Test name="min_image_count">
+							<TestInstance/>
+						</Test>
+						<Test name="image_format">
+							<TestInstance/>
+						</Test>
+						<Test name="image_extent">
+							<TestInstance/>
+						</Test>
+						<Test name="image_array_layers">
+							<TestInstance/>
+						</Test>
+						<Test name="image_usage">
+							<TestInstance/>
+						</Test>
+						<Test name="image_sharing_mode">
+							<TestInstance/>
+						</Test>
+						<Test name="pre_transform">
+							<TestInstance/>
+						</Test>
+						<Test name="composite_alpha">
+							<TestInstance/>
+						</Test>
+						<Test name="present_mode">
+							<TestInstance/>
+						</Test>
+						<Test name="clipped">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="simulate_oom">
 						<Test name="min_image_count">
 							<TestInstance/>
 						</Test>

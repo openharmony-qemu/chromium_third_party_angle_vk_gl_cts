@@ -80289,6 +80289,8 @@ dEQP-VK.image.image_size.buffer.readonly_writeonly_12
 dEQP-VK.image.image_size.buffer.readonly_writeonly_1
 dEQP-VK.image.image_size.buffer.readonly_writeonly_7
 dEQP-VK.wsi.android.surface.create
+dEQP-VK.wsi.android.surface.create_custom_allocator
+dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_formats
@@ -80304,6 +80306,16 @@ dEQP-VK.wsi.android.swapchain.create.pre_transform
 dEQP-VK.wsi.android.swapchain.create.composite_alpha
 dEQP-VK.wsi.android.swapchain.create.present_mode
 dEQP-VK.wsi.android.swapchain.create.clipped
+dEQP-VK.wsi.android.swapchain.simulate_oom.min_image_count
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_format
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_extent
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_array_layers
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_usage
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_sharing_mode
+dEQP-VK.wsi.android.swapchain.simulate_oom.pre_transform
+dEQP-VK.wsi.android.swapchain.simulate_oom.composite_alpha
+dEQP-VK.wsi.android.swapchain.simulate_oom.present_mode
+dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
 dEQP-VK.synchronization.fences
 dEQP-VK.synchronization.semaphores
 dEQP-VK.synchronization.events
