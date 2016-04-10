@@ -43256,7 +43256,6 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.r4g4b4a4_unorm_pack16.mipmap.line
 dEQP-VK.pipeline.sampler.view_type.cube.format.r4g4b4a4_unorm_pack16.mipmap.linear.lod.select_bias_3_7
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.min_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.min_filter.nearest
-dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mipmap.nearest.lod.equal_min_3_max_3
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mipmap.nearest.lod.select_min_1
