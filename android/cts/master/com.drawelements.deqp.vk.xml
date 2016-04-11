@@ -44,6 +44,9 @@
 				<Test name="asm_triangle">
 					<TestInstance/>
 				</Test>
+				<Test name="unused_resolve_attachment">
+					<TestInstance/>
+				</Test>
 			</TestCase>
 			<TestSuite name="info">
 				<TestCase name="instance">
