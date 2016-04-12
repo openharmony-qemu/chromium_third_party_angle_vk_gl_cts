@@ -308690,6 +308690,1126 @@
 					</TestCase>
 				</TestSuite>
 			</TestSuite>
+			<TestSuite name="shader_intrinsics">
+				<TestSuite name="2d_sparse_fetch">
+					<TestCase name="r32i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_array_sparse_fetch">
+					<TestCase name="r32i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_sparse_read">
+					<TestCase name="r32i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_array_sparse_read">
+					<TestCase name="r32i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="cube_sparse_read">
+					<TestCase name="r32i">
+						<Test name="256_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="256_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="256_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="256_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="256_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="256_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="cube_array_sparse_read">
+					<TestCase name="r32i">
+						<Test name="256_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="256_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="256_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="256_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="256_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="256_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="137_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_11_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="3d_sparse_read">
+					<TestCase name="r32i">
+						<Test name="256_256_16">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="256_256_16">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="256_256_16">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="256_256_16">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="256_256_16">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="256_256_16">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_sparse_sample_explicit_lod">
+					<TestCase name="r32i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_array_sparse_sample_explicit_lod">
+					<TestCase name="r32i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_sparse_sample_implicit_lod">
+					<TestCase name="r32i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_array_sparse_sample_implicit_lod">
+					<TestCase name="r32i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_sparse_gather">
+					<TestCase name="r32i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_1">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_1">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_1">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="2d_array_sparse_gather">
+					<TestCase name="r32i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r16i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="r8i">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba32ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba16ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="rgba8ui">
+						<Test name="512_256_6">
+							<TestInstance/>
+						</Test>
+						<Test name="128_128_8">
+							<TestInstance/>
+						</Test>
+						<Test name="503_137_3">
+							<TestInstance/>
+						</Test>
+						<Test name="11_37_3">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+			</TestSuite>
 		</TestSuite>
 		<TestSuite name="tessellation">
 			<TestCase name="limits">
