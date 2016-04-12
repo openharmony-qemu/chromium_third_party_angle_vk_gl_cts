@@ -261241,6 +261241,11 @@
 							<TestInstance/>
 						</Test>
 					</TestCase>
+					<TestCase name="render">
+						<Test name="basic">
+							<TestInstance/>
+						</Test>
+					</TestCase>
 				</TestSuite>
 			</TestSuite>
 		</TestSuite>
