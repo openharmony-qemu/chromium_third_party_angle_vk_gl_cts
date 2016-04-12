@@ -183098,68 +183098,6 @@
 									<TestInstance/>
 								</Test>
 							</TestCase>
-							<TestCase name="multiple_discontiguous_descriptors">
-								<Test name="1d">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_array">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_array_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_array_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="2d">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_array">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_array_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_array_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="3d">
-									<TestInstance/>
-								</Test>
-								<Test name="3d_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="cube">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_array">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_array_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_array_base_slice">
-									<TestInstance/>
-								</Test>
-							</TestCase>
 							<TestCase name="descriptor_array">
 								<Test name="1d">
 									<TestInstance/>
@@ -185039,68 +184977,6 @@
 								</Test>
 							</TestCase>
 							<TestCase name="multiple_contiguous_descriptors">
-								<Test name="1d">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_array">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_array_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="1d_array_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="2d">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_array">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_array_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="2d_array_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="3d">
-									<TestInstance/>
-								</Test>
-								<Test name="3d_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="cube">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_base_slice">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_array">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_array_base_mip">
-									<TestInstance/>
-								</Test>
-								<Test name="cube_array_base_slice">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="multiple_discontiguous_descriptors">
 								<Test name="1d">
 									<TestInstance/>
 								</Test>
