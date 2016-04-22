@@ -63273,7 +63273,6 @@ dEQP-VK.glsl.functions.misc.argument_eval_order_1_vertex
 dEQP-VK.glsl.functions.misc.argument_eval_order_1_fragment
 dEQP-VK.glsl.functions.misc.argument_eval_order_2_vertex
 dEQP-VK.glsl.functions.misc.argument_eval_order_2_fragment
-dEQP-VK.glsl.linkage.varying.rules.fragment_declare
 dEQP-VK.glsl.linkage.varying.rules.vertex_declare
 dEQP-VK.glsl.linkage.varying.rules.both_declare
 dEQP-VK.glsl.linkage.varying.rules.vertex_declare_fragment_use
