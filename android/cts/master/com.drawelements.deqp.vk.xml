@@ -29,6 +29,9 @@
 			<Test name="platform">
 				<TestInstance/>
 			</Test>
+			<Test name="memory_limits">
+				<TestInstance/>
+			</Test>
 		</TestCase>
 		<TestSuite name="api">
 			<TestCase name="smoke">
@@ -257036,9 +257039,6 @@
 							<TestInstance/>
 						</Test>
 						<Test name="4">
-							<TestInstance/>
-						</Test>
-						<Test name="5">
 							<TestInstance/>
 						</Test>
 						<Test name="6">
