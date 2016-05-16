@@ -281951,6 +281951,218 @@
 					</Test>
 				</TestCase>
 			</TestSuite>
+			<TestSuite name="user_defined_io">
+				<TestSuite name="per_patch">
+					<TestCase name="vertex_io_array_size_implicit">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_shader_builtin">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_spec_min">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="per_patch_array">
+					<TestCase name="vertex_io_array_size_implicit">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_shader_builtin">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_spec_min">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="per_patch_block">
+					<TestCase name="vertex_io_array_size_implicit">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_shader_builtin">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_spec_min">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="per_patch_block_array">
+					<TestCase name="vertex_io_array_size_implicit">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_shader_builtin">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_spec_min">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="per_vertex">
+					<TestCase name="vertex_io_array_size_implicit">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_shader_builtin">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_spec_min">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="per_vertex_block">
+					<TestCase name="vertex_io_array_size_implicit">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_shader_builtin">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vertex_io_array_size_spec_min">
+						<Test name="triangles">
+							<TestInstance/>
+						</Test>
+						<Test name="quads">
+							<TestInstance/>
+						</Test>
+						<Test name="isolines">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+			</TestSuite>
 			<TestSuite name="geometry_interaction">
 				<TestCase name="passthrough">
 					<Test name="tessellate_triangles_passthrough_geometry_no_change">
