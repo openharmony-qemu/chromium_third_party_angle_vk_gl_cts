@@ -207532,9 +207532,6 @@
 			<TestSuite name="linkage">
 				<TestSuite name="varying">
 					<TestCase name="rules">
-						<Test name="fragment_declare">
-							<TestInstance/>
-						</Test>
 						<Test name="vertex_declare">
 							<TestInstance/>
 						</Test>
@@ -257564,20 +257561,34 @@
 					<TestInstance/>
 				</Test>
 			</TestCase>
-			<TestCase name="indirect_draw">
-				<Test name="indirect_draw_triangle_list">
-					<TestInstance/>
-				</Test>
-				<Test name="indirect_draw_triangle_strip">
-					<TestInstance/>
-				</Test>
-				<Test name="indirect_draw_instanced_triangle_list">
-					<TestInstance/>
-				</Test>
-				<Test name="indirect_draw_instanced_triangle_strip">
-					<TestInstance/>
-				</Test>
-			</TestCase>
+			<TestSuite name="indirect_draw">
+				<TestCase name="indirect_draw">
+					<Test name="triangle_list">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestSuite name="indirect_draw_instanced">
+					<TestCase name="no_first_instance">
+						<Test name="triangle_list">
+							<TestInstance/>
+						</Test>
+						<Test name="triangle_strip">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="first_instance">
+						<Test name="triangle_list">
+							<TestInstance/>
+						</Test>
+						<Test name="triangle_strip">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+			</TestSuite>
 		</TestSuite>
 		<TestSuite name="compute">
 			<TestCase name="basic">
