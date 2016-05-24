@@ -13645,6 +13645,14 @@
 					<TestInstance/>
 				</Test>
 			</TestCase>
+			<TestCase name="descriptor_pool">
+				<Test name="repeated_reset_short">
+					<TestInstance/>
+				</Test>
+				<Test name="repeated_reset_long">
+					<TestInstance/>
+				</Test>
+			</TestCase>
 		</TestSuite>
 		<TestSuite name="pipeline">
 			<TestSuite name="stencil">
