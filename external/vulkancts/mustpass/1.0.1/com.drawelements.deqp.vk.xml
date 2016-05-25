@@ -243258,10 +243258,16 @@
 					<Test name="sampler2d_fixed_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2d_fixed_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2d_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2d_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2d_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2d_float_fragment">
@@ -243270,13 +243276,22 @@
 					<Test name="isampler2d_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2d_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2d_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_usampler2d_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="usampler2d_fragment">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2d_bias_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2d_bias_fixed_fragment">
@@ -243294,6 +243309,9 @@
 					<Test name="samplercube_fixed_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_samplercube_fixed_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="samplercube_fixed_fragment">
 						<TestInstance/>
 					</Test>
@@ -243304,6 +243322,9 @@
 						<TestInstance/>
 					</Test>
 					<Test name="isamplercube_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_isamplercube_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="isamplercube_fragment">
@@ -243330,10 +243351,16 @@
 					<Test name="sampler2darray_fixed_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2darray_fixed_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2darray_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2darray_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2darray_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2darray_float_fragment">
@@ -243342,10 +243369,16 @@
 					<Test name="isampler2darray_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2darray_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2darray_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2darray_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_usampler2darray_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2darray_fragment">
@@ -243366,10 +243399,16 @@
 					<Test name="sampler3d_fixed_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler3d_fixed_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler3d_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler3d_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler3d_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler3d_float_fragment">
@@ -243378,10 +243417,16 @@
 					<Test name="isampler3d_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler3d_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler3d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler3d_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_usampler3d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler3d_fragment">
@@ -243399,22 +243444,43 @@
 					<Test name="usampler3d_bias_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_bias_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_bias_fragment">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_samplercubeshadow_vertex">
 						<TestInstance/>
 					</Test>
 					<Test name="samplercubeshadow_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_samplercubeshadow_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="samplercubeshadow_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_samplercubeshadow_bias_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="samplercubeshadow_bias_fragment">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2darrayshadow_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2darrayshadow_fragment">
@@ -243425,10 +243491,16 @@
 					<Test name="sampler2d_fixed_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2d_fixed_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2d_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2d_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2d_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2d_float_fragment">
@@ -243437,10 +243509,16 @@
 					<Test name="isampler2d_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2d_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2d_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_usampler2d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2d_fragment">
@@ -243461,10 +243539,16 @@
 					<Test name="sampler2darray_fixed_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2darray_fixed_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2darray_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2darray_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2darray_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2darray_float_fragment">
@@ -243473,10 +243557,16 @@
 					<Test name="isampler2darray_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2darray_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2darray_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2darray_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_usampler2darray_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2darray_fragment">
@@ -243515,10 +243605,19 @@
 					<Test name="usampler3d_bias_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_vertex">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_fragment">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_fragment">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2dshadow_bias_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_bias_fragment">
@@ -243686,7 +243785,13 @@
 					<Test name="usampler2d_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_samplercube_fixed_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="samplercube_fixed_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_samplercube_fixed_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="samplercube_fixed_fragment">
@@ -243698,7 +243803,13 @@
 					<Test name="samplercube_float_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isamplercube_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="isamplercube_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_isamplercube_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="isamplercube_fragment">
@@ -243758,7 +243869,13 @@
 					<Test name="usampler3d_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_fragment">
@@ -243832,7 +243949,13 @@
 					<Test name="usampler3d_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_fragment">
@@ -243958,7 +244081,13 @@
 					<Test name="sampler3d_float_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_fragment">
@@ -243978,7 +244107,13 @@
 					<Test name="sampler2d_float_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2d_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2d_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_isampler2d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="isampler2d_fragment">
@@ -244038,7 +244173,13 @@
 					<Test name="usampler3d_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2dshadow_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_fragment">
@@ -244158,13 +244299,25 @@
 					<Test name="sampler2d_float_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2d_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2d_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_isampler2d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="isampler2d_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_usampler2d_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="usampler2d_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_usampler2d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2d_fragment">
@@ -244176,19 +244329,37 @@
 					<Test name="sampler2darray_fixed_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler2darray_float_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler2darray_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler2darray_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2darray_float_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler2darray_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler2darray_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_isampler2darray_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="isampler2darray_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_usampler2darray_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="usampler2darray_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_usampler2darray_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler2darray_fragment">
@@ -244200,13 +244371,25 @@
 					<Test name="sampler3d_fixed_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_sampler3d_float_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="sampler3d_float_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_sampler3d_float_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler3d_float_fragment">
 						<TestInstance/>
 					</Test>
+					<Test name="sparse_isampler3d_vertex">
+						<TestInstance/>
+					</Test>
 					<Test name="isampler3d_vertex">
+						<TestInstance/>
+					</Test>
+					<Test name="sparse_isampler3d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="isampler3d_fragment">
@@ -244784,10 +244967,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244795,10 +244987,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244806,19 +245007,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244826,16 +245045,31 @@
 								<Test name="min_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_nearest_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
 								<Test name="min_nearest_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244843,7 +245077,13 @@
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244853,10 +245093,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244864,10 +245113,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244875,19 +245133,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244895,12 +245171,21 @@
 								<Test name="min_nearest_mipmap_nearest_mag_nearest">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+									<TestInstance/>
+								</Test>
 							</TestCase>
 							<TestCase name="base_level">
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244910,10 +245195,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244921,10 +245215,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244932,19 +245235,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244952,12 +245273,21 @@
 								<Test name="min_nearest_mipmap_nearest_mag_nearest">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+									<TestInstance/>
+								</Test>
 							</TestCase>
 							<TestCase name="base_level">
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -244968,10 +245298,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -244979,10 +245318,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -244992,10 +245340,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245003,10 +245360,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245015,16 +245381,31 @@
 								<Test name="min_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_nearest_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
 								<Test name="min_nearest_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245032,7 +245413,13 @@
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245044,10 +245431,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245055,10 +245451,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245066,19 +245471,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245086,16 +245509,31 @@
 								<Test name="min_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_nearest_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
 								<Test name="min_nearest_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245103,7 +245541,13 @@
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245113,10 +245557,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245124,10 +245577,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245135,19 +245597,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245155,12 +245635,21 @@
 								<Test name="min_nearest_mipmap_nearest_mag_nearest">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+									<TestInstance/>
+								</Test>
 							</TestCase>
 							<TestCase name="base_level">
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245170,10 +245659,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245181,10 +245679,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245192,19 +245699,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245212,12 +245737,21 @@
 								<Test name="min_nearest_mipmap_nearest_mag_nearest">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+									<TestInstance/>
+								</Test>
 							</TestCase>
 							<TestCase name="base_level">
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245228,10 +245762,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245239,10 +245782,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245252,10 +245804,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245263,10 +245824,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245275,16 +245845,31 @@
 								<Test name="min_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_nearest_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
 								<Test name="min_nearest_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245292,7 +245877,13 @@
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245304,10 +245895,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245315,10 +245915,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245327,10 +245936,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245338,10 +245956,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245350,19 +245977,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245370,16 +246015,31 @@
 								<Test name="min_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_nearest_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
 								<Test name="min_nearest_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245387,7 +246047,13 @@
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245397,10 +246063,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245408,10 +246083,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245420,10 +246104,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245431,10 +246124,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245443,19 +246145,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245463,12 +246183,21 @@
 								<Test name="min_nearest_mipmap_nearest_mag_nearest">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+									<TestInstance/>
+								</Test>
 							</TestCase>
 							<TestCase name="base_level">
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245478,10 +246207,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245489,10 +246227,19 @@
 								<Test name="clamp_to_edge_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_clamp_to_edge_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="repeat_mirrored_repeat">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_repeat_mirrored_repeat">
+									<TestInstance/>
+								</Test>
 								<Test name="mirrored_repeat_clamp_to_edge">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_mirrored_repeat_clamp_to_edge">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245501,10 +246248,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245512,10 +246268,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245524,19 +246289,37 @@
 								<Test name="red_green_blue_alpha">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_red_green_blue_alpha">
+									<TestInstance/>
+								</Test>
 								<Test name="green_blue_alpha_zero">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_green_blue_alpha_zero">
 									<TestInstance/>
 								</Test>
 								<Test name="blue_alpha_zero_one">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_blue_alpha_zero_one">
+									<TestInstance/>
+								</Test>
 								<Test name="alpha_zero_one_red">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_alpha_zero_one_red">
 									<TestInstance/>
 								</Test>
 								<Test name="zero_one_red_green">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_zero_one_red_green">
+									<TestInstance/>
+								</Test>
 								<Test name="one_red_green_blue">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_one_red_green_blue">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245544,12 +246327,21 @@
 								<Test name="min_nearest_mipmap_nearest_mag_nearest">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+									<TestInstance/>
+								</Test>
 							</TestCase>
 							<TestCase name="base_level">
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245560,10 +246352,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245571,10 +246372,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245584,10 +246394,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245595,10 +246414,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245609,10 +246437,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245620,10 +246457,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245633,10 +246479,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245644,10 +246499,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245657,16 +246521,31 @@
 								<Test name="min_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_nearest_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
 								<Test name="min_nearest_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_nearest_mag_linear">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+									<TestInstance/>
+								</Test>
 								<Test name="min_linear_mipmap_linear_mag_linear">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245674,7 +246553,13 @@
 								<Test name="level_1">
 									<TestInstance/>
 								</Test>
+								<Test name="sparse_level_1">
+									<TestInstance/>
+								</Test>
 								<Test name="level_2">
+									<TestInstance/>
+								</Test>
+								<Test name="sparse_level_2">
 									<TestInstance/>
 								</Test>
 							</TestCase>
@@ -245689,10 +246574,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245700,10 +246594,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245713,10 +246616,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245724,10 +246636,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245737,10 +246658,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245748,10 +246678,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245762,10 +246701,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245773,10 +246721,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245786,10 +246743,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245797,10 +246763,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245813,10 +246788,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245824,10 +246808,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245837,10 +246830,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245848,10 +246850,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245861,10 +246872,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245872,10 +246892,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245886,10 +246915,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245897,10 +246935,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245910,10 +246957,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245921,10 +246977,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -245939,10 +247004,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245950,10 +247024,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245961,19 +247044,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245981,16 +247082,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -245998,7 +247114,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246008,10 +247130,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246019,10 +247150,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246030,19 +247170,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246050,12 +247208,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246065,10 +247232,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246076,10 +247252,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246087,19 +247272,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246107,12 +247310,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246123,10 +247335,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246134,10 +247355,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246147,10 +247377,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246158,10 +247397,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246170,16 +247418,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246187,7 +247450,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246199,10 +247468,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246210,10 +247488,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246221,19 +247508,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246241,16 +247546,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246258,7 +247578,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246268,10 +247594,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246279,10 +247614,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246290,19 +247634,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246310,12 +247672,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246325,10 +247696,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246336,10 +247716,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246347,19 +247736,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246367,12 +247774,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246383,10 +247799,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246394,10 +247819,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246407,10 +247841,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246418,10 +247861,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246430,16 +247882,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246447,7 +247914,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246463,10 +247936,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246474,10 +247956,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246487,10 +247978,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246498,10 +247998,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246511,10 +248020,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246522,10 +248040,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246536,10 +248063,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246547,10 +248083,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246560,10 +248105,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246571,10 +248125,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246587,10 +248150,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246598,10 +248170,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246611,10 +248192,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246622,10 +248212,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246635,10 +248234,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246646,10 +248254,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246660,10 +248277,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246671,10 +248297,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246684,10 +248319,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246695,10 +248339,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246713,10 +248366,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246724,10 +248386,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246735,19 +248406,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246755,16 +248444,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246772,7 +248476,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246782,10 +248492,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246793,10 +248512,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246804,19 +248532,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246824,12 +248570,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246839,10 +248594,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246850,10 +248614,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246861,19 +248634,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246881,12 +248672,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246897,10 +248697,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246908,10 +248717,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246921,10 +248739,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246932,10 +248759,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -246944,16 +248780,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246961,7 +248812,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246973,10 +248830,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246984,10 +248850,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -246995,19 +248870,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247015,16 +248908,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247032,7 +248940,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247042,10 +248956,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247053,10 +248976,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247064,19 +248996,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247084,12 +249034,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247099,10 +249058,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247110,10 +249078,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247121,19 +249098,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247141,12 +249136,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247157,10 +249161,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247168,10 +249181,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247181,10 +249203,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247192,10 +249223,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247204,16 +249244,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247221,7 +249276,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247237,10 +249298,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247248,10 +249318,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247259,19 +249338,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247279,16 +249376,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247296,7 +249408,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247306,10 +249424,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247317,10 +249444,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247328,19 +249464,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247348,12 +249502,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247363,10 +249526,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247374,10 +249546,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247385,19 +249566,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247405,12 +249604,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247421,10 +249629,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247432,10 +249649,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247445,10 +249671,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247456,10 +249691,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247468,16 +249712,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247485,7 +249744,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247497,10 +249762,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247508,10 +249782,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247519,19 +249802,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247539,16 +249840,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247556,7 +249872,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247566,10 +249888,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247577,10 +249908,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247588,19 +249928,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247608,12 +249966,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247623,10 +249990,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247634,10 +250010,19 @@
 									<Test name="clamp_to_edge_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_clamp_to_edge_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="repeat_mirrored_repeat">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_repeat_mirrored_repeat">
+										<TestInstance/>
+									</Test>
 									<Test name="mirrored_repeat_clamp_to_edge">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_mirrored_repeat_clamp_to_edge">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247645,19 +250030,37 @@
 									<Test name="red_green_blue_alpha">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_red_green_blue_alpha">
+										<TestInstance/>
+									</Test>
 									<Test name="green_blue_alpha_zero">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_green_blue_alpha_zero">
 										<TestInstance/>
 									</Test>
 									<Test name="blue_alpha_zero_one">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_blue_alpha_zero_one">
+										<TestInstance/>
+									</Test>
 									<Test name="alpha_zero_one_red">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_alpha_zero_one_red">
 										<TestInstance/>
 									</Test>
 									<Test name="zero_one_red_green">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_zero_one_red_green">
+										<TestInstance/>
+									</Test>
 									<Test name="one_red_green_blue">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_one_red_green_blue">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247665,12 +250068,21 @@
 									<Test name="min_nearest_mipmap_nearest_mag_nearest">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_nearest">
+										<TestInstance/>
+									</Test>
 								</TestCase>
 								<TestCase name="base_level">
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247681,10 +250093,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247692,10 +250113,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247705,10 +250135,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247716,10 +250155,19 @@
 										<Test name="clamp_to_edge_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_clamp_to_edge_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="repeat_mirrored_repeat">
 											<TestInstance/>
 										</Test>
+										<Test name="sparse_repeat_mirrored_repeat">
+											<TestInstance/>
+										</Test>
 										<Test name="mirrored_repeat_clamp_to_edge">
+											<TestInstance/>
+										</Test>
+										<Test name="sparse_mirrored_repeat_clamp_to_edge">
 											<TestInstance/>
 										</Test>
 									</TestCase>
@@ -247728,16 +250176,31 @@
 									<Test name="min_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_nearest_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_nearest_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
 									<Test name="min_nearest_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_nearest_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_nearest_mag_linear">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_min_linear_mipmap_nearest_mag_linear">
+										<TestInstance/>
+									</Test>
 									<Test name="min_linear_mipmap_linear_mag_linear">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_min_linear_mipmap_linear_mag_linear">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -247745,7 +250208,13 @@
 									<Test name="level_1">
 										<TestInstance/>
 									</Test>
+									<Test name="sparse_level_1">
+										<TestInstance/>
+									</Test>
 									<Test name="level_2">
+										<TestInstance/>
+									</Test>
+									<Test name="sparse_level_2">
 										<TestInstance/>
 									</Test>
 								</TestCase>
