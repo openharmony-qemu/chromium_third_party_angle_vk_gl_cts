@@ -244219,122 +244219,562 @@
 						<TestInstance/>
 					</Test>
 				</TestCase>
-				<TestCase name="texturesize">
-					<Test name="sampler2d_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isamplercube_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isamplercube_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usamplercube_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usamplercube_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercubeshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercubeshadow_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2darray_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2darray_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2darray_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2darray_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darrayshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darrayshadow_fragment">
-						<TestInstance/>
-					</Test>
-				</TestCase>
+				<TestSuite name="query">
+					<TestCase name="texturesize">
+						<Test name="sampler2d_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler3d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler3d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler3d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler3d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercube_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercube_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercube_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercube_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubeshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubeshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darrayshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercubearray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercubearray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercubearray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercubearray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearrayshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1dshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1dshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darrayshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="texturesamples">
+						<Test name="sampler2dms_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dms_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dms_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dms_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2dms_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2dms_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2dms_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2dms_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dmsarray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dmsarray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dmsarray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dmsarray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2dmsarray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2dmsarray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2dmsarray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2dmsarray_fragment">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="texturequerylevels">
+						<Test name="sampler2d_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler3d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler3d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler3d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler3d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler3d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercube_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercube_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercube_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercube_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubeshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubeshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darrayshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercubearray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercubearray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercubearray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercubearray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearrayshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1d_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1dshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1dshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_fixed_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_float_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1darray_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darrayshadow_vertex">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="texturequerylod">
+						<Test name="sampler2d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2dshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercube_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercube_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercube_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubeshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler2darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler2darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler2darrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isamplercubearray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usamplercubearray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="samplercubearrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1d_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1d_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1dshadow_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_fixed_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darray_float_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="isampler1darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="usampler1darray_fragment">
+							<TestInstance/>
+						</Test>
+						<Test name="sampler1darrayshadow_fragment">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
 			</TestSuite>
 			<TestSuite name="texture_gather">
 				<TestSuite name="basic">
