@@ -63289,7 +63289,6 @@ dEQP-VK.glsl.functions.misc.argument_eval_order_1_vertex
 dEQP-VK.glsl.functions.misc.argument_eval_order_1_fragment
 dEQP-VK.glsl.functions.misc.argument_eval_order_2_vertex
 dEQP-VK.glsl.functions.misc.argument_eval_order_2_fragment
-dEQP-VK.glsl.linkage.varying.rules.fragment_declare
 dEQP-VK.glsl.linkage.varying.rules.vertex_declare
 dEQP-VK.glsl.linkage.varying.rules.both_declare
 dEQP-VK.glsl.linkage.varying.rules.vertex_declare_fragment_use
@@ -79355,10 +79354,12 @@ dEQP-VK.draw.indexed_draw.draw_indexed_triangle_list
 dEQP-VK.draw.indexed_draw.draw_indexed_triangle_strip
 dEQP-VK.draw.indexed_draw.draw_instanced_indexed_triangle_list
 dEQP-VK.draw.indexed_draw.draw_instanced_indexed_triangle_strip
-dEQP-VK.draw.indirect_draw.indirect_draw_triangle_list
-dEQP-VK.draw.indirect_draw.indirect_draw_triangle_strip
-dEQP-VK.draw.indirect_draw.indirect_draw_instanced_triangle_list
-dEQP-VK.draw.indirect_draw.indirect_draw_instanced_triangle_strip
+dEQP-VK.draw.indirect_draw.indirect_draw.triangle_list
+dEQP-VK.draw.indirect_draw.indirect_draw.triangle_strip
+dEQP-VK.draw.indirect_draw.indirect_draw_instanced.no_first_instance.triangle_list
+dEQP-VK.draw.indirect_draw.indirect_draw_instanced.no_first_instance.triangle_strip
+dEQP-VK.draw.indirect_draw.indirect_draw_instanced.first_instance.triangle_list
+dEQP-VK.draw.indirect_draw.indirect_draw_instanced.first_instance.triangle_strip
 dEQP-VK.compute.basic.empty_shader
 dEQP-VK.compute.basic.ubo_to_ssbo_single_invocation
 dEQP-VK.compute.basic.ubo_to_ssbo_single_group
