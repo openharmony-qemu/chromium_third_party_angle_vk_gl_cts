@@ -63849,6 +63849,8 @@ dEQP-VK.glsl.linkage.varying.rules.differing_precision_1
 dEQP-VK.glsl.linkage.varying.rules.differing_precision_2
 dEQP-VK.glsl.linkage.varying.rules.differing_precision_3
 dEQP-VK.glsl.linkage.varying.rules.differing_interpolation_2
+dEQP-VK.glsl.linkage.varying.rules.differing_name_1
+dEQP-VK.glsl.linkage.varying.rules.differing_name_2
 dEQP-VK.glsl.linkage.varying.basic_types.float
 dEQP-VK.glsl.linkage.varying.basic_types.vec2
 dEQP-VK.glsl.linkage.varying.basic_types.vec3
