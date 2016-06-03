@@ -81091,6 +81091,7 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.android.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.android.swapchain.render.basic
+dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.synchronization.fences
 dEQP-VK.synchronization.semaphores
 dEQP-VK.synchronization.events
