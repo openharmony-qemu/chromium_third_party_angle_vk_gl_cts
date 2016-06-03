@@ -205502,6 +205502,15 @@
 						<Test name="idec">
 							<TestInstance/>
 						</Test>
+						<Test name="load">
+							<TestInstance/>
+						</Test>
+						<Test name="store">
+							<TestInstance/>
+						</Test>
+						<Test name="compex">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="opline">
 						<Test name="all">

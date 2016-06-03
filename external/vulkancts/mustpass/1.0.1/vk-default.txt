@@ -63159,6 +63159,9 @@ dEQP-VK.spirv_assembly.instruction.compute.opatomic.iadd
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.isub
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iinc
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.idec
+dEQP-VK.spirv_assembly.instruction.compute.opatomic.load
+dEQP-VK.spirv_assembly.instruction.compute.opatomic.store
+dEQP-VK.spirv_assembly.instruction.compute.opatomic.compex
 dEQP-VK.spirv_assembly.instruction.compute.opline.all
 dEQP-VK.spirv_assembly.instruction.compute.opnoline.all
 dEQP-VK.spirv_assembly.instruction.compute.opconstantnull.bool
