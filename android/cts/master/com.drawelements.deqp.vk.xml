@@ -270686,6 +270686,11 @@
 							<TestInstance/>
 						</Test>
 					</TestCase>
+					<TestCase name="modify">
+						<Test name="resize">
+							<TestInstance/>
+						</Test>
+					</TestCase>
 				</TestSuite>
 			</TestSuite>
 		</TestSuite>
