@@ -78248,6 +78248,10 @@ dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_vertex
 dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_fragment
 dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_both
 dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_mixed
+dEQP-VK.ubo.link_by_binding.single_buf_single_instance
+dEQP-VK.ubo.link_by_binding.single_buf_instance_array
+dEQP-VK.ubo.link_by_binding.per_block_buf_single_instance
+dEQP-VK.ubo.link_by_binding.per_block_buf_instance_array
 dEQP-VK.ubo.random.scalar_types.0
 dEQP-VK.ubo.random.scalar_types.1
 dEQP-VK.ubo.random.scalar_types.2
