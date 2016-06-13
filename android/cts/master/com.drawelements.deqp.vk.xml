@@ -47,6 +47,9 @@
 				<Test name="asm_triangle">
 					<TestInstance/>
 				</Test>
+				<Test name="asm_triangle_no_opname">
+					<TestInstance/>
+				</Test>
 				<Test name="unused_resolve_attachment">
 					<TestInstance/>
 				</Test>
