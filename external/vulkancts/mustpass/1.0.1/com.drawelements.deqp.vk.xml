@@ -11874,6 +11874,62 @@
 						<TestInstance/>
 					</Test>
 				</TestCase>
+				<TestCase name="resolve_image">
+					<Test name="whole_2_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="whole_4_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="whole_8_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="whole_16_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="whole_32_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="whole_64_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="partial_2_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="partial_4_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="partial_8_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="partial_16_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="partial_32_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="partial_64_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="with_regions_2_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="with_regions_4_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="with_regions_8_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="with_regions_16_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="with_regions_32_bit">
+						<TestInstance/>
+					</Test>
+					<Test name="with_regions_64_bit">
+						<TestInstance/>
+					</Test>
+				</TestCase>
 			</TestSuite>
 			<TestSuite name="image_clearing">
 				<TestCase name="clear_color_image">
@@ -13640,6 +13696,14 @@
 					<TestInstance/>
 				</Test>
 				<Test name="update_buffer_second_part">
+					<TestInstance/>
+				</Test>
+			</TestCase>
+			<TestCase name="descriptor_pool">
+				<Test name="repeated_reset_short">
+					<TestInstance/>
+				</Test>
+				<Test name="repeated_reset_long">
 					<TestInstance/>
 				</Test>
 			</TestCase>
@@ -205431,6 +205495,20 @@
 							<TestInstance/>
 						</Test>
 					</TestCase>
+					<TestCase name="opatomic">
+						<Test name="iadd">
+							<TestInstance/>
+						</Test>
+						<Test name="isub">
+							<TestInstance/>
+						</Test>
+						<Test name="iinc">
+							<TestInstance/>
+						</Test>
+						<Test name="idec">
+							<TestInstance/>
+						</Test>
+					</TestCase>
 					<TestCase name="opline">
 						<Test name="all">
 							<TestInstance/>
@@ -271225,14 +271303,57 @@
 				</TestSuite>
 			</TestSuite>
 		</TestSuite>
-		<TestCase name="synchronization">
-			<Test name="fences">
-				<TestInstance/>
-			</Test>
-			<Test name="semaphores">
-				<TestInstance/>
-			</Test>
-		</TestCase>
+		<TestSuite name="synchronization">
+			<TestCase name="smoke">
+				<Test name="fences">
+					<TestInstance/>
+				</Test>
+				<Test name="semaphores">
+					<TestInstance/>
+				</Test>
+				<Test name="events">
+					<TestInstance/>
+				</Test>
+			</TestCase>
+			<TestSuite name="basic">
+				<TestCase name="fence">
+					<Test name="one">
+						<TestInstance/>
+					</Test>
+					<Test name="multi">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="semaphore">
+					<Test name="one_queue">
+						<TestInstance/>
+					</Test>
+					<Test name="multi_queue">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="event">
+					<Test name="host_set_reset">
+						<TestInstance/>
+					</Test>
+					<Test name="device_set_reset">
+						<TestInstance/>
+					</Test>
+					<Test name="host_set_device_wait">
+						<TestInstance/>
+					</Test>
+					<Test name="single_submit_multi_command_buffer">
+						<TestInstance/>
+					</Test>
+					<Test name="multi_submit_multi_command_buffer">
+						<TestInstance/>
+					</Test>
+					<Test name="multi_secondary_command_buffer">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+		</TestSuite>
 		<TestSuite name="sparse_resources">
 			<TestCase name="buffer_sparse_binding">
 				<Test name="buffer_size_2_10">
