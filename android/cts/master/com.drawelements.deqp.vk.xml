@@ -212980,6 +212980,12 @@
 						<Test name="differing_interpolation_2">
 							<TestInstance/>
 						</Test>
+						<Test name="differing_name_1">
+							<TestInstance/>
+						</Test>
+						<Test name="differing_name_2">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="basic_types">
 						<Test name="float">
