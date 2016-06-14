@@ -203156,17 +203156,6 @@
 								<TestInstance/>
 							</Test>
 						</TestCase>
-						<TestCase name="data_size">
-							<Test name="bool">
-								<TestInstance/>
-							</Test>
-							<Test name="int">
-								<TestInstance/>
-							</Test>
-							<Test name="uint">
-								<TestInstance/>
-							</Test>
-						</TestCase>
 						<TestCase name="builtin">
 							<Test name="default">
 								<TestInstance/>
@@ -203688,17 +203677,6 @@
 								<TestInstance/>
 							</Test>
 							<Test name="double">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="data_size">
-							<Test name="bool">
-								<TestInstance/>
-							</Test>
-							<Test name="int">
-								<TestInstance/>
-							</Test>
-							<Test name="uint">
 								<TestInstance/>
 							</Test>
 						</TestCase>
@@ -204226,17 +204204,6 @@
 								<TestInstance/>
 							</Test>
 						</TestCase>
-						<TestCase name="data_size">
-							<Test name="bool">
-								<TestInstance/>
-							</Test>
-							<Test name="int">
-								<TestInstance/>
-							</Test>
-							<Test name="uint">
-								<TestInstance/>
-							</Test>
-						</TestCase>
 						<TestCase name="builtin">
 							<Test name="default">
 								<TestInstance/>
@@ -204758,17 +204725,6 @@
 								<TestInstance/>
 							</Test>
 							<Test name="double">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="data_size">
-							<Test name="bool">
-								<TestInstance/>
-							</Test>
-							<Test name="int">
-								<TestInstance/>
-							</Test>
-							<Test name="uint">
 								<TestInstance/>
 							</Test>
 						</TestCase>
@@ -205296,17 +205252,6 @@
 								<TestInstance/>
 							</Test>
 						</TestCase>
-						<TestCase name="data_size">
-							<Test name="bool">
-								<TestInstance/>
-							</Test>
-							<Test name="int">
-								<TestInstance/>
-							</Test>
-							<Test name="uint">
-								<TestInstance/>
-							</Test>
-						</TestCase>
 						<TestCase name="builtin">
 							<Test name="default">
 								<TestInstance/>
@@ -205829,17 +205774,6 @@
 							<TestInstance/>
 						</Test>
 						<Test name="double">
-							<TestInstance/>
-						</Test>
-					</TestCase>
-					<TestCase name="data_size">
-						<Test name="bool">
-							<TestInstance/>
-						</Test>
-						<Test name="int">
-							<TestInstance/>
-						</Test>
-						<Test name="uint">
 							<TestInstance/>
 						</Test>
 					</TestCase>

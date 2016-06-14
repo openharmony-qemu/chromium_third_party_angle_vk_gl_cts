@@ -62967,9 +62967,6 @@ dEQP-VK.pipeline.spec_constant.graphics.vertex.basic.int
 dEQP-VK.pipeline.spec_constant.graphics.vertex.basic.uint
 dEQP-VK.pipeline.spec_constant.graphics.vertex.basic.float
 dEQP-VK.pipeline.spec_constant.graphics.vertex.basic.double
-dEQP-VK.pipeline.spec_constant.graphics.vertex.data_size.bool
-dEQP-VK.pipeline.spec_constant.graphics.vertex.data_size.int
-dEQP-VK.pipeline.spec_constant.graphics.vertex.data_size.uint
 dEQP-VK.pipeline.spec_constant.graphics.vertex.builtin.default
 dEQP-VK.pipeline.spec_constant.graphics.vertex.builtin.specialized
 dEQP-VK.pipeline.spec_constant.graphics.vertex.expression.spec_const_expression
@@ -63138,9 +63135,6 @@ dEQP-VK.pipeline.spec_constant.graphics.fragment.basic.int
 dEQP-VK.pipeline.spec_constant.graphics.fragment.basic.uint
 dEQP-VK.pipeline.spec_constant.graphics.fragment.basic.float
 dEQP-VK.pipeline.spec_constant.graphics.fragment.basic.double
-dEQP-VK.pipeline.spec_constant.graphics.fragment.data_size.bool
-dEQP-VK.pipeline.spec_constant.graphics.fragment.data_size.int
-dEQP-VK.pipeline.spec_constant.graphics.fragment.data_size.uint
 dEQP-VK.pipeline.spec_constant.graphics.fragment.builtin.default
 dEQP-VK.pipeline.spec_constant.graphics.fragment.builtin.specialized
 dEQP-VK.pipeline.spec_constant.graphics.fragment.expression.spec_const_expression
@@ -63309,9 +63303,6 @@ dEQP-VK.pipeline.spec_constant.graphics.tess_control.basic.int
 dEQP-VK.pipeline.spec_constant.graphics.tess_control.basic.uint
 dEQP-VK.pipeline.spec_constant.graphics.tess_control.basic.float
 dEQP-VK.pipeline.spec_constant.graphics.tess_control.basic.double
-dEQP-VK.pipeline.spec_constant.graphics.tess_control.data_size.bool
-dEQP-VK.pipeline.spec_constant.graphics.tess_control.data_size.int
-dEQP-VK.pipeline.spec_constant.graphics.tess_control.data_size.uint
 dEQP-VK.pipeline.spec_constant.graphics.tess_control.builtin.default
 dEQP-VK.pipeline.spec_constant.graphics.tess_control.builtin.specialized
 dEQP-VK.pipeline.spec_constant.graphics.tess_control.expression.spec_const_expression
@@ -63480,9 +63471,6 @@ dEQP-VK.pipeline.spec_constant.graphics.tess_eval.basic.int
 dEQP-VK.pipeline.spec_constant.graphics.tess_eval.basic.uint
 dEQP-VK.pipeline.spec_constant.graphics.tess_eval.basic.float
 dEQP-VK.pipeline.spec_constant.graphics.tess_eval.basic.double
-dEQP-VK.pipeline.spec_constant.graphics.tess_eval.data_size.bool
-dEQP-VK.pipeline.spec_constant.graphics.tess_eval.data_size.int
-dEQP-VK.pipeline.spec_constant.graphics.tess_eval.data_size.uint
 dEQP-VK.pipeline.spec_constant.graphics.tess_eval.builtin.default
 dEQP-VK.pipeline.spec_constant.graphics.tess_eval.builtin.specialized
 dEQP-VK.pipeline.spec_constant.graphics.tess_eval.expression.spec_const_expression
@@ -63651,9 +63639,6 @@ dEQP-VK.pipeline.spec_constant.graphics.geometry.basic.int
 dEQP-VK.pipeline.spec_constant.graphics.geometry.basic.uint
 dEQP-VK.pipeline.spec_constant.graphics.geometry.basic.float
 dEQP-VK.pipeline.spec_constant.graphics.geometry.basic.double
-dEQP-VK.pipeline.spec_constant.graphics.geometry.data_size.bool
-dEQP-VK.pipeline.spec_constant.graphics.geometry.data_size.int
-dEQP-VK.pipeline.spec_constant.graphics.geometry.data_size.uint
 dEQP-VK.pipeline.spec_constant.graphics.geometry.builtin.default
 dEQP-VK.pipeline.spec_constant.graphics.geometry.builtin.specialized
 dEQP-VK.pipeline.spec_constant.graphics.geometry.expression.spec_const_expression
@@ -63822,9 +63807,6 @@ dEQP-VK.pipeline.spec_constant.compute.basic.int
 dEQP-VK.pipeline.spec_constant.compute.basic.uint
 dEQP-VK.pipeline.spec_constant.compute.basic.float
 dEQP-VK.pipeline.spec_constant.compute.basic.double
-dEQP-VK.pipeline.spec_constant.compute.data_size.bool
-dEQP-VK.pipeline.spec_constant.compute.data_size.int
-dEQP-VK.pipeline.spec_constant.compute.data_size.uint
 dEQP-VK.pipeline.spec_constant.compute.builtin.default
 dEQP-VK.pipeline.spec_constant.compute.builtin.specialized
 dEQP-VK.pipeline.spec_constant.compute.expression.spec_const_expression
