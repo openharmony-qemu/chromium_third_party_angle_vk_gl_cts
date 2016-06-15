@@ -343395,6 +343395,14 @@
 					</TestSuite>
 				</TestSuite>
 			</TestSuite>
+			<TestCase name="internally_synchronized_objects">
+				<Test name="pipeline_cache_compute">
+					<TestInstance/>
+				</Test>
+				<Test name="pipeline_cache_graphics">
+					<TestInstance/>
+				</Test>
+			</TestCase>
 		</TestSuite>
 		<TestSuite name="sparse_resources">
 			<TestCase name="buffer_sparse_binding">
