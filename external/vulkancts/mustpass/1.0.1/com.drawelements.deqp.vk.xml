@@ -11634,16 +11634,10 @@
 				<Test name="allocate_many_primary">
 					<TestInstance/>
 				</Test>
-				<Test name="allocate_zero_primary">
-					<TestInstance/>
-				</Test>
 				<Test name="allocate_single_secondary">
 					<TestInstance/>
 				</Test>
 				<Test name="allocate_many_secondary">
-					<TestInstance/>
-				</Test>
-				<Test name="allocate_zero_secondary">
 					<TestInstance/>
 				</Test>
 				<Test name="execute_small_primary">
