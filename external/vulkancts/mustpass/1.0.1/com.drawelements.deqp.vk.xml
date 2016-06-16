@@ -206200,6 +206200,230 @@
 							</Test>
 						</TestCase>
 					</TestSuite>
+					<TestSuite name="opinboundsaccesschain">
+						<TestCase name="int">
+							<Test name="vec_2">
+								<TestInstance/>
+							</Test>
+							<Test name="vec_3">
+								<TestInstance/>
+							</Test>
+							<Test name="vec_4">
+								<TestInstance/>
+							</Test>
+							<Test name="array_2">
+								<TestInstance/>
+							</Test>
+							<Test name="array_3">
+								<TestInstance/>
+							</Test>
+							<Test name="array_4">
+								<TestInstance/>
+							</Test>
+							<Test name="array_5">
+								<TestInstance/>
+							</Test>
+							<Test name="array_6">
+								<TestInstance/>
+							</Test>
+							<Test name="array_7">
+								<TestInstance/>
+							</Test>
+							<Test name="array_8">
+								<TestInstance/>
+							</Test>
+							<Test name="array_9">
+								<TestInstance/>
+							</Test>
+							<Test name="array_10">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_2">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_3">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_4">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_5">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_6">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_7">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_8">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_9">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_10">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="uint">
+							<Test name="vec_2">
+								<TestInstance/>
+							</Test>
+							<Test name="vec_3">
+								<TestInstance/>
+							</Test>
+							<Test name="vec_4">
+								<TestInstance/>
+							</Test>
+							<Test name="array_2">
+								<TestInstance/>
+							</Test>
+							<Test name="array_3">
+								<TestInstance/>
+							</Test>
+							<Test name="array_4">
+								<TestInstance/>
+							</Test>
+							<Test name="array_5">
+								<TestInstance/>
+							</Test>
+							<Test name="array_6">
+								<TestInstance/>
+							</Test>
+							<Test name="array_7">
+								<TestInstance/>
+							</Test>
+							<Test name="array_8">
+								<TestInstance/>
+							</Test>
+							<Test name="array_9">
+								<TestInstance/>
+							</Test>
+							<Test name="array_10">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_2">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_3">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_4">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_5">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_6">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_7">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_8">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_9">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_10">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="vec_2">
+								<TestInstance/>
+							</Test>
+							<Test name="vec_3">
+								<TestInstance/>
+							</Test>
+							<Test name="vec_4">
+								<TestInstance/>
+							</Test>
+							<Test name="array_2">
+								<TestInstance/>
+							</Test>
+							<Test name="array_3">
+								<TestInstance/>
+							</Test>
+							<Test name="array_4">
+								<TestInstance/>
+							</Test>
+							<Test name="array_5">
+								<TestInstance/>
+							</Test>
+							<Test name="array_6">
+								<TestInstance/>
+							</Test>
+							<Test name="array_7">
+								<TestInstance/>
+							</Test>
+							<Test name="array_8">
+								<TestInstance/>
+							</Test>
+							<Test name="array_9">
+								<TestInstance/>
+							</Test>
+							<Test name="array_10">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_2">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_3">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_4">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_5">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_6">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_7">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_8">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_9">
+								<TestInstance/>
+							</Test>
+							<Test name="struct_10">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_2x2">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_2x3">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_2x4">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_3x2">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_3x3">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_3x4">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_4x2">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_4x3">
+								<TestInstance/>
+							</Test>
+							<Test name="matrix_4x4">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
 				</TestSuite>
 				<TestSuite name="graphics">
 					<TestCase name="opnop">
