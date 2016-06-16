@@ -273190,10 +273190,16 @@
 				<Test name="triangles_fractional_odd_spacing_ccw">
 					<TestInstance/>
 				</Test>
+				<Test name="triangles_fractional_odd_spacing_ccw_point_mode_valid_levels">
+					<TestInstance/>
+				</Test>
 				<Test name="triangles_fractional_odd_spacing_ccw_point_mode">
 					<TestInstance/>
 				</Test>
 				<Test name="triangles_fractional_odd_spacing_cw">
+					<TestInstance/>
+				</Test>
+				<Test name="triangles_fractional_odd_spacing_cw_point_mode_valid_levels">
 					<TestInstance/>
 				</Test>
 				<Test name="triangles_fractional_odd_spacing_cw_point_mode">
@@ -273226,10 +273232,16 @@
 				<Test name="quads_fractional_odd_spacing_ccw">
 					<TestInstance/>
 				</Test>
+				<Test name="quads_fractional_odd_spacing_ccw_point_mode_valid_levels">
+					<TestInstance/>
+				</Test>
 				<Test name="quads_fractional_odd_spacing_ccw_point_mode">
 					<TestInstance/>
 				</Test>
 				<Test name="quads_fractional_odd_spacing_cw">
+					<TestInstance/>
+				</Test>
+				<Test name="quads_fractional_odd_spacing_cw_point_mode_valid_levels">
 					<TestInstance/>
 				</Test>
 				<Test name="quads_fractional_odd_spacing_cw_point_mode">
