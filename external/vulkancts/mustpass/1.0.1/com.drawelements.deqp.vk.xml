@@ -239301,42 +239301,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="textureproj">
-					<Test name="sampler2d_vec3_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_bias_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_bias_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_bias_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_bias_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2d_vec4_fixed_vertex">
 						<TestInstance/>
 					</Test>
@@ -239420,42 +239384,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="textureprojoffset">
-					<Test name="sampler2d_vec3_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_bias_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_bias_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_bias_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_bias_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2d_vec4_fixed_vertex">
 						<TestInstance/>
 					</Test>
@@ -239705,30 +239633,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="textureprojlod">
-					<Test name="sampler2d_vec3_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2d_vec4_fixed_vertex">
 						<TestInstance/>
 					</Test>
@@ -239765,13 +239669,7 @@
 					<Test name="sampler3d_float_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="isampler3d_vertex">
-						<TestInstance/>
-					</Test>
 					<Test name="isampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_vertex">
 						<TestInstance/>
 					</Test>
 					<Test name="usampler3d_fragment">
@@ -239785,30 +239683,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="textureprojlodoffset">
-					<Test name="sampler2d_vec3_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2d_vec4_fixed_vertex">
 						<TestInstance/>
 					</Test>
@@ -239840,9 +239714,6 @@
 						<TestInstance/>
 					</Test>
 					<Test name="sampler3d_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_vertex">
 						<TestInstance/>
 					</Test>
 					<Test name="isampler3d_fragment">
@@ -240052,30 +239923,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="textureprojgrad">
-					<Test name="sampler2d_vec3_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2d_vec4_fixed_vertex">
 						<TestInstance/>
 					</Test>
@@ -240132,30 +239979,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="textureprojgradoffset">
-					<Test name="sampler2d_vec3_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_vec3_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vec3_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2d_vec4_fixed_vertex">
 						<TestInstance/>
 					</Test>
