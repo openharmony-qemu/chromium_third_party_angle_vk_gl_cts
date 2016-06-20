@@ -215293,6 +215293,4004 @@
 					</Test>
 				</TestCase>
 			</TestSuite>
+			<TestSuite name="derivate">
+				<TestSuite name="dfdx">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="dfdxfine">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="dfdxcoarse">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="dfdy">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="dfdyfine">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="dfdycoarse">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="fwidth">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="fwidthfine">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="fwidthcoarse">
+					<TestCase name="constant">
+						<Test name="float">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="linear">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="in_function">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="static_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_if">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_loop">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="uniform_switch">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa2">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_msaa4">
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="fbo_float">
+						<Test name="float_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="float_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="float_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec2_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec3_highp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_lowp">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_mediump">
+							<TestInstance/>
+						</Test>
+						<Test name="vec4_highp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestSuite name="texture">
+						<TestCase name="basic">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="msaa4">
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="float_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="float_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="float_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_highp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_lowp">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_mediump">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_highp">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+			</TestSuite>
 			<TestCase name="discard">
 				<Test name="basic_always">
 					<TestInstance/>
@@ -239373,15 +243371,6 @@
 					<Test name="usampler3d_bias_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_bias_fragment">
-						<TestInstance/>
-					</Test>
 				</TestCase>
 				<TestCase name="textureprojoffset">
 					<Test name="sampler2d_vec4_fixed_vertex">
@@ -239442,15 +243431,6 @@
 						<TestInstance/>
 					</Test>
 					<Test name="usampler3d_bias_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_bias_fragment">
 						<TestInstance/>
 					</Test>
 				</TestCase>
@@ -239675,12 +243655,6 @@
 					<Test name="usampler3d_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
-						<TestInstance/>
-					</Test>
 				</TestCase>
 				<TestCase name="textureprojlodoffset">
 					<Test name="sampler2d_vec4_fixed_vertex">
@@ -239720,12 +243694,6 @@
 						<TestInstance/>
 					</Test>
 					<Test name="usampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 				</TestCase>
@@ -239829,12 +243797,6 @@
 					<Test name="sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="sampler2darrayshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darrayshadow_fragment">
-						<TestInstance/>
-					</Test>
 				</TestCase>
 				<TestCase name="texturegradoffset">
 					<Test name="sampler2d_fixed_vertex">
@@ -239915,12 +243877,6 @@
 					<Test name="sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="sampler2darrayshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darrayshadow_fragment">
-						<TestInstance/>
-					</Test>
 				</TestCase>
 				<TestCase name="textureprojgrad">
 					<Test name="sampler2d_vec4_fixed_vertex">
@@ -239971,12 +243927,6 @@
 					<Test name="usampler3d_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
-						<TestInstance/>
-					</Test>
 				</TestCase>
 				<TestCase name="textureprojgradoffset">
 					<Test name="sampler2d_vec4_fixed_vertex">
@@ -240025,12 +243975,6 @@
 						<TestInstance/>
 					</Test>
 					<Test name="usampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2dshadow_fragment">
 						<TestInstance/>
 					</Test>
 				</TestCase>
