@@ -243710,39 +243710,6 @@
 					<Test name="sampler2d_float_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="isampler2d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="samplercube_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isamplercube_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usamplercube_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usamplercube_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler2darray_fixed_vertex">
 						<TestInstance/>
 					</Test>
@@ -243755,40 +243722,13 @@
 					<Test name="sampler2darray_float_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="isampler2darray_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2darray_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2darray_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2darray_fragment">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler3d_fixed_vertex">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler3d_fixed_fragment">
 						<TestInstance/>
 					</Test>
-					<Test name="sampler3d_float_vertex">
-						<TestInstance/>
-					</Test>
 					<Test name="sampler3d_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_fragment">
 						<TestInstance/>
 					</Test>
 					<Test name="sampler2dshadow_vertex">
@@ -243979,80 +243919,6 @@
 					</Test>
 				</TestCase>
 				<TestCase name="texelfetch">
-					<Test name="sampler2d_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2d_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler2darray_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2darray_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler2darray_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2darray_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler2darray_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_fixed_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_fixed_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_float_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="sampler3d_float_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="isampler3d_fragment">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_vertex">
-						<TestInstance/>
-					</Test>
-					<Test name="usampler3d_fragment">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="texelfetchoffset">
 					<Test name="sampler2d_fixed_vertex">
 						<TestInstance/>
 					</Test>
