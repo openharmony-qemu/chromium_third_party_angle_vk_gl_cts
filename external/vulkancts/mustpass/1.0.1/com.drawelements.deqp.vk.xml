@@ -247754,6 +247754,11 @@
 					</TestSuite>
 				</TestSuite>
 			</TestSuite>
+			<TestCase name="builtin_var">
+				<Test name="gl_frontfacing">
+					<TestInstance/>
+				</Test>
+			</TestCase>
 			<TestSuite name="builtin">
 				<TestSuite name="function">
 					<TestSuite name="common">
