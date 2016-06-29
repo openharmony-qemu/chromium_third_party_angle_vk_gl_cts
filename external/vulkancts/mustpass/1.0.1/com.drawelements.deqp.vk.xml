@@ -286222,5 +286222,568 @@
 				</Test>
 			</TestCase>
 		</TestSuite>
+		<TestSuite name="clipping">
+			<TestSuite name="clip_volume">
+				<TestCase name="inside">
+					<Test name="point_list">
+						<TestInstance/>
+					</Test>
+					<Test name="line_list">
+						<TestInstance/>
+					</Test>
+					<Test name="line_list_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="line_strip">
+						<TestInstance/>
+					</Test>
+					<Test name="line_strip_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_list">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_list_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_fan">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="outside">
+					<Test name="point_list">
+						<TestInstance/>
+					</Test>
+					<Test name="line_list">
+						<TestInstance/>
+					</Test>
+					<Test name="line_list_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="line_strip">
+						<TestInstance/>
+					</Test>
+					<Test name="line_strip_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_list">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_list_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_fan">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="depth_clamp">
+					<Test name="point_list">
+						<TestInstance/>
+					</Test>
+					<Test name="line_list">
+						<TestInstance/>
+					</Test>
+					<Test name="line_list_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="line_strip">
+						<TestInstance/>
+					</Test>
+					<Test name="line_strip_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_list">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_list_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_strip_with_adjacency">
+						<TestInstance/>
+					</Test>
+					<Test name="triangle_fan">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="clipped">
+					<Test name="large_points">
+						<TestInstance/>
+					</Test>
+					<Test name="wide_lines_axis_aligned">
+						<TestInstance/>
+					</Test>
+					<Test name="wide_lines_diagonal">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+			<TestCase name="complementarity">
+				<Test name="1">
+					<TestInstance/>
+				</Test>
+				<Test name="2">
+					<TestInstance/>
+				</Test>
+				<Test name="3">
+					<TestInstance/>
+				</Test>
+				<Test name="4">
+					<TestInstance/>
+				</Test>
+				<Test name="5">
+					<TestInstance/>
+				</Test>
+				<Test name="6">
+					<TestInstance/>
+				</Test>
+				<Test name="7">
+					<TestInstance/>
+				</Test>
+				<Test name="8">
+					<TestInstance/>
+				</Test>
+			</TestCase>
+			<TestSuite name="user_defined">
+				<TestSuite name="clip_distance">
+					<TestCase name="vert">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_geom">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess_geom">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="clip_distance_dynamic_index">
+					<TestCase name="vert">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_geom">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess_geom">
+						<Test name="1">
+							<TestInstance/>
+						</Test>
+						<Test name="2">
+							<TestInstance/>
+						</Test>
+						<Test name="3">
+							<TestInstance/>
+						</Test>
+						<Test name="4">
+							<TestInstance/>
+						</Test>
+						<Test name="5">
+							<TestInstance/>
+						</Test>
+						<Test name="6">
+							<TestInstance/>
+						</Test>
+						<Test name="7">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="clip_cull_distance">
+					<TestCase name="vert">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_geom">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess_geom">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="clip_cull_distance_dynamic_index">
+					<TestCase name="vert">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_geom">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="vert_tess_geom">
+						<Test name="1_7">
+							<TestInstance/>
+						</Test>
+						<Test name="2_6">
+							<TestInstance/>
+						</Test>
+						<Test name="3_5">
+							<TestInstance/>
+						</Test>
+						<Test name="4_4">
+							<TestInstance/>
+						</Test>
+						<Test name="5_3">
+							<TestInstance/>
+						</Test>
+						<Test name="6_2">
+							<TestInstance/>
+						</Test>
+						<Test name="7_1">
+							<TestInstance/>
+						</Test>
+						<Test name="8">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+			</TestSuite>
+		</TestSuite>
 	</TestSuite>
 </TestPackage>
