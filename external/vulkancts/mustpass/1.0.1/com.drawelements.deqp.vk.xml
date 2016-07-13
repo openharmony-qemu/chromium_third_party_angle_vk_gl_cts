@@ -45,6 +45,9 @@
 				<Test name="asm_triangle">
 					<TestInstance/>
 				</Test>
+				<Test name="asm_triangle_no_opname">
+					<TestInstance/>
+				</Test>
 				<Test name="unused_resolve_attachment">
 					<TestInstance/>
 				</Test>
@@ -213311,6 +213314,12 @@
 						<Test name="differing_interpolation_2">
 							<TestInstance/>
 						</Test>
+						<Test name="differing_name_1">
+							<TestInstance/>
+						</Test>
+						<Test name="differing_name_2">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="basic_types">
 						<Test name="float">
@@ -272012,6 +272021,20 @@
 					</Test>
 				</TestCase>
 			</TestSuite>
+			<TestCase name="link_by_binding">
+				<Test name="single_buf_single_instance">
+					<TestInstance/>
+				</Test>
+				<Test name="single_buf_instance_array">
+					<TestInstance/>
+				</Test>
+				<Test name="per_block_buf_single_instance">
+					<TestInstance/>
+				</Test>
+				<Test name="per_block_buf_instance_array">
+					<TestInstance/>
+				</Test>
+			</TestCase>
 			<TestSuite name="random">
 				<TestCase name="scalar_types">
 					<Test name="0">
@@ -282197,6 +282220,11 @@
 							<TestInstance/>
 						</Test>
 					</TestCase>
+					<TestCase name="modify">
+						<Test name="resize">
+							<TestInstance/>
+						</Test>
+					</TestCase>
 				</TestSuite>
 			</TestSuite>
 			<TestSuite name="mir">
@@ -282299,6 +282327,11 @@
 							<TestInstance/>
 						</Test>
 					</TestCase>
+					<TestCase name="modify">
+						<Test name="resize">
+							<TestInstance/>
+						</Test>
+					</TestCase>
 				</TestSuite>
 			</TestSuite>
 			<TestSuite name="android">
@@ -282395,6 +282428,11 @@
 					</TestCase>
 					<TestCase name="render">
 						<Test name="basic">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="modify">
+						<Test name="resize">
 							<TestInstance/>
 						</Test>
 					</TestCase>

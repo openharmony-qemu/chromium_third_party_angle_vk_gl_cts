@@ -6,6 +6,7 @@ dEQP-VK.api.smoke.create_sampler
 dEQP-VK.api.smoke.create_shader
 dEQP-VK.api.smoke.triangle
 dEQP-VK.api.smoke.asm_triangle
+dEQP-VK.api.smoke.asm_triangle_no_opname
 dEQP-VK.api.smoke.unused_resolve_attachment
 dEQP-VK.api.info.instance.physical_devices
 dEQP-VK.api.info.instance.layers
@@ -65702,6 +65703,8 @@ dEQP-VK.glsl.linkage.varying.rules.differing_precision_1
 dEQP-VK.glsl.linkage.varying.rules.differing_precision_2
 dEQP-VK.glsl.linkage.varying.rules.differing_precision_3
 dEQP-VK.glsl.linkage.varying.rules.differing_interpolation_2
+dEQP-VK.glsl.linkage.varying.rules.differing_name_1
+dEQP-VK.glsl.linkage.varying.rules.differing_name_2
 dEQP-VK.glsl.linkage.varying.basic_types.float
 dEQP-VK.glsl.linkage.varying.basic_types.vec2
 dEQP-VK.glsl.linkage.varying.basic_types.vec3
@@ -84362,6 +84365,10 @@ dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_vertex_comp_
 dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_fragment_comp_access
 dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_both_comp_access
 dEQP-VK.ubo.multi_nested_struct.single_buffer.std140_instance_array_mixed_comp_access
+dEQP-VK.ubo.link_by_binding.single_buf_single_instance
+dEQP-VK.ubo.link_by_binding.single_buf_instance_array
+dEQP-VK.ubo.link_by_binding.per_block_buf_single_instance
+dEQP-VK.ubo.link_by_binding.per_block_buf_instance_array
 dEQP-VK.ubo.random.scalar_types.0
 dEQP-VK.ubo.random.scalar_types.1
 dEQP-VK.ubo.random.scalar_types.2
@@ -87647,6 +87654,7 @@ dEQP-VK.wsi.wayland.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.wayland.swapchain.render.basic
+dEQP-VK.wsi.wayland.swapchain.modify.resize
 dEQP-VK.wsi.mir.surface.create
 dEQP-VK.wsi.mir.surface.create_custom_allocator
 dEQP-VK.wsi.mir.surface.create_simulate_oom
@@ -87677,6 +87685,7 @@ dEQP-VK.wsi.mir.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.mir.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.mir.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.mir.swapchain.render.basic
+dEQP-VK.wsi.mir.swapchain.modify.resize
 dEQP-VK.wsi.android.surface.create
 dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
@@ -87706,6 +87715,7 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.android.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.android.swapchain.render.basic
+dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.win32.surface.create
 dEQP-VK.wsi.win32.surface.create_custom_allocator
 dEQP-VK.wsi.win32.surface.create_simulate_oom
