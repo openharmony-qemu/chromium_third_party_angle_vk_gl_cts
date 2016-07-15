@@ -3870,12 +3870,6 @@ dEQP-VK.api.command_buffers.submit_null_fence
 dEQP-VK.api.command_buffers.secondary_execute
 dEQP-VK.api.command_buffers.secondary_execute_twice
 dEQP-VK.api.command_buffers.order_bind_pipeline
-dEQP-VK.api.copy_and_blit.image_to_image.whole_image
-dEQP-VK.api.copy_and_blit.image_to_image.whole_image_diff_fromat
-dEQP-VK.api.copy_and_blit.image_to_image.partial_image
-dEQP-VK.api.copy_and_blit.image_to_image.partial_image_multiple
-dEQP-VK.api.copy_and_blit.image_to_image.depth
-dEQP-VK.api.copy_and_blit.image_to_image.stencil
 dEQP-VK.api.copy_and_blit.image_to_buffer.whole
 dEQP-VK.api.copy_and_blit.buffer_to_image.whole
 dEQP-VK.api.copy_and_blit.buffer_to_buffer.whole
