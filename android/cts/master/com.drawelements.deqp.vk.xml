@@ -248906,6 +248906,32 @@
 							</Test>
 						</TestCase>
 					</TestSuite>
+					<TestSuite name="shader_default_output">
+						<TestCase name="int">
+							<Test name="initialized">
+								<TestInstance/>
+							</Test>
+							<Test name="uninitialized">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="uint">
+							<Test name="initialized">
+								<TestInstance/>
+							</Test>
+							<Test name="uninitialized">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="initialized">
+								<TestInstance/>
+							</Test>
+							<Test name="uninitialized">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
 				</TestSuite>
 				<TestSuite name="graphics">
 					<TestCase name="opnop">
