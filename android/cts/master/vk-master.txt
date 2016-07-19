@@ -8930,6 +8930,12 @@ dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sint_r64g64b64
 dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sfloat_r64g64b64a64_uint
 dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sfloat_r64g64b64a64_sint
 dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sfloat_r64g64b64a64_sfloat
+dEQP-VK.api.copy_and_blit.image_to_image.3d_images.3d_to_2d_by_slices
+dEQP-VK.api.copy_and_blit.image_to_image.3d_images.2d_to_3d_by_layers
+dEQP-VK.api.copy_and_blit.image_to_image.3d_images.3d_to_2d_whole
+dEQP-VK.api.copy_and_blit.image_to_image.3d_images.2d_to_3d_whole
+dEQP-VK.api.copy_and_blit.image_to_image.3d_images.3d_to_2d_regions
+dEQP-VK.api.copy_and_blit.image_to_image.3d_images.2d_to_3d_regions
 dEQP-VK.api.copy_and_blit.image_to_buffer.whole
 dEQP-VK.api.copy_and_blit.image_to_buffer.buffer_offset
 dEQP-VK.api.copy_and_blit.image_to_buffer.regions
