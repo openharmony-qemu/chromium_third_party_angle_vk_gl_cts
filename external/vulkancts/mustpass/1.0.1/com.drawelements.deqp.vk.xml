@@ -305075,154 +305075,186 @@
 				</TestCase>
 			</TestSuite>
 			<TestSuite name="qualifiers">
-				<TestCase name="coherent">
-					<Test name="1d_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="buffer_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="buffer_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="buffer_r32i">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="volatile">
-					<Test name="1d_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i">
-						<TestInstance/>
-					</Test>
-					<Test name="buffer_r32f">
-						<TestInstance/>
-					</Test>
-					<Test name="buffer_r32ui">
-						<TestInstance/>
-					</Test>
-					<Test name="buffer_r32i">
-						<TestInstance/>
-					</Test>
-				</TestCase>
+				<TestSuite name="coherent">
+					<TestCase name="1d">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="buffer">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="volatile">
+					<TestCase name="1d">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="buffer">
+						<Test name="r32f">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
 				<TestCase name="restrict">
 					<Test name="1d">
 						<TestInstance/>
@@ -305557,608 +305589,706 @@
 				</TestCase>
 			</TestSuite>
 			<TestSuite name="atomic_operations">
-				<TestCase name="add">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="min">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="max">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="and">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="or">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="xor">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="exchange">
-					<Test name="1d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="1d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="2d_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="3d_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32ui_intermediate_values">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_end_result">
-						<TestInstance/>
-					</Test>
-					<Test name="cube_array_r32i_intermediate_values">
-						<TestInstance/>
-					</Test>
-				</TestCase>
+				<TestSuite name="add">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="min">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="max">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="and">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="or">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="xor">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="exchange">
+					<TestCase name="1d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="2d_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="3d">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="cube_array">
+						<Test name="r32ui_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32ui_intermediate_values">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_end_result">
+							<TestInstance/>
+						</Test>
+						<Test name="r32i_intermediate_values">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
 			</TestSuite>
 		</TestSuite>
 		<TestSuite name="wsi">
