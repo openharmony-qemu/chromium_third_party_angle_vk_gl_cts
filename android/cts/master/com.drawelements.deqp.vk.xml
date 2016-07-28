@@ -367248,5 +367248,573 @@
 				</TestSuite>
 			</TestSuite>
 		</TestSuite>
+		<TestSuite name="texture_filtering">
+			<TestSuite name="explicit_lod">
+				<TestSuite name="2d">
+					<TestCase name="sizes">
+						<Test name="2x2_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x2_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="2x3_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="3x7_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="4x8_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="31x55_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x32_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="32x64_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="57x35_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_nearest_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_nearest_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_nearest_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_nearest_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_nearest_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_linear_mipmap_nearest_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_linear_mipmap_nearest_clamp">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_linear_mipmap_linear_repeat">
+							<TestInstance/>
+						</Test>
+						<Test name="128x128_linear_linear_mipmap_linear_clamp">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="formats">
+						<Test name="VK_FORMAT_B4G4R4A4_UNORM_PACK16_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B4G4R4A4_UNORM_PACK16_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R5G6B5_UNORM_PACK16_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R5G6B5_UNORM_PACK16_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A1R5G5B5_UNORM_PACK16_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A1R5G5B5_UNORM_PACK16_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8_UNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8_UNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8_SNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8_SNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8_UNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8_UNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8_SNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8_SNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8B8A8_UNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8B8A8_UNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8B8A8_SNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8B8A8_SNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8B8A8_SRGB_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R8G8B8A8_SRGB_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B8G8R8A8_UNORM_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B8G8R8A8_UNORM_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B8G8R8A8_SRGB_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B8G8R8A8_SRGB_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A8B8G8R8_UNORM_PACK32_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A8B8G8R8_UNORM_PACK32_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A8B8G8R8_SNORM_PACK32_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A8B8G8R8_SNORM_PACK32_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A8B8G8R8_SRGB_PACK32_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A8B8G8R8_SRGB_PACK32_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A2B10G10R10_UNORM_PACK32_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_A2B10G10R10_UNORM_PACK32_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R16_SFLOAT_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R16_SFLOAT_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R16G16_SFLOAT_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R16G16_SFLOAT_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R16G16B16A16_SFLOAT_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_R16G16B16A16_SFLOAT_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B10G11R11_UFLOAT_PACK32_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_B10G11R11_UFLOAT_PACK32_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_E5B9G9R9_UFLOAT_PACK32_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="VK_FORMAT_E5B9G9R9_UFLOAT_PACK32_linear">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+			</TestSuite>
+		</TestSuite>
 	</TestSuite>
 </TestPackage>
