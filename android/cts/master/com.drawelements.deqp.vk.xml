@@ -229093,6 +229093,356 @@
 					</TestCase>
 				</TestSuite>
 			</TestSuite>
+			<TestSuite name="multisample_interpolation">
+				<TestSuite name="sample_interpolate_at_single_sample_">
+					<TestCase name="128_128_1">
+						<Test name="samples_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_interpolate_at_distinct_values">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_interpolate_at_ignores_centroid">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_interpolate_at_consistency">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_qualifier_distinct_values">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="centroid_interpolate_at_consistency">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="centroid_qualifier_inside_primitive">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="offset_interpolate_at_pixel_center">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="offset_interpolate_at_sample_position">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+			</TestSuite>
 			<TestSuite name="vertex_input">
 				<TestCase name="single_attribute">
 					<Test name="float_as_r8_unorm_rate_vertex">
