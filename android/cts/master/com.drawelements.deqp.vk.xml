@@ -229422,6 +229422,336 @@
 						</TestCase>
 					</TestSuite>
 				</TestSuite>
+				<TestSuite name="storage_image">
+					<TestSuite name="64x64_1">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="64x64_4">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="79x31_1">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="79x31_4">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
 			</TestSuite>
 			<TestSuite name="multisample_interpolation">
 				<TestSuite name="sample_interpolate_at_single_sample_">
