@@ -368128,5 +368128,48 @@
 				</TestSuite>
 			</TestSuite>
 		</TestSuite>
+		<TestSuite name="fragment_operations">
+			<TestSuite name="scissor">
+				<TestCase name="points">
+					<Test name="inside">
+						<TestInstance/>
+					</Test>
+					<Test name="partially_inside">
+						<TestInstance/>
+					</Test>
+					<Test name="outside">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="lines">
+					<Test name="inside">
+						<TestInstance/>
+					</Test>
+					<Test name="partially_inside">
+						<TestInstance/>
+					</Test>
+					<Test name="outside">
+						<TestInstance/>
+					</Test>
+					<Test name="crossing">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="triangles">
+					<Test name="inside">
+						<TestInstance/>
+					</Test>
+					<Test name="partially_inside">
+						<TestInstance/>
+					</Test>
+					<Test name="outside">
+						<TestInstance/>
+					</Test>
+					<Test name="crossing">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+		</TestSuite>
 	</TestSuite>
 </TestPackage>

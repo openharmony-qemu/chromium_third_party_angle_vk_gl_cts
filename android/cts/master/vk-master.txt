@@ -114573,3 +114573,14 @@ dEQP-VK.texture_filtering.explicit_lod.2d.derivatives.linear_nearest_mipmap_near
 dEQP-VK.texture_filtering.explicit_lod.2d.derivatives.linear_nearest_mipmap_linear
 dEQP-VK.texture_filtering.explicit_lod.2d.derivatives.linear_linear_mipmap_nearest
 dEQP-VK.texture_filtering.explicit_lod.2d.derivatives.linear_linear_mipmap_linear
+dEQP-VK.fragment_operations.scissor.points.inside
+dEQP-VK.fragment_operations.scissor.points.partially_inside
+dEQP-VK.fragment_operations.scissor.points.outside
+dEQP-VK.fragment_operations.scissor.lines.inside
+dEQP-VK.fragment_operations.scissor.lines.partially_inside
+dEQP-VK.fragment_operations.scissor.lines.outside
+dEQP-VK.fragment_operations.scissor.lines.crossing
+dEQP-VK.fragment_operations.scissor.triangles.inside
+dEQP-VK.fragment_operations.scissor.triangles.partially_inside
+dEQP-VK.fragment_operations.scissor.triangles.outside
+dEQP-VK.fragment_operations.scissor.triangles.crossing
