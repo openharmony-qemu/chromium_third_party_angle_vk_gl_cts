@@ -309658,6 +309658,76 @@
 						<TestInstance/>
 					</Test>
 				</TestCase>
+				<TestCase name="host_write_uniform_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_uniform_texel_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_storage_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_storage_texel_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_storage_image">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
 				<TestCase name="host_read_transfer_dst">
 					<Test name="1024">
 						<TestInstance/>
@@ -309701,6 +309771,76 @@
 					</Test>
 				</TestCase>
 				<TestCase name="transfer_dst_index_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_uniform_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_uniform_texel_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_storage_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_storage_texel_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_storage_image">
 					<Test name="1024">
 						<TestInstance/>
 					</Test>
