@@ -309728,6 +309728,20 @@
 						<TestInstance/>
 					</Test>
 				</TestCase>
+				<TestCase name="host_write_image_sampled">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
 				<TestCase name="host_read_transfer_dst">
 					<Test name="1024">
 						<TestInstance/>
@@ -309841,6 +309855,20 @@
 					</Test>
 				</TestCase>
 				<TestCase name="transfer_dst_storage_image">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_image_sampled">
 					<Test name="1024">
 						<TestInstance/>
 					</Test>
