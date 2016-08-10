@@ -367984,130 +367984,144 @@
 						</Test>
 					</TestCase>
 					<TestCase name="formats">
-						<Test name="VK_FORMAT_B4G4R4A4_UNORM_PACK16_nearest">
+						<Test name="b4g4r4a4_unorm_pack16_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B4G4R4A4_UNORM_PACK16_linear">
+						<Test name="b4g4r4a4_unorm_pack16_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R5G6B5_UNORM_PACK16_nearest">
+						<Test name="r5g6b5_unorm_pack16_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R5G6B5_UNORM_PACK16_linear">
+						<Test name="r5g6b5_unorm_pack16_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A1R5G5B5_UNORM_PACK16_nearest">
+						<Test name="a1r5g5b5_unorm_pack16_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A1R5G5B5_UNORM_PACK16_linear">
+						<Test name="a1r5g5b5_unorm_pack16_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8_UNORM_nearest">
+						<Test name="r8_unorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8_UNORM_linear">
+						<Test name="r8_unorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8_SNORM_nearest">
+						<Test name="r8_snorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8_SNORM_linear">
+						<Test name="r8_snorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8_UNORM_nearest">
+						<Test name="r8g8_unorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8_UNORM_linear">
+						<Test name="r8g8_unorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8_SNORM_nearest">
+						<Test name="r8g8_snorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8_SNORM_linear">
+						<Test name="r8g8_snorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8B8A8_UNORM_nearest">
+						<Test name="r8g8b8a8_unorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8B8A8_UNORM_linear">
+						<Test name="r8g8b8a8_unorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8B8A8_SNORM_nearest">
+						<Test name="r8g8b8a8_snorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8B8A8_SNORM_linear">
+						<Test name="r8g8b8a8_snorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8B8A8_SRGB_nearest">
+						<Test name="b8g8r8a8_unorm_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R8G8B8A8_SRGB_linear">
+						<Test name="b8g8r8a8_unorm_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B8G8R8A8_UNORM_nearest">
+						<Test name="a8b8g8r8_unorm_pack32_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B8G8R8A8_UNORM_linear">
+						<Test name="a8b8g8r8_unorm_pack32_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B8G8R8A8_SRGB_nearest">
+						<Test name="a8b8g8r8_snorm_pack32_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B8G8R8A8_SRGB_linear">
+						<Test name="a8b8g8r8_snorm_pack32_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A8B8G8R8_UNORM_PACK32_nearest">
+						<Test name="a2b10g10r10_unorm_pack32_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A8B8G8R8_UNORM_PACK32_linear">
+						<Test name="a2b10g10r10_unorm_pack32_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A8B8G8R8_SNORM_PACK32_nearest">
+						<Test name="r16_sfloat_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A8B8G8R8_SNORM_PACK32_linear">
+						<Test name="r16_sfloat_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A8B8G8R8_SRGB_PACK32_nearest">
+						<Test name="r16g16_sfloat_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A8B8G8R8_SRGB_PACK32_linear">
+						<Test name="r16g16_sfloat_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A2B10G10R10_UNORM_PACK32_nearest">
+						<Test name="r16g16b16a16_sfloat_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_A2B10G10R10_UNORM_PACK32_linear">
+						<Test name="r16g16b16a16_sfloat_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R16_SFLOAT_nearest">
+						<Test name="r32_sfloat_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R16_SFLOAT_linear">
+						<Test name="r32_sfloat_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R16G16_SFLOAT_nearest">
+						<Test name="r32g32_sfloat_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R16G16_SFLOAT_linear">
+						<Test name="r32g32_sfloat_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R16G16B16A16_SFLOAT_nearest">
+						<Test name="r32g32b32a32_sfloat_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_R16G16B16A16_SFLOAT_linear">
+						<Test name="r32g32b32a32_sfloat_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B10G11R11_UFLOAT_PACK32_nearest">
+					</TestCase>
+					<TestCase name="derivatives">
+						<Test name="nearest_nearest_mipmap_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_B10G11R11_UFLOAT_PACK32_linear">
+						<Test name="nearest_nearest_mipmap_linear">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_E5B9G9R9_UFLOAT_PACK32_nearest">
+						<Test name="nearest_linear_mipmap_nearest">
 							<TestInstance/>
 						</Test>
-						<Test name="VK_FORMAT_E5B9G9R9_UFLOAT_PACK32_linear">
+						<Test name="nearest_linear_mipmap_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="linear_nearest_mipmap_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="linear_nearest_mipmap_linear">
+							<TestInstance/>
+						</Test>
+						<Test name="linear_linear_mipmap_nearest">
+							<TestInstance/>
+						</Test>
+						<Test name="linear_linear_mipmap_linear">
 							<TestInstance/>
 						</Test>
 					</TestCase>
