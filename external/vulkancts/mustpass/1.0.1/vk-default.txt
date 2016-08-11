@@ -71174,12 +71174,6 @@ dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.ver
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.vertex_fragment.descriptor_array.offset_view_nonzero_dynamic_zero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.vertex_fragment.descriptor_array.offset_view_nonzero_dynamic_nonzero
 dEQP-VK.spirv_assembly.instruction.compute.opnop.all
-dEQP-VK.spirv_assembly.instruction.compute.opfunord.equal
-dEQP-VK.spirv_assembly.instruction.compute.opfunord.less
-dEQP-VK.spirv_assembly.instruction.compute.opfunord.lessequal
-dEQP-VK.spirv_assembly.instruction.compute.opfunord.greater
-dEQP-VK.spirv_assembly.instruction.compute.opfunord.greaterequal
-dEQP-VK.spirv_assembly.instruction.compute.opfunord.notequal
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iadd
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.isub
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iinc
