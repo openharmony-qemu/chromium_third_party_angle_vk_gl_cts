@@ -221489,13 +221489,13 @@
 					<Test name="range_size_128">
 						<TestInstance/>
 					</Test>
-					<Test name="count_2_shader_vert_frag">
+					<Test name="count_2_shaders_vert_frag">
 						<TestInstance/>
 					</Test>
-					<Test name="count_3shader_vert_geom_frag">
+					<Test name="count_3_shaders_vert_geom_frag">
 						<TestInstance/>
 					</Test>
-					<Test name="count_5_shader_vert_tess_geom_frag">
+					<Test name="count_5_shaders_vert_tess_geom_frag">
 						<TestInstance/>
 					</Test>
 					<Test name="count_1_shader_vert_frag">
