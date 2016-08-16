@@ -62949,9 +62949,9 @@ dEQP-VK.pipeline.image_view.view_type.cube_array.format.astc_12x12_srgb_block.su
 dEQP-VK.pipeline.push_constant.graphics_pipeline.range_size_4
 dEQP-VK.pipeline.push_constant.graphics_pipeline.range_size_16
 dEQP-VK.pipeline.push_constant.graphics_pipeline.range_size_128
-dEQP-VK.pipeline.push_constant.graphics_pipeline.count_2_shader_vert_frag
-dEQP-VK.pipeline.push_constant.graphics_pipeline.count_3shader_vert_geom_frag
-dEQP-VK.pipeline.push_constant.graphics_pipeline.count_5_shader_vert_tess_geom_frag
+dEQP-VK.pipeline.push_constant.graphics_pipeline.count_2_shaders_vert_frag
+dEQP-VK.pipeline.push_constant.graphics_pipeline.count_3_shaders_vert_geom_frag
+dEQP-VK.pipeline.push_constant.graphics_pipeline.count_5_shaders_vert_tess_geom_frag
 dEQP-VK.pipeline.push_constant.graphics_pipeline.count_1_shader_vert_frag
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_partial_1
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_partial_2
