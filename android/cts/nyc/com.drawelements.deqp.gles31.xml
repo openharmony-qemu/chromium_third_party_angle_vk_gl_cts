@@ -53190,17 +53190,83 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="shader_image_load_store">
-							<Test name="image_store">
+						<TestCase name="shader_image_load">
+							<Test name="texture_2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_load">
+							<Test name="texture_3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_atomic">
+							<Test name="cube">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_atomic_exchange">
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_store">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_atomic">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_exchange">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -54491,17 +54557,83 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="shader_image_load_store">
-							<Test name="image_store">
+						<TestCase name="shader_image_load">
+							<Test name="texture_2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_load">
+							<Test name="texture_3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_atomic">
+							<Test name="cube">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_atomic_exchange">
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_store">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_atomic">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_exchange">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
@@ -55786,17 +55918,83 @@
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
-						<TestCase name="shader_image_load_store">
-							<Test name="image_store">
+						<TestCase name="shader_image_load">
+							<Test name="texture_2d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_load">
+							<Test name="texture_3d">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_atomic">
+							<Test name="cube">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
-							<Test name="image_atomic_exchange">
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_store">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_atomic">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="shader_image_exchange">
+							<Test name="texture_2d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="texture_3d">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="2d_array">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="buffer">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="cube_array">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
 						</TestCase>
