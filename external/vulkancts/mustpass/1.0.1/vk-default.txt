@@ -6716,7 +6716,11 @@ dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sfloat_r64g64b
 dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sfloat_r64g64b64a64_sint
 dEQP-VK.api.copy_and_blit.image_to_image.all_formats.r64g64b64a64_sfloat_r64g64b64a64_sfloat
 dEQP-VK.api.copy_and_blit.image_to_buffer.whole
+dEQP-VK.api.copy_and_blit.image_to_buffer.buffer_offset
+dEQP-VK.api.copy_and_blit.image_to_buffer.regions
 dEQP-VK.api.copy_and_blit.buffer_to_image.whole
+dEQP-VK.api.copy_and_blit.buffer_to_image.regions
+dEQP-VK.api.copy_and_blit.buffer_to_image.buffer_offset
 dEQP-VK.api.copy_and_blit.buffer_to_buffer.whole
 dEQP-VK.api.copy_and_blit.buffer_to_buffer.partial
 dEQP-VK.api.copy_and_blit.buffer_to_buffer.regions
