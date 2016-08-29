@@ -56252,6 +56252,3464 @@
 				</Test>
 			</TestCase>
 		</TestSuite>
+		<TestSuite name="memory">
+			<TestSuite name="allocation">
+				<TestSuite name="basic">
+					<TestSuite name="size_64">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_128">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_256">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_512">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_1KiB">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_4KiB">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+							<Test name="count_4000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+							<Test name="count_4000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+							<Test name="count_4000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_8KiB">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+							<Test name="count_4000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+							<Test name="count_4000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_100">
+								<TestInstance/>
+							</Test>
+							<Test name="count_1000">
+								<TestInstance/>
+							</Test>
+							<Test name="count_4000">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="size_1MiB">
+						<TestCase name="forward">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_50">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_50">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_1">
+								<TestInstance/>
+							</Test>
+							<Test name="count_10">
+								<TestInstance/>
+							</Test>
+							<Test name="count_50">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="percent_1">
+						<TestCase name="forward">
+							<Test name="count_12">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="reverse">
+							<Test name="count_12">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="mixed">
+							<Test name="count_12">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestCase name="random">
+					<Test name="0">
+						<TestInstance/>
+					</Test>
+					<Test name="1">
+						<TestInstance/>
+					</Test>
+					<Test name="2">
+						<TestInstance/>
+					</Test>
+					<Test name="3">
+						<TestInstance/>
+					</Test>
+					<Test name="4">
+						<TestInstance/>
+					</Test>
+					<Test name="5">
+						<TestInstance/>
+					</Test>
+					<Test name="6">
+						<TestInstance/>
+					</Test>
+					<Test name="7">
+						<TestInstance/>
+					</Test>
+					<Test name="8">
+						<TestInstance/>
+					</Test>
+					<Test name="9">
+						<TestInstance/>
+					</Test>
+					<Test name="10">
+						<TestInstance/>
+					</Test>
+					<Test name="11">
+						<TestInstance/>
+					</Test>
+					<Test name="12">
+						<TestInstance/>
+					</Test>
+					<Test name="13">
+						<TestInstance/>
+					</Test>
+					<Test name="14">
+						<TestInstance/>
+					</Test>
+					<Test name="15">
+						<TestInstance/>
+					</Test>
+					<Test name="16">
+						<TestInstance/>
+					</Test>
+					<Test name="17">
+						<TestInstance/>
+					</Test>
+					<Test name="18">
+						<TestInstance/>
+					</Test>
+					<Test name="19">
+						<TestInstance/>
+					</Test>
+					<Test name="20">
+						<TestInstance/>
+					</Test>
+					<Test name="21">
+						<TestInstance/>
+					</Test>
+					<Test name="22">
+						<TestInstance/>
+					</Test>
+					<Test name="23">
+						<TestInstance/>
+					</Test>
+					<Test name="24">
+						<TestInstance/>
+					</Test>
+					<Test name="25">
+						<TestInstance/>
+					</Test>
+					<Test name="26">
+						<TestInstance/>
+					</Test>
+					<Test name="27">
+						<TestInstance/>
+					</Test>
+					<Test name="28">
+						<TestInstance/>
+					</Test>
+					<Test name="29">
+						<TestInstance/>
+					</Test>
+					<Test name="30">
+						<TestInstance/>
+					</Test>
+					<Test name="31">
+						<TestInstance/>
+					</Test>
+					<Test name="32">
+						<TestInstance/>
+					</Test>
+					<Test name="33">
+						<TestInstance/>
+					</Test>
+					<Test name="34">
+						<TestInstance/>
+					</Test>
+					<Test name="35">
+						<TestInstance/>
+					</Test>
+					<Test name="36">
+						<TestInstance/>
+					</Test>
+					<Test name="37">
+						<TestInstance/>
+					</Test>
+					<Test name="38">
+						<TestInstance/>
+					</Test>
+					<Test name="39">
+						<TestInstance/>
+					</Test>
+					<Test name="40">
+						<TestInstance/>
+					</Test>
+					<Test name="41">
+						<TestInstance/>
+					</Test>
+					<Test name="42">
+						<TestInstance/>
+					</Test>
+					<Test name="43">
+						<TestInstance/>
+					</Test>
+					<Test name="44">
+						<TestInstance/>
+					</Test>
+					<Test name="45">
+						<TestInstance/>
+					</Test>
+					<Test name="46">
+						<TestInstance/>
+					</Test>
+					<Test name="47">
+						<TestInstance/>
+					</Test>
+					<Test name="48">
+						<TestInstance/>
+					</Test>
+					<Test name="49">
+						<TestInstance/>
+					</Test>
+					<Test name="50">
+						<TestInstance/>
+					</Test>
+					<Test name="51">
+						<TestInstance/>
+					</Test>
+					<Test name="52">
+						<TestInstance/>
+					</Test>
+					<Test name="53">
+						<TestInstance/>
+					</Test>
+					<Test name="54">
+						<TestInstance/>
+					</Test>
+					<Test name="55">
+						<TestInstance/>
+					</Test>
+					<Test name="56">
+						<TestInstance/>
+					</Test>
+					<Test name="57">
+						<TestInstance/>
+					</Test>
+					<Test name="58">
+						<TestInstance/>
+					</Test>
+					<Test name="59">
+						<TestInstance/>
+					</Test>
+					<Test name="60">
+						<TestInstance/>
+					</Test>
+					<Test name="61">
+						<TestInstance/>
+					</Test>
+					<Test name="62">
+						<TestInstance/>
+					</Test>
+					<Test name="63">
+						<TestInstance/>
+					</Test>
+					<Test name="64">
+						<TestInstance/>
+					</Test>
+					<Test name="65">
+						<TestInstance/>
+					</Test>
+					<Test name="66">
+						<TestInstance/>
+					</Test>
+					<Test name="67">
+						<TestInstance/>
+					</Test>
+					<Test name="68">
+						<TestInstance/>
+					</Test>
+					<Test name="69">
+						<TestInstance/>
+					</Test>
+					<Test name="70">
+						<TestInstance/>
+					</Test>
+					<Test name="71">
+						<TestInstance/>
+					</Test>
+					<Test name="72">
+						<TestInstance/>
+					</Test>
+					<Test name="73">
+						<TestInstance/>
+					</Test>
+					<Test name="74">
+						<TestInstance/>
+					</Test>
+					<Test name="75">
+						<TestInstance/>
+					</Test>
+					<Test name="76">
+						<TestInstance/>
+					</Test>
+					<Test name="77">
+						<TestInstance/>
+					</Test>
+					<Test name="78">
+						<TestInstance/>
+					</Test>
+					<Test name="79">
+						<TestInstance/>
+					</Test>
+					<Test name="80">
+						<TestInstance/>
+					</Test>
+					<Test name="81">
+						<TestInstance/>
+					</Test>
+					<Test name="82">
+						<TestInstance/>
+					</Test>
+					<Test name="83">
+						<TestInstance/>
+					</Test>
+					<Test name="84">
+						<TestInstance/>
+					</Test>
+					<Test name="85">
+						<TestInstance/>
+					</Test>
+					<Test name="86">
+						<TestInstance/>
+					</Test>
+					<Test name="87">
+						<TestInstance/>
+					</Test>
+					<Test name="88">
+						<TestInstance/>
+					</Test>
+					<Test name="89">
+						<TestInstance/>
+					</Test>
+					<Test name="90">
+						<TestInstance/>
+					</Test>
+					<Test name="91">
+						<TestInstance/>
+					</Test>
+					<Test name="92">
+						<TestInstance/>
+					</Test>
+					<Test name="93">
+						<TestInstance/>
+					</Test>
+					<Test name="94">
+						<TestInstance/>
+					</Test>
+					<Test name="95">
+						<TestInstance/>
+					</Test>
+					<Test name="96">
+						<TestInstance/>
+					</Test>
+					<Test name="97">
+						<TestInstance/>
+					</Test>
+					<Test name="98">
+						<TestInstance/>
+					</Test>
+					<Test name="99">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+			<TestSuite name="mapping">
+				<TestSuite name="full">
+					<TestCase name="33">
+						<Test name="simple">
+							<TestInstance/>
+						</Test>
+						<Test name="remap">
+							<TestInstance/>
+						</Test>
+						<Test name="flush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_overlapping">
+							<TestInstance/>
+						</Test>
+						<Test name="invalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_overlapping">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="257">
+						<Test name="simple">
+							<TestInstance/>
+						</Test>
+						<Test name="remap">
+							<TestInstance/>
+						</Test>
+						<Test name="flush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_overlapping">
+							<TestInstance/>
+						</Test>
+						<Test name="invalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_overlapping">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="4087">
+						<Test name="simple">
+							<TestInstance/>
+						</Test>
+						<Test name="remap">
+							<TestInstance/>
+						</Test>
+						<Test name="flush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_overlapping">
+							<TestInstance/>
+						</Test>
+						<Test name="invalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_overlapping">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="8095">
+						<Test name="simple">
+							<TestInstance/>
+						</Test>
+						<Test name="remap">
+							<TestInstance/>
+						</Test>
+						<Test name="flush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_overlapping">
+							<TestInstance/>
+						</Test>
+						<Test name="invalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_overlapping">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="1048577">
+						<Test name="simple">
+							<TestInstance/>
+						</Test>
+						<Test name="remap">
+							<TestInstance/>
+						</Test>
+						<Test name="flush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subflush_overlapping">
+							<TestInstance/>
+						</Test>
+						<Test name="invalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_separate">
+							<TestInstance/>
+						</Test>
+						<Test name="subinvalidate_overlapping">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sub">
+					<TestSuite name="33">
+						<TestSuite name="offset_0">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+					</TestSuite>
+					<TestSuite name="257">
+						<TestSuite name="offset_0">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_17">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_129">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+					</TestSuite>
+					<TestSuite name="4087">
+						<TestSuite name="offset_0">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_17">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_129">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_255">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_1025">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+					</TestSuite>
+					<TestSuite name="8095">
+						<TestSuite name="offset_0">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_17">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_129">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_255">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_1025">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+					</TestSuite>
+					<TestSuite name="1048577">
+						<TestSuite name="offset_0">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1048575">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_17">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_129">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_255">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_1025">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+						<TestSuite name="offset_32769">
+							<TestCase name="size_31">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_255">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_1025">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+							<TestCase name="size_4085">
+								<Test name="simple">
+									<TestInstance/>
+								</Test>
+								<Test name="remap">
+									<TestInstance/>
+								</Test>
+								<Test name="flush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subflush_overlapping">
+									<TestInstance/>
+								</Test>
+								<Test name="invalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_separate">
+									<TestInstance/>
+								</Test>
+								<Test name="subinvalidate_overlapping">
+									<TestInstance/>
+								</Test>
+							</TestCase>
+						</TestSuite>
+					</TestSuite>
+				</TestSuite>
+				<TestCase name="random">
+					<Test name="0">
+						<TestInstance/>
+					</Test>
+					<Test name="1">
+						<TestInstance/>
+					</Test>
+					<Test name="2">
+						<TestInstance/>
+					</Test>
+					<Test name="3">
+						<TestInstance/>
+					</Test>
+					<Test name="4">
+						<TestInstance/>
+					</Test>
+					<Test name="5">
+						<TestInstance/>
+					</Test>
+					<Test name="6">
+						<TestInstance/>
+					</Test>
+					<Test name="7">
+						<TestInstance/>
+					</Test>
+					<Test name="8">
+						<TestInstance/>
+					</Test>
+					<Test name="9">
+						<TestInstance/>
+					</Test>
+					<Test name="10">
+						<TestInstance/>
+					</Test>
+					<Test name="11">
+						<TestInstance/>
+					</Test>
+					<Test name="12">
+						<TestInstance/>
+					</Test>
+					<Test name="13">
+						<TestInstance/>
+					</Test>
+					<Test name="14">
+						<TestInstance/>
+					</Test>
+					<Test name="15">
+						<TestInstance/>
+					</Test>
+					<Test name="16">
+						<TestInstance/>
+					</Test>
+					<Test name="17">
+						<TestInstance/>
+					</Test>
+					<Test name="18">
+						<TestInstance/>
+					</Test>
+					<Test name="19">
+						<TestInstance/>
+					</Test>
+					<Test name="20">
+						<TestInstance/>
+					</Test>
+					<Test name="21">
+						<TestInstance/>
+					</Test>
+					<Test name="22">
+						<TestInstance/>
+					</Test>
+					<Test name="23">
+						<TestInstance/>
+					</Test>
+					<Test name="24">
+						<TestInstance/>
+					</Test>
+					<Test name="25">
+						<TestInstance/>
+					</Test>
+					<Test name="26">
+						<TestInstance/>
+					</Test>
+					<Test name="27">
+						<TestInstance/>
+					</Test>
+					<Test name="28">
+						<TestInstance/>
+					</Test>
+					<Test name="29">
+						<TestInstance/>
+					</Test>
+					<Test name="30">
+						<TestInstance/>
+					</Test>
+					<Test name="31">
+						<TestInstance/>
+					</Test>
+					<Test name="32">
+						<TestInstance/>
+					</Test>
+					<Test name="33">
+						<TestInstance/>
+					</Test>
+					<Test name="34">
+						<TestInstance/>
+					</Test>
+					<Test name="35">
+						<TestInstance/>
+					</Test>
+					<Test name="36">
+						<TestInstance/>
+					</Test>
+					<Test name="37">
+						<TestInstance/>
+					</Test>
+					<Test name="38">
+						<TestInstance/>
+					</Test>
+					<Test name="39">
+						<TestInstance/>
+					</Test>
+					<Test name="40">
+						<TestInstance/>
+					</Test>
+					<Test name="41">
+						<TestInstance/>
+					</Test>
+					<Test name="42">
+						<TestInstance/>
+					</Test>
+					<Test name="43">
+						<TestInstance/>
+					</Test>
+					<Test name="44">
+						<TestInstance/>
+					</Test>
+					<Test name="45">
+						<TestInstance/>
+					</Test>
+					<Test name="46">
+						<TestInstance/>
+					</Test>
+					<Test name="47">
+						<TestInstance/>
+					</Test>
+					<Test name="48">
+						<TestInstance/>
+					</Test>
+					<Test name="49">
+						<TestInstance/>
+					</Test>
+					<Test name="50">
+						<TestInstance/>
+					</Test>
+					<Test name="51">
+						<TestInstance/>
+					</Test>
+					<Test name="52">
+						<TestInstance/>
+					</Test>
+					<Test name="53">
+						<TestInstance/>
+					</Test>
+					<Test name="54">
+						<TestInstance/>
+					</Test>
+					<Test name="55">
+						<TestInstance/>
+					</Test>
+					<Test name="56">
+						<TestInstance/>
+					</Test>
+					<Test name="57">
+						<TestInstance/>
+					</Test>
+					<Test name="58">
+						<TestInstance/>
+					</Test>
+					<Test name="59">
+						<TestInstance/>
+					</Test>
+					<Test name="60">
+						<TestInstance/>
+					</Test>
+					<Test name="61">
+						<TestInstance/>
+					</Test>
+					<Test name="62">
+						<TestInstance/>
+					</Test>
+					<Test name="63">
+						<TestInstance/>
+					</Test>
+					<Test name="64">
+						<TestInstance/>
+					</Test>
+					<Test name="65">
+						<TestInstance/>
+					</Test>
+					<Test name="66">
+						<TestInstance/>
+					</Test>
+					<Test name="67">
+						<TestInstance/>
+					</Test>
+					<Test name="68">
+						<TestInstance/>
+					</Test>
+					<Test name="69">
+						<TestInstance/>
+					</Test>
+					<Test name="70">
+						<TestInstance/>
+					</Test>
+					<Test name="71">
+						<TestInstance/>
+					</Test>
+					<Test name="72">
+						<TestInstance/>
+					</Test>
+					<Test name="73">
+						<TestInstance/>
+					</Test>
+					<Test name="74">
+						<TestInstance/>
+					</Test>
+					<Test name="75">
+						<TestInstance/>
+					</Test>
+					<Test name="76">
+						<TestInstance/>
+					</Test>
+					<Test name="77">
+						<TestInstance/>
+					</Test>
+					<Test name="78">
+						<TestInstance/>
+					</Test>
+					<Test name="79">
+						<TestInstance/>
+					</Test>
+					<Test name="80">
+						<TestInstance/>
+					</Test>
+					<Test name="81">
+						<TestInstance/>
+					</Test>
+					<Test name="82">
+						<TestInstance/>
+					</Test>
+					<Test name="83">
+						<TestInstance/>
+					</Test>
+					<Test name="84">
+						<TestInstance/>
+					</Test>
+					<Test name="85">
+						<TestInstance/>
+					</Test>
+					<Test name="86">
+						<TestInstance/>
+					</Test>
+					<Test name="87">
+						<TestInstance/>
+					</Test>
+					<Test name="88">
+						<TestInstance/>
+					</Test>
+					<Test name="89">
+						<TestInstance/>
+					</Test>
+					<Test name="90">
+						<TestInstance/>
+					</Test>
+					<Test name="91">
+						<TestInstance/>
+					</Test>
+					<Test name="92">
+						<TestInstance/>
+					</Test>
+					<Test name="93">
+						<TestInstance/>
+					</Test>
+					<Test name="94">
+						<TestInstance/>
+					</Test>
+					<Test name="95">
+						<TestInstance/>
+					</Test>
+					<Test name="96">
+						<TestInstance/>
+					</Test>
+					<Test name="97">
+						<TestInstance/>
+					</Test>
+					<Test name="98">
+						<TestInstance/>
+					</Test>
+					<Test name="99">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+			<TestSuite name="pipeline_barrier">
+				<TestCase name="host_read_host_write">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_transfer_src">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_vertex_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_write_index_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="host_read_transfer_dst">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_src_transfer_dst">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_vertex_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="transfer_dst_index_buffer">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="all">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="all_device">
+					<Test name="1024">
+						<TestInstance/>
+					</Test>
+					<Test name="8192">
+						<TestInstance/>
+					</Test>
+					<Test name="65536">
+						<TestInstance/>
+					</Test>
+					<Test name="1048576">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
+		</TestSuite>
 		<TestSuite name="pipeline">
 			<TestSuite name="stencil">
 				<TestSuite name="format">
@@ -306281,3464 +309739,6 @@
 						<TestInstance/>
 					</Test>
 					<Test name="99">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-			</TestSuite>
-		</TestSuite>
-		<TestSuite name="memory">
-			<TestSuite name="allocation">
-				<TestSuite name="basic">
-					<TestSuite name="size_64">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_128">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_256">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_512">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_1KiB">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_4KiB">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-							<Test name="count_4000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-							<Test name="count_4000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-							<Test name="count_4000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_8KiB">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-							<Test name="count_4000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-							<Test name="count_4000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_100">
-								<TestInstance/>
-							</Test>
-							<Test name="count_1000">
-								<TestInstance/>
-							</Test>
-							<Test name="count_4000">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="size_1MiB">
-						<TestCase name="forward">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_50">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_50">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_1">
-								<TestInstance/>
-							</Test>
-							<Test name="count_10">
-								<TestInstance/>
-							</Test>
-							<Test name="count_50">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-					<TestSuite name="percent_1">
-						<TestCase name="forward">
-							<Test name="count_12">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="reverse">
-							<Test name="count_12">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-						<TestCase name="mixed">
-							<Test name="count_12">
-								<TestInstance/>
-							</Test>
-						</TestCase>
-					</TestSuite>
-				</TestSuite>
-				<TestCase name="random">
-					<Test name="0">
-						<TestInstance/>
-					</Test>
-					<Test name="1">
-						<TestInstance/>
-					</Test>
-					<Test name="2">
-						<TestInstance/>
-					</Test>
-					<Test name="3">
-						<TestInstance/>
-					</Test>
-					<Test name="4">
-						<TestInstance/>
-					</Test>
-					<Test name="5">
-						<TestInstance/>
-					</Test>
-					<Test name="6">
-						<TestInstance/>
-					</Test>
-					<Test name="7">
-						<TestInstance/>
-					</Test>
-					<Test name="8">
-						<TestInstance/>
-					</Test>
-					<Test name="9">
-						<TestInstance/>
-					</Test>
-					<Test name="10">
-						<TestInstance/>
-					</Test>
-					<Test name="11">
-						<TestInstance/>
-					</Test>
-					<Test name="12">
-						<TestInstance/>
-					</Test>
-					<Test name="13">
-						<TestInstance/>
-					</Test>
-					<Test name="14">
-						<TestInstance/>
-					</Test>
-					<Test name="15">
-						<TestInstance/>
-					</Test>
-					<Test name="16">
-						<TestInstance/>
-					</Test>
-					<Test name="17">
-						<TestInstance/>
-					</Test>
-					<Test name="18">
-						<TestInstance/>
-					</Test>
-					<Test name="19">
-						<TestInstance/>
-					</Test>
-					<Test name="20">
-						<TestInstance/>
-					</Test>
-					<Test name="21">
-						<TestInstance/>
-					</Test>
-					<Test name="22">
-						<TestInstance/>
-					</Test>
-					<Test name="23">
-						<TestInstance/>
-					</Test>
-					<Test name="24">
-						<TestInstance/>
-					</Test>
-					<Test name="25">
-						<TestInstance/>
-					</Test>
-					<Test name="26">
-						<TestInstance/>
-					</Test>
-					<Test name="27">
-						<TestInstance/>
-					</Test>
-					<Test name="28">
-						<TestInstance/>
-					</Test>
-					<Test name="29">
-						<TestInstance/>
-					</Test>
-					<Test name="30">
-						<TestInstance/>
-					</Test>
-					<Test name="31">
-						<TestInstance/>
-					</Test>
-					<Test name="32">
-						<TestInstance/>
-					</Test>
-					<Test name="33">
-						<TestInstance/>
-					</Test>
-					<Test name="34">
-						<TestInstance/>
-					</Test>
-					<Test name="35">
-						<TestInstance/>
-					</Test>
-					<Test name="36">
-						<TestInstance/>
-					</Test>
-					<Test name="37">
-						<TestInstance/>
-					</Test>
-					<Test name="38">
-						<TestInstance/>
-					</Test>
-					<Test name="39">
-						<TestInstance/>
-					</Test>
-					<Test name="40">
-						<TestInstance/>
-					</Test>
-					<Test name="41">
-						<TestInstance/>
-					</Test>
-					<Test name="42">
-						<TestInstance/>
-					</Test>
-					<Test name="43">
-						<TestInstance/>
-					</Test>
-					<Test name="44">
-						<TestInstance/>
-					</Test>
-					<Test name="45">
-						<TestInstance/>
-					</Test>
-					<Test name="46">
-						<TestInstance/>
-					</Test>
-					<Test name="47">
-						<TestInstance/>
-					</Test>
-					<Test name="48">
-						<TestInstance/>
-					</Test>
-					<Test name="49">
-						<TestInstance/>
-					</Test>
-					<Test name="50">
-						<TestInstance/>
-					</Test>
-					<Test name="51">
-						<TestInstance/>
-					</Test>
-					<Test name="52">
-						<TestInstance/>
-					</Test>
-					<Test name="53">
-						<TestInstance/>
-					</Test>
-					<Test name="54">
-						<TestInstance/>
-					</Test>
-					<Test name="55">
-						<TestInstance/>
-					</Test>
-					<Test name="56">
-						<TestInstance/>
-					</Test>
-					<Test name="57">
-						<TestInstance/>
-					</Test>
-					<Test name="58">
-						<TestInstance/>
-					</Test>
-					<Test name="59">
-						<TestInstance/>
-					</Test>
-					<Test name="60">
-						<TestInstance/>
-					</Test>
-					<Test name="61">
-						<TestInstance/>
-					</Test>
-					<Test name="62">
-						<TestInstance/>
-					</Test>
-					<Test name="63">
-						<TestInstance/>
-					</Test>
-					<Test name="64">
-						<TestInstance/>
-					</Test>
-					<Test name="65">
-						<TestInstance/>
-					</Test>
-					<Test name="66">
-						<TestInstance/>
-					</Test>
-					<Test name="67">
-						<TestInstance/>
-					</Test>
-					<Test name="68">
-						<TestInstance/>
-					</Test>
-					<Test name="69">
-						<TestInstance/>
-					</Test>
-					<Test name="70">
-						<TestInstance/>
-					</Test>
-					<Test name="71">
-						<TestInstance/>
-					</Test>
-					<Test name="72">
-						<TestInstance/>
-					</Test>
-					<Test name="73">
-						<TestInstance/>
-					</Test>
-					<Test name="74">
-						<TestInstance/>
-					</Test>
-					<Test name="75">
-						<TestInstance/>
-					</Test>
-					<Test name="76">
-						<TestInstance/>
-					</Test>
-					<Test name="77">
-						<TestInstance/>
-					</Test>
-					<Test name="78">
-						<TestInstance/>
-					</Test>
-					<Test name="79">
-						<TestInstance/>
-					</Test>
-					<Test name="80">
-						<TestInstance/>
-					</Test>
-					<Test name="81">
-						<TestInstance/>
-					</Test>
-					<Test name="82">
-						<TestInstance/>
-					</Test>
-					<Test name="83">
-						<TestInstance/>
-					</Test>
-					<Test name="84">
-						<TestInstance/>
-					</Test>
-					<Test name="85">
-						<TestInstance/>
-					</Test>
-					<Test name="86">
-						<TestInstance/>
-					</Test>
-					<Test name="87">
-						<TestInstance/>
-					</Test>
-					<Test name="88">
-						<TestInstance/>
-					</Test>
-					<Test name="89">
-						<TestInstance/>
-					</Test>
-					<Test name="90">
-						<TestInstance/>
-					</Test>
-					<Test name="91">
-						<TestInstance/>
-					</Test>
-					<Test name="92">
-						<TestInstance/>
-					</Test>
-					<Test name="93">
-						<TestInstance/>
-					</Test>
-					<Test name="94">
-						<TestInstance/>
-					</Test>
-					<Test name="95">
-						<TestInstance/>
-					</Test>
-					<Test name="96">
-						<TestInstance/>
-					</Test>
-					<Test name="97">
-						<TestInstance/>
-					</Test>
-					<Test name="98">
-						<TestInstance/>
-					</Test>
-					<Test name="99">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-			</TestSuite>
-			<TestSuite name="mapping">
-				<TestSuite name="full">
-					<TestCase name="33">
-						<Test name="simple">
-							<TestInstance/>
-						</Test>
-						<Test name="remap">
-							<TestInstance/>
-						</Test>
-						<Test name="flush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_overlapping">
-							<TestInstance/>
-						</Test>
-						<Test name="invalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_overlapping">
-							<TestInstance/>
-						</Test>
-					</TestCase>
-					<TestCase name="257">
-						<Test name="simple">
-							<TestInstance/>
-						</Test>
-						<Test name="remap">
-							<TestInstance/>
-						</Test>
-						<Test name="flush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_overlapping">
-							<TestInstance/>
-						</Test>
-						<Test name="invalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_overlapping">
-							<TestInstance/>
-						</Test>
-					</TestCase>
-					<TestCase name="4087">
-						<Test name="simple">
-							<TestInstance/>
-						</Test>
-						<Test name="remap">
-							<TestInstance/>
-						</Test>
-						<Test name="flush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_overlapping">
-							<TestInstance/>
-						</Test>
-						<Test name="invalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_overlapping">
-							<TestInstance/>
-						</Test>
-					</TestCase>
-					<TestCase name="8095">
-						<Test name="simple">
-							<TestInstance/>
-						</Test>
-						<Test name="remap">
-							<TestInstance/>
-						</Test>
-						<Test name="flush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_overlapping">
-							<TestInstance/>
-						</Test>
-						<Test name="invalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_overlapping">
-							<TestInstance/>
-						</Test>
-					</TestCase>
-					<TestCase name="1048577">
-						<Test name="simple">
-							<TestInstance/>
-						</Test>
-						<Test name="remap">
-							<TestInstance/>
-						</Test>
-						<Test name="flush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subflush_overlapping">
-							<TestInstance/>
-						</Test>
-						<Test name="invalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_separate">
-							<TestInstance/>
-						</Test>
-						<Test name="subinvalidate_overlapping">
-							<TestInstance/>
-						</Test>
-					</TestCase>
-				</TestSuite>
-				<TestSuite name="sub">
-					<TestSuite name="33">
-						<TestSuite name="offset_0">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-					</TestSuite>
-					<TestSuite name="257">
-						<TestSuite name="offset_0">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_17">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_129">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-					</TestSuite>
-					<TestSuite name="4087">
-						<TestSuite name="offset_0">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_17">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_129">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_255">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_1025">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-					</TestSuite>
-					<TestSuite name="8095">
-						<TestSuite name="offset_0">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_17">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_129">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_255">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_1025">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-					</TestSuite>
-					<TestSuite name="1048577">
-						<TestSuite name="offset_0">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1048575">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_17">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_129">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_255">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_1025">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-						<TestSuite name="offset_32769">
-							<TestCase name="size_31">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_255">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_1025">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-							<TestCase name="size_4085">
-								<Test name="simple">
-									<TestInstance/>
-								</Test>
-								<Test name="remap">
-									<TestInstance/>
-								</Test>
-								<Test name="flush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subflush_overlapping">
-									<TestInstance/>
-								</Test>
-								<Test name="invalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_separate">
-									<TestInstance/>
-								</Test>
-								<Test name="subinvalidate_overlapping">
-									<TestInstance/>
-								</Test>
-							</TestCase>
-						</TestSuite>
-					</TestSuite>
-				</TestSuite>
-				<TestCase name="random">
-					<Test name="0">
-						<TestInstance/>
-					</Test>
-					<Test name="1">
-						<TestInstance/>
-					</Test>
-					<Test name="2">
-						<TestInstance/>
-					</Test>
-					<Test name="3">
-						<TestInstance/>
-					</Test>
-					<Test name="4">
-						<TestInstance/>
-					</Test>
-					<Test name="5">
-						<TestInstance/>
-					</Test>
-					<Test name="6">
-						<TestInstance/>
-					</Test>
-					<Test name="7">
-						<TestInstance/>
-					</Test>
-					<Test name="8">
-						<TestInstance/>
-					</Test>
-					<Test name="9">
-						<TestInstance/>
-					</Test>
-					<Test name="10">
-						<TestInstance/>
-					</Test>
-					<Test name="11">
-						<TestInstance/>
-					</Test>
-					<Test name="12">
-						<TestInstance/>
-					</Test>
-					<Test name="13">
-						<TestInstance/>
-					</Test>
-					<Test name="14">
-						<TestInstance/>
-					</Test>
-					<Test name="15">
-						<TestInstance/>
-					</Test>
-					<Test name="16">
-						<TestInstance/>
-					</Test>
-					<Test name="17">
-						<TestInstance/>
-					</Test>
-					<Test name="18">
-						<TestInstance/>
-					</Test>
-					<Test name="19">
-						<TestInstance/>
-					</Test>
-					<Test name="20">
-						<TestInstance/>
-					</Test>
-					<Test name="21">
-						<TestInstance/>
-					</Test>
-					<Test name="22">
-						<TestInstance/>
-					</Test>
-					<Test name="23">
-						<TestInstance/>
-					</Test>
-					<Test name="24">
-						<TestInstance/>
-					</Test>
-					<Test name="25">
-						<TestInstance/>
-					</Test>
-					<Test name="26">
-						<TestInstance/>
-					</Test>
-					<Test name="27">
-						<TestInstance/>
-					</Test>
-					<Test name="28">
-						<TestInstance/>
-					</Test>
-					<Test name="29">
-						<TestInstance/>
-					</Test>
-					<Test name="30">
-						<TestInstance/>
-					</Test>
-					<Test name="31">
-						<TestInstance/>
-					</Test>
-					<Test name="32">
-						<TestInstance/>
-					</Test>
-					<Test name="33">
-						<TestInstance/>
-					</Test>
-					<Test name="34">
-						<TestInstance/>
-					</Test>
-					<Test name="35">
-						<TestInstance/>
-					</Test>
-					<Test name="36">
-						<TestInstance/>
-					</Test>
-					<Test name="37">
-						<TestInstance/>
-					</Test>
-					<Test name="38">
-						<TestInstance/>
-					</Test>
-					<Test name="39">
-						<TestInstance/>
-					</Test>
-					<Test name="40">
-						<TestInstance/>
-					</Test>
-					<Test name="41">
-						<TestInstance/>
-					</Test>
-					<Test name="42">
-						<TestInstance/>
-					</Test>
-					<Test name="43">
-						<TestInstance/>
-					</Test>
-					<Test name="44">
-						<TestInstance/>
-					</Test>
-					<Test name="45">
-						<TestInstance/>
-					</Test>
-					<Test name="46">
-						<TestInstance/>
-					</Test>
-					<Test name="47">
-						<TestInstance/>
-					</Test>
-					<Test name="48">
-						<TestInstance/>
-					</Test>
-					<Test name="49">
-						<TestInstance/>
-					</Test>
-					<Test name="50">
-						<TestInstance/>
-					</Test>
-					<Test name="51">
-						<TestInstance/>
-					</Test>
-					<Test name="52">
-						<TestInstance/>
-					</Test>
-					<Test name="53">
-						<TestInstance/>
-					</Test>
-					<Test name="54">
-						<TestInstance/>
-					</Test>
-					<Test name="55">
-						<TestInstance/>
-					</Test>
-					<Test name="56">
-						<TestInstance/>
-					</Test>
-					<Test name="57">
-						<TestInstance/>
-					</Test>
-					<Test name="58">
-						<TestInstance/>
-					</Test>
-					<Test name="59">
-						<TestInstance/>
-					</Test>
-					<Test name="60">
-						<TestInstance/>
-					</Test>
-					<Test name="61">
-						<TestInstance/>
-					</Test>
-					<Test name="62">
-						<TestInstance/>
-					</Test>
-					<Test name="63">
-						<TestInstance/>
-					</Test>
-					<Test name="64">
-						<TestInstance/>
-					</Test>
-					<Test name="65">
-						<TestInstance/>
-					</Test>
-					<Test name="66">
-						<TestInstance/>
-					</Test>
-					<Test name="67">
-						<TestInstance/>
-					</Test>
-					<Test name="68">
-						<TestInstance/>
-					</Test>
-					<Test name="69">
-						<TestInstance/>
-					</Test>
-					<Test name="70">
-						<TestInstance/>
-					</Test>
-					<Test name="71">
-						<TestInstance/>
-					</Test>
-					<Test name="72">
-						<TestInstance/>
-					</Test>
-					<Test name="73">
-						<TestInstance/>
-					</Test>
-					<Test name="74">
-						<TestInstance/>
-					</Test>
-					<Test name="75">
-						<TestInstance/>
-					</Test>
-					<Test name="76">
-						<TestInstance/>
-					</Test>
-					<Test name="77">
-						<TestInstance/>
-					</Test>
-					<Test name="78">
-						<TestInstance/>
-					</Test>
-					<Test name="79">
-						<TestInstance/>
-					</Test>
-					<Test name="80">
-						<TestInstance/>
-					</Test>
-					<Test name="81">
-						<TestInstance/>
-					</Test>
-					<Test name="82">
-						<TestInstance/>
-					</Test>
-					<Test name="83">
-						<TestInstance/>
-					</Test>
-					<Test name="84">
-						<TestInstance/>
-					</Test>
-					<Test name="85">
-						<TestInstance/>
-					</Test>
-					<Test name="86">
-						<TestInstance/>
-					</Test>
-					<Test name="87">
-						<TestInstance/>
-					</Test>
-					<Test name="88">
-						<TestInstance/>
-					</Test>
-					<Test name="89">
-						<TestInstance/>
-					</Test>
-					<Test name="90">
-						<TestInstance/>
-					</Test>
-					<Test name="91">
-						<TestInstance/>
-					</Test>
-					<Test name="92">
-						<TestInstance/>
-					</Test>
-					<Test name="93">
-						<TestInstance/>
-					</Test>
-					<Test name="94">
-						<TestInstance/>
-					</Test>
-					<Test name="95">
-						<TestInstance/>
-					</Test>
-					<Test name="96">
-						<TestInstance/>
-					</Test>
-					<Test name="97">
-						<TestInstance/>
-					</Test>
-					<Test name="98">
-						<TestInstance/>
-					</Test>
-					<Test name="99">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-			</TestSuite>
-			<TestSuite name="pipeline_barrier">
-				<TestCase name="host_read_host_write">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="host_write_transfer_src">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="host_write_vertex_buffer">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="host_write_index_buffer">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="host_read_transfer_dst">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="transfer_src_transfer_dst">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="transfer_dst_vertex_buffer">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="transfer_dst_index_buffer">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="all">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
-						<TestInstance/>
-					</Test>
-				</TestCase>
-				<TestCase name="all_device">
-					<Test name="1024">
-						<TestInstance/>
-					</Test>
-					<Test name="8192">
-						<TestInstance/>
-					</Test>
-					<Test name="65536">
-						<TestInstance/>
-					</Test>
-					<Test name="1048576">
 						<TestInstance/>
 					</Test>
 				</TestCase>
