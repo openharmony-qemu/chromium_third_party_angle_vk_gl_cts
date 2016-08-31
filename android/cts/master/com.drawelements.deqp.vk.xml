@@ -225136,6 +225136,12 @@
 					<Test name="data_update_multiple">
 						<TestInstance/>
 					</Test>
+					<Test name="dynamic_index_vert">
+						<TestInstance/>
+					</Test>
+					<Test name="dynamic_index_frag">
+						<TestInstance/>
+					</Test>
 				</TestCase>
 				<TestCase name="compute_pipeline">
 					<Test name="simple_test">
