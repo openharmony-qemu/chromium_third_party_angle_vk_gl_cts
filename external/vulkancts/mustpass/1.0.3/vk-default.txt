@@ -179241,6 +179241,10 @@ dEQP-VK.ssbo.layout.random.all_shared_buffer.46
 dEQP-VK.ssbo.layout.random.all_shared_buffer.47
 dEQP-VK.ssbo.layout.random.all_shared_buffer.48
 dEQP-VK.ssbo.layout.random.all_shared_buffer.49
+dEQP-VK.ssbo.unsized_array_length.float_no_offset_explicit_size
+dEQP-VK.ssbo.unsized_array_length.float_no_offset_whole_size
+dEQP-VK.ssbo.unsized_array_length.float_offset_explicit_size
+dEQP-VK.ssbo.unsized_array_length.float_offset_whole_size
 dEQP-VK.query_pool.occlusion_query.basic_conservative
 dEQP-VK.query_pool.occlusion_query.basic_precise
 dEQP-VK.query_pool.occlusion_query.get_results_conservative_size_32_wait_queue_without_availability_draw_points
