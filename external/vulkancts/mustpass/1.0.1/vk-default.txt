@@ -86032,7 +86032,7 @@ dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.depth32f.base_l
 dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.depth32f.base_level.sparse_level_1
 dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.depth32f.base_level.level_2
 dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.depth32f.base_level.sparse_level_2
-dEQP-VK.glsl.builtin_var.simple.frontfacing
+dEQP-VK.glsl.builtin_var.frontfacing.triangle_list
 dEQP-VK.glsl.builtin.function.common.abs.float_mediump_vertex
 dEQP-VK.glsl.builtin.function.common.abs.float_mediump_fragment
 dEQP-VK.glsl.builtin.function.common.abs.float_mediump_geometry
