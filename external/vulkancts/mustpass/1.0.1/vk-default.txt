@@ -64643,6 +64643,8 @@ dEQP-VK.pipeline.push_constant.graphics_pipeline.count_1_shader_vert_frag
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_partial_1
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_partial_2
 dEQP-VK.pipeline.push_constant.graphics_pipeline.data_update_multiple
+dEQP-VK.pipeline.push_constant.graphics_pipeline.dynamic_index_vert
+dEQP-VK.pipeline.push_constant.graphics_pipeline.dynamic_index_frag
 dEQP-VK.pipeline.push_constant.compute_pipeline.simple_test
 dEQP-VK.pipeline.spec_constant.graphics.vertex.default_value.bool
 dEQP-VK.pipeline.spec_constant.graphics.vertex.default_value.int
