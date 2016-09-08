@@ -228326,6 +228326,15 @@
 						<Test name="primitive_point">
 							<TestInstance/>
 						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="samples_4">
 						<Test name="primitive_triangle">
@@ -228335,6 +228344,15 @@
 							<TestInstance/>
 						</Test>
 						<Test name="primitive_point">
+							<TestInstance/>
+						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
 							<TestInstance/>
 						</Test>
 					</TestCase>
@@ -228348,6 +228366,15 @@
 						<Test name="primitive_point">
 							<TestInstance/>
 						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="samples_16">
 						<Test name="primitive_triangle">
@@ -228357,6 +228384,15 @@
 							<TestInstance/>
 						</Test>
 						<Test name="primitive_point">
+							<TestInstance/>
+						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
 							<TestInstance/>
 						</Test>
 					</TestCase>
@@ -228370,6 +228406,15 @@
 						<Test name="primitive_point">
 							<TestInstance/>
 						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="samples_64">
 						<Test name="primitive_triangle">
@@ -228379,6 +228424,15 @@
 							<TestInstance/>
 						</Test>
 						<Test name="primitive_point">
+							<TestInstance/>
+						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
 							<TestInstance/>
 						</Test>
 					</TestCase>
