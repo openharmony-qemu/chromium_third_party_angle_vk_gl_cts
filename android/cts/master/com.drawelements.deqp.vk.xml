@@ -299837,11 +299837,48 @@
 					</TestSuite>
 				</TestSuite>
 			</TestSuite>
-			<TestCase name="builtin_var">
-				<Test name="gl_frontfacing">
-					<TestInstance/>
-				</Test>
-			</TestCase>
+			<TestSuite name="builtin_var">
+				<TestCase name="simple">
+					<Test name="frontfacing">
+						<TestInstance/>
+					</Test>
+					<Test name="fragcoord_xyz">
+						<TestInstance/>
+					</Test>
+					<Test name="fragcoord_w">
+						<TestInstance/>
+					</Test>
+					<Test name="pointcoord">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="input_variations">
+					<Test name="input_none">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin">
+						<TestInstance/>
+					</Test>
+					<Test name="input_varying">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin_varying">
+						<TestInstance/>
+					</Test>
+					<Test name="input_constant">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin_constant">
+						<TestInstance/>
+					</Test>
+					<Test name="input_varying_constant">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin_varying_constant">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
 			<TestSuite name="builtin">
 				<TestSuite name="function">
 					<TestSuite name="common">
