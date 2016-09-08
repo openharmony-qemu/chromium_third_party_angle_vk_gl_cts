@@ -79449,6 +79449,12 @@ dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.float.matrix_3x
 dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.float.matrix_4x2
 dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.float.matrix_4x3
 dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.float.matrix_4x4
+dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.int.initialized
+dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.int.uninitialized
+dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.uint.initialized
+dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.uint.uninitialized
+dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.float.initialized
+dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.float.uninitialized
 dEQP-VK.spirv_assembly.instruction.graphics.opnop.opnop_vert
 dEQP-VK.spirv_assembly.instruction.graphics.opnop.opnop_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opnop.opnop_tesse
