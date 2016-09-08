@@ -11687,6 +11687,12 @@
 				<Test name="record_simul_use_secondary">
 					<TestInstance/>
 				</Test>
+				<Test name="record_simul_use_secondary_one_primary">
+					<TestInstance/>
+				</Test>
+				<Test name="record_simul_use_secondary_two_primary">
+					<TestInstance/>
+				</Test>
 				<Test name="record_query_precise_w_flag">
 					<TestInstance/>
 				</Test>
