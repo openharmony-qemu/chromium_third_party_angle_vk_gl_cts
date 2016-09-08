@@ -11687,6 +11687,12 @@
 				<Test name="record_simul_use_secondary">
 					<TestInstance/>
 				</Test>
+				<Test name="record_simul_use_secondary_one_primary">
+					<TestInstance/>
+				</Test>
+				<Test name="record_simul_use_secondary_two_primary">
+					<TestInstance/>
+				</Test>
 				<Test name="record_query_precise_w_flag">
 					<TestInstance/>
 				</Test>
@@ -139125,10 +139131,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139144,10 +139165,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139163,10 +139199,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139182,10 +139233,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139201,10 +139267,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139220,10 +139301,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139239,10 +139335,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139258,10 +139369,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139277,10 +139403,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139296,10 +139437,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139315,10 +139471,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139334,10 +139505,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139353,10 +139539,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139372,10 +139573,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139391,10 +139607,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139410,10 +139641,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139429,10 +139675,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139448,10 +139709,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139467,10 +139743,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139486,10 +139777,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139505,10 +139811,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139524,10 +139845,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139543,10 +139879,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139562,10 +139913,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139581,10 +139947,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139600,10 +139981,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139619,10 +140015,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139638,10 +140049,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139657,10 +140083,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139676,10 +140117,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139695,10 +140151,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139714,10 +140185,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139733,10 +140219,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139752,10 +140253,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139771,10 +140287,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139790,10 +140321,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139809,10 +140355,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139828,10 +140389,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139847,10 +140423,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139866,10 +140457,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139885,10 +140491,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139904,10 +140525,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139923,10 +140559,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139942,10 +140593,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139961,10 +140627,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139980,10 +140661,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139999,10 +140695,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140018,10 +140729,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140037,10 +140763,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140056,10 +140797,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140075,10 +140831,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140094,10 +140865,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140113,10 +140899,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140132,10 +140933,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140151,10 +140967,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140170,10 +141001,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140189,10 +141035,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140208,10 +141069,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140227,10 +141103,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140246,10 +141137,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140265,10 +141171,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140284,10 +141205,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140303,10 +141239,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140322,10 +141273,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140341,10 +141307,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140360,10 +141341,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140379,10 +141375,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140398,10 +141409,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140417,10 +141443,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140436,10 +141477,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140455,10 +141511,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140474,10 +141545,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140493,10 +141579,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140512,10 +141613,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140531,10 +141647,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140550,10 +141681,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140569,10 +141715,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140588,10 +141749,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140607,10 +141783,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140626,10 +141817,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140645,10 +141851,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140664,10 +141885,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140683,10 +141919,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140702,10 +141953,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140721,10 +141987,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140740,10 +142021,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140759,10 +142055,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140778,10 +142089,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140797,10 +142123,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140816,10 +142157,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140835,10 +142191,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140854,10 +142225,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140873,10 +142259,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140892,10 +142293,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140911,10 +142327,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140930,10 +142361,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140949,10 +142395,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140968,10 +142429,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140987,10 +142463,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141006,10 +142497,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141025,10 +142531,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141044,10 +142565,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141063,10 +142599,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141082,10 +142633,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141101,10 +142667,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141120,10 +142701,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141139,10 +142735,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141158,10 +142769,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141177,10 +142803,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141196,10 +142837,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141215,10 +142871,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141234,10 +142905,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141253,10 +142939,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141272,10 +142973,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141291,10 +143007,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141310,10 +143041,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141329,10 +143075,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -225136,6 +226897,12 @@
 					<Test name="data_update_multiple">
 						<TestInstance/>
 					</Test>
+					<Test name="dynamic_index_vert">
+						<TestInstance/>
+					</Test>
+					<Test name="dynamic_index_frag">
+						<TestInstance/>
+					</Test>
 				</TestCase>
 				<TestCase name="compute_pipeline">
 					<Test name="simple_test">
@@ -228326,6 +230093,15 @@
 						<Test name="primitive_point">
 							<TestInstance/>
 						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="samples_4">
 						<Test name="primitive_triangle">
@@ -228335,6 +230111,15 @@
 							<TestInstance/>
 						</Test>
 						<Test name="primitive_point">
+							<TestInstance/>
+						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
 							<TestInstance/>
 						</Test>
 					</TestCase>
@@ -228348,6 +230133,15 @@
 						<Test name="primitive_point">
 							<TestInstance/>
 						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="samples_16">
 						<Test name="primitive_triangle">
@@ -228357,6 +230151,15 @@
 							<TestInstance/>
 						</Test>
 						<Test name="primitive_point">
+							<TestInstance/>
+						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
 							<TestInstance/>
 						</Test>
 					</TestCase>
@@ -228370,6 +230173,15 @@
 						<Test name="primitive_point">
 							<TestInstance/>
 						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
+							<TestInstance/>
+						</Test>
 					</TestCase>
 					<TestCase name="samples_64">
 						<Test name="primitive_triangle">
@@ -228379,6 +230191,15 @@
 							<TestInstance/>
 						</Test>
 						<Test name="primitive_point">
+							<TestInstance/>
+						</Test>
+						<Test name="depth">
+							<TestInstance/>
+						</Test>
+						<Test name="stencil">
+							<TestInstance/>
+						</Test>
+						<Test name="depth_stencil">
 							<TestInstance/>
 						</Test>
 					</TestCase>
@@ -229088,6 +230909,1016 @@
 							<TestInstance/>
 						</Test>
 						<Test name="alpha_invisible">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sampled_image">
+					<TestSuite name="64x64_1">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="64x64_4">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="79x31_1">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="79x31_4">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+				<TestSuite name="storage_image">
+					<TestSuite name="64x64_1">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="64x64_4">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="79x31_1">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="79x31_4">
+						<TestCase name="r8g8b8a8_unorm">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32_uint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r16g16_sint">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="r32g32b32a32_sfloat">
+							<Test name="samples_2">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_4">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_8">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_16">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_32">
+								<TestInstance/>
+							</Test>
+							<Test name="samples_64">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+				</TestSuite>
+			</TestSuite>
+			<TestSuite name="multisample_interpolation">
+				<TestSuite name="sample_interpolate_at_single_sample_">
+					<TestCase name="128_128_1">
+						<Test name="samples_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_1">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_interpolate_at_distinct_values">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_interpolate_at_ignores_centroid">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_interpolate_at_consistency">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="sample_qualifier_distinct_values">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="centroid_interpolate_at_consistency">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="centroid_qualifier_inside_primitive">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="offset_interpolate_at_pixel_center">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+				</TestSuite>
+				<TestSuite name="offset_interpolate_at_sample_position">
+					<TestCase name="128_128_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
+							<TestInstance/>
+						</Test>
+					</TestCase>
+					<TestCase name="137_191_1">
+						<Test name="samples_2">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_4">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_8">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_16">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_32">
+							<TestInstance/>
+						</Test>
+						<Test name="samples_64">
 							<TestInstance/>
 						</Test>
 					</TestCase>
@@ -231104,6 +233935,1373 @@
 					</TestSuite>
 					<TestSuite name="binding_one_to_many">
 						<TestCase name="attributes">
+							<Test name="int_as_r16_sint_rate_vertex-ivec2_as_r16g16_sint_rate_instance-ivec3_as_r32g32b32_sint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r8g8_sint_rate_instance-ivec4_as_r32g32b32a32_sint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r32g32_sint_rate_instance-uint_as_r8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec2_as_r8g8_sint_rate_instance-uvec2_as_r32g32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r8g8_sint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r16g16_sint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r8g8_sint_rate_instance-float_as_r16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec2_as_r16g16_sint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec2_as_r32g32_sint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r16g16_sint_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec2_as_r8g8_sint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec2_as_r8g8_sint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec2_as_r16g16_sint_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-ivec4_as_r8g8b8a8_sint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uint_as_r8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uvec2_as_r8g8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-float_as_r8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-uint_as_r16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-uvec2_as_r32g32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-float_as_r8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-vec2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uint_as_r32_uint_rate_instance-uvec2_as_r8g8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uint_as_r16_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uint_as_r32_uint_rate_instance-uvec4_as_r32g32b32a32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uint_as_r32_uint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uint_as_r8_uint_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uint_as_r16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-uint_as_r8_uint_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uint_as_r32_uint_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uint_as_r32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uint_as_r8_uint_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-float_as_r8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-float_as_r16_unorm_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-float_as_r32_sfloat_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-float_as_r16_unorm_rate_instance-vec4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-float_as_r16_snorm_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-float_as_r8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-float_as_r32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-vec2_as_r16g16_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r8_sint_rate_vertex-vec4_as_r8g8b8a8_snorm_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-vec4_as_r8g8b8a8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-vec4_as_r8g8b8a8_snorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-mat2_as_r8g8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r16_sint_rate_vertex-mat2_as_r8g8_unorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="int_as_r32_sint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-ivec4_as_r32g32b32a32_sint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uint_as_r32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uvec2_as_r16g16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-uvec4_as_r32g32b32a32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-float_as_r16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec3_as_r32g32b32_sint_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-uint_as_r32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-uvec2_as_r32g32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-vec2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uint_as_r16_uint_rate_instance-uvec2_as_r16g16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uint_as_r8_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uint_as_r16_uint_rate_instance-uvec4_as_r32g32b32a32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uint_as_r16_uint_rate_instance-float_as_r16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uint_as_r16_uint_rate_instance-vec2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uint_as_r32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uint_as_r32_uint_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uint_as_r8_uint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uint_as_r32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uint_as_r16_uint_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-vec4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-float_as_r8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-vec2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-float_as_r16_sfloat_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-float_as_r32_sfloat_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-float_as_r16_snorm_rate_instance-vec4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-float_as_r8_snorm_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-float_as_r16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-float_as_r8_snorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec2_as_r16g16_sfloat_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r16g16_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec4_as_r8g8b8a8_snorm_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-vec4_as_r16g16b16a16_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-vec4_as_r16g16b16a16_snorm_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-mat2_as_r16g16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r8g8_sint_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec2_as_r32g32_sint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-uint_as_r16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-uvec2_as_r32g32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-uvec4_as_r8g8b8a8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-vec2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r32g32b32a32_sint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r16g16b16a16_sint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-ivec4_as_r8g8b8a8_sint_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r32_uint_rate_instance-uvec2_as_r16g16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r32_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r32_uint_rate_instance-uvec4_as_r8g8b8a8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r8_uint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r8_uint_rate_instance-vec2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r16_uint_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r8_uint_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uint_as_r32_uint_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-uvec4_as_r32g32b32a32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-float_as_r16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-float_as_r16_sfloat_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-float_as_r16_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-float_as_r16_sfloat_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-float_as_r32_sfloat_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-float_as_r16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-float_as_r16_snorm_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec2_as_r16g16_sfloat_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec4_as_b8g8r8a8_unorm_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec4_as_b8g8r8a8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-vec4_as_r16g16b16a16_unorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-mat2_as_r8g8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-mat2_as_r16g16_unorm_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec3_as_r32g32b32_sint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uint_as_r32_uint_rate_instance-uvec2_as_r32g32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uint_as_r16_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uint_as_r8_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uint_as_r32_uint_rate_instance-float_as_r16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uint_as_r32_uint_rate_instance-vec2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uint_as_r16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uint_as_r16_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uint_as_r8_uint_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uint_as_r32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uint_as_r16_uint_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-uvec4_as_r32g32b32a32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-float_as_r8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-uvec4_as_r32g32b32a32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-float_as_r8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-float_as_r16_snorm_rate_instance-vec2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-float_as_r8_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-float_as_r16_unorm_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-float_as_r16_unorm_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-float_as_r8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-float_as_r16_snorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r32g32b32a32_sint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-vec4_as_r16g16b16a16_unorm_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-vec4_as_r32g32b32a32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-vec4_as_b8g8r8a8_unorm_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-mat2_as_r16g16_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r16g16b16a16_sint_rate_vertex-mat2_as_r16g16_sfloat_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="ivec4_as_r8g8b8a8_sint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-uvec3_as_r32g32b32_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec2_as_r32g32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec2_as_r8g8_uint_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec2_as_r16g16_uint_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-uvec4_as_r16g16b16a16_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-float_as_r16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-float_as_r16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-float_as_r32_sfloat_rate_instance-vec2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-float_as_r16_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-float_as_r8_unorm_rate_instance-vec4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-float_as_r32_sfloat_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-float_as_r8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-float_as_r32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-vec2_as_r16g16_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-vec4_as_b8g8r8a8_unorm_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r8_uint_rate_vertex-vec4_as_b8g8r8a8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-vec4_as_r16g16b16a16_unorm_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r32_uint_rate_vertex-mat2_as_r8g8_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-mat2_as_r32g32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uint_as_r16_uint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-uvec4_as_r8g8b8a8_uint_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-vec4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-uvec3_as_r32g32b32_uint_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-float_as_r16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-float_as_r32_sfloat_rate_instance-vec2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-float_as_r8_unorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-float_as_r16_unorm_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-float_as_r8_unorm_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-float_as_r8_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-float_as_r16_unorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-vec4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-vec2_as_r16g16_sfloat_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-vec2_as_r16g16_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-vec4_as_r16g16b16a16_sfloat_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-vec4_as_r8g8b8a8_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-vec4_as_r8g8b8a8_unorm_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r8g8_uint_rate_vertex-mat2_as_r32g32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r16g16_uint_rate_vertex-mat2_as_r32g32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec2_as_r32g32_uint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-float_as_r32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r16g16b16a16_uint_rate_instance-vec2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r8g8b8a8_uint_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-uvec4_as_r32g32b32a32_uint_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-float_as_r16_snorm_rate_instance-vec2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-float_as_r16_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-float_as_r16_snorm_rate_instance-vec4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-float_as_r16_sfloat_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-float_as_r8_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-float_as_r16_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec2_as_r8g8_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec2_as_r16g16_sfloat_rate_instance-vec4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec2_as_r16g16_snorm_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r8g8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec4_as_r8g8b8a8_snorm_rate_instance-mat2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec4_as_r16g16b16a16_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-vec4_as_r16g16b16a16_snorm_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-mat2_as_r8g8_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec3_as_r32g32b32_uint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-float_as_r16_unorm_rate_instance-vec2_as_r16g16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-float_as_r16_snorm_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-float_as_r8_unorm_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r16g16b16a16_uint_rate_vertex-float_as_r32_sfloat_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-float_as_r32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r16g16b16a16_uint_rate_vertex-float_as_r16_snorm_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-vec2_as_r8g8_unorm_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-vec2_as_r16g16_unorm_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-vec2_as_r16g16_snorm_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r16g16b16a16_uint_rate_vertex-vec4_as_r8g8b8a8_unorm_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-vec4_as_r32g32b32a32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r8g8b8a8_uint_rate_vertex-vec4_as_r8g8b8a8_snorm_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r16g16b16a16_uint_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r32g32b32a32_uint_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="uvec4_as_r16g16b16a16_uint_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_snorm_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-vec3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_snorm_rate_vertex-vec2_as_r16g16_sfloat_rate_instance-vec4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_unorm_rate_vertex-vec2_as_r16g16_snorm_rate_instance-mat2_as_r32g32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_unorm_rate_vertex-vec2_as_r16g16_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_snorm_rate_vertex-vec2_as_r32g32_sfloat_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r16_unorm_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_snorm_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r16_sfloat_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r16_snorm_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r32_sfloat_rate_vertex-vec4_as_r16g16b16a16_unorm_rate_instance-mat2_as_r8g8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r8_snorm_rate_vertex-vec4_as_r16g16b16a16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r16_snorm_rate_vertex-vec4_as_r8g8b8a8_unorm_rate_instance-mat4_as_r8g8b8a8_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r16_snorm_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r32_sfloat_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="float_as_r16_sfloat_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r16g16_sfloat_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-vec4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r8g8_unorm_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r16g16_snorm_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r32g32_sfloat_rate_vertex-vec3_as_r32g32b32_sfloat_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r32g32_sfloat_rate_vertex-vec4_as_r32g32b32a32_sfloat_rate_instance-mat2_as_r16g16_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r32g32_sfloat_rate_vertex-vec4_as_r32g32b32a32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r8g8_unorm_rate_vertex-vec4_as_r16g16b16a16_unorm_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r32g32_sfloat_rate_vertex-mat2_as_r16g16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r16g16_unorm_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat4_as_r32g32b32a32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec2_as_r8g8_unorm_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_as_r32g32b32_sfloat_rate_vertex-vec4_as_r16g16b16a16_sfloat_rate_instance-mat2_as_r16g16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_as_r32g32b32_sfloat_rate_vertex-vec4_as_r32g32b32a32_sfloat_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_as_r32g32b32_sfloat_rate_vertex-vec4_as_b8g8r8a8_unorm_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_as_r32g32b32_sfloat_rate_vertex-mat2_as_r16g16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_as_r32g32b32_sfloat_rate_vertex-mat2_as_r16g16_snorm_rate_instance-mat4_as_b8g8r8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec3_as_r32g32b32_sfloat_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_as_r8g8b8a8_snorm_rate_vertex-mat2_as_r16g16_unorm_rate_instance-mat3_as_r32g32b32_sfloat_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_as_r16g16b16a16_sfloat_rate_vertex-mat2_as_r16g16_unorm_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="vec4_as_r16g16b16a16_snorm_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r8g8b8a8_unorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+							<Test name="mat2_as_r16g16_unorm_rate_vertex-mat3_as_r32g32b32_sfloat_rate_instance-mat4_as_r16g16b16a16_snorm_rate_vertex">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="attributes_sequential">
 							<Test name="int_as_r16_sint_rate_vertex-ivec2_as_r16g16_sint_rate_instance-ivec3_as_r32g32b32_sint_rate_vertex">
 								<TestInstance/>
 							</Test>
@@ -252528,6 +256726,32 @@
 								<TestInstance/>
 							</Test>
 							<Test name="matrix_4x4">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+					</TestSuite>
+					<TestSuite name="shader_default_output">
+						<TestCase name="int">
+							<Test name="initialized">
+								<TestInstance/>
+							</Test>
+							<Test name="uninitialized">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="uint">
+							<Test name="initialized">
+								<TestInstance/>
+							</Test>
+							<Test name="uninitialized">
+								<TestInstance/>
+							</Test>
+						</TestCase>
+						<TestCase name="float">
+							<Test name="initialized">
+								<TestInstance/>
+							</Test>
+							<Test name="uninitialized">
 								<TestInstance/>
 							</Test>
 						</TestCase>
@@ -297380,11 +301604,48 @@
 					</TestSuite>
 				</TestSuite>
 			</TestSuite>
-			<TestCase name="builtin_var">
-				<Test name="gl_frontfacing">
-					<TestInstance/>
-				</Test>
-			</TestCase>
+			<TestSuite name="builtin_var">
+				<TestCase name="simple">
+					<Test name="frontfacing">
+						<TestInstance/>
+					</Test>
+					<Test name="fragcoord_xyz">
+						<TestInstance/>
+					</Test>
+					<Test name="fragcoord_w">
+						<TestInstance/>
+					</Test>
+					<Test name="pointcoord">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="input_variations">
+					<Test name="input_none">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin">
+						<TestInstance/>
+					</Test>
+					<Test name="input_varying">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin_varying">
+						<TestInstance/>
+					</Test>
+					<Test name="input_constant">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin_constant">
+						<TestInstance/>
+					</Test>
+					<Test name="input_varying_constant">
+						<TestInstance/>
+					</Test>
+					<Test name="input_builtin_varying_constant">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+			</TestSuite>
 			<TestSuite name="builtin">
 				<TestSuite name="function">
 					<TestSuite name="common">
@@ -368126,6 +372387,49 @@
 						</Test>
 					</TestCase>
 				</TestSuite>
+			</TestSuite>
+		</TestSuite>
+		<TestSuite name="fragment_operations">
+			<TestSuite name="scissor">
+				<TestCase name="points">
+					<Test name="inside">
+						<TestInstance/>
+					</Test>
+					<Test name="partially_inside">
+						<TestInstance/>
+					</Test>
+					<Test name="outside">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="lines">
+					<Test name="inside">
+						<TestInstance/>
+					</Test>
+					<Test name="partially_inside">
+						<TestInstance/>
+					</Test>
+					<Test name="outside">
+						<TestInstance/>
+					</Test>
+					<Test name="crossing">
+						<TestInstance/>
+					</Test>
+				</TestCase>
+				<TestCase name="triangles">
+					<Test name="inside">
+						<TestInstance/>
+					</Test>
+					<Test name="partially_inside">
+						<TestInstance/>
+					</Test>
+					<Test name="outside">
+						<TestInstance/>
+					</Test>
+					<Test name="crossing">
+						<TestInstance/>
+					</Test>
+				</TestCase>
 			</TestSuite>
 		</TestSuite>
 	</TestSuite>
