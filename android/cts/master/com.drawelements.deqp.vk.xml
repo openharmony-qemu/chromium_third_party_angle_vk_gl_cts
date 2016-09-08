@@ -139125,10 +139125,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139144,10 +139159,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139163,10 +139193,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139182,10 +139227,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139201,10 +139261,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139220,10 +139295,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139239,10 +139329,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139258,10 +139363,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139277,10 +139397,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139296,10 +139431,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139315,10 +139465,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139334,10 +139499,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139353,10 +139533,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139372,10 +139567,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139391,10 +139601,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139410,10 +139635,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139429,10 +139669,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139448,10 +139703,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139467,10 +139737,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139486,10 +139771,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139505,10 +139805,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139524,10 +139839,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139543,10 +139873,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139562,10 +139907,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139581,10 +139941,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139600,10 +139975,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139619,10 +140009,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139638,10 +140043,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139657,10 +140077,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139676,10 +140111,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139695,10 +140145,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139714,10 +140179,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139733,10 +140213,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139752,10 +140247,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139771,10 +140281,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139790,10 +140315,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139809,10 +140349,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139828,10 +140383,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139847,10 +140417,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139866,10 +140451,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139885,10 +140485,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139904,10 +140519,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139923,10 +140553,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139942,10 +140587,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139961,10 +140621,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139980,10 +140655,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -139999,10 +140689,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140018,10 +140723,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140037,10 +140757,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140056,10 +140791,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140075,10 +140825,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140094,10 +140859,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140113,10 +140893,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140132,10 +140927,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140151,10 +140961,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140170,10 +140995,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140189,10 +141029,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140208,10 +141063,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140227,10 +141097,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140246,10 +141131,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140265,10 +141165,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140284,10 +141199,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140303,10 +141233,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140322,10 +141267,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140341,10 +141301,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140360,10 +141335,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140379,10 +141369,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140398,10 +141403,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140417,10 +141437,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140436,10 +141471,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140455,10 +141505,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140474,10 +141539,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140493,10 +141573,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140512,10 +141607,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140531,10 +141641,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140550,10 +141675,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140569,10 +141709,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140588,10 +141743,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140607,10 +141777,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140626,10 +141811,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140645,10 +141845,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140664,10 +141879,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140683,10 +141913,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140702,10 +141947,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140721,10 +141981,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140740,10 +142015,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140759,10 +142049,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140778,10 +142083,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140797,10 +142117,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140816,10 +142151,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140835,10 +142185,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140854,10 +142219,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140873,10 +142253,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140892,10 +142287,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140911,10 +142321,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140930,10 +142355,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140949,10 +142389,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140968,10 +142423,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -140987,10 +142457,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141006,10 +142491,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141025,10 +142525,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141044,10 +142559,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141063,10 +142593,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141082,10 +142627,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141101,10 +142661,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141120,10 +142695,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141139,10 +142729,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141158,10 +142763,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141177,10 +142797,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141196,10 +142831,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141215,10 +142865,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141234,10 +142899,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141253,10 +142933,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141272,10 +142967,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141291,10 +143001,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141310,10 +143035,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
@@ -141329,10 +143069,25 @@
 									<Test name="16x16x16">
 										<TestInstance/>
 									</Test>
+									<Test name="3x3x3">
+										<TestInstance/>
+									</Test>
+									<Test name="5x5x5">
+										<TestInstance/>
+									</Test>
+									<Test name="11x11x11">
+										<TestInstance/>
+									</Test>
 									<Test name="32x16x8">
 										<TestInstance/>
 									</Test>
 									<Test name="8x16x32">
+										<TestInstance/>
+									</Test>
+									<Test name="17x11x5">
+										<TestInstance/>
+									</Test>
+									<Test name="5x11x17">
 										<TestInstance/>
 									</Test>
 								</TestCase>
