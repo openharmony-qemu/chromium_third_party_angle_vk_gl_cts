@@ -1,11 +1,10 @@
-#ifndef _VKTPIPELINEEARLYFRAGMENTTESTS_HPP
-#define _VKTPIPELINEEARLYFRAGMENTTESTS_HPP
-/*------------------------------------------------------------------------
+#ifndef _VKTTEXTUREFILTERINGEXPLICITLODTESTS_HPP
+#define _VKTTEXTUREFILTERINGEXPLICITLODTESTS_HPP
+/*-------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright 2014 The Android Open Source Project
- * Copyright (c) 2015 The Khronos Group Inc.
+ * Copyright (c) 2016 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,20 +20,19 @@
  *
  *//*!
  * \file
- * \brief Early fragment tests
+ * \brief Texture filtering tests with explicit LOD instructions
  *//*--------------------------------------------------------------------*/
 
-#include "tcuDefs.hpp"
-#include "vktTestCase.hpp"
+#include "tcuTestCase.hpp"
 
 namespace vkt
 {
-namespace pipeline
+namespace texture
 {
 
-tcu::TestCaseGroup* createEarlyFragmentTests (tcu::TestContext& testCtx);
+tcu::TestCaseGroup* createExplicitLodTests (tcu::TestContext& testCtx);
 
-} // pipeline
+} // texture
 } // vkt
 
-#endif // _VKTPIPELINEEARLYFRAGMENTTESTS_HPP
+#endif // _VKTTEXTUREFILTERINGEXPLICITLODTESTS_HPP
