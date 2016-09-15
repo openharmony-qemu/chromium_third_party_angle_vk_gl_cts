@@ -1,8 +1,12 @@
-/*-------------------------------------------------------------------------
+#ifndef _VKTTEXTUREFILTERINGTESTS_HPP
+#define _VKTTEXTUREFILTERINGTESTS_HPP
+/*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright (c) 2016 Google Inc.
+ * Copyright (c) 2016 The Khronos Group Inc.
+ * Copyright (c) 2016 Samsung Electronics Co., Ltd.
+ * Copyright (c) 2014 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,27 +22,20 @@
  *
  *//*!
  * \file
- * \brief Texture filtering tests
+ * \brief Texture filtering tests.
  *//*--------------------------------------------------------------------*/
 
-#include "vktTextureFilteringTests.hpp"
-
-#include "vktTextureFilteringExplicitLodTests.hpp"
-#include "deUniquePtr.hpp"
+#include "tcuDefs.hpp"
+#include "tcuTestCase.hpp"
 
 namespace vkt
 {
-namespace texture_filtering
+namespace texture
 {
 
-tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx)
-{
-	de::MovePtr<tcu::TestCaseGroup> group(new tcu::TestCaseGroup(testCtx, "texture_filtering", "Texture filtering verification tests"));
+tcu::TestCaseGroup*	createTextureFilteringTests	(tcu::TestContext& testCtx);
 
-	group->addChild(createExplicitLodTests(testCtx));
-
-	return group.release();
-}
-
-} // texture_filtering
+} // texture
 } // vkt
+
+#endif // _VKTTEXTUREFILTERINGTESTS_HPP
