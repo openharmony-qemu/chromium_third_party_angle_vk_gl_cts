@@ -1,11 +1,11 @@
-#ifndef _VKTTEXTUREFILTERINGTESTS_HPP
-#define _VKTTEXTUREFILTERINGTESTS_HPP
-
-/*-------------------------------------------------------------------------
+#ifndef _VKTFRAGMENTOPERATIONSEARLYFRAGMENTTESTS_HPP
+#define _VKTFRAGMENTOPERATIONSEARLYFRAGMENTTESTS_HPP
+/*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright (c) 2016 Google Inc.
+ * Copyright 2014 The Android Open Source Project
+ * Copyright (c) 2015 The Khronos Group Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,20 +21,20 @@
  *
  *//*!
  * \file
- * \brief Texture filtering tests
+ * \brief Early fragment tests
  *//*--------------------------------------------------------------------*/
 
 #include "tcuDefs.hpp"
-#include "tcuTestCase.hpp"
+#include "vktTestCase.hpp"
 
 namespace vkt
 {
-namespace texture_filtering
+namespace FragmentOperations
 {
 
-tcu::TestCaseGroup* createTests (tcu::TestContext& testCtx);
+tcu::TestCaseGroup* createEarlyFragmentTests (tcu::TestContext& testCtx);
 
-} // texture_filtering
+} // FragmentOperations
 } // vkt
 
-#endif // _VKTTEXTUREFILTERINGTESTS_HPP
+#endif // _VKTFRAGMENTOPERATIONSEARLYFRAGMENTTESTS_HPP
