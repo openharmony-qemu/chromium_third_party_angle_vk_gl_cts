@@ -97360,6 +97360,7 @@ dEQP-VK.wsi.xlib.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.xlib.swapchain.render.basic
 dEQP-VK.wsi.xlib.swapchain.destroy.null_handle
+dEQP-VK.wsi.xlib.swapchain.get_images.incomplete
 dEQP-VK.wsi.xcb.surface.create
 dEQP-VK.wsi.xcb.surface.create_custom_allocator
 dEQP-VK.wsi.xcb.surface.create_simulate_oom
@@ -97392,6 +97393,7 @@ dEQP-VK.wsi.xcb.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.xcb.swapchain.render.basic
 dEQP-VK.wsi.xcb.swapchain.destroy.null_handle
+dEQP-VK.wsi.xcb.swapchain.get_images.incomplete
 dEQP-VK.wsi.wayland.surface.create
 dEQP-VK.wsi.wayland.surface.create_custom_allocator
 dEQP-VK.wsi.wayland.surface.create_simulate_oom
@@ -97423,6 +97425,7 @@ dEQP-VK.wsi.wayland.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.wayland.swapchain.render.basic
 dEQP-VK.wsi.wayland.swapchain.modify.resize
 dEQP-VK.wsi.wayland.swapchain.destroy.null_handle
+dEQP-VK.wsi.wayland.swapchain.get_images.incomplete
 dEQP-VK.wsi.mir.surface.create
 dEQP-VK.wsi.mir.surface.create_custom_allocator
 dEQP-VK.wsi.mir.surface.create_simulate_oom
@@ -97456,6 +97459,7 @@ dEQP-VK.wsi.mir.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.mir.swapchain.render.basic
 dEQP-VK.wsi.mir.swapchain.modify.resize
 dEQP-VK.wsi.mir.swapchain.destroy.null_handle
+dEQP-VK.wsi.mir.swapchain.get_images.incomplete
 dEQP-VK.wsi.android.surface.create
 dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
@@ -97488,6 +97492,7 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.android.swapchain.render.basic
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
+dEQP-VK.wsi.android.swapchain.get_images.incomplete
 dEQP-VK.wsi.win32.surface.create
 dEQP-VK.wsi.win32.surface.create_custom_allocator
 dEQP-VK.wsi.win32.surface.create_simulate_oom
@@ -97520,6 +97525,7 @@ dEQP-VK.wsi.win32.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.win32.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.win32.swapchain.render.basic
 dEQP-VK.wsi.win32.swapchain.destroy.null_handle
+dEQP-VK.wsi.win32.swapchain.get_images.incomplete
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events

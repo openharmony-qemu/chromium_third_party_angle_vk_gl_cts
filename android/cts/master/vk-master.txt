@@ -103791,6 +103791,7 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.android.swapchain.render.basic
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
+dEQP-VK.wsi.android.swapchain.get_images.incomplete
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
