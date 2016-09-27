@@ -97819,6 +97819,7 @@ dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
 dEQP-VK.synchronization.basic.fence.one
 dEQP-VK.synchronization.basic.fence.multi
+dEQP-VK.synchronization.basic.fence.empty_submit
 dEQP-VK.synchronization.basic.semaphore.one_queue
 dEQP-VK.synchronization.basic.semaphore.multi_queue
 dEQP-VK.synchronization.basic.event.host_set_reset
