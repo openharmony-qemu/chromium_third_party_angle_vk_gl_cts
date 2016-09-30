@@ -366367,13 +366367,7 @@
 					<Test name="geometry_set">
 						<TestInstance/>
 					</Test>
-					<Test name="vertex_set_control_set">
-						<TestInstance/>
-					</Test>
 					<Test name="vertex_set_evaluation_set">
-						<TestInstance/>
-					</Test>
-					<Test name="vertex_set_eval_default">
 						<TestInstance/>
 					</Test>
 					<Test name="vertex_set_geometry_set">
@@ -366383,9 +366377,6 @@
 						<TestInstance/>
 					</Test>
 					<Test name="vertex_set_control_pass_eval_add_geometry_add">
-						<TestInstance/>
-					</Test>
-					<Test name="vertex_set_evaluation_set_geometry_default">
 						<TestInstance/>
 					</Test>
 				</TestCase>
