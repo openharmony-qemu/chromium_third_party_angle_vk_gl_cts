@@ -3848,6 +3848,7 @@ dEQP-VK.api.command_buffers.pool_create_transient_bit
 dEQP-VK.api.command_buffers.pool_create_reset_bit
 dEQP-VK.api.command_buffers.pool_reset_release_res
 dEQP-VK.api.command_buffers.pool_reset_no_flags_res
+dEQP-VK.api.command_buffers.pool_reset_reuse
 dEQP-VK.api.command_buffers.allocate_single_primary
 dEQP-VK.api.command_buffers.allocate_many_primary
 dEQP-VK.api.command_buffers.allocate_single_secondary
