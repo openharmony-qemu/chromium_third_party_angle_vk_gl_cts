@@ -109749,13 +109749,10 @@ dEQP-VK.tessellation.geometry_interaction.scatter.geometry_scatter_layers
 dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set
 dEQP-VK.tessellation.geometry_interaction.point_size.evaluation_set
 dEQP-VK.tessellation.geometry_interaction.point_size.geometry_set
-dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_control_set
 dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_evaluation_set
-dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_eval_default
 dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_geometry_set
 dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_evaluation_set_geometry_set
 dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_control_pass_eval_add_geometry_add
-dEQP-VK.tessellation.geometry_interaction.point_size.vertex_set_evaluation_set_geometry_default
 dEQP-VK.rasterization.primitives.triangles
 dEQP-VK.rasterization.primitives.triangle_strip
 dEQP-VK.rasterization.primitives.triangle_fan
