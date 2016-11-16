@@ -122359,6 +122359,14 @@ dEQP-VK.draw.shader_draw_parameters.draw_index.draw
 dEQP-VK.draw.shader_draw_parameters.draw_index.draw_instanced
 dEQP-VK.draw.shader_draw_parameters.draw_index.draw_indexed
 dEQP-VK.draw.shader_draw_parameters.draw_index.draw_indexed_instanced
+dEQP-VK.draw.negative_viewport_height.front_ccw_cull_none
+dEQP-VK.draw.negative_viewport_height.front_ccw_cull_front
+dEQP-VK.draw.negative_viewport_height.front_ccw_cull_back
+dEQP-VK.draw.negative_viewport_height.front_ccw_cull_both
+dEQP-VK.draw.negative_viewport_height.front_cw_cull_none
+dEQP-VK.draw.negative_viewport_height.front_cw_cull_front
+dEQP-VK.draw.negative_viewport_height.front_cw_cull_back
+dEQP-VK.draw.negative_viewport_height.front_cw_cull_both
 dEQP-VK.compute.basic.empty_shader
 dEQP-VK.compute.basic.ubo_to_ssbo_single_invocation
 dEQP-VK.compute.basic.ubo_to_ssbo_single_group
