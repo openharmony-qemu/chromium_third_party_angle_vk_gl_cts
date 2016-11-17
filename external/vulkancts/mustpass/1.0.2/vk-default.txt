@@ -11998,6 +11998,8 @@ dEQP-VK.api.granularity.in_render_pass.s8_uint
 dEQP-VK.api.granularity.in_render_pass.d16_unorm_s8_uint
 dEQP-VK.api.granularity.in_render_pass.d24_unorm_s8_uint
 dEQP-VK.api.granularity.in_render_pass.d32_sfloat_s8_uint
+dEQP-VK.api.get_memory_commitment.memory_commitment
+dEQP-VK.api.get_memory_commitment.memory_commitment_allocate_only
 dEQP-VK.memory.allocation.basic.size_64.forward.count_1
 dEQP-VK.memory.allocation.basic.size_64.forward.count_10
 dEQP-VK.memory.allocation.basic.size_64.forward.count_100
