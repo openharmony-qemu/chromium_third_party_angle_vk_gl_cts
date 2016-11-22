@@ -1686,6 +1686,11 @@ dEQP-VK.api.object_management.alloc_callback_fail.command_pool
 dEQP-VK.api.object_management.alloc_callback_fail.command_pool_transient
 dEQP-VK.api.object_management.alloc_callback_fail.command_buffer_primary
 dEQP-VK.api.object_management.alloc_callback_fail.command_buffer_secondary
+dEQP-VK.api.object_management.alloc_callback_fail_multiple.graphics_pipeline
+dEQP-VK.api.object_management.alloc_callback_fail_multiple.compute_pipeline
+dEQP-VK.api.object_management.alloc_callback_fail_multiple.descriptor_set
+dEQP-VK.api.object_management.alloc_callback_fail_multiple.command_buffer_primary
+dEQP-VK.api.object_management.alloc_callback_fail_multiple.command_buffer_secondary
 dEQP-VK.api.buffer.create_buffer_1_0
 dEQP-VK.api.buffer.create_buffer_2_0
 dEQP-VK.api.buffer.create_buffer_3_0
