@@ -6075,6 +6075,8 @@ dEQP-VK.api.command_buffers.allocate_many_secondary
 dEQP-VK.api.command_buffers.execute_small_primary
 dEQP-VK.api.command_buffers.execute_large_primary
 dEQP-VK.api.command_buffers.reset_implicit
+dEQP-VK.api.command_buffers.trim_command_pool
+dEQP-VK.api.command_buffers.trim_command_pool_secondary
 dEQP-VK.api.command_buffers.record_single_primary
 dEQP-VK.api.command_buffers.record_many_primary
 dEQP-VK.api.command_buffers.record_single_secondary
@@ -14185,6 +14187,7 @@ dEQP-VK.api.fill_and_update_buffer.fill_buffer_second_part
 dEQP-VK.api.fill_and_update_buffer.update_buffer_second_part
 dEQP-VK.api.descriptor_pool.repeated_reset_short
 dEQP-VK.api.descriptor_pool.repeated_reset_long
+dEQP-VK.api.descriptor_pool.out_of_pool_memory
 dEQP-VK.api.null_handle.destroy_buffer
 dEQP-VK.api.null_handle.destroy_buffer_view
 dEQP-VK.api.null_handle.destroy_command_pool
