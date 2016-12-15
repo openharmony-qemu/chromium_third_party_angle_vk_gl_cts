@@ -85798,6 +85798,10 @@ dEQP-VK.pipeline.render_to_image.2d_array.22x64_4.r8g8b8a8_unorm
 dEQP-VK.pipeline.render_to_image.2d_array.22x64_4.r32_uint
 dEQP-VK.pipeline.render_to_image.2d_array.22x64_4.r16g16_sint
 dEQP-VK.pipeline.render_to_image.2d_array.22x64_4.r32g32b32a32_sfloat
+dEQP-VK.pipeline.render_to_image.3d.22x64x7.r8g8b8a8_unorm
+dEQP-VK.pipeline.render_to_image.3d.22x64x7.r32_uint
+dEQP-VK.pipeline.render_to_image.3d.22x64x7.r16g16_sint
+dEQP-VK.pipeline.render_to_image.3d.22x64x7.r32g32b32a32_sfloat
 dEQP-VK.pipeline.render_to_image.cube.35x35_6.r8g8b8a8_unorm
 dEQP-VK.pipeline.render_to_image.cube.35x35_6.r32_uint
 dEQP-VK.pipeline.render_to_image.cube.35x35_6.r16g16_sint
@@ -134223,6 +134227,13 @@ dEQP-VK.geometry.layered.cube_array.render_different_content
 dEQP-VK.geometry.layered.cube_array.fragment_layer
 dEQP-VK.geometry.layered.cube_array.invocation_per_layer
 dEQP-VK.geometry.layered.cube_array.multiple_layers_per_invocation
+dEQP-VK.geometry.layered.3d.render_to_default_layer
+dEQP-VK.geometry.layered.3d.render_to_one
+dEQP-VK.geometry.layered.3d.render_to_all
+dEQP-VK.geometry.layered.3d.render_different_content
+dEQP-VK.geometry.layered.3d.fragment_layer
+dEQP-VK.geometry.layered.3d.invocation_per_layer
+dEQP-VK.geometry.layered.3d.multiple_layers_per_invocation
 dEQP-VK.geometry.instanced.draw_1_instances_1_geometry_invocations
 dEQP-VK.geometry.instanced.draw_1_instances_2_geometry_invocations
 dEQP-VK.geometry.instanced.draw_1_instances_8_geometry_invocations
