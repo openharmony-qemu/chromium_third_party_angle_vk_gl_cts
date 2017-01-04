@@ -207677,34 +207677,7 @@
 						<Test name="mat4">
 							<TestInstance/>
 						</Test>
-						<Test name="int">
-							<TestInstance/>
-						</Test>
-						<Test name="ivec2">
-							<TestInstance/>
-						</Test>
-						<Test name="ivec3">
-							<TestInstance/>
-						</Test>
-						<Test name="ivec4">
-							<TestInstance/>
-						</Test>
-						<Test name="uint">
-							<TestInstance/>
-						</Test>
-						<Test name="uvec2">
-							<TestInstance/>
-						</Test>
-						<Test name="uvec3">
-							<TestInstance/>
-						</Test>
-						<Test name="uvec4">
-							<TestInstance/>
-						</Test>
 						<Test name="float_vec3">
-							<TestInstance/>
-						</Test>
-						<Test name="float_uvec2_vec3">
 							<TestInstance/>
 						</Test>
 					</TestCase>
