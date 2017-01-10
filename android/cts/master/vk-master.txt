@@ -1680,12 +1680,9 @@ dEQP-VK.api.object_management.alloc_callback_fail.descriptor_set_layout_empty
 dEQP-VK.api.object_management.alloc_callback_fail.descriptor_set_layout_single
 dEQP-VK.api.object_management.alloc_callback_fail.descriptor_pool
 dEQP-VK.api.object_management.alloc_callback_fail.descriptor_pool_free_descriptor_set
-dEQP-VK.api.object_management.alloc_callback_fail.descriptor_set
 dEQP-VK.api.object_management.alloc_callback_fail.framebuffer
 dEQP-VK.api.object_management.alloc_callback_fail.command_pool
 dEQP-VK.api.object_management.alloc_callback_fail.command_pool_transient
-dEQP-VK.api.object_management.alloc_callback_fail.command_buffer_primary
-dEQP-VK.api.object_management.alloc_callback_fail.command_buffer_secondary
 dEQP-VK.api.object_management.alloc_callback_fail_multiple.graphics_pipeline
 dEQP-VK.api.object_management.alloc_callback_fail_multiple.compute_pipeline
 dEQP-VK.api.object_management.alloc_callback_fail_multiple.descriptor_set
