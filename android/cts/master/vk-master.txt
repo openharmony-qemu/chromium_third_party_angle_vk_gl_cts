@@ -158925,6 +158925,14 @@ dEQP-VK.wsi.android.incremental_present.scale_down.fifo.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.incremental_present
+dEQP-VK.wsi.android.display_timing.fifo.reference
+dEQP-VK.wsi.android.display_timing.fifo.display_timing
+dEQP-VK.wsi.android.display_timing.fifo_relaxed.reference
+dEQP-VK.wsi.android.display_timing.fifo_relaxed.display_timing
+dEQP-VK.wsi.android.display_timing.immediate.reference
+dEQP-VK.wsi.android.display_timing.immediate.display_timing
+dEQP-VK.wsi.android.display_timing.mailbox.reference
+dEQP-VK.wsi.android.display_timing.mailbox.display_timing
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
