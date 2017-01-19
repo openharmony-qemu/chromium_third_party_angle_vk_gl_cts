@@ -18326,7 +18326,6 @@ dEQP-VK.memory.pipeline_barrier.host_write_uniform_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.host_write_uniform_texel_buffer.1024
 dEQP-VK.memory.pipeline_barrier.host_write_uniform_texel_buffer.8192
 dEQP-VK.memory.pipeline_barrier.host_write_uniform_texel_buffer.65536
-dEQP-VK.memory.pipeline_barrier.host_write_uniform_texel_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.host_write_storage_buffer.1024
 dEQP-VK.memory.pipeline_barrier.host_write_storage_buffer.8192
 dEQP-VK.memory.pipeline_barrier.host_write_storage_buffer.65536
@@ -18334,7 +18333,6 @@ dEQP-VK.memory.pipeline_barrier.host_write_storage_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.host_write_storage_texel_buffer.1024
 dEQP-VK.memory.pipeline_barrier.host_write_storage_texel_buffer.8192
 dEQP-VK.memory.pipeline_barrier.host_write_storage_texel_buffer.65536
-dEQP-VK.memory.pipeline_barrier.host_write_storage_texel_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.host_write_storage_image.1024
 dEQP-VK.memory.pipeline_barrier.host_write_storage_image.8192
 dEQP-VK.memory.pipeline_barrier.host_write_storage_image.65536
@@ -18366,7 +18364,6 @@ dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_texel_buffer.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_texel_buffer.8192
 dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_texel_buffer.65536
-dEQP-VK.memory.pipeline_barrier.transfer_dst_uniform_texel_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.8192
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.65536
@@ -18374,7 +18371,6 @@ dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.8192
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.65536
-dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_texel_buffer.1048576
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.1024
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.8192
 dEQP-VK.memory.pipeline_barrier.transfer_dst_storage_image.65536
@@ -18386,11 +18382,9 @@ dEQP-VK.memory.pipeline_barrier.transfer_dst_image_sampled.1048576
 dEQP-VK.memory.pipeline_barrier.all.1024
 dEQP-VK.memory.pipeline_barrier.all.8192
 dEQP-VK.memory.pipeline_barrier.all.65536
-dEQP-VK.memory.pipeline_barrier.all.1048576
 dEQP-VK.memory.pipeline_barrier.all_device.1024
 dEQP-VK.memory.pipeline_barrier.all_device.8192
 dEQP-VK.memory.pipeline_barrier.all_device.65536
-dEQP-VK.memory.pipeline_barrier.all_device.1048576
 dEQP-VK.memory.requirements.buffer.regular
 dEQP-VK.memory.requirements.buffer.sparse
 dEQP-VK.memory.requirements.buffer.sparse_residency
@@ -109537,7 +109531,6 @@ dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.depth32f.base_l
 dEQP-VK.glsl.builtin_var.simple.frontfacing
 dEQP-VK.glsl.builtin_var.simple.fragcoord_xyz
 dEQP-VK.glsl.builtin_var.simple.fragcoord_w
-dEQP-VK.glsl.builtin_var.simple.pointcoord
 dEQP-VK.glsl.builtin_var.input_variations.input_none
 dEQP-VK.glsl.builtin_var.input_variations.input_builtin
 dEQP-VK.glsl.builtin_var.input_variations.input_varying
