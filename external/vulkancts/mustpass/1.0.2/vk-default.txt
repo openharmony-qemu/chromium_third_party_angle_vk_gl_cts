@@ -103804,7 +103804,6 @@ dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.depth32f.base_l
 dEQP-VK.glsl.builtin_var.simple.frontfacing
 dEQP-VK.glsl.builtin_var.simple.fragcoord_xyz
 dEQP-VK.glsl.builtin_var.simple.fragcoord_w
-dEQP-VK.glsl.builtin_var.simple.pointcoord
 dEQP-VK.glsl.builtin_var.input_variations.input_none
 dEQP-VK.glsl.builtin_var.input_variations.input_builtin
 dEQP-VK.glsl.builtin_var.input_variations.input_varying
