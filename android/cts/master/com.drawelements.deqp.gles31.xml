@@ -73655,6 +73655,30 @@
 				<TestSuite name="lines">
 					<TestSuite name="global_state">
 						<TestCase name="vertex_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73666,6 +73690,65 @@
 							</Test>
 						</TestCase>
 						<TestCase name="vertex_tessellation_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fbo_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fbo_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fbo_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="vertex_geometry_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73677,6 +73760,30 @@
 							</Test>
 						</TestCase>
 						<TestCase name="vertex_tessellation_geometry_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73690,6 +73797,30 @@
 					</TestSuite>
 					<TestSuite name="tessellation_set_per_draw">
 						<TestCase name="vertex_tessellation_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73701,6 +73832,30 @@
 							</Test>
 						</TestCase>
 						<TestCase name="vertex_tessellation_geometry_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73968,6 +74123,30 @@
 				<TestSuite name="wide_lines">
 					<TestSuite name="global_state">
 						<TestCase name="vertex_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73979,6 +74158,65 @@
 							</Test>
 						</TestCase>
 						<TestCase name="vertex_tessellation_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fbo_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fbo_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="fbo_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+							</Test>
+						</TestCase>
+						<TestCase name="vertex_geometry_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -73990,6 +74228,30 @@
 							</Test>
 						</TestCase>
 						<TestCase name="vertex_tessellation_geometry_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -74003,6 +74265,30 @@
 					</TestSuite>
 					<TestSuite name="tessellation_set_per_draw">
 						<TestCase name="vertex_tessellation_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
@@ -74014,6 +74300,30 @@
 							</Test>
 						</TestCase>
 						<TestCase name="vertex_tessellation_geometry_fragment">
+							<Test name="default_framebuffer_bbox_equal">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_larger">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
+							<Test name="default_framebuffer_bbox_smaller">
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="0" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="90" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="180" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms0" rotation="270" surfacetype="window"/>
+								<TestInstance glconfig="rgba8888d24s8ms4" rotation="unspecified" surfacetype="window"/>
+							</Test>
 							<Test name="fbo_bbox_equal">
 								<TestInstance glconfig="rgba8888d24s8ms0" rotation="unspecified" surfacetype="window"/>
 							</Test>
