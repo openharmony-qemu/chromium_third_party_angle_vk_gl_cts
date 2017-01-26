@@ -192712,9 +192712,13 @@ dEQP-VK.tessellation.tesscoord.isolines_equal_spacing
 dEQP-VK.tessellation.tesscoord.isolines_fractional_odd_spacing
 dEQP-VK.tessellation.tesscoord.isolines_fractional_even_spacing
 dEQP-VK.tessellation.winding.triangles_ccw
+dEQP-VK.tessellation.winding.triangles_ccw_yflip
 dEQP-VK.tessellation.winding.triangles_cw
+dEQP-VK.tessellation.winding.triangles_cw_yflip
 dEQP-VK.tessellation.winding.quads_ccw
+dEQP-VK.tessellation.winding.quads_ccw_yflip
 dEQP-VK.tessellation.winding.quads_cw
+dEQP-VK.tessellation.winding.quads_cw_yflip
 dEQP-VK.tessellation.shader_input_output.patch_vertices_5_in_10_out
 dEQP-VK.tessellation.shader_input_output.patch_vertices_10_in_5_out
 dEQP-VK.tessellation.shader_input_output.primitive_id_tcs
