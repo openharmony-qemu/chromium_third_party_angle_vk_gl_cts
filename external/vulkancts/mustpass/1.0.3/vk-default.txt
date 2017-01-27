@@ -151466,6 +151466,14 @@ dEQP-VK.glsl.builtin.precision.acos.highp_compute.scalar
 dEQP-VK.glsl.builtin.precision.acos.highp_compute.vec2
 dEQP-VK.glsl.builtin.precision.acos.highp_compute.vec3
 dEQP-VK.glsl.builtin.precision.acos.highp_compute.vec4
+dEQP-VK.glsl.builtin.precision.atan2.mediump_compute.scalar
+dEQP-VK.glsl.builtin.precision.atan2.mediump_compute.vec2
+dEQP-VK.glsl.builtin.precision.atan2.mediump_compute.vec3
+dEQP-VK.glsl.builtin.precision.atan2.mediump_compute.vec4
+dEQP-VK.glsl.builtin.precision.atan2.highp_compute.scalar
+dEQP-VK.glsl.builtin.precision.atan2.highp_compute.vec2
+dEQP-VK.glsl.builtin.precision.atan2.highp_compute.vec3
+dEQP-VK.glsl.builtin.precision.atan2.highp_compute.vec4
 dEQP-VK.glsl.builtin.precision.atan.highp_compute.scalar
 dEQP-VK.glsl.builtin.precision.atan.highp_compute.vec2
 dEQP-VK.glsl.builtin.precision.atan.highp_compute.vec3
