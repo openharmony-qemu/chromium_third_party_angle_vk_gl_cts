@@ -181199,7 +181199,9 @@ dEQP-VK.wsi.xlib.surface.create_custom_allocator
 dEQP-VK.wsi.xlib.surface.create_simulate_oom
 dEQP-VK.wsi.xlib.surface.query_support
 dEQP-VK.wsi.xlib.surface.query_capabilities
+dEQP-VK.wsi.xlib.surface.query_capabilities2
 dEQP-VK.wsi.xlib.surface.query_formats
+dEQP-VK.wsi.xlib.surface.query_formats2
 dEQP-VK.wsi.xlib.surface.query_present_modes
 dEQP-VK.wsi.xlib.surface.destroy_null_handle
 dEQP-VK.wsi.xlib.surface.initial_size
@@ -181248,7 +181250,9 @@ dEQP-VK.wsi.xcb.surface.create_custom_allocator
 dEQP-VK.wsi.xcb.surface.create_simulate_oom
 dEQP-VK.wsi.xcb.surface.query_support
 dEQP-VK.wsi.xcb.surface.query_capabilities
+dEQP-VK.wsi.xcb.surface.query_capabilities2
 dEQP-VK.wsi.xcb.surface.query_formats
+dEQP-VK.wsi.xcb.surface.query_formats2
 dEQP-VK.wsi.xcb.surface.query_present_modes
 dEQP-VK.wsi.xcb.surface.destroy_null_handle
 dEQP-VK.wsi.xcb.surface.initial_size
@@ -181297,7 +181301,9 @@ dEQP-VK.wsi.wayland.surface.create_custom_allocator
 dEQP-VK.wsi.wayland.surface.create_simulate_oom
 dEQP-VK.wsi.wayland.surface.query_support
 dEQP-VK.wsi.wayland.surface.query_capabilities
+dEQP-VK.wsi.wayland.surface.query_capabilities2
 dEQP-VK.wsi.wayland.surface.query_formats
+dEQP-VK.wsi.wayland.surface.query_formats2
 dEQP-VK.wsi.wayland.surface.query_present_modes
 dEQP-VK.wsi.wayland.surface.destroy_null_handle
 dEQP-VK.wsi.wayland.swapchain.create.min_image_count
@@ -181345,7 +181351,9 @@ dEQP-VK.wsi.mir.surface.create_custom_allocator
 dEQP-VK.wsi.mir.surface.create_simulate_oom
 dEQP-VK.wsi.mir.surface.query_support
 dEQP-VK.wsi.mir.surface.query_capabilities
+dEQP-VK.wsi.mir.surface.query_capabilities2
 dEQP-VK.wsi.mir.surface.query_formats
+dEQP-VK.wsi.mir.surface.query_formats2
 dEQP-VK.wsi.mir.surface.query_present_modes
 dEQP-VK.wsi.mir.surface.destroy_null_handle
 dEQP-VK.wsi.mir.surface.initial_size
@@ -181411,7 +181419,9 @@ dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
+dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_formats
+dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
 dEQP-VK.wsi.android.surface.destroy_null_handle
 dEQP-VK.wsi.android.surface.initial_size
@@ -181476,7 +181486,9 @@ dEQP-VK.wsi.win32.surface.create_custom_allocator
 dEQP-VK.wsi.win32.surface.create_simulate_oom
 dEQP-VK.wsi.win32.surface.query_support
 dEQP-VK.wsi.win32.surface.query_capabilities
+dEQP-VK.wsi.win32.surface.query_capabilities2
 dEQP-VK.wsi.win32.surface.query_formats
+dEQP-VK.wsi.win32.surface.query_formats2
 dEQP-VK.wsi.win32.surface.query_present_modes
 dEQP-VK.wsi.win32.surface.destroy_null_handle
 dEQP-VK.wsi.win32.surface.initial_size
