@@ -134352,7 +134352,9 @@ dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
+dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_formats
+dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
 dEQP-VK.wsi.android.surface.destroy_null_handle
 dEQP-VK.wsi.android.surface.initial_size
