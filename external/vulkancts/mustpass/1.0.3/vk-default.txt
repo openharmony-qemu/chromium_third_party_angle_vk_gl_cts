@@ -181857,6 +181857,13 @@ dEQP-VK.wsi.win32.display_timing.immediate.reference
 dEQP-VK.wsi.win32.display_timing.immediate.display_timing
 dEQP-VK.wsi.win32.display_timing.mailbox.reference
 dEQP-VK.wsi.win32.display_timing.mailbox.display_timing
+dEQP-VK.wsi.display.get_display_properties
+dEQP-VK.wsi.display.get_display_plane_properties
+dEQP-VK.wsi.display.get_display_plane_supported_displays
+dEQP-VK.wsi.display.get_display_mode_properties
+dEQP-VK.wsi.display.create_display_mode
+dEQP-VK.wsi.display.get_display_plane_capabilities
+dEQP-VK.wsi.display.create_display_plane_surface
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
