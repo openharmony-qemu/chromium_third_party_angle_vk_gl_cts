@@ -63902,9 +63902,6 @@ dEQP-VK.glsl.linkage.varying.rules.vertex_declare_fragment_use
 dEQP-VK.glsl.linkage.varying.rules.vertex_use_fragment_declare
 dEQP-VK.glsl.linkage.varying.rules.vertex_use_declare_fragment
 dEQP-VK.glsl.linkage.varying.rules.vertex_use_fragment_use
-dEQP-VK.glsl.linkage.varying.rules.differing_precision_1
-dEQP-VK.glsl.linkage.varying.rules.differing_precision_2
-dEQP-VK.glsl.linkage.varying.rules.differing_precision_3
 dEQP-VK.glsl.linkage.varying.rules.differing_interpolation_2
 dEQP-VK.glsl.linkage.varying.rules.differing_name_1
 dEQP-VK.glsl.linkage.varying.rules.differing_name_2
