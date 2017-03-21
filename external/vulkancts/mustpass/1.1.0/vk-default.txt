@@ -221899,6 +221899,10 @@ dEQP-VK.wsi.display.get_display_mode_properties
 dEQP-VK.wsi.display.create_display_mode
 dEQP-VK.wsi.display.get_display_plane_capabilities
 dEQP-VK.wsi.display.create_display_plane_surface
+dEQP-VK.wsi.display.get_display_properties2
+dEQP-VK.wsi.display.get_display_plane_properties2
+dEQP-VK.wsi.display.get_display_mode_properties2
+dEQP-VK.wsi.display.get_display_plane_capabilities2
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
