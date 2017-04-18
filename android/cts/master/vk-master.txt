@@ -134399,8 +134399,6 @@ dEQP-VK.wsi.android.incremental_present.scale_down.immediate.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.immediate.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_down.mailbox.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.mailbox.incremental_present
-dEQP-VK.wsi.android.incremental_present.scale_down.fifo.reference
-dEQP-VK.wsi.android.incremental_present.scale_down.fifo.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.incremental_present
 dEQP-VK.wsi.android.display_timing.fifo.reference
