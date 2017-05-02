@@ -130859,6 +130859,7 @@ dEQP-VK.ubo.random.all_shared_buffer.44
 dEQP-VK.ubo.random.all_shared_buffer.45
 dEQP-VK.ubo.random.all_shared_buffer.46
 dEQP-VK.ubo.random.all_shared_buffer.47
+dEQP-VK.ubo.random.all_shared_buffer.48
 dEQP-VK.ubo.random.all_shared_buffer.49
 dEQP-VK.ubo.random.all_out_of_order_offsets.0
 dEQP-VK.ubo.random.all_out_of_order_offsets.1
@@ -134361,6 +134362,8 @@ dEQP-VK.wsi.android.incremental_present.scale_down.immediate.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.immediate.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_down.mailbox.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.mailbox.incremental_present
+dEQP-VK.wsi.android.incremental_present.scale_down.fifo.reference
+dEQP-VK.wsi.android.incremental_present.scale_down.fifo.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.reference
 dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.incremental_present
 dEQP-VK.wsi.android.display_timing.fifo.reference
