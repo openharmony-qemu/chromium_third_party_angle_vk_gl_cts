@@ -134314,7 +134314,9 @@ dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
+dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_formats
+dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
 dEQP-VK.wsi.android.surface.destroy_null_handle
 dEQP-VK.wsi.android.surface.initial_size
@@ -134374,6 +134376,12 @@ dEQP-VK.wsi.android.display_timing.immediate.reference
 dEQP-VK.wsi.android.display_timing.immediate.display_timing
 dEQP-VK.wsi.android.display_timing.mailbox.reference
 dEQP-VK.wsi.android.display_timing.mailbox.display_timing
+dEQP-VK.wsi.android.shared_presentable_image.scale_none.demand
+dEQP-VK.wsi.android.shared_presentable_image.scale_none.continuous
+dEQP-VK.wsi.android.shared_presentable_image.scale_up.demand
+dEQP-VK.wsi.android.shared_presentable_image.scale_up.continuous
+dEQP-VK.wsi.android.shared_presentable_image.scale_down.demand
+dEQP-VK.wsi.android.shared_presentable_image.scale_down.continuous
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
