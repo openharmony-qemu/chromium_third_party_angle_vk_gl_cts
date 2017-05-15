@@ -3741,11 +3741,11 @@ dEQP-VK.api.command_buffers.submit_null_fence
 dEQP-VK.api.command_buffers.secondary_execute
 dEQP-VK.api.command_buffers.secondary_execute_twice
 dEQP-VK.api.command_buffers.order_bind_pipeline
-dEQP-VK.api.copy_and_blit.image_to_buffer.whole
-dEQP-VK.api.copy_and_blit.buffer_to_image.whole
-dEQP-VK.api.copy_and_blit.buffer_to_buffer.whole
-dEQP-VK.api.copy_and_blit.buffer_to_buffer.partial
-dEQP-VK.api.copy_and_blit.buffer_to_buffer.regions
+dEQP-VK.api.copy_and_blit.core.image_to_buffer.whole
+dEQP-VK.api.copy_and_blit.core.buffer_to_image.whole
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.whole
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.partial
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.regions
 dEQP-VK.memory.allocation.basic.size_64.forward.count_1
 dEQP-VK.memory.allocation.basic.size_64.forward.count_10
 dEQP-VK.memory.allocation.basic.size_64.forward.count_100
