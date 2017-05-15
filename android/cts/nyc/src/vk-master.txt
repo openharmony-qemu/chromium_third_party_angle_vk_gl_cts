@@ -3741,11 +3741,11 @@ dEQP-VK.api.command_buffers.submit_null_fence
 dEQP-VK.api.command_buffers.secondary_execute
 dEQP-VK.api.command_buffers.secondary_execute_twice
 dEQP-VK.api.command_buffers.order_bind_pipeline
-dEQP-VK.api.copy_and_blit.image_to_buffer.whole
-dEQP-VK.api.copy_and_blit.buffer_to_image.whole
-dEQP-VK.api.copy_and_blit.buffer_to_buffer.whole
-dEQP-VK.api.copy_and_blit.buffer_to_buffer.partial
-dEQP-VK.api.copy_and_blit.buffer_to_buffer.regions
+dEQP-VK.api.copy_and_blit.core.image_to_buffer.whole
+dEQP-VK.api.copy_and_blit.core.buffer_to_image.whole
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.whole
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.partial
+dEQP-VK.api.copy_and_blit.core.buffer_to_buffer.regions
 dEQP-VK.pipeline.stencil.format.s8_uint.states.front_fail_decc_pass_repl_dfail_inv_comp_not_equal_back_fail_decc_pass_repl_dfail_keep_comp_less
 dEQP-VK.pipeline.stencil.format.s8_uint.states.front_fail_incc_pass_keep_dfail_inv_comp_not_equal_back_fail_decc_pass_repl_dfail_inv_comp_not_equal
 dEQP-VK.pipeline.stencil.format.s8_uint.states.front_fail_wrap_pass_decw_dfail_wrap_comp_less_back_fail_incc_pass_keep_dfail_inv_comp_not_equal
