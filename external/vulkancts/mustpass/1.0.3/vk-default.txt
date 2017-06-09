@@ -9,6 +9,7 @@ dEQP-VK.api.smoke.asm_triangle
 dEQP-VK.api.smoke.asm_triangle_no_opname
 dEQP-VK.api.smoke.unused_resolve_attachment
 dEQP-VK.api.info.instance.physical_devices
+dEQP-VK.api.info.instance.physical_device_groups
 dEQP-VK.api.info.instance.layers
 dEQP-VK.api.info.instance.extensions
 dEQP-VK.api.info.device.features
@@ -17,6 +18,7 @@ dEQP-VK.api.info.device.queue_family_properties
 dEQP-VK.api.info.device.memory_properties
 dEQP-VK.api.info.device.layers
 dEQP-VK.api.info.device.extensions
+dEQP-VK.api.info.device_group.peer_memory_features
 dEQP-VK.api.info.format_properties.r4g4_unorm_pack8
 dEQP-VK.api.info.format_properties.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.format_properties.b4g4r4a4_unorm_pack16
@@ -3532,6 +3534,7 @@ dEQP-VK.api.device_init.create_device_features2
 dEQP-VK.api.device_init.create_device_unsupported_features
 dEQP-VK.api.object_management.single.instance
 dEQP-VK.api.object_management.single.device
+dEQP-VK.api.object_management.single.device_group
 dEQP-VK.api.object_management.single.device_memory_small
 dEQP-VK.api.object_management.single.buffer_uniform_small
 dEQP-VK.api.object_management.single.buffer_uniform_large
@@ -3574,6 +3577,7 @@ dEQP-VK.api.object_management.single.command_buffer_primary
 dEQP-VK.api.object_management.single.command_buffer_secondary
 dEQP-VK.api.object_management.multiple_unique_resources.instance
 dEQP-VK.api.object_management.multiple_unique_resources.device
+dEQP-VK.api.object_management.multiple_unique_resources.device_group
 dEQP-VK.api.object_management.multiple_unique_resources.device_memory_small
 dEQP-VK.api.object_management.multiple_unique_resources.buffer_uniform_small
 dEQP-VK.api.object_management.multiple_unique_resources.buffer_uniform_large
@@ -3615,6 +3619,7 @@ dEQP-VK.api.object_management.multiple_unique_resources.command_pool_transient
 dEQP-VK.api.object_management.multiple_unique_resources.command_buffer_primary
 dEQP-VK.api.object_management.multiple_unique_resources.command_buffer_secondary
 dEQP-VK.api.object_management.multiple_shared_resources.device
+dEQP-VK.api.object_management.multiple_shared_resources.device_group
 dEQP-VK.api.object_management.multiple_shared_resources.device_memory_small
 dEQP-VK.api.object_management.multiple_shared_resources.buffer_uniform_small
 dEQP-VK.api.object_management.multiple_shared_resources.buffer_uniform_large
@@ -3657,6 +3662,7 @@ dEQP-VK.api.object_management.multiple_shared_resources.command_buffer_primary
 dEQP-VK.api.object_management.multiple_shared_resources.command_buffer_secondary
 dEQP-VK.api.object_management.max_concurrent.instance
 dEQP-VK.api.object_management.max_concurrent.device
+dEQP-VK.api.object_management.max_concurrent.device_group
 dEQP-VK.api.object_management.max_concurrent.device_memory_small
 dEQP-VK.api.object_management.max_concurrent.buffer_uniform_small
 dEQP-VK.api.object_management.max_concurrent.buffer_uniform_large
@@ -3739,6 +3745,7 @@ dEQP-VK.api.object_management.multithreaded_per_thread_device.command_buffer_pri
 dEQP-VK.api.object_management.multithreaded_per_thread_device.command_buffer_secondary
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.instance
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.device
+dEQP-VK.api.object_management.multithreaded_per_thread_resources.device_group
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.device_memory_small
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.buffer_uniform_small
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.buffer_uniform_large
@@ -3780,6 +3787,7 @@ dEQP-VK.api.object_management.multithreaded_per_thread_resources.command_pool_tr
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.command_buffer_primary
 dEQP-VK.api.object_management.multithreaded_per_thread_resources.command_buffer_secondary
 dEQP-VK.api.object_management.multithreaded_shared_resources.device
+dEQP-VK.api.object_management.multithreaded_shared_resources.device_group
 dEQP-VK.api.object_management.multithreaded_shared_resources.device_memory_small
 dEQP-VK.api.object_management.multithreaded_shared_resources.buffer_uniform_small
 dEQP-VK.api.object_management.multithreaded_shared_resources.buffer_uniform_large
@@ -3819,6 +3827,7 @@ dEQP-VK.api.object_management.multithreaded_shared_resources.command_pool
 dEQP-VK.api.object_management.multithreaded_shared_resources.command_pool_transient
 dEQP-VK.api.object_management.single_alloc_callbacks.instance
 dEQP-VK.api.object_management.single_alloc_callbacks.device
+dEQP-VK.api.object_management.single_alloc_callbacks.device_group
 dEQP-VK.api.object_management.single_alloc_callbacks.device_memory_small
 dEQP-VK.api.object_management.single_alloc_callbacks.buffer_uniform_small
 dEQP-VK.api.object_management.single_alloc_callbacks.buffer_uniform_large
@@ -3861,6 +3870,7 @@ dEQP-VK.api.object_management.single_alloc_callbacks.command_buffer_primary
 dEQP-VK.api.object_management.single_alloc_callbacks.command_buffer_secondary
 dEQP-VK.api.object_management.alloc_callback_fail.instance
 dEQP-VK.api.object_management.alloc_callback_fail.device
+dEQP-VK.api.object_management.alloc_callback_fail.device_group
 dEQP-VK.api.object_management.alloc_callback_fail.device_memory_small
 dEQP-VK.api.object_management.alloc_callback_fail.buffer_uniform_small
 dEQP-VK.api.object_management.alloc_callback_fail.buffer_uniform_large
@@ -201459,6 +201469,8 @@ dEQP-VK.wsi.xlib.surface.query_capabilities2
 dEQP-VK.wsi.xlib.surface.query_formats
 dEQP-VK.wsi.xlib.surface.query_formats2
 dEQP-VK.wsi.xlib.surface.query_present_modes
+dEQP-VK.wsi.xlib.surface.query_devgroup_present_capabilities
+dEQP-VK.wsi.xlib.surface.query_devgroup_present_modes
 dEQP-VK.wsi.xlib.surface.destroy_null_handle
 dEQP-VK.wsi.xlib.surface.initial_size
 dEQP-VK.wsi.xlib.surface.resize
@@ -201512,6 +201524,8 @@ dEQP-VK.wsi.xcb.surface.query_capabilities2
 dEQP-VK.wsi.xcb.surface.query_formats
 dEQP-VK.wsi.xcb.surface.query_formats2
 dEQP-VK.wsi.xcb.surface.query_present_modes
+dEQP-VK.wsi.xcb.surface.query_devgroup_present_capabilities
+dEQP-VK.wsi.xcb.surface.query_devgroup_present_modes
 dEQP-VK.wsi.xcb.surface.destroy_null_handle
 dEQP-VK.wsi.xcb.surface.initial_size
 dEQP-VK.wsi.xcb.surface.resize
@@ -201565,6 +201579,8 @@ dEQP-VK.wsi.wayland.surface.query_capabilities2
 dEQP-VK.wsi.wayland.surface.query_formats
 dEQP-VK.wsi.wayland.surface.query_formats2
 dEQP-VK.wsi.wayland.surface.query_present_modes
+dEQP-VK.wsi.wayland.surface.query_devgroup_present_capabilities
+dEQP-VK.wsi.wayland.surface.query_devgroup_present_modes
 dEQP-VK.wsi.wayland.surface.destroy_null_handle
 dEQP-VK.wsi.wayland.swapchain.create.min_image_count
 dEQP-VK.wsi.wayland.swapchain.create.image_format
@@ -201617,6 +201633,8 @@ dEQP-VK.wsi.mir.surface.query_capabilities2
 dEQP-VK.wsi.mir.surface.query_formats
 dEQP-VK.wsi.mir.surface.query_formats2
 dEQP-VK.wsi.mir.surface.query_present_modes
+dEQP-VK.wsi.mir.surface.query_devgroup_present_capabilities
+dEQP-VK.wsi.mir.surface.query_devgroup_present_modes
 dEQP-VK.wsi.mir.surface.destroy_null_handle
 dEQP-VK.wsi.mir.surface.initial_size
 dEQP-VK.wsi.mir.surface.resize
@@ -201691,6 +201709,8 @@ dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
+dEQP-VK.wsi.android.surface.query_devgroup_present_capabilities
+dEQP-VK.wsi.android.surface.query_devgroup_present_modes
 dEQP-VK.wsi.android.surface.destroy_null_handle
 dEQP-VK.wsi.android.surface.initial_size
 dEQP-VK.wsi.android.swapchain.create.min_image_count
@@ -201764,6 +201784,8 @@ dEQP-VK.wsi.win32.surface.query_capabilities2
 dEQP-VK.wsi.win32.surface.query_formats
 dEQP-VK.wsi.win32.surface.query_formats2
 dEQP-VK.wsi.win32.surface.query_present_modes
+dEQP-VK.wsi.win32.surface.query_devgroup_present_capabilities
+dEQP-VK.wsi.win32.surface.query_devgroup_present_modes
 dEQP-VK.wsi.win32.surface.destroy_null_handle
 dEQP-VK.wsi.win32.surface.initial_size
 dEQP-VK.wsi.win32.surface.resize
