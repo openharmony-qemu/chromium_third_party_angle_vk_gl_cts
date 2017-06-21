@@ -109839,10 +109839,10 @@ dEQP-VK.tessellation.tesscoord.quads_fractional_even_spacing
 dEQP-VK.tessellation.tesscoord.isolines_equal_spacing
 dEQP-VK.tessellation.tesscoord.isolines_fractional_odd_spacing
 dEQP-VK.tessellation.tesscoord.isolines_fractional_even_spacing
-dEQP-VK.tessellation.winding.default_domain.triangles_ccw
-dEQP-VK.tessellation.winding.default_domain.triangles_cw
-dEQP-VK.tessellation.winding.default_domain.quads_ccw
-dEQP-VK.tessellation.winding.default_domain.quads_cw
+dEQP-VK.tessellation.winding.default_domain.glsl_triangles_ccw
+dEQP-VK.tessellation.winding.default_domain.glsl_triangles_cw
+dEQP-VK.tessellation.winding.default_domain.glsl_quads_ccw
+dEQP-VK.tessellation.winding.default_domain.glsl_quads_cw
 dEQP-VK.tessellation.shader_input_output.patch_vertices_5_in_10_out
 dEQP-VK.tessellation.shader_input_output.patch_vertices_10_in_5_out
 dEQP-VK.tessellation.shader_input_output.primitive_id_tcs
@@ -109886,8 +109886,8 @@ dEQP-VK.tessellation.common_edge.quads_fractional_even_spacing
 dEQP-VK.tessellation.common_edge.quads_equal_spacing_precise
 dEQP-VK.tessellation.common_edge.quads_fractional_odd_spacing_precise
 dEQP-VK.tessellation.common_edge.quads_fractional_even_spacing_precise
-dEQP-VK.tessellation.fractional_spacing.odd
-dEQP-VK.tessellation.fractional_spacing.even
+dEQP-VK.tessellation.fractional_spacing.glsl_odd
+dEQP-VK.tessellation.fractional_spacing.glsl_even
 dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_ccw
 dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_ccw_point_mode
 dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_cw
