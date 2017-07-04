@@ -161821,6 +161821,9 @@ dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.uint.initialize
 dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.uint.uninitialized
 dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.float.initialized
 dEQP-VK.spirv_assembly.instruction.compute.shader_default_output.float.uninitialized
+dEQP-VK.spirv_assembly.instruction.compute.opnmin.all
+dEQP-VK.spirv_assembly.instruction.compute.opnmax.all
+dEQP-VK.spirv_assembly.instruction.compute.opnclamp.all
 dEQP-VK.spirv_assembly.instruction.compute.android.opsrem.positive
 dEQP-VK.spirv_assembly.instruction.compute.android.opsrem.all
 dEQP-VK.spirv_assembly.instruction.compute.android.opsmod.positive
