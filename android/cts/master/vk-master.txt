@@ -162189,6 +162189,7 @@ dEQP-VK.spirv_assembly.instruction.compute.decoration_group.all
 dEQP-VK.spirv_assembly.instruction.compute.opphi.block
 dEQP-VK.spirv_assembly.instruction.compute.opphi.induction
 dEQP-VK.spirv_assembly.instruction.compute.opphi.swap
+dEQP-VK.spirv_assembly.instruction.compute.opphi.wide
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.none
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.unroll
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.dont_unroll
