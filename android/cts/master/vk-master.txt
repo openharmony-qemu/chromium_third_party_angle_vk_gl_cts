@@ -162371,6 +162371,8 @@ dEQP-VK.spirv_assembly.instruction.compute.16bit_storage.push_constant_16_to_32.
 dEQP-VK.spirv_assembly.instruction.compute.16bit_storage.push_constant_16_to_32.vector_sint
 dEQP-VK.spirv_assembly.instruction.compute.16bit_storage.push_constant_16_to_32.vector_uint
 dEQP-VK.spirv_assembly.instruction.compute.ubo_padding.mat2x2
+dEQP-VK.spirv_assembly.instruction.compute.conditional_branch.same_labels_true
+dEQP-VK.spirv_assembly.instruction.compute.conditional_branch.same_labels_false
 dEQP-VK.spirv_assembly.instruction.compute.variable_pointers.compute.reads_opselect_single_buffer
 dEQP-VK.spirv_assembly.instruction.compute.variable_pointers.compute.reads_opfunctioncall_single_buffer
 dEQP-VK.spirv_assembly.instruction.compute.variable_pointers.compute.reads_opphi_single_buffer
@@ -164413,6 +164415,16 @@ dEQP-VK.spirv_assembly.instruction.graphics.ubo_padding.mat2x2_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.ubo_padding.mat2x2_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.ubo_padding.mat2x2_geom
 dEQP-VK.spirv_assembly.instruction.graphics.ubo_padding.mat2x2_frag
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_true_vert
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_true_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_true_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_true_geom
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_true_frag
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_false_vert
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_false_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_false_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_false_geom
+dEQP-VK.spirv_assembly.instruction.graphics.conditional_branch.same_labels_false_frag
 dEQP-VK.spirv_assembly.instruction.graphics.variable_pointers.graphics.reads_opselect_single_buffer_vert
 dEQP-VK.spirv_assembly.instruction.graphics.variable_pointers.graphics.reads_opselect_single_buffer_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.variable_pointers.graphics.reads_opselect_single_buffer_tesse
