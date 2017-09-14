@@ -201960,6 +201960,11 @@ dEQP-VK.compute.builtin_var.work_group_size
 dEQP-VK.compute.builtin_var.work_group_id
 dEQP-VK.compute.builtin_var.local_invocation_id
 dEQP-VK.compute.builtin_var.global_invocation_id
+dEQP-VK.compute.builtin_var.num_work_groups_component
+dEQP-VK.compute.builtin_var.work_group_size_component
+dEQP-VK.compute.builtin_var.work_group_id_component
+dEQP-VK.compute.builtin_var.local_invocation_id_component
+dEQP-VK.compute.builtin_var.global_invocation_id_component
 dEQP-VK.compute.builtin_var.local_invocation_index
 dEQP-VK.image.store.with_format.1d.r32g32b32a32_sfloat
 dEQP-VK.image.store.with_format.1d.r16g16b16a16_sfloat
