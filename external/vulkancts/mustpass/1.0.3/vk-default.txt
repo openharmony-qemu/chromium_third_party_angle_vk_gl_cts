@@ -165262,7 +165262,9 @@ dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.multiple_arbitrary_descriptors.offset_view_nonzero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.descriptor_array.offset_view_zero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.descriptor_array.offset_view_nonzero
-dEQP-VK.spirv_assembly.instruction.compute.opnop.all
+dEQP-VK.spirv_assembly.instruction.compute.opnop.literal_localsize
+dEQP-VK.spirv_assembly.instruction.compute.opnop.literal_and_specid_localsize
+dEQP-VK.spirv_assembly.instruction.compute.opnop.specid_localsize
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iadd
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.isub
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iinc
