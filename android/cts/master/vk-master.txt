@@ -71426,6 +71426,8 @@ dEQP-VK.api.external.fence.opaque_win32_kmt.transference_permanent
 dEQP-VK.api.external.fence.opaque_win32_kmt.signal_wait_import_permanent
 dEQP-VK.api.external.fence.opaque_win32_kmt.export_signal_import_wait_permanent
 dEQP-VK.api.external.fence.opaque_win32_kmt.export_import_signal_wait_permanent
+dEQP-VK.api.maintenance3_check.maintenance3_properties
+dEQP-VK.api.maintenance3_check.descriptor_set
 dEQP-VK.memory.allocation.basic.size_64.forward.count_1
 dEQP-VK.memory.allocation.basic.size_64.forward.count_10
 dEQP-VK.memory.allocation.basic.size_64.forward.count_100
