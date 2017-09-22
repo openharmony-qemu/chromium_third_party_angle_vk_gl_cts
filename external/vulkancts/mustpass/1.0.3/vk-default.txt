@@ -184553,6 +184553,7 @@ dEQP-VK.renderpass.suballocation.simple.depth_stencil
 dEQP-VK.renderpass.suballocation.simple.color_depth
 dEQP-VK.renderpass.suballocation.simple.color_stencil
 dEQP-VK.renderpass.suballocation.simple.color_depth_stencil
+dEQP-VK.renderpass.suballocation.simple.no_attachments
 dEQP-VK.renderpass.suballocation.formats.r5g6b5_unorm_pack16.clear.clear
 dEQP-VK.renderpass.suballocation.formats.r5g6b5_unorm_pack16.clear.draw
 dEQP-VK.renderpass.suballocation.formats.r5g6b5_unorm_pack16.clear.clear_draw
@@ -190896,6 +190897,7 @@ dEQP-VK.renderpass.dedicated_allocation.simple.depth_stencil
 dEQP-VK.renderpass.dedicated_allocation.simple.color_depth
 dEQP-VK.renderpass.dedicated_allocation.simple.color_stencil
 dEQP-VK.renderpass.dedicated_allocation.simple.color_depth_stencil
+dEQP-VK.renderpass.dedicated_allocation.simple.no_attachments
 dEQP-VK.renderpass.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.clear
 dEQP-VK.renderpass.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.draw
 dEQP-VK.renderpass.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.clear_draw
