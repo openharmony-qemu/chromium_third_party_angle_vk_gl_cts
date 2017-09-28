@@ -191243,9 +191243,6 @@ dEQP-VK.spirv_assembly.instruction.compute.sconvert.int32_to_uint64
 dEQP-VK.spirv_assembly.instruction.compute.uconvert.uint16_to_uint32
 dEQP-VK.spirv_assembly.instruction.compute.uconvert.uint16_to_uint64
 dEQP-VK.spirv_assembly.instruction.compute.uconvert.uint32_to_uint64
-dEQP-VK.spirv_assembly.instruction.compute.uconvert.uint16_to_int32
-dEQP-VK.spirv_assembly.instruction.compute.uconvert.uint16_to_int64
-dEQP-VK.spirv_assembly.instruction.compute.uconvert.uint32_to_int64
 dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.int.vec_2
 dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.int.vec_3
 dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.int.vec_4
