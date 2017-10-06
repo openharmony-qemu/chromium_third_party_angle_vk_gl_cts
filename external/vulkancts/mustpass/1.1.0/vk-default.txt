@@ -217196,8 +217196,6 @@ dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
-dEQP-VK.wsi.android.surface.query_devgroup_present_capabilities
-dEQP-VK.wsi.android.surface.query_devgroup_present_modes
 dEQP-VK.wsi.android.surface.destroy_null_handle
 dEQP-VK.wsi.android.surface.initial_size
 dEQP-VK.wsi.android.swapchain.create.min_image_count
