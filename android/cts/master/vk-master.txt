@@ -177518,14 +177518,6 @@ dEQP-VK.wsi.android.incremental_present.scale_up.fifo.reference
 dEQP-VK.wsi.android.incremental_present.scale_up.fifo.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_up.fifo_relaxed.reference
 dEQP-VK.wsi.android.incremental_present.scale_up.fifo_relaxed.incremental_present
-dEQP-VK.wsi.android.incremental_present.scale_down.immediate.reference
-dEQP-VK.wsi.android.incremental_present.scale_down.immediate.incremental_present
-dEQP-VK.wsi.android.incremental_present.scale_down.mailbox.reference
-dEQP-VK.wsi.android.incremental_present.scale_down.mailbox.incremental_present
-dEQP-VK.wsi.android.incremental_present.scale_down.fifo.reference
-dEQP-VK.wsi.android.incremental_present.scale_down.fifo.incremental_present
-dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.reference
-dEQP-VK.wsi.android.incremental_present.scale_down.fifo_relaxed.incremental_present
 dEQP-VK.wsi.android.display_timing.fifo.reference
 dEQP-VK.wsi.android.display_timing.fifo.display_timing
 dEQP-VK.wsi.android.display_timing.fifo_relaxed.reference
@@ -177538,8 +177530,6 @@ dEQP-VK.wsi.android.shared_presentable_image.scale_none.demand
 dEQP-VK.wsi.android.shared_presentable_image.scale_none.continuous
 dEQP-VK.wsi.android.shared_presentable_image.scale_up.demand
 dEQP-VK.wsi.android.shared_presentable_image.scale_up.continuous
-dEQP-VK.wsi.android.shared_presentable_image.scale_down.demand
-dEQP-VK.wsi.android.shared_presentable_image.scale_down.continuous
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
 dEQP-VK.synchronization.smoke.events
