@@ -204850,7 +204850,6 @@ dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltazero
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltasmall
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltaone
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltalarge
-dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltazero
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltasmall
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltaone
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltalarge
