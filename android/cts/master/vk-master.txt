@@ -173546,6 +173546,11 @@ dEQP-VK.spirv_assembly.instruction.graphics.loop.return_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.loop.return_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.loop.return_geom
 dEQP-VK.spirv_assembly.instruction.graphics.loop.return_frag
+dEQP-VK.spirv_assembly.instruction.graphics.loop.switch_continue_vert
+dEQP-VK.spirv_assembly.instruction.graphics.loop.switch_continue_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.loop.switch_continue_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.loop.switch_continue_geom
+dEQP-VK.spirv_assembly.instruction.graphics.loop.switch_continue_frag
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iadd_vert
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iadd_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iadd_tesse
