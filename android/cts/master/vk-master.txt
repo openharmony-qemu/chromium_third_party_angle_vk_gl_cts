@@ -209713,6 +209713,10 @@ dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltalarge
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltasmall
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltaone
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltalarge
+dEQP-VK.draw.differing_interpolation.flat_0
+dEQP-VK.draw.differing_interpolation.flat_1
+dEQP-VK.draw.differing_interpolation.noperspective_0
+dEQP-VK.draw.differing_interpolation.noperspective_1
 dEQP-VK.compute.basic.empty_shader
 dEQP-VK.compute.basic.ubo_to_ssbo_single_invocation
 dEQP-VK.compute.basic.ubo_to_ssbo_single_group
