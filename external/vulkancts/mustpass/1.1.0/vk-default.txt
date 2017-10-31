@@ -251464,6 +251464,7 @@ dEQP-VK.geometry.layered.1d_array.render_different_content
 dEQP-VK.geometry.layered.1d_array.fragment_layer
 dEQP-VK.geometry.layered.1d_array.invocation_per_layer
 dEQP-VK.geometry.layered.1d_array.multiple_layers_per_invocation
+dEQP-VK.geometry.layered.1d_array.readback
 dEQP-VK.geometry.layered.2d_array.render_to_default_layer
 dEQP-VK.geometry.layered.2d_array.render_to_one
 dEQP-VK.geometry.layered.2d_array.render_to_all
@@ -251471,6 +251472,7 @@ dEQP-VK.geometry.layered.2d_array.render_different_content
 dEQP-VK.geometry.layered.2d_array.fragment_layer
 dEQP-VK.geometry.layered.2d_array.invocation_per_layer
 dEQP-VK.geometry.layered.2d_array.multiple_layers_per_invocation
+dEQP-VK.geometry.layered.2d_array.readback
 dEQP-VK.geometry.layered.cube.render_to_default_layer
 dEQP-VK.geometry.layered.cube.render_to_one
 dEQP-VK.geometry.layered.cube.render_to_all
@@ -251478,6 +251480,7 @@ dEQP-VK.geometry.layered.cube.render_different_content
 dEQP-VK.geometry.layered.cube.fragment_layer
 dEQP-VK.geometry.layered.cube.invocation_per_layer
 dEQP-VK.geometry.layered.cube.multiple_layers_per_invocation
+dEQP-VK.geometry.layered.cube.readback
 dEQP-VK.geometry.layered.cube_array.render_to_default_layer
 dEQP-VK.geometry.layered.cube_array.render_to_one
 dEQP-VK.geometry.layered.cube_array.render_to_all
@@ -251485,6 +251488,7 @@ dEQP-VK.geometry.layered.cube_array.render_different_content
 dEQP-VK.geometry.layered.cube_array.fragment_layer
 dEQP-VK.geometry.layered.cube_array.invocation_per_layer
 dEQP-VK.geometry.layered.cube_array.multiple_layers_per_invocation
+dEQP-VK.geometry.layered.cube_array.readback
 dEQP-VK.geometry.layered.3d.render_to_default_layer
 dEQP-VK.geometry.layered.3d.render_to_one
 dEQP-VK.geometry.layered.3d.render_to_all
@@ -251492,6 +251496,7 @@ dEQP-VK.geometry.layered.3d.render_different_content
 dEQP-VK.geometry.layered.3d.fragment_layer
 dEQP-VK.geometry.layered.3d.invocation_per_layer
 dEQP-VK.geometry.layered.3d.multiple_layers_per_invocation
+dEQP-VK.geometry.layered.3d.readback
 dEQP-VK.geometry.instanced.draw_1_instances_1_geometry_invocations
 dEQP-VK.geometry.instanced.draw_1_instances_2_geometry_invocations
 dEQP-VK.geometry.instanced.draw_1_instances_8_geometry_invocations
