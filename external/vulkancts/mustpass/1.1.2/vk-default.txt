@@ -196084,6 +196084,12 @@ dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.sampled_ima
 dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.sampled_image.pass_sampler_to_function
 dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.sampled_image.pass_image_and_sampler_to_function
 dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.combined_image_sampler.all_local_variables
+dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
+dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
+dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision
+dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.interface_blocks.flat
+dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.interface_blocks.no_perspective
+dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.interface_blocks.relaxedprecision
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_version.1_0_vertex
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_version.1_0_tesselation_evaluation
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_version.1_0_tesselation_control
