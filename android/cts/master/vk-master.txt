@@ -168509,6 +168509,8 @@ dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.snegate
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.not
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.logicalnot
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.select
+dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.sconvert
+dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.fconvert
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.vector_related
 dEQP-VK.spirv_assembly.instruction.compute.opsource.unknown_source
 dEQP-VK.spirv_assembly.instruction.compute.opsource.wrong_source
@@ -169686,6 +169688,16 @@ dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.select_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.select_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.select_geom
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.select_frag
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.sconvert_vert
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.sconvert_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.sconvert_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.sconvert_geom
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.sconvert_frag
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.fconvert_vert
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.fconvert_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.fconvert_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.fconvert_geom
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.fconvert_frag
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.vector_related_vert
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.vector_related_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.vector_related_tesse
