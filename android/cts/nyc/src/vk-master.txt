@@ -63178,9 +63178,6 @@ dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.ver
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.vertex_fragment.descriptor_array.offset_view_zero_dynamic_nonzero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.vertex_fragment.descriptor_array.offset_view_nonzero_dynamic_zero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.storage_buffer_dynamic.vertex_fragment.descriptor_array.offset_view_nonzero_dynamic_nonzero
-dEQP-VK.spirv_assembly.instruction.compute.opnop.literal_localsize
-dEQP-VK.spirv_assembly.instruction.compute.opnop.literal_and_specid_localsize
-dEQP-VK.spirv_assembly.instruction.compute.opnop.specid_localsize
 dEQP-VK.spirv_assembly.instruction.compute.opline.all
 dEQP-VK.spirv_assembly.instruction.compute.opnoline.all
 dEQP-VK.spirv_assembly.instruction.compute.opconstantnull.bool
@@ -81719,7 +81716,7 @@ dEQP-VK.dynamic_state.rs_state.depth_bias
 dEQP-VK.dynamic_state.rs_state.depth_bias_clamp
 dEQP-VK.dynamic_state.rs_state.line_width
 dEQP-VK.dynamic_state.cb_state.blend_constants
-dEQP-VK.dynamic_state.ds_state.depth_bounds
+dEQP-VK.dynamic_state.ds_state.depth_bounds_1
 dEQP-VK.dynamic_state.ds_state.stencil_params_basic_1
 dEQP-VK.dynamic_state.ds_state.stencil_params_basic_2
 dEQP-VK.dynamic_state.ds_state.stencil_params_advanced
