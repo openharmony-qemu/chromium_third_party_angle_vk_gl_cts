@@ -230178,6 +230178,7 @@ dEQP-VK.synchronization.basic.fence.multi
 dEQP-VK.synchronization.basic.fence.empty_submit
 dEQP-VK.synchronization.basic.semaphore.one_queue
 dEQP-VK.synchronization.basic.semaphore.multi_queue
+dEQP-VK.synchronization.basic.semaphore.chain
 dEQP-VK.synchronization.basic.event.host_set_reset
 dEQP-VK.synchronization.basic.event.device_set_reset
 dEQP-VK.synchronization.basic.event.host_set_device_wait
