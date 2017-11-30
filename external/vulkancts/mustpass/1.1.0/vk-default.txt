@@ -188339,8 +188339,6 @@ dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2dshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sampler2dshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2dshadow_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.sampler2dshadow_fragment
-dEQP-VK.glsl.texture_functions.texturegrad.sparse_samplercubeshadow_vertex
-dEQP-VK.glsl.texture_functions.texturegrad.sparse_samplercubeshadow_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2darrayshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sampler2darrayshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2darrayshadow_fragment
