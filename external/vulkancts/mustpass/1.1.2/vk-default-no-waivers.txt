@@ -160694,6 +160694,7 @@ dEQP-VK.pipeline.framebuffer_attachment.2d_array_32x32_39x41_4_ms
 dEQP-VK.pipeline.framebuffer_attachment.2d_array_19x27_32x32_4_ms
 dEQP-VK.pipeline.framebuffer_attachment.no_attachments
 dEQP-VK.pipeline.framebuffer_attachment.no_attachments_ms
+dEQP-VK.pipeline.framebuffer_attachment.unused_attachment
 dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_1d_32_64
 dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_1d_32_48
 dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_1d_32_39
