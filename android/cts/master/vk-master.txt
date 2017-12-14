@@ -279883,6 +279883,7 @@ dEQP-VK.multiview.masks.8
 dEQP-VK.multiview.masks.1_2_4_8
 dEQP-VK.multiview.masks.15_15_15_15
 dEQP-VK.multiview.masks.8_1_1_8
+dEQP-VK.multiview.masks.5_10_5_10
 dEQP-VK.multiview.masks.1_2_4_8_16_32
 dEQP-VK.multiview.masks.max_multi_view_view_count
 dEQP-VK.multiview.input_attachments.15
@@ -279890,6 +279891,7 @@ dEQP-VK.multiview.input_attachments.8
 dEQP-VK.multiview.input_attachments.1_2_4_8
 dEQP-VK.multiview.input_attachments.15_15_15_15
 dEQP-VK.multiview.input_attachments.8_1_1_8
+dEQP-VK.multiview.input_attachments.5_10_5_10
 dEQP-VK.multiview.input_attachments.1_2_4_8_16_32
 dEQP-VK.multiview.input_attachments.max_multi_view_view_count
 dEQP-VK.multiview.input_attachments_geometry.15
@@ -279897,6 +279899,7 @@ dEQP-VK.multiview.input_attachments_geometry.8
 dEQP-VK.multiview.input_attachments_geometry.1_2_4_8
 dEQP-VK.multiview.input_attachments_geometry.15_15_15_15
 dEQP-VK.multiview.input_attachments_geometry.8_1_1_8
+dEQP-VK.multiview.input_attachments_geometry.5_10_5_10
 dEQP-VK.multiview.input_attachments_geometry.1_2_4_8_16_32
 dEQP-VK.multiview.input_attachments_geometry.max_multi_view_view_count
 dEQP-VK.multiview.instanced.15
@@ -279904,6 +279907,7 @@ dEQP-VK.multiview.instanced.8
 dEQP-VK.multiview.instanced.1_2_4_8
 dEQP-VK.multiview.instanced.15_15_15_15
 dEQP-VK.multiview.instanced.8_1_1_8
+dEQP-VK.multiview.instanced.5_10_5_10
 dEQP-VK.multiview.instanced.1_2_4_8_16_32
 dEQP-VK.multiview.instanced.max_multi_view_view_count
 dEQP-VK.multiview.input_instance.15
@@ -279911,6 +279915,7 @@ dEQP-VK.multiview.input_instance.8
 dEQP-VK.multiview.input_instance.1_2_4_8
 dEQP-VK.multiview.input_instance.15_15_15_15
 dEQP-VK.multiview.input_instance.8_1_1_8
+dEQP-VK.multiview.input_instance.5_10_5_10
 dEQP-VK.multiview.input_instance.1_2_4_8_16_32
 dEQP-VK.multiview.input_instance.max_multi_view_view_count
 dEQP-VK.multiview.draw_indirect.15
@@ -279918,6 +279923,7 @@ dEQP-VK.multiview.draw_indirect.8
 dEQP-VK.multiview.draw_indirect.1_2_4_8
 dEQP-VK.multiview.draw_indirect.15_15_15_15
 dEQP-VK.multiview.draw_indirect.8_1_1_8
+dEQP-VK.multiview.draw_indirect.5_10_5_10
 dEQP-VK.multiview.draw_indirect.1_2_4_8_16_32
 dEQP-VK.multiview.draw_indirect.max_multi_view_view_count
 dEQP-VK.multiview.draw_indirect_indexed.15
@@ -279925,6 +279931,7 @@ dEQP-VK.multiview.draw_indirect_indexed.8
 dEQP-VK.multiview.draw_indirect_indexed.1_2_4_8
 dEQP-VK.multiview.draw_indirect_indexed.15_15_15_15
 dEQP-VK.multiview.draw_indirect_indexed.8_1_1_8
+dEQP-VK.multiview.draw_indirect_indexed.5_10_5_10
 dEQP-VK.multiview.draw_indirect_indexed.1_2_4_8_16_32
 dEQP-VK.multiview.draw_indirect_indexed.max_multi_view_view_count
 dEQP-VK.multiview.draw_indexed.15
@@ -279932,6 +279939,7 @@ dEQP-VK.multiview.draw_indexed.8
 dEQP-VK.multiview.draw_indexed.1_2_4_8
 dEQP-VK.multiview.draw_indexed.15_15_15_15
 dEQP-VK.multiview.draw_indexed.8_1_1_8
+dEQP-VK.multiview.draw_indexed.5_10_5_10
 dEQP-VK.multiview.draw_indexed.1_2_4_8_16_32
 dEQP-VK.multiview.draw_indexed.max_multi_view_view_count
 dEQP-VK.multiview.clear_attachments.15
@@ -279939,6 +279947,7 @@ dEQP-VK.multiview.clear_attachments.8
 dEQP-VK.multiview.clear_attachments.1_2_4_8
 dEQP-VK.multiview.clear_attachments.15_15_15_15
 dEQP-VK.multiview.clear_attachments.8_1_1_8
+dEQP-VK.multiview.clear_attachments.5_10_5_10
 dEQP-VK.multiview.clear_attachments.1_2_4_8_16_32
 dEQP-VK.multiview.clear_attachments.max_multi_view_view_count
 dEQP-VK.multiview.secondary_cmd_buffer.15
@@ -279946,6 +279955,7 @@ dEQP-VK.multiview.secondary_cmd_buffer.8
 dEQP-VK.multiview.secondary_cmd_buffer.1_2_4_8
 dEQP-VK.multiview.secondary_cmd_buffer.15_15_15_15
 dEQP-VK.multiview.secondary_cmd_buffer.8_1_1_8
+dEQP-VK.multiview.secondary_cmd_buffer.5_10_5_10
 dEQP-VK.multiview.secondary_cmd_buffer.1_2_4_8_16_32
 dEQP-VK.multiview.secondary_cmd_buffer.max_multi_view_view_count
 dEQP-VK.multiview.secondary_cmd_buffer_geometry.15
@@ -279953,6 +279963,7 @@ dEQP-VK.multiview.secondary_cmd_buffer_geometry.8
 dEQP-VK.multiview.secondary_cmd_buffer_geometry.1_2_4_8
 dEQP-VK.multiview.secondary_cmd_buffer_geometry.15_15_15_15
 dEQP-VK.multiview.secondary_cmd_buffer_geometry.8_1_1_8
+dEQP-VK.multiview.secondary_cmd_buffer_geometry.5_10_5_10
 dEQP-VK.multiview.secondary_cmd_buffer_geometry.1_2_4_8_16_32
 dEQP-VK.multiview.secondary_cmd_buffer_geometry.max_multi_view_view_count
 dEQP-VK.multiview.point_size.15
@@ -279960,6 +279971,7 @@ dEQP-VK.multiview.point_size.8
 dEQP-VK.multiview.point_size.1_2_4_8
 dEQP-VK.multiview.point_size.15_15_15_15
 dEQP-VK.multiview.point_size.8_1_1_8
+dEQP-VK.multiview.point_size.5_10_5_10
 dEQP-VK.multiview.point_size.1_2_4_8_16_32
 dEQP-VK.multiview.point_size.max_multi_view_view_count
 dEQP-VK.multiview.multisample.15
@@ -279967,13 +279979,39 @@ dEQP-VK.multiview.multisample.8
 dEQP-VK.multiview.multisample.1_2_4_8
 dEQP-VK.multiview.multisample.15_15_15_15
 dEQP-VK.multiview.multisample.8_1_1_8
+dEQP-VK.multiview.multisample.5_10_5_10
 dEQP-VK.multiview.multisample.1_2_4_8_16_32
 dEQP-VK.multiview.multisample.max_multi_view_view_count
+dEQP-VK.multiview.queries.15
+dEQP-VK.multiview.queries.8
+dEQP-VK.multiview.queries.1_2_4_8
+dEQP-VK.multiview.queries.15_15_15_15
+dEQP-VK.multiview.queries.8_1_1_8
+dEQP-VK.multiview.queries.5_10_5_10
+dEQP-VK.multiview.queries.1_2_4_8_16_32
+dEQP-VK.multiview.queries.max_multi_view_view_count
+dEQP-VK.multiview.readback_implicit_clear.15
+dEQP-VK.multiview.readback_implicit_clear.8
+dEQP-VK.multiview.readback_implicit_clear.1_2_4_8
+dEQP-VK.multiview.readback_implicit_clear.15_15_15_15
+dEQP-VK.multiview.readback_implicit_clear.8_1_1_8
+dEQP-VK.multiview.readback_implicit_clear.5_10_5_10
+dEQP-VK.multiview.readback_implicit_clear.1_2_4_8_16_32
+dEQP-VK.multiview.readback_implicit_clear.max_multi_view_view_count
+dEQP-VK.multiview.readback_explicit_clear.15
+dEQP-VK.multiview.readback_explicit_clear.8
+dEQP-VK.multiview.readback_explicit_clear.1_2_4_8
+dEQP-VK.multiview.readback_explicit_clear.15_15_15_15
+dEQP-VK.multiview.readback_explicit_clear.8_1_1_8
+dEQP-VK.multiview.readback_explicit_clear.5_10_5_10
+dEQP-VK.multiview.readback_explicit_clear.1_2_4_8_16_32
+dEQP-VK.multiview.readback_explicit_clear.max_multi_view_view_count
 dEQP-VK.multiview.index.vertex_shader.15
 dEQP-VK.multiview.index.vertex_shader.8
 dEQP-VK.multiview.index.vertex_shader.1_2_4_8
 dEQP-VK.multiview.index.vertex_shader.15_15_15_15
 dEQP-VK.multiview.index.vertex_shader.8_1_1_8
+dEQP-VK.multiview.index.vertex_shader.5_10_5_10
 dEQP-VK.multiview.index.vertex_shader.1_2_4_8_16_32
 dEQP-VK.multiview.index.vertex_shader.max_multi_view_view_count
 dEQP-VK.multiview.index.fragment_shader.15
@@ -279981,6 +280019,7 @@ dEQP-VK.multiview.index.fragment_shader.8
 dEQP-VK.multiview.index.fragment_shader.1_2_4_8
 dEQP-VK.multiview.index.fragment_shader.15_15_15_15
 dEQP-VK.multiview.index.fragment_shader.8_1_1_8
+dEQP-VK.multiview.index.fragment_shader.5_10_5_10
 dEQP-VK.multiview.index.fragment_shader.1_2_4_8_16_32
 dEQP-VK.multiview.index.fragment_shader.max_multi_view_view_count
 dEQP-VK.multiview.index.geometry_shader.15
@@ -279988,6 +280027,7 @@ dEQP-VK.multiview.index.geometry_shader.8
 dEQP-VK.multiview.index.geometry_shader.1_2_4_8
 dEQP-VK.multiview.index.geometry_shader.15_15_15_15
 dEQP-VK.multiview.index.geometry_shader.8_1_1_8
+dEQP-VK.multiview.index.geometry_shader.5_10_5_10
 dEQP-VK.multiview.index.geometry_shader.1_2_4_8_16_32
 dEQP-VK.multiview.index.geometry_shader.max_multi_view_view_count
 dEQP-VK.multiview.index.tesellation_shader.15
@@ -279995,6 +280035,7 @@ dEQP-VK.multiview.index.tesellation_shader.8
 dEQP-VK.multiview.index.tesellation_shader.1_2_4_8
 dEQP-VK.multiview.index.tesellation_shader.15_15_15_15
 dEQP-VK.multiview.index.tesellation_shader.8_1_1_8
+dEQP-VK.multiview.index.tesellation_shader.5_10_5_10
 dEQP-VK.multiview.index.tesellation_shader.1_2_4_8_16_32
 dEQP-VK.multiview.index.tesellation_shader.max_multi_view_view_count
 dEQP-VK.subgroups.builtin_var.subgroupsize_graphic
