@@ -255637,6 +255637,7 @@ dEQP-VK.wsi.android.shared_presentable_image.scale_down.demand
 dEQP-VK.wsi.android.shared_presentable_image.scale_down.continuous
 dEQP-VK.wsi.android.colorspace.extensions
 dEQP-VK.wsi.android.colorspace.basic
+dEQP-VK.wsi.android.colorspace.hdr
 dEQP-VK.wsi.display.get_display_properties
 dEQP-VK.wsi.display.get_display_plane_properties
 dEQP-VK.wsi.display.get_display_plane_supported_displays

@@ -255637,6 +255637,7 @@ dEQP-VK.wsi.xlib.shared_presentable_image.scale_none.demand
 dEQP-VK.wsi.xlib.shared_presentable_image.scale_none.continuous
 dEQP-VK.wsi.xlib.colorspace.extensions
 dEQP-VK.wsi.xlib.colorspace.basic
+dEQP-VK.wsi.xlib.colorspace.hdr
 dEQP-VK.wsi.xcb.surface.create
 dEQP-VK.wsi.xcb.surface.create_custom_allocator
 dEQP-VK.wsi.xcb.surface.create_simulate_oom
@@ -255694,6 +255695,7 @@ dEQP-VK.wsi.xcb.shared_presentable_image.scale_none.demand
 dEQP-VK.wsi.xcb.shared_presentable_image.scale_none.continuous
 dEQP-VK.wsi.xcb.colorspace.extensions
 dEQP-VK.wsi.xcb.colorspace.basic
+dEQP-VK.wsi.xcb.colorspace.hdr
 dEQP-VK.wsi.wayland.surface.create
 dEQP-VK.wsi.wayland.surface.create_custom_allocator
 dEQP-VK.wsi.wayland.surface.create_simulate_oom
@@ -255750,6 +255752,7 @@ dEQP-VK.wsi.wayland.shared_presentable_image.scale_none.demand
 dEQP-VK.wsi.wayland.shared_presentable_image.scale_none.continuous
 dEQP-VK.wsi.wayland.colorspace.extensions
 dEQP-VK.wsi.wayland.colorspace.basic
+dEQP-VK.wsi.wayland.colorspace.hdr
 dEQP-VK.wsi.mir.surface.create
 dEQP-VK.wsi.mir.surface.create_custom_allocator
 dEQP-VK.wsi.mir.surface.create_simulate_oom
@@ -255828,6 +255831,7 @@ dEQP-VK.wsi.mir.shared_presentable_image.scale_down.demand
 dEQP-VK.wsi.mir.shared_presentable_image.scale_down.continuous
 dEQP-VK.wsi.mir.colorspace.extensions
 dEQP-VK.wsi.mir.colorspace.basic
+dEQP-VK.wsi.mir.colorspace.hdr
 dEQP-VK.wsi.android.surface.create
 dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
@@ -255903,6 +255907,7 @@ dEQP-VK.wsi.android.shared_presentable_image.scale_down.demand
 dEQP-VK.wsi.android.shared_presentable_image.scale_down.continuous
 dEQP-VK.wsi.android.colorspace.extensions
 dEQP-VK.wsi.android.colorspace.basic
+dEQP-VK.wsi.android.colorspace.hdr
 dEQP-VK.wsi.win32.surface.create
 dEQP-VK.wsi.win32.surface.create_custom_allocator
 dEQP-VK.wsi.win32.surface.create_simulate_oom
@@ -255960,6 +255965,7 @@ dEQP-VK.wsi.win32.shared_presentable_image.scale_none.demand
 dEQP-VK.wsi.win32.shared_presentable_image.scale_none.continuous
 dEQP-VK.wsi.win32.colorspace.extensions
 dEQP-VK.wsi.win32.colorspace.basic
+dEQP-VK.wsi.win32.colorspace.hdr
 dEQP-VK.wsi.display.get_display_properties
 dEQP-VK.wsi.display.get_display_plane_properties
 dEQP-VK.wsi.display.get_display_plane_supported_displays
