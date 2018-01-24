@@ -200266,6 +200266,16 @@ dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.sampled_ima
 dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.sampled_image.pass_sampler_to_function
 dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.sampled_image.pass_image_and_sampler_to_function
 dEQP-VK.spirv_assembly.instruction.compute.image_sampler.imagesample.combined_image_sampler.all_local_variables
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_main.main_is_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_main.main_is_not_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_main.func_is_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_main.func_is_not_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_rdc.main_is_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_rdc.main_is_not_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_rdc.main_is_entry
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_rdc.func_is_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_rdc.func_is_not_main
+dEQP-VK.spirv_assembly.instruction.compute.opname.entry_rdc.func_is_entry
 dEQP-VK.spirv_assembly.instruction.graphics.opnop.opnop_vert
 dEQP-VK.spirv_assembly.instruction.graphics.opnop.opnop_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opnop.opnop_tesse
