@@ -201346,6 +201346,11 @@ dEQP-VK.spirv_assembly.instruction.graphics.android.smod.all_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.android.smod.all_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.android.smod.all_geom
 dEQP-VK.spirv_assembly.instruction.graphics.android.smod.all_frag
+dEQP-VK.spirv_assembly.instruction.graphics.opname.opname_vert
+dEQP-VK.spirv_assembly.instruction.graphics.opname.opname_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.opname.opname_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.opname.opname_geom
+dEQP-VK.spirv_assembly.instruction.graphics.opname.opname_frag
 dEQP-VK.spirv_assembly.instruction.graphics.16bit_storage.uniform_float_32_to_16.uniform_buffer_block_scalar_float_rtz_vert
 dEQP-VK.spirv_assembly.instruction.graphics.16bit_storage.uniform_float_32_to_16.uniform_buffer_block_scalar_float_rtz_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.16bit_storage.uniform_float_32_to_16.uniform_buffer_block_scalar_float_rtz_tesse
