@@ -156957,6 +156957,8 @@ dEQP-VK.pipeline.spec_constant.compute.local_size.xy
 dEQP-VK.pipeline.spec_constant.compute.local_size.xz
 dEQP-VK.pipeline.spec_constant.compute.local_size.yz
 dEQP-VK.pipeline.spec_constant.compute.local_size.xyz
+dEQP-VK.pipeline.matched_attachments.cache
+dEQP-VK.pipeline.matched_attachments.no_cache
 dEQP-VK.pipeline.multisample.raster_samples.samples_2.primitive_triangle
 dEQP-VK.pipeline.multisample.raster_samples.samples_2.primitive_line
 dEQP-VK.pipeline.multisample.raster_samples.samples_2.primitive_point
