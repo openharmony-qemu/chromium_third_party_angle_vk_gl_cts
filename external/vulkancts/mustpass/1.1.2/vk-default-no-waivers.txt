@@ -208387,6 +208387,11 @@ dEQP-VK.spirv_assembly.type.scalar.i32.find_msb_tessc
 dEQP-VK.spirv_assembly.type.scalar.i32.find_msb_tesse
 dEQP-VK.spirv_assembly.type.scalar.i32.find_msb_geom
 dEQP-VK.spirv_assembly.type.scalar.i32.find_msb_frag
+dEQP-VK.spirv_assembly.type.scalar.i32.switch_vert
+dEQP-VK.spirv_assembly.type.scalar.i32.switch_tessc
+dEQP-VK.spirv_assembly.type.scalar.i32.switch_tesse
+dEQP-VK.spirv_assembly.type.scalar.i32.switch_geom
+dEQP-VK.spirv_assembly.type.scalar.i32.switch_frag
 dEQP-VK.spirv_assembly.type.scalar.i64.negate_vert
 dEQP-VK.spirv_assembly.type.scalar.i64.negate_tessc
 dEQP-VK.spirv_assembly.type.scalar.i64.negate_tesse
@@ -208447,6 +208452,11 @@ dEQP-VK.spirv_assembly.type.scalar.i64.clamp_tessc
 dEQP-VK.spirv_assembly.type.scalar.i64.clamp_tesse
 dEQP-VK.spirv_assembly.type.scalar.i64.clamp_geom
 dEQP-VK.spirv_assembly.type.scalar.i64.clamp_frag
+dEQP-VK.spirv_assembly.type.scalar.i64.switch_vert
+dEQP-VK.spirv_assembly.type.scalar.i64.switch_tessc
+dEQP-VK.spirv_assembly.type.scalar.i64.switch_tesse
+dEQP-VK.spirv_assembly.type.scalar.i64.switch_geom
+dEQP-VK.spirv_assembly.type.scalar.i64.switch_frag
 dEQP-VK.spirv_assembly.type.scalar.u32.div_vert
 dEQP-VK.spirv_assembly.type.scalar.u32.div_tessc
 dEQP-VK.spirv_assembly.type.scalar.u32.div_tesse
@@ -208477,6 +208487,11 @@ dEQP-VK.spirv_assembly.type.scalar.u32.find_msb_tessc
 dEQP-VK.spirv_assembly.type.scalar.u32.find_msb_tesse
 dEQP-VK.spirv_assembly.type.scalar.u32.find_msb_geom
 dEQP-VK.spirv_assembly.type.scalar.u32.find_msb_frag
+dEQP-VK.spirv_assembly.type.scalar.u32.switch_vert
+dEQP-VK.spirv_assembly.type.scalar.u32.switch_tessc
+dEQP-VK.spirv_assembly.type.scalar.u32.switch_tesse
+dEQP-VK.spirv_assembly.type.scalar.u32.switch_geom
+dEQP-VK.spirv_assembly.type.scalar.u32.switch_frag
 dEQP-VK.spirv_assembly.type.scalar.u64.div_vert
 dEQP-VK.spirv_assembly.type.scalar.u64.div_tessc
 dEQP-VK.spirv_assembly.type.scalar.u64.div_tesse
@@ -208502,6 +208517,11 @@ dEQP-VK.spirv_assembly.type.scalar.u64.clamp_tessc
 dEQP-VK.spirv_assembly.type.scalar.u64.clamp_tesse
 dEQP-VK.spirv_assembly.type.scalar.u64.clamp_geom
 dEQP-VK.spirv_assembly.type.scalar.u64.clamp_frag
+dEQP-VK.spirv_assembly.type.scalar.u64.switch_vert
+dEQP-VK.spirv_assembly.type.scalar.u64.switch_tessc
+dEQP-VK.spirv_assembly.type.scalar.u64.switch_tesse
+dEQP-VK.spirv_assembly.type.scalar.u64.switch_geom
+dEQP-VK.spirv_assembly.type.scalar.u64.switch_frag
 dEQP-VK.spirv_assembly.type.vec2.i32.negate_vert
 dEQP-VK.spirv_assembly.type.vec2.i32.negate_tessc
 dEQP-VK.spirv_assembly.type.vec2.i32.negate_tesse
