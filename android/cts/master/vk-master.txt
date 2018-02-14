@@ -74373,6 +74373,8 @@ dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_second_part
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.update_buffer_second_part
 dEQP-VK.api.descriptor_pool.repeated_reset_short
 dEQP-VK.api.descriptor_pool.repeated_reset_long
+dEQP-VK.api.descriptor_pool.repeated_free_reset_short
+dEQP-VK.api.descriptor_pool.repeated_free_reset_long
 dEQP-VK.api.descriptor_pool.out_of_pool_memory
 dEQP-VK.api.null_handle.destroy_buffer
 dEQP-VK.api.null_handle.destroy_buffer_view
