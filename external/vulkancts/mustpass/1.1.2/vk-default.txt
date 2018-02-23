@@ -7939,6 +7939,7 @@ dEQP-VK.api.command_buffers.submit_count_equal_zero
 dEQP-VK.api.command_buffers.submit_wait_single_semaphore
 dEQP-VK.api.command_buffers.submit_wait_many_semaphores
 dEQP-VK.api.command_buffers.submit_null_fence
+dEQP-VK.api.command_buffers.submit_two_buffers_one_buffer_null_with_fence
 dEQP-VK.api.command_buffers.secondary_execute
 dEQP-VK.api.command_buffers.secondary_execute_twice
 dEQP-VK.api.command_buffers.order_bind_pipeline
