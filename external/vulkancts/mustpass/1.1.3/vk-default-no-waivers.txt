@@ -210625,6 +210625,7 @@ dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.float.matrix_3x4
 dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.float.matrix_4x2
 dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.float.matrix_4x3
 dEQP-VK.spirv_assembly.instruction.compute.opcompositeinsert.float.matrix_4x4
+dEQP-VK.spirv_assembly.instruction.compute.opcompositeextract.basic_test
 dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.int.vec_2
 dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.int.vec_3
 dEQP-VK.spirv_assembly.instruction.compute.opinboundsaccesschain.int.vec_4
