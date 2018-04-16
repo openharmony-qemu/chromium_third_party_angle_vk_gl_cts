@@ -212821,6 +212821,11 @@ dEQP-VK.spirv_assembly.type.scalar.i16.mul_sdiv_test_high_part_zero_tessc
 dEQP-VK.spirv_assembly.type.scalar.i16.mul_sdiv_test_high_part_zero_tesse
 dEQP-VK.spirv_assembly.type.scalar.i16.mul_sdiv_test_high_part_zero_geom
 dEQP-VK.spirv_assembly.type.scalar.i16.mul_sdiv_test_high_part_zero_frag
+dEQP-VK.spirv_assembly.type.scalar.i16.switch_vert
+dEQP-VK.spirv_assembly.type.scalar.i16.switch_tessc
+dEQP-VK.spirv_assembly.type.scalar.i16.switch_tesse
+dEQP-VK.spirv_assembly.type.scalar.i16.switch_geom
+dEQP-VK.spirv_assembly.type.scalar.i16.switch_frag
 dEQP-VK.spirv_assembly.type.scalar.i32.negate_vert
 dEQP-VK.spirv_assembly.type.scalar.i32.negate_tessc
 dEQP-VK.spirv_assembly.type.scalar.i32.negate_tesse
@@ -213021,6 +213026,11 @@ dEQP-VK.spirv_assembly.type.scalar.u16.mul_udiv_test_high_part_zero_tessc
 dEQP-VK.spirv_assembly.type.scalar.u16.mul_udiv_test_high_part_zero_tesse
 dEQP-VK.spirv_assembly.type.scalar.u16.mul_udiv_test_high_part_zero_geom
 dEQP-VK.spirv_assembly.type.scalar.u16.mul_udiv_test_high_part_zero_frag
+dEQP-VK.spirv_assembly.type.scalar.u16.switch_vert
+dEQP-VK.spirv_assembly.type.scalar.u16.switch_tessc
+dEQP-VK.spirv_assembly.type.scalar.u16.switch_tesse
+dEQP-VK.spirv_assembly.type.scalar.u16.switch_geom
+dEQP-VK.spirv_assembly.type.scalar.u16.switch_frag
 dEQP-VK.spirv_assembly.type.scalar.u32.div_vert
 dEQP-VK.spirv_assembly.type.scalar.u32.div_tessc
 dEQP-VK.spirv_assembly.type.scalar.u32.div_tesse
