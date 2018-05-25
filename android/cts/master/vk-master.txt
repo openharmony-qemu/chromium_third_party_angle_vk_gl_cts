@@ -81009,6 +81009,7 @@ dEQP-VK.api.pipeline.renderpass.destroy_pipeline_renderpass
 dEQP-VK.api.pipeline.renderpass.framebuffer_compatible_renderpass
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.graphics
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.compute
+dEQP-VK.api.invariance.random
 dEQP-VK.memory.allocation.basic.size_64.forward.count_1
 dEQP-VK.memory.allocation.basic.size_64.forward.count_10
 dEQP-VK.memory.allocation.basic.size_64.forward.count_100
