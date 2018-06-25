@@ -165069,6 +165069,7 @@ dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_2d_32x32_64x64_ms
 dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_2d_32x32_48x48_ms
 dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_2d_32x32_39x41_ms
 dEQP-VK.pipeline.framebuffer_attachment.diff_attachments_2d_19x27_32x32_ms
+dEQP-VK.pipeline.shader_stencil_export.op_replace
 dEQP-VK.binding_model.shader_access.primary_cmd_buf.sampler_mutable.no_access.single_descriptor.1d
 dEQP-VK.binding_model.shader_access.primary_cmd_buf.sampler_mutable.no_access.single_descriptor.1d_base_mip
 dEQP-VK.binding_model.shader_access.primary_cmd_buf.sampler_mutable.no_access.single_descriptor.1d_base_slice
@@ -237676,6 +237677,7 @@ dEQP-VK.renderpass.suballocation.simple.color_depth
 dEQP-VK.renderpass.suballocation.simple.color_stencil
 dEQP-VK.renderpass.suballocation.simple.color_depth_stencil
 dEQP-VK.renderpass.suballocation.simple.no_attachments
+dEQP-VK.renderpass.suballocation.simple.color_unused_omit_blend_state
 dEQP-VK.renderpass.suballocation.formats.r5g6b5_unorm_pack16.clear.clear
 dEQP-VK.renderpass.suballocation.formats.r5g6b5_unorm_pack16.clear.draw
 dEQP-VK.renderpass.suballocation.formats.r5g6b5_unorm_pack16.clear.clear_draw
@@ -244266,6 +244268,7 @@ dEQP-VK.renderpass.dedicated_allocation.simple.color_depth
 dEQP-VK.renderpass.dedicated_allocation.simple.color_stencil
 dEQP-VK.renderpass.dedicated_allocation.simple.color_depth_stencil
 dEQP-VK.renderpass.dedicated_allocation.simple.no_attachments
+dEQP-VK.renderpass.dedicated_allocation.simple.color_unused_omit_blend_state
 dEQP-VK.renderpass.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.clear
 dEQP-VK.renderpass.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.draw
 dEQP-VK.renderpass.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.clear_draw
@@ -250971,6 +250974,7 @@ dEQP-VK.renderpass2.suballocation.simple.color_depth
 dEQP-VK.renderpass2.suballocation.simple.color_stencil
 dEQP-VK.renderpass2.suballocation.simple.color_depth_stencil
 dEQP-VK.renderpass2.suballocation.simple.no_attachments
+dEQP-VK.renderpass2.suballocation.simple.color_unused_omit_blend_state
 dEQP-VK.renderpass2.suballocation.formats.r5g6b5_unorm_pack16.clear.clear
 dEQP-VK.renderpass2.suballocation.formats.r5g6b5_unorm_pack16.clear.draw
 dEQP-VK.renderpass2.suballocation.formats.r5g6b5_unorm_pack16.clear.clear_draw
@@ -255509,6 +255513,7 @@ dEQP-VK.renderpass2.dedicated_allocation.simple.color_depth
 dEQP-VK.renderpass2.dedicated_allocation.simple.color_stencil
 dEQP-VK.renderpass2.dedicated_allocation.simple.color_depth_stencil
 dEQP-VK.renderpass2.dedicated_allocation.simple.no_attachments
+dEQP-VK.renderpass2.dedicated_allocation.simple.color_unused_omit_blend_state
 dEQP-VK.renderpass2.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.clear
 dEQP-VK.renderpass2.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.draw
 dEQP-VK.renderpass2.dedicated_allocation.formats.r5g6b5_unorm_pack16.clear.clear_draw
@@ -301354,6 +301359,18 @@ dEQP-VK.tessellation.shader_input_output.gl_position_vs_to_tcs
 dEQP-VK.tessellation.shader_input_output.gl_position_tcs_to_tes
 dEQP-VK.tessellation.shader_input_output.gl_position_vs_to_tcs_to_tes
 dEQP-VK.tessellation.shader_input_output.barrier
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_vertex_int
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_vertex_uint
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_vertex_float
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_vertex_vec3
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_vertex_vec4
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_vertex_mat4x3
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_patch_int
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_patch_uint
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_patch_float
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_patch_vec3
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_patch_vec4
+dEQP-VK.tessellation.shader_input_output.cross_invocation_per_patch_mat4x3
 dEQP-VK.tessellation.misc_draw.fill_cover_triangles_equal_spacing
 dEQP-VK.tessellation.misc_draw.fill_cover_triangles_fractional_odd_spacing
 dEQP-VK.tessellation.misc_draw.fill_cover_triangles_fractional_even_spacing
