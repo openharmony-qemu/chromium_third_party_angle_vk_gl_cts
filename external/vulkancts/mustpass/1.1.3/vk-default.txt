@@ -83831,6 +83831,17 @@ dEQP-VK.memory.binding.aliasing.suballocated.image_33_257
 dEQP-VK.memory.binding.aliasing.suballocated.image_257_8
 dEQP-VK.memory.binding.aliasing.suballocated.image_257_33
 dEQP-VK.memory.binding.aliasing.suballocated.image_257_257
+dEQP-VK.memory.external_memory_host.simple_allocation.minImportedHostPointerAlignment_x1
+dEQP-VK.memory.external_memory_host.simple_allocation.minImportedHostPointerAlignment_x3
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r8g8b8a8_unorm
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r16g16b16a16_unorm
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r16g16b16a16_sfloat
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_zero_offset.r32g32b32a32_sfloat
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_non_zero_offset.r8g8b8a8_unorm
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_non_zero_offset.r16g16b16a16_unorm
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_non_zero_offset.r16g16b16a16_sfloat
+dEQP-VK.memory.external_memory_host.bind_image_memory_and_render.with_non_zero_offset.r32g32b32a32_sfloat
+dEQP-VK.memory.external_memory_host.synchronization.synchronization
 dEQP-VK.pipeline.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_never
 dEQP-VK.pipeline.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_less
 dEQP-VK.pipeline.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_equal
