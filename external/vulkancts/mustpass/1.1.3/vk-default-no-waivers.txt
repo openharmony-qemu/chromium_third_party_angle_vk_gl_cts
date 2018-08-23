@@ -20,6 +20,7 @@ dEQP-VK.api.info.device.queue_family_properties
 dEQP-VK.api.info.device.memory_properties
 dEQP-VK.api.info.device.layers
 dEQP-VK.api.info.device.extensions
+dEQP-VK.api.info.device.no_khx_extensions
 dEQP-VK.api.info.device_group.peer_memory_features
 dEQP-VK.api.info.format_properties.r4g4_unorm_pack8
 dEQP-VK.api.info.format_properties.r4g4b4a4_unorm_pack16
