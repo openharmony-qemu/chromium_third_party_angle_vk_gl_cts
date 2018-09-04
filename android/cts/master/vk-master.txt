@@ -169089,6 +169089,7 @@ dEQP-VK.pipeline.push_descriptor.compute.binding0_numcalls1_storage_buffer
 dEQP-VK.pipeline.push_descriptor.compute.binding0_numcalls2_storage_buffer
 dEQP-VK.pipeline.push_descriptor.compute.binding1_numcalls2_storage_buffer
 dEQP-VK.pipeline.push_descriptor.compute.binding3_numcalls2_storage_buffer
+dEQP-VK.pipeline.push_descriptor.compute.binding1_numcalls128_storage_buffer
 dEQP-VK.pipeline.push_descriptor.compute.binding0_numcalls1_combined_image_sampler
 dEQP-VK.pipeline.push_descriptor.compute.binding0_numcalls2_combined_image_sampler
 dEQP-VK.pipeline.push_descriptor.compute.binding1_numcalls2_combined_image_sampler
