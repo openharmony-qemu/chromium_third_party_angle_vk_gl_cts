@@ -21,6 +21,7 @@ dEQP-VK.api.info.device.queue_family_properties
 dEQP-VK.api.info.device.memory_properties
 dEQP-VK.api.info.device.layers
 dEQP-VK.api.info.device.extensions
+dEQP-VK.api.info.device.no_khx_extensions
 dEQP-VK.api.info.device_group.peer_memory_features
 dEQP-VK.api.info.format_properties.r4g4_unorm_pack8
 dEQP-VK.api.info.format_properties.r4g4b4a4_unorm_pack16
@@ -81013,6 +81014,7 @@ dEQP-VK.api.pipeline.renderpass.destroy_pipeline_renderpass
 dEQP-VK.api.pipeline.renderpass.framebuffer_compatible_renderpass
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.graphics
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.compute
+dEQP-VK.api.invariance.random
 dEQP-VK.memory.allocation.basic.size_64.forward.count_1
 dEQP-VK.memory.allocation.basic.size_64.forward.count_10
 dEQP-VK.memory.allocation.basic.size_64.forward.count_100
@@ -164506,8 +164508,8 @@ dEQP-VK.pipeline.multisample.sample_mask_with_depth_test.samples_8
 dEQP-VK.pipeline.multisample.sample_mask_with_depth_test.samples_8_post_depth_coverage
 dEQP-VK.pipeline.multisample.sample_mask_with_depth_test.samples_16
 dEQP-VK.pipeline.multisample.sample_mask_with_depth_test.samples_16_post_depth_coverage
-dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_single_sample_.128_128_1.samples_1
-dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_single_sample_.137_191_1.samples_1
+dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_single_sample.128_128_1.samples_1
+dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_single_sample.137_191_1.samples_1
 dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_distinct_values.128_128_1.samples_2
 dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_distinct_values.128_128_1.samples_4
 dEQP-VK.pipeline.multisample_interpolation.sample_interpolate_at_distinct_values.128_128_1.samples_8
@@ -320490,9 +320492,11 @@ dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_ccw
 dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_ccw_point_mode
 dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_cw
 dEQP-VK.tessellation.primitive_discard.triangles_equal_spacing_cw_point_mode
+dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_ccw_valid_levels
 dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_ccw
 dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_ccw_point_mode_valid_levels
 dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_ccw_point_mode
+dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_cw_valid_levels
 dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_cw
 dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_cw_point_mode_valid_levels
 dEQP-VK.tessellation.primitive_discard.triangles_fractional_odd_spacing_cw_point_mode
@@ -320504,9 +320508,11 @@ dEQP-VK.tessellation.primitive_discard.quads_equal_spacing_ccw
 dEQP-VK.tessellation.primitive_discard.quads_equal_spacing_ccw_point_mode
 dEQP-VK.tessellation.primitive_discard.quads_equal_spacing_cw
 dEQP-VK.tessellation.primitive_discard.quads_equal_spacing_cw_point_mode
+dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_ccw_valid_levels
 dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_ccw
 dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_ccw_point_mode_valid_levels
 dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_ccw_point_mode
+dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_cw_valid_levels
 dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_cw
 dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_cw_point_mode_valid_levels
 dEQP-VK.tessellation.primitive_discard.quads_fractional_odd_spacing_cw_point_mode
