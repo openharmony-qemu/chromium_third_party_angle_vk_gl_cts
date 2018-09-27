@@ -214732,6 +214732,8 @@ dEQP-VK.spirv_assembly.instruction.compute.indexing.input.struct.opptraccesschai
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.struct.opptraccesschain_s16
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.struct.opptraccesschain_u64
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.struct.opptraccesschain_s64
+dEQP-VK.spirv_assembly.instruction.compute.indexing.input.non16basealignment.opaccesschain
+dEQP-VK.spirv_assembly.instruction.compute.indexing.input.non16basealignment.opptraccesschain
 dEQP-VK.spirv_assembly.instruction.compute.variable_pointers.compute.reads_opselect_single_buffer
 dEQP-VK.spirv_assembly.instruction.compute.variable_pointers.compute.reads_opfunctioncall_single_buffer
 dEQP-VK.spirv_assembly.instruction.compute.variable_pointers.compute.reads_opphi_single_buffer
