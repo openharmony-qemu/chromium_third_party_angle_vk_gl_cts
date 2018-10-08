@@ -219148,6 +219148,8 @@ dEQP-VK.spirv_assembly.instruction.compute.convertstof.int32_to_float64
 dEQP-VK.spirv_assembly.instruction.compute.convertstof.int64_to_float32
 dEQP-VK.spirv_assembly.instruction.compute.convertstof.int64_to_float64
 dEQP-VK.spirv_assembly.instruction.compute.convertftos.float32_to_int16
+dEQP-VK.spirv_assembly.instruction.compute.convertftos.float32_to_int16_1
+dEQP-VK.spirv_assembly.instruction.compute.convertftos.float32_to_int16_2
 dEQP-VK.spirv_assembly.instruction.compute.convertftos.float32_to_int32
 dEQP-VK.spirv_assembly.instruction.compute.convertftos.float32_to_int64
 dEQP-VK.spirv_assembly.instruction.compute.convertftos.float64_to_int16
@@ -224831,6 +224833,16 @@ dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_geom
 dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_frag
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_1_vert
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_1_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_1_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_1_geom
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_1_frag
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_2_vert
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_2_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_2_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_2_geom
+dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int16_2_frag
 dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int32_vert
 dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int32_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.convertftos.float32_to_int32_tesse
