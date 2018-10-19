@@ -228221,8 +228221,6 @@ dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.round
 dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.rounding_rtz_sconst_conv_from_fp32_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.rounding_rte_sconst_conv_from_fp64_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.rounding_rtz_sconst_conv_from_fp64_vert
-dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.rounding_rte_override_vert
-dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.rounding_rtz_override_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.conv_from_fp32_denorm_preserve_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.conv_from_fp32_denorm_flush_to_zero_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float_controls.fp16.input_args.conv_from_fp32_zero_preserve_vert
