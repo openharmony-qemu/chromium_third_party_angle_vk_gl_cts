@@ -328055,6 +328055,7 @@ dEQP-VK.wsi.xlib.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.xlib.swapchain.render.basic
 dEQP-VK.wsi.xlib.swapchain.destroy.null_handle
 dEQP-VK.wsi.xlib.swapchain.get_images.incomplete
+dEQP-VK.wsi.xlib.swapchain.get_images.count
 dEQP-VK.wsi.xlib.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.xlib.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.xlib.incremental_present.scale_none.mailbox.reference
@@ -328113,6 +328114,7 @@ dEQP-VK.wsi.xcb.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.xcb.swapchain.render.basic
 dEQP-VK.wsi.xcb.swapchain.destroy.null_handle
 dEQP-VK.wsi.xcb.swapchain.get_images.incomplete
+dEQP-VK.wsi.xcb.swapchain.get_images.count
 dEQP-VK.wsi.xcb.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.xcb.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.xcb.incremental_present.scale_none.mailbox.reference
@@ -328170,6 +328172,7 @@ dEQP-VK.wsi.wayland.swapchain.render.basic
 dEQP-VK.wsi.wayland.swapchain.modify.resize
 dEQP-VK.wsi.wayland.swapchain.destroy.null_handle
 dEQP-VK.wsi.wayland.swapchain.get_images.incomplete
+dEQP-VK.wsi.wayland.swapchain.get_images.count
 dEQP-VK.wsi.wayland.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.wayland.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.wayland.incremental_present.scale_none.mailbox.reference
@@ -328229,6 +328232,7 @@ dEQP-VK.wsi.mir.swapchain.render.basic
 dEQP-VK.wsi.mir.swapchain.modify.resize
 dEQP-VK.wsi.mir.swapchain.destroy.null_handle
 dEQP-VK.wsi.mir.swapchain.get_images.incomplete
+dEQP-VK.wsi.mir.swapchain.get_images.count
 dEQP-VK.wsi.mir.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.mir.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.mir.incremental_present.scale_none.mailbox.reference
@@ -328307,6 +328311,7 @@ dEQP-VK.wsi.android.swapchain.render.basic
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
 dEQP-VK.wsi.android.swapchain.get_images.incomplete
+dEQP-VK.wsi.android.swapchain.get_images.count
 dEQP-VK.wsi.android.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.android.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_none.mailbox.reference
@@ -328385,6 +328390,7 @@ dEQP-VK.wsi.win32.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.win32.swapchain.render.basic
 dEQP-VK.wsi.win32.swapchain.destroy.null_handle
 dEQP-VK.wsi.win32.swapchain.get_images.incomplete
+dEQP-VK.wsi.win32.swapchain.get_images.count
 dEQP-VK.wsi.win32.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.win32.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.win32.incremental_present.scale_none.mailbox.reference
@@ -328443,6 +328449,7 @@ dEQP-VK.wsi.macos.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.macos.swapchain.render.basic
 dEQP-VK.wsi.macos.swapchain.destroy.null_handle
 dEQP-VK.wsi.macos.swapchain.get_images.incomplete
+dEQP-VK.wsi.macos.swapchain.get_images.count
 dEQP-VK.wsi.macos.incremental_present.scale_none.immediate.reference
 dEQP-VK.wsi.macos.incremental_present.scale_none.immediate.incremental_present
 dEQP-VK.wsi.macos.incremental_present.scale_none.mailbox.reference
