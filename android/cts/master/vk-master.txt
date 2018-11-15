@@ -221748,6 +221748,7 @@ dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.ulessthanequal
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.sgreaterthanequal
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.ugreaterthanequal
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.iequal
+dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.inotequal
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.logicaland
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.logicalor
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.logicalequal
@@ -225514,6 +225515,9 @@ dEQP-VK.spirv_assembly.instruction.graphics.selection_block_order.out_of_order_t
 dEQP-VK.spirv_assembly.instruction.graphics.selection_block_order.out_of_order_geom
 dEQP-VK.spirv_assembly.instruction.graphics.selection_block_order.out_of_order_frag
 dEQP-VK.spirv_assembly.instruction.graphics.module.same_module
+dEQP-VK.spirv_assembly.instruction.graphics.module.same_module_geom
+dEQP-VK.spirv_assembly.instruction.graphics.module.same_module_tessc_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.module.same_module_tessc_tesse_geom
 dEQP-VK.spirv_assembly.instruction.graphics.module.vert1_geom1_tessc1_tesse1_frag1
 dEQP-VK.spirv_assembly.instruction.graphics.module.vert1_geom1_tessc1_tesse1_frag2
 dEQP-VK.spirv_assembly.instruction.graphics.module.vert1_geom1_tessc1_tesse2_frag1
@@ -225896,6 +225900,11 @@ dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iequal_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iequal_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iequal_geom
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.iequal_frag
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.inotequal_vert
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.inotequal_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.inotequal_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.inotequal_geom
+dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.inotequal_frag
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.logicaland_vert
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.logicaland_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opspecconstantop.logicaland_tesse
