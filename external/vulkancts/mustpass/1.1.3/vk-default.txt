@@ -234897,6 +234897,9 @@ dEQP-VK.spirv_assembly.instruction.graphics.pointer_parameter.buffer_memory_vari
 dEQP-VK.spirv_assembly.instruction.graphics.pointer_parameter.buffer_memory_variable_pointers_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.pointer_parameter.buffer_memory_variable_pointers_geom
 dEQP-VK.spirv_assembly.instruction.graphics.pointer_parameter.buffer_memory_variable_pointers_frag
+dEQP-VK.spirv_assembly.instruction.graphics.varying_name.names_match
+dEQP-VK.spirv_assembly.instruction.graphics.varying_name.names_differ
+dEQP-VK.spirv_assembly.instruction.graphics.varying_name.no_names
 dEQP-VK.spirv_assembly.instruction.graphics.float16.opconstant.vec4_vert
 dEQP-VK.spirv_assembly.instruction.graphics.float16.opconstant.vec4_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.float16.opconstant.vec4_tesse
