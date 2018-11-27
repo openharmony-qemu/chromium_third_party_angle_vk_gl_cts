@@ -225436,6 +225436,17 @@ dEQP-VK.spirv_assembly.instruction.compute.bool.mixed_bitsize.b8b8b16b16
 dEQP-VK.spirv_assembly.instruction.compute.bool.mixed_bitsize.b8b8b16b8
 dEQP-VK.spirv_assembly.instruction.compute.bool.mixed_bitsize.b8b8b8b32
 dEQP-VK.spirv_assembly.instruction.compute.bool.mixed_bitsize.b8b8b8b16
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.float64
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.float32
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.float16
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.int64
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.int32
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.int16
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.int8
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint64
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint32
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint16
+dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint8
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision
