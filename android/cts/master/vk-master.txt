@@ -325174,6 +325174,7 @@ dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_capabilities2
+dEQP-VK.wsi.android.surface.query_protected_capabilities
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
@@ -325241,6 +325242,7 @@ dEQP-VK.wsi.macos.surface.create_simulate_oom
 dEQP-VK.wsi.macos.surface.query_support
 dEQP-VK.wsi.macos.surface.query_capabilities
 dEQP-VK.wsi.macos.surface.query_capabilities2
+dEQP-VK.wsi.macos.surface.query_protected_capabilities
 dEQP-VK.wsi.macos.surface.query_formats
 dEQP-VK.wsi.macos.surface.query_formats2
 dEQP-VK.wsi.macos.surface.query_present_modes
