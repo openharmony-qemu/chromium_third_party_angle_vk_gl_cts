@@ -325448,6 +325448,7 @@ dEQP-VK.wsi.xlib.surface.create_simulate_oom
 dEQP-VK.wsi.xlib.surface.query_support
 dEQP-VK.wsi.xlib.surface.query_capabilities
 dEQP-VK.wsi.xlib.surface.query_capabilities2
+dEQP-VK.wsi.xlib.surface.query_protected_capabilities
 dEQP-VK.wsi.xlib.surface.query_formats
 dEQP-VK.wsi.xlib.surface.query_formats2
 dEQP-VK.wsi.xlib.surface.query_present_modes
@@ -325507,6 +325508,7 @@ dEQP-VK.wsi.xcb.surface.create_simulate_oom
 dEQP-VK.wsi.xcb.surface.query_support
 dEQP-VK.wsi.xcb.surface.query_capabilities
 dEQP-VK.wsi.xcb.surface.query_capabilities2
+dEQP-VK.wsi.xcb.surface.query_protected_capabilities
 dEQP-VK.wsi.xcb.surface.query_formats
 dEQP-VK.wsi.xcb.surface.query_formats2
 dEQP-VK.wsi.xcb.surface.query_present_modes
@@ -325566,6 +325568,7 @@ dEQP-VK.wsi.wayland.surface.create_simulate_oom
 dEQP-VK.wsi.wayland.surface.query_support
 dEQP-VK.wsi.wayland.surface.query_capabilities
 dEQP-VK.wsi.wayland.surface.query_capabilities2
+dEQP-VK.wsi.wayland.surface.query_protected_capabilities
 dEQP-VK.wsi.wayland.surface.query_formats
 dEQP-VK.wsi.wayland.surface.query_formats2
 dEQP-VK.wsi.wayland.surface.query_present_modes
@@ -325624,6 +325627,7 @@ dEQP-VK.wsi.mir.surface.create_simulate_oom
 dEQP-VK.wsi.mir.surface.query_support
 dEQP-VK.wsi.mir.surface.query_capabilities
 dEQP-VK.wsi.mir.surface.query_capabilities2
+dEQP-VK.wsi.mir.surface.query_protected_capabilities
 dEQP-VK.wsi.mir.surface.query_formats
 dEQP-VK.wsi.mir.surface.query_formats2
 dEQP-VK.wsi.mir.surface.query_present_modes
@@ -325704,6 +325708,7 @@ dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_capabilities2
+dEQP-VK.wsi.android.surface.query_protected_capabilities
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
@@ -325783,6 +325788,7 @@ dEQP-VK.wsi.win32.surface.create_simulate_oom
 dEQP-VK.wsi.win32.surface.query_support
 dEQP-VK.wsi.win32.surface.query_capabilities
 dEQP-VK.wsi.win32.surface.query_capabilities2
+dEQP-VK.wsi.win32.surface.query_protected_capabilities
 dEQP-VK.wsi.win32.surface.query_formats
 dEQP-VK.wsi.win32.surface.query_formats2
 dEQP-VK.wsi.win32.surface.query_present_modes
@@ -325842,6 +325848,7 @@ dEQP-VK.wsi.macos.surface.create_simulate_oom
 dEQP-VK.wsi.macos.surface.query_support
 dEQP-VK.wsi.macos.surface.query_capabilities
 dEQP-VK.wsi.macos.surface.query_capabilities2
+dEQP-VK.wsi.macos.surface.query_protected_capabilities
 dEQP-VK.wsi.macos.surface.query_formats
 dEQP-VK.wsi.macos.surface.query_formats2
 dEQP-VK.wsi.macos.surface.query_present_modes
