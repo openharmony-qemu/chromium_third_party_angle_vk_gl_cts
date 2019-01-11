@@ -413407,3 +413407,8 @@ dEQP-VK.graphicsfuzz.mat-array-distance
 dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.while-inside-switch
+dEQP-VK.imageless_framebuffer.color
+dEQP-VK.imageless_framebuffer.depth_stencil
+dEQP-VK.imageless_framebuffer.color_resolve
+dEQP-VK.imageless_framebuffer.depth_stencil_resolve
+dEQP-VK.imageless_framebuffer.multisubpass
