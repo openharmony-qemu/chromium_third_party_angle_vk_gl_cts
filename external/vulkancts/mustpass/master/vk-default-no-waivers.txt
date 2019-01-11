@@ -464969,3 +464969,8 @@ dEQP-VK.descriptor_indexing.uniform_buffer_in_loop
 dEQP-VK.descriptor_indexing.storage_buffer_dynamic_in_loop
 dEQP-VK.descriptor_indexing.uniform_buffer_dynamic_in_loop
 dEQP-VK.descriptor_indexing.input_attachment_in_loop
+dEQP-VK.imageless_framebuffer.color
+dEQP-VK.imageless_framebuffer.depth_stencil
+dEQP-VK.imageless_framebuffer.color_resolve
+dEQP-VK.imageless_framebuffer.depth_stencil_resolve
+dEQP-VK.imageless_framebuffer.multisubpass
