@@ -271386,6 +271386,9 @@ dEQP-VK.renderpass.suballocation.subpass_dependencies.late_fragment_tests.render
 dEQP-VK.renderpass.suballocation.subpass_dependencies.late_fragment_tests.render_size_128_128.subpass_count_3.d32_sfloat_s8_uint
 dEQP-VK.renderpass.suballocation.subpass_dependencies.late_fragment_tests.render_size_128_128.subpass_count_5.d24_unorm_s8_uint
 dEQP-VK.renderpass.suballocation.subpass_dependencies.late_fragment_tests.render_size_128_128.subpass_count_5.d32_sfloat_s8_uint
+dEQP-VK.renderpass.suballocation.subpass_dependencies.self_dependency.render_size_64_64.geometry_to_indirectdraw
+dEQP-VK.renderpass.suballocation.subpass_dependencies.self_dependency.render_size_128_128.geometry_to_indirectdraw
+dEQP-VK.renderpass.suballocation.subpass_dependencies.self_dependency.render_size_512_512.geometry_to_indirectdraw
 dEQP-VK.renderpass.suballocation.sampleread.numsamples_2_add
 dEQP-VK.renderpass.suballocation.sampleread.numsamples_2_selected_sample_0
 dEQP-VK.renderpass.suballocation.sampleread.numsamples_2_selected_sample_1
@@ -282038,6 +282041,9 @@ dEQP-VK.renderpass2.suballocation.subpass_dependencies.late_fragment_tests.rende
 dEQP-VK.renderpass2.suballocation.subpass_dependencies.late_fragment_tests.render_size_128_128.subpass_count_3.d32_sfloat_s8_uint
 dEQP-VK.renderpass2.suballocation.subpass_dependencies.late_fragment_tests.render_size_128_128.subpass_count_5.d24_unorm_s8_uint
 dEQP-VK.renderpass2.suballocation.subpass_dependencies.late_fragment_tests.render_size_128_128.subpass_count_5.d32_sfloat_s8_uint
+dEQP-VK.renderpass2.suballocation.subpass_dependencies.self_dependency.render_size_64_64.geometry_to_indirectdraw
+dEQP-VK.renderpass2.suballocation.subpass_dependencies.self_dependency.render_size_128_128.geometry_to_indirectdraw
+dEQP-VK.renderpass2.suballocation.subpass_dependencies.self_dependency.render_size_512_512.geometry_to_indirectdraw
 dEQP-VK.renderpass2.suballocation.sampleread.numsamples_2_add
 dEQP-VK.renderpass2.suballocation.sampleread.numsamples_2_selected_sample_0
 dEQP-VK.renderpass2.suballocation.sampleread.numsamples_2_selected_sample_1
@@ -325310,6 +325316,8 @@ dEQP-VK.wsi.xlib.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.xlib.swapchain.render.basic
+dEQP-VK.wsi.xlib.swapchain.render.basic2
+dEQP-VK.wsi.xlib.swapchain.render.device_group
 dEQP-VK.wsi.xlib.swapchain.destroy.null_handle
 dEQP-VK.wsi.xlib.swapchain.get_images.incomplete
 dEQP-VK.wsi.xlib.swapchain.get_images.count
@@ -325370,6 +325378,8 @@ dEQP-VK.wsi.xcb.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.xcb.swapchain.render.basic
+dEQP-VK.wsi.xcb.swapchain.render.basic2
+dEQP-VK.wsi.xcb.swapchain.render.device_group
 dEQP-VK.wsi.xcb.swapchain.destroy.null_handle
 dEQP-VK.wsi.xcb.swapchain.get_images.incomplete
 dEQP-VK.wsi.xcb.swapchain.get_images.count
@@ -325428,6 +325438,8 @@ dEQP-VK.wsi.wayland.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.wayland.swapchain.render.basic
+dEQP-VK.wsi.wayland.swapchain.render.basic2
+dEQP-VK.wsi.wayland.swapchain.render.device_group
 dEQP-VK.wsi.wayland.swapchain.modify.resize
 dEQP-VK.wsi.wayland.swapchain.destroy.null_handle
 dEQP-VK.wsi.wayland.swapchain.get_images.incomplete
@@ -325489,6 +325501,8 @@ dEQP-VK.wsi.mir.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.mir.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.mir.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.mir.swapchain.render.basic
+dEQP-VK.wsi.mir.swapchain.render.basic2
+dEQP-VK.wsi.mir.swapchain.render.device_group
 dEQP-VK.wsi.mir.swapchain.modify.resize
 dEQP-VK.wsi.mir.swapchain.destroy.null_handle
 dEQP-VK.wsi.mir.swapchain.get_images.incomplete
@@ -325569,6 +325583,8 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.android.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.android.swapchain.render.basic
+dEQP-VK.wsi.android.swapchain.render.basic2
+dEQP-VK.wsi.android.swapchain.render.device_group
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
 dEQP-VK.wsi.android.swapchain.get_images.incomplete
@@ -325650,6 +325666,8 @@ dEQP-VK.wsi.win32.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.win32.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.win32.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.win32.swapchain.render.basic
+dEQP-VK.wsi.win32.swapchain.render.basic2
+dEQP-VK.wsi.win32.swapchain.render.device_group
 dEQP-VK.wsi.win32.swapchain.destroy.null_handle
 dEQP-VK.wsi.win32.swapchain.get_images.incomplete
 dEQP-VK.wsi.win32.swapchain.get_images.count
@@ -325710,6 +325728,8 @@ dEQP-VK.wsi.macos.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.macos.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.macos.swapchain.simulate_oom.clipped
 dEQP-VK.wsi.macos.swapchain.render.basic
+dEQP-VK.wsi.macos.swapchain.render.basic2
+dEQP-VK.wsi.macos.swapchain.render.device_group
 dEQP-VK.wsi.macos.swapchain.destroy.null_handle
 dEQP-VK.wsi.macos.swapchain.get_images.incomplete
 dEQP-VK.wsi.macos.swapchain.get_images.count
