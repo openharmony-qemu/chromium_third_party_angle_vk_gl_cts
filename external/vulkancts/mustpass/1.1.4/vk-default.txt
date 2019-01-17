@@ -400331,4 +400331,9 @@ dEQP-VK.conditional_rendering.draw_clear.draw.case_13
 dEQP-VK.conditional_rendering.draw_clear.draw.case_14
 dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_no_discard
 dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_discard
+dEQP-VK.graphicsfuzz.control-flow-switch
+dEQP-VK.graphicsfuzz.dead-struct-init
+dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
+dEQP-VK.graphicsfuzz.mat-array-distance
 dEQP-VK.graphicsfuzz.pow-vec4
+dEQP-VK.graphicsfuzz.swizzle-struct-init-min
