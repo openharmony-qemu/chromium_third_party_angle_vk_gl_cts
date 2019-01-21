@@ -3703,6 +3703,8 @@ dEQP-VK.api.device_init.create_instance_name_version
 dEQP-VK.api.device_init.create_instance_invalid_api_version
 dEQP-VK.api.device_init.create_instance_null_appinfo
 dEQP-VK.api.device_init.create_instance_unsupported_extensions
+dEQP-VK.api.device_init.create_instance_extension_name_abuse
+dEQP-VK.api.device_init.create_instance_layer_name_abuse
 dEQP-VK.api.device_init.create_device
 dEQP-VK.api.device_init.create_multiple_devices
 dEQP-VK.api.device_init.create_device_unsupported_extensions
@@ -398961,3 +398963,4 @@ dEQP-VK.conditional_rendering.draw_clear.draw.case_13
 dEQP-VK.conditional_rendering.draw_clear.draw.case_14
 dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_no_discard
 dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_discard
+dEQP-VK.graphicsfuzz.pow-vec4
