@@ -412883,6 +412883,7 @@ dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_discard
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.dead-struct-init
+dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
 dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
 dEQP-VK.graphicsfuzz.mat-array-distance
