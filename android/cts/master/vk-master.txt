@@ -311204,6 +311204,7 @@ dEQP-VK.draw.shader_viewport_index.tessellation_shader_14
 dEQP-VK.draw.shader_viewport_index.tessellation_shader_15
 dEQP-VK.draw.shader_viewport_index.tessellation_shader_16
 dEQP-VK.compute.basic.empty_shader
+dEQP-VK.compute.basic.concurrent_compute
 dEQP-VK.compute.basic.ubo_to_ssbo_single_invocation
 dEQP-VK.compute.basic.ubo_to_ssbo_single_group
 dEQP-VK.compute.basic.ubo_to_ssbo_multiple_invocations
