@@ -228089,6 +228089,8 @@ dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint64
 dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint32
 dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint16
 dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint8
+dEQP-VK.spirv_assembly.instruction.compute.spirv_ids_abuse.sparse_ids
+dEQP-VK.spirv_assembly.instruction.compute.spirv_ids_abuse.lots_ids
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision
@@ -240447,6 +240449,16 @@ dEQP-VK.spirv_assembly.instruction.graphics.float16.arithmetic_4.opvectortimessc
 dEQP-VK.spirv_assembly.instruction.graphics.float16.arithmetic_4.opvectortimesscalar_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.float16.arithmetic_4.opvectortimesscalar_geom
 dEQP-VK.spirv_assembly.instruction.graphics.float16.arithmetic_4.opvectortimesscalar_frag
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_vert
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_geom
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_frag
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.lots_ids_vert
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.lots_ids_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.lots_ids_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.lots_ids_geom
+dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.lots_ids_frag
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_vert
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_tessc
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_tesse
