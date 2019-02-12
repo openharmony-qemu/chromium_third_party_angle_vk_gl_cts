@@ -228095,6 +228095,10 @@ dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint16
 dEQP-VK.spirv_assembly.instruction.compute.workgroup_memory.uint8
 dEQP-VK.spirv_assembly.instruction.compute.spirv_ids_abuse.sparse_ids
 dEQP-VK.spirv_assembly.instruction.compute.spirv_ids_abuse.lots_ids
+dEQP-VK.spirv_assembly.instruction.compute.signed_int_compare.uint_sgreaterthanequal
+dEQP-VK.spirv_assembly.instruction.compute.signed_int_compare.uint_sgreaterthan
+dEQP-VK.spirv_assembly.instruction.compute.signed_int_compare.uint_slessthan
+dEQP-VK.spirv_assembly.instruction.compute.signed_int_compare.uint_slessthanequal
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision
