@@ -340293,6 +340293,7 @@ dEQP-VK.wsi.xlib.swapchain.create.pre_transform
 dEQP-VK.wsi.xlib.swapchain.create.composite_alpha
 dEQP-VK.wsi.xlib.swapchain.create.present_mode
 dEQP-VK.wsi.xlib.swapchain.create.clipped
+dEQP-VK.wsi.xlib.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.image_extent
@@ -340303,9 +340304,11 @@ dEQP-VK.wsi.xlib.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.xlib.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.xlib.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.xlib.swapchain.render.basic
 dEQP-VK.wsi.xlib.swapchain.render.basic2
 dEQP-VK.wsi.xlib.swapchain.render.device_group
+dEQP-VK.wsi.xlib.swapchain.render.device_group2
 dEQP-VK.wsi.xlib.swapchain.destroy.null_handle
 dEQP-VK.wsi.xlib.swapchain.get_images.incomplete
 dEQP-VK.wsi.xlib.swapchain.get_images.count
@@ -340635,6 +340638,7 @@ dEQP-VK.wsi.xcb.swapchain.create.pre_transform
 dEQP-VK.wsi.xcb.swapchain.create.composite_alpha
 dEQP-VK.wsi.xcb.swapchain.create.present_mode
 dEQP-VK.wsi.xcb.swapchain.create.clipped
+dEQP-VK.wsi.xcb.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.image_extent
@@ -340645,9 +340649,11 @@ dEQP-VK.wsi.xcb.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.xcb.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.xcb.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.xcb.swapchain.render.basic
 dEQP-VK.wsi.xcb.swapchain.render.basic2
 dEQP-VK.wsi.xcb.swapchain.render.device_group
+dEQP-VK.wsi.xcb.swapchain.render.device_group2
 dEQP-VK.wsi.xcb.swapchain.destroy.null_handle
 dEQP-VK.wsi.xcb.swapchain.get_images.incomplete
 dEQP-VK.wsi.xcb.swapchain.get_images.count
@@ -340975,6 +340981,7 @@ dEQP-VK.wsi.wayland.swapchain.create.pre_transform
 dEQP-VK.wsi.wayland.swapchain.create.composite_alpha
 dEQP-VK.wsi.wayland.swapchain.create.present_mode
 dEQP-VK.wsi.wayland.swapchain.create.clipped
+dEQP-VK.wsi.wayland.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.image_extent
@@ -340985,9 +340992,11 @@ dEQP-VK.wsi.wayland.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.wayland.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.wayland.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.wayland.swapchain.render.basic
 dEQP-VK.wsi.wayland.swapchain.render.basic2
 dEQP-VK.wsi.wayland.swapchain.render.device_group
+dEQP-VK.wsi.wayland.swapchain.render.device_group2
 dEQP-VK.wsi.wayland.swapchain.modify.resize
 dEQP-VK.wsi.wayland.swapchain.destroy.null_handle
 dEQP-VK.wsi.wayland.swapchain.get_images.incomplete
@@ -341318,6 +341327,7 @@ dEQP-VK.wsi.mir.swapchain.create.pre_transform
 dEQP-VK.wsi.mir.swapchain.create.composite_alpha
 dEQP-VK.wsi.mir.swapchain.create.present_mode
 dEQP-VK.wsi.mir.swapchain.create.clipped
+dEQP-VK.wsi.mir.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.mir.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.mir.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.mir.swapchain.simulate_oom.image_extent
@@ -341328,9 +341338,11 @@ dEQP-VK.wsi.mir.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.mir.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.mir.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.mir.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.mir.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.mir.swapchain.render.basic
 dEQP-VK.wsi.mir.swapchain.render.basic2
 dEQP-VK.wsi.mir.swapchain.render.device_group
+dEQP-VK.wsi.mir.swapchain.render.device_group2
 dEQP-VK.wsi.mir.swapchain.modify.resize
 dEQP-VK.wsi.mir.swapchain.destroy.null_handle
 dEQP-VK.wsi.mir.swapchain.get_images.incomplete
@@ -342240,6 +342252,7 @@ dEQP-VK.wsi.android.swapchain.create.pre_transform
 dEQP-VK.wsi.android.swapchain.create.composite_alpha
 dEQP-VK.wsi.android.swapchain.create.present_mode
 dEQP-VK.wsi.android.swapchain.create.clipped
+dEQP-VK.wsi.android.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.android.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.android.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.android.swapchain.simulate_oom.image_extent
@@ -342250,9 +342263,11 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.android.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.android.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.android.swapchain.render.basic
 dEQP-VK.wsi.android.swapchain.render.basic2
 dEQP-VK.wsi.android.swapchain.render.device_group
+dEQP-VK.wsi.android.swapchain.render.device_group2
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
 dEQP-VK.wsi.android.swapchain.get_images.incomplete
@@ -343163,6 +343178,7 @@ dEQP-VK.wsi.win32.swapchain.create.pre_transform
 dEQP-VK.wsi.win32.swapchain.create.composite_alpha
 dEQP-VK.wsi.win32.swapchain.create.present_mode
 dEQP-VK.wsi.win32.swapchain.create.clipped
+dEQP-VK.wsi.win32.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.win32.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.win32.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.win32.swapchain.simulate_oom.image_extent
@@ -343173,9 +343189,11 @@ dEQP-VK.wsi.win32.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.win32.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.win32.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.win32.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.win32.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.win32.swapchain.render.basic
 dEQP-VK.wsi.win32.swapchain.render.basic2
 dEQP-VK.wsi.win32.swapchain.render.device_group
+dEQP-VK.wsi.win32.swapchain.render.device_group2
 dEQP-VK.wsi.win32.swapchain.destroy.null_handle
 dEQP-VK.wsi.win32.swapchain.get_images.incomplete
 dEQP-VK.wsi.win32.swapchain.get_images.count
@@ -343505,6 +343523,7 @@ dEQP-VK.wsi.macos.swapchain.create.pre_transform
 dEQP-VK.wsi.macos.swapchain.create.composite_alpha
 dEQP-VK.wsi.macos.swapchain.create.present_mode
 dEQP-VK.wsi.macos.swapchain.create.clipped
+dEQP-VK.wsi.macos.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.macos.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.macos.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.macos.swapchain.simulate_oom.image_extent
@@ -343515,9 +343534,11 @@ dEQP-VK.wsi.macos.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.macos.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.macos.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.macos.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.macos.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.macos.swapchain.render.basic
 dEQP-VK.wsi.macos.swapchain.render.basic2
 dEQP-VK.wsi.macos.swapchain.render.device_group
+dEQP-VK.wsi.macos.swapchain.render.device_group2
 dEQP-VK.wsi.macos.swapchain.destroy.null_handle
 dEQP-VK.wsi.macos.swapchain.get_images.incomplete
 dEQP-VK.wsi.macos.swapchain.get_images.count

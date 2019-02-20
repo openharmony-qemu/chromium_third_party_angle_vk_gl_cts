@@ -340156,6 +340156,7 @@ dEQP-VK.wsi.android.swapchain.create.pre_transform
 dEQP-VK.wsi.android.swapchain.create.composite_alpha
 dEQP-VK.wsi.android.swapchain.create.present_mode
 dEQP-VK.wsi.android.swapchain.create.clipped
+dEQP-VK.wsi.android.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.android.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.android.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.android.swapchain.simulate_oom.image_extent
@@ -340166,9 +340167,11 @@ dEQP-VK.wsi.android.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.android.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.android.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.android.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.android.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.android.swapchain.render.basic
 dEQP-VK.wsi.android.swapchain.render.basic2
 dEQP-VK.wsi.android.swapchain.render.device_group
+dEQP-VK.wsi.android.swapchain.render.device_group2
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
 dEQP-VK.wsi.android.swapchain.get_images.incomplete
@@ -340789,6 +340792,7 @@ dEQP-VK.wsi.macos.swapchain.create.pre_transform
 dEQP-VK.wsi.macos.swapchain.create.composite_alpha
 dEQP-VK.wsi.macos.swapchain.create.present_mode
 dEQP-VK.wsi.macos.swapchain.create.clipped
+dEQP-VK.wsi.macos.swapchain.create.image_swapchain_create_info
 dEQP-VK.wsi.macos.swapchain.simulate_oom.min_image_count
 dEQP-VK.wsi.macos.swapchain.simulate_oom.image_format
 dEQP-VK.wsi.macos.swapchain.simulate_oom.image_extent
@@ -340799,9 +340803,11 @@ dEQP-VK.wsi.macos.swapchain.simulate_oom.pre_transform
 dEQP-VK.wsi.macos.swapchain.simulate_oom.composite_alpha
 dEQP-VK.wsi.macos.swapchain.simulate_oom.present_mode
 dEQP-VK.wsi.macos.swapchain.simulate_oom.clipped
+dEQP-VK.wsi.macos.swapchain.simulate_oom.image_swapchain_create_info
 dEQP-VK.wsi.macos.swapchain.render.basic
 dEQP-VK.wsi.macos.swapchain.render.basic2
 dEQP-VK.wsi.macos.swapchain.render.device_group
+dEQP-VK.wsi.macos.swapchain.render.device_group2
 dEQP-VK.wsi.macos.swapchain.destroy.null_handle
 dEQP-VK.wsi.macos.swapchain.get_images.incomplete
 dEQP-VK.wsi.macos.swapchain.get_images.count
