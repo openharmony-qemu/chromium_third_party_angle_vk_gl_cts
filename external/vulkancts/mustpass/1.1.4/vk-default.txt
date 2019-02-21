@@ -401313,3 +401313,4 @@ dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
 dEQP-VK.graphicsfuzz.mat-array-distance
 dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.while-inside-switch
