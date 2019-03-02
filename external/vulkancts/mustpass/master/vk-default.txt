@@ -284541,6 +284541,17 @@ dEQP-VK.spirv_assembly.instruction.graphics.64bit_compare.uint64.frag_opulesstha
 dEQP-VK.spirv_assembly.instruction.graphics.64bit_compare.uint64.frag_opulessthanequal_vector
 dEQP-VK.spirv_assembly.instruction.graphics.64bit_compare.uint64.frag_opugreaterthan_vector
 dEQP-VK.spirv_assembly.instruction.graphics.64bit_compare.uint64.frag_opugreaterthanequal_vector
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.different_matrix_layout
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.different_matrix_strides
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.nested_arrays_different_inner_stride
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.nested_arrays_different_outer_stride
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.nested_arrays_different_strides
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.same_array_two_ids
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.same_struct_two_ids
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.ssbo_to_ubo
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.two_arrays_different_stride_1
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.two_arrays_different_stride_2
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opcopylogical.ubo_to_ssbo
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_vert
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_tessc
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_tesse
