@@ -224129,6 +224129,12 @@ dEQP-VK.spirv_assembly.instruction.compute.localsize.literal_localsize_z
 dEQP-VK.spirv_assembly.instruction.compute.localsize.literal_and_specid_localsize_z
 dEQP-VK.spirv_assembly.instruction.compute.localsize.specid_localsize_z
 dEQP-VK.spirv_assembly.instruction.compute.opnop.all
+dEQP-VK.spirv_assembly.instruction.compute.opfunord_nan.equal
+dEQP-VK.spirv_assembly.instruction.compute.opfunord_nan.less
+dEQP-VK.spirv_assembly.instruction.compute.opfunord_nan.lessequal
+dEQP-VK.spirv_assembly.instruction.compute.opfunord_nan.greater
+dEQP-VK.spirv_assembly.instruction.compute.opfunord_nan.greaterequal
+dEQP-VK.spirv_assembly.instruction.compute.opfunord_nan.notequal
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iadd
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.isub
 dEQP-VK.spirv_assembly.instruction.compute.opatomic.iinc
