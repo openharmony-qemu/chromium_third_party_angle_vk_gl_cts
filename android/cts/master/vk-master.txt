@@ -312436,6 +312436,13 @@ dEQP-VK.draw.scissor.dynamic_scissor_max_int32
 dEQP-VK.draw.scissor.16_dynamic_scissors
 dEQP-VK.draw.scissor.dynamic_scissor_two_clears
 dEQP-VK.draw.scissor.dynamic_scissor_mix
+dEQP-VK.draw.multiple_interpolation.1_sample
+dEQP-VK.draw.multiple_interpolation.2_samples
+dEQP-VK.draw.multiple_interpolation.4_samples
+dEQP-VK.draw.multiple_interpolation.8_samples
+dEQP-VK.draw.multiple_interpolation.16_samples
+dEQP-VK.draw.multiple_interpolation.32_samples
+dEQP-VK.draw.multiple_interpolation.64_samples
 dEQP-VK.compute.basic.empty_shader
 dEQP-VK.compute.basic.concurrent_compute
 dEQP-VK.compute.basic.ubo_to_ssbo_single_invocation
