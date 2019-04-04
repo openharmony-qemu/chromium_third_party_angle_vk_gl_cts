@@ -1,10 +1,12 @@
-#ifndef _VKTVKRUNNEREXAMPLETESTS_HPP
-#define _VKTVKRUNNEREXAMPLETESTS_HPP
+#ifndef _VKTAMBERGRAPHICSFUZZTESTS_HPP
+#define _VKTAMBERGRAPHICSFUZZTESTS_HPP
 /*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
  * Copyright (c) 2018 Intel Corporation
+ * Copyright (c) 2018 Google LLC
+ * Copyright (c) 2019 The Khronos Group Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +22,7 @@
  *
  *//*!
  * \file
- * \brief Functional tests using vkrunner
+ * \brief GraphicsFuzz tests
  *//*--------------------------------------------------------------------*/
 
 #include "tcuDefs.hpp"
@@ -28,12 +30,12 @@
 
 namespace vkt
 {
-namespace vkrunner
+namespace cts_amber
 {
 
-tcu::TestCaseGroup*		createTests	(tcu::TestContext& testCtx);
+tcu::TestCaseGroup*		createGraphicsFuzzTests	(tcu::TestContext& testCtx);
 
-} // vkrunner
+} // cts_amber
 } // vkt
 
-#endif // _VKTVKRUNNEREXAMPLETESTS_HPP
+#endif // _VKTAMBERGRAPHICSFUZZTESTS_HPP

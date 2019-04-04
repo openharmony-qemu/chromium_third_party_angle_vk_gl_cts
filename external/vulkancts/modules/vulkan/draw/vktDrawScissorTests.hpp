@@ -1,11 +1,11 @@
-#ifndef _VKTVKRUNNERGRAPHICSFUZZTESTS_HPP
-#define _VKTVKRUNNERGRAPHICSFUZZTESTS_HPP
+#ifndef _VKTDRAWSCISSORTESTS_HPP
+#define _VKTDRAWSCISSORTESTS_HPP
 /*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright (c) 2018 Intel Corporation
- * Copyright (c) 2018 Google LLC
+ * Copyright (c) 2019 Google Inc.
+ * Copyright (c) 2019 The Khronos Group Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,20 +21,20 @@
  *
  *//*!
  * \file
- * \brief GraphicsFuzz tests
+ * \brief Scissoring tests
  *//*--------------------------------------------------------------------*/
 
-#include "tcuDefs.hpp"
-#include "tcuTestCase.hpp"
+#include "vkDefs.hpp"
+#include "vktTestCase.hpp"
 
 namespace vkt
 {
-namespace vkrunner
+namespace Draw
 {
 
-tcu::TestCaseGroup*		createGraphicsFuzzTests	(tcu::TestContext& testCtx);
+tcu::TestCaseGroup* createScissorTests (tcu::TestContext& testCtx);
 
-} // vkrunner
+} // Draw
 } // vkt
 
-#endif // _VKTVKRUNNERGRAPHICSFUZZTESTS_HPP
+#endif // _VKTDRAWSCISSORTESTS_HPP
