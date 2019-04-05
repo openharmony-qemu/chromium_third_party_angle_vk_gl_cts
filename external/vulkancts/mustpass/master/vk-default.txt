@@ -177828,6 +177828,9 @@ dEQP-VK.pipeline.timestamp.transfer_tests.host_stage_with_resolve_image_method
 dEQP-VK.pipeline.timestamp.transfer_tests.host_stage_with_resolve_image_method_host_query_reset
 dEQP-VK.pipeline.timestamp.transfer_tests.host_stage_with_copy_query_pool_results_method
 dEQP-VK.pipeline.timestamp.transfer_tests.host_stage_with_copy_query_pool_results_method_host_query_reset
+dEQP-VK.pipeline.timestamp.calibrated.dev_domain_test
+dEQP-VK.pipeline.timestamp.calibrated.host_domain_test
+dEQP-VK.pipeline.timestamp.calibrated.calibration_test
 dEQP-VK.pipeline.timestamp.misc_tests.timestamp_only
 dEQP-VK.pipeline.timestamp.misc_tests.two_cmd_buffers_primary
 dEQP-VK.pipeline.timestamp.misc_tests.two_cmd_buffers_secondary
