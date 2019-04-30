@@ -540498,6 +540498,12 @@ dEQP-VK.protected_memory.workgroupstorage.memsize_5
 dEQP-VK.protected_memory.workgroupstorage.memsize_60
 dEQP-VK.protected_memory.workgroupstorage.memsize_101
 dEQP-VK.protected_memory.workgroupstorage.memsize_503
+dEQP-VK.protected_memory.stack.stacksize_32
+dEQP-VK.protected_memory.stack.stacksize_64
+dEQP-VK.protected_memory.stack.stacksize_128
+dEQP-VK.protected_memory.stack.stacksize_256
+dEQP-VK.protected_memory.stack.stacksize_512
+dEQP-VK.protected_memory.stack.stacksize_1024
 dEQP-VK.device_group.sfr
 dEQP-VK.device_group.sfr_sys
 dEQP-VK.device_group.sfr_dedicated
