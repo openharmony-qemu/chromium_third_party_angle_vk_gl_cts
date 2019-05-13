@@ -267035,6 +267035,7 @@ dEQP-VK.glsl.builtin.function.common.frexp.float_mediump_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.float_mediump_tess_control
 dEQP-VK.glsl.builtin.function.common.frexp.float_mediump_tess_eval
 dEQP-VK.glsl.builtin.function.common.frexp.float_mediump_compute
+dEQP-VK.glsl.builtin.function.common.frexp.float_highp_vertex
 dEQP-VK.glsl.builtin.function.common.frexp.float_highp_fragment
 dEQP-VK.glsl.builtin.function.common.frexp.float_highp_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.float_highp_tess_control
@@ -267046,6 +267047,7 @@ dEQP-VK.glsl.builtin.function.common.frexp.vec2_mediump_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.vec2_mediump_tess_control
 dEQP-VK.glsl.builtin.function.common.frexp.vec2_mediump_tess_eval
 dEQP-VK.glsl.builtin.function.common.frexp.vec2_mediump_compute
+dEQP-VK.glsl.builtin.function.common.frexp.vec2_highp_vertex
 dEQP-VK.glsl.builtin.function.common.frexp.vec2_highp_fragment
 dEQP-VK.glsl.builtin.function.common.frexp.vec2_highp_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.vec2_highp_tess_control
@@ -267057,6 +267059,7 @@ dEQP-VK.glsl.builtin.function.common.frexp.vec3_mediump_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.vec3_mediump_tess_control
 dEQP-VK.glsl.builtin.function.common.frexp.vec3_mediump_tess_eval
 dEQP-VK.glsl.builtin.function.common.frexp.vec3_mediump_compute
+dEQP-VK.glsl.builtin.function.common.frexp.vec3_highp_vertex
 dEQP-VK.glsl.builtin.function.common.frexp.vec3_highp_fragment
 dEQP-VK.glsl.builtin.function.common.frexp.vec3_highp_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.vec3_highp_tess_control
@@ -267068,6 +267071,7 @@ dEQP-VK.glsl.builtin.function.common.frexp.vec4_mediump_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.vec4_mediump_tess_control
 dEQP-VK.glsl.builtin.function.common.frexp.vec4_mediump_tess_eval
 dEQP-VK.glsl.builtin.function.common.frexp.vec4_mediump_compute
+dEQP-VK.glsl.builtin.function.common.frexp.vec4_highp_vertex
 dEQP-VK.glsl.builtin.function.common.frexp.vec4_highp_fragment
 dEQP-VK.glsl.builtin.function.common.frexp.vec4_highp_geometry
 dEQP-VK.glsl.builtin.function.common.frexp.vec4_highp_tess_control
