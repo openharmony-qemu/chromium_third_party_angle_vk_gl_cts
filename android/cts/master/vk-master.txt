@@ -168758,7 +168758,6 @@ dEQP-VK.spirv_assembly.instruction.compute.opphi.wide
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.none
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.unroll
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.dont_unroll
-dEQP-VK.spirv_assembly.instruction.compute.loop_control.unroll_dont_unroll
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.dependency_length
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.dependency_infinite
 dEQP-VK.spirv_assembly.instruction.compute.function_control.none
