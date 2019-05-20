@@ -63254,7 +63254,6 @@ dEQP-VK.spirv_assembly.instruction.compute.opphi.swap
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.none
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.unroll
 dEQP-VK.spirv_assembly.instruction.compute.loop_control.dont_unroll
-dEQP-VK.spirv_assembly.instruction.compute.loop_control.unroll_dont_unroll
 dEQP-VK.spirv_assembly.instruction.compute.function_control.none
 dEQP-VK.spirv_assembly.instruction.compute.function_control.inline
 dEQP-VK.spirv_assembly.instruction.compute.function_control.dont_inline
