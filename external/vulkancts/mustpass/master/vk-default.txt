@@ -284557,6 +284557,8 @@ dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrdiff.variable_pointers_vars_ssb
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrdiff.variable_pointers_vars_ssbo_diff
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrdiff.variable_pointers_vars_wg_diff
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrdiff.wg_comparisons_diff
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.different_ssbos_equal
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.different_wgs_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.null_comparisons_ssbo_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.null_comparisons_wg_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.ssbo_comparisons_equal
@@ -284566,6 +284568,8 @@ dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.variable_pointers_vars_ss
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.variable_pointers_vars_wg_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.variable_pointers_wg_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrequal.wg_comparisons_equal
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrnotequal.different_ssbos_not_equal
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrnotequal.different_wgs_not_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrnotequal.null_comparisons_ssbo_not_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrnotequal.null_comparisons_wg_not_equal
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opptrnotequal.ssbo_comparisons_not_equal
@@ -284585,6 +284589,7 @@ dEQP-VK.spirv_assembly.instruction.spirv1p4.uniformid.workgroup_cfg_uniform_id
 dEQP-VK.spirv_assembly.instruction.spirv1p4.uniformid.workgroup_uniform
 dEQP-VK.spirv_assembly.instruction.spirv1p4.nonwritable.function_2_nonwritable
 dEQP-VK.spirv_assembly.instruction.spirv1p4.nonwritable.function_nonwritable
+dEQP-VK.spirv_assembly.instruction.spirv1p4.nonwritable.non_main_function_nonwritable
 dEQP-VK.spirv_assembly.instruction.spirv1p4.nonwritable.private_2_nonwritable
 dEQP-VK.spirv_assembly.instruction.spirv1p4.nonwritable.private_nonwritable
 dEQP-VK.spirv_assembly.instruction.spirv1p4.entrypoint.comp_pc_entry_point
@@ -284613,9 +284618,18 @@ dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.max_iterations
 dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.min_iterations
 dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.partial_count
 dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.peel_count
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.array_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.array_stride_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.nested_array_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.nested_struct_select
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.scalar_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.ssbo_pointers_2_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.ssbo_pointers_select
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.struct_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.vector_element_select
 dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.vector_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.wg_pointers_2_select
+dEQP-VK.spirv_assembly.instruction.spirv1p4.opselect.wg_pointers_select
 dEQP-VK.spirv_assembly.instruction.spirv1p4.uconvert.spec_const_opt_extend_16_64_bit
 dEQP-VK.spirv_assembly.instruction.spirv1p4.uconvert.spec_const_opt_extend_16
 dEQP-VK.spirv_assembly.instruction.spirv1p4.uconvert.spec_const_opt_extend_251658240_64_bits
