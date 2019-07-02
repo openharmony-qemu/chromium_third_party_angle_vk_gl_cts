@@ -103862,6 +103862,10 @@ dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.info
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.export_import_bind_bind
+dEQP-VK.api.external.memory.dma_buf.suballocated.image.info
+dEQP-VK.api.external.memory.dma_buf.suballocated.image.bind_export_import_bind
+dEQP-VK.api.external.memory.dma_buf.suballocated.image.export_bind_import_bind
+dEQP-VK.api.external.memory.dma_buf.suballocated.image.export_import_bind_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.device_only.import_twice
 dEQP-VK.api.external.memory.dma_buf.dedicated.device_only.import_multiple_times
 dEQP-VK.api.external.memory.dma_buf.dedicated.device_only.dup
@@ -103882,6 +103886,10 @@ dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.info
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.export_import_bind_bind
+dEQP-VK.api.external.memory.dma_buf.dedicated.image.info
+dEQP-VK.api.external.memory.dma_buf.dedicated.image.bind_export_import_bind
+dEQP-VK.api.external.memory.dma_buf.dedicated.image.export_bind_import_bind
+dEQP-VK.api.external.memory.dma_buf.dedicated.image.export_import_bind_bind
 dEQP-VK.api.external.fence.sync_fd.info
 dEQP-VK.api.external.fence.sync_fd.import_twice_temporary
 dEQP-VK.api.external.fence.sync_fd.reimport_temporary
