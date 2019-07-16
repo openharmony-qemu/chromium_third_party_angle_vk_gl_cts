@@ -464752,6 +464752,7 @@ dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.return-in-loop-in-function
 dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.graphicsfuzz.write-red-after-search
