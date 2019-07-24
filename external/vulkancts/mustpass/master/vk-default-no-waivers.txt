@@ -289799,6 +289799,13 @@ dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.isub
 dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.iinc
 dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.idec
 dEQP-VK.spirv_assembly.instruction.compute.opatomic_return_values.compex
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.iadd
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.isub
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.iinc
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.idec
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.load
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.store
+dEQP-VK.spirv_assembly.instruction.compute.opatomic_storage_buffer_volatile.compex
 dEQP-VK.spirv_assembly.instruction.compute.opline.all
 dEQP-VK.spirv_assembly.instruction.compute.opmoduleprocessed.all
 dEQP-VK.spirv_assembly.instruction.compute.opnoline.all
