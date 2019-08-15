@@ -466743,6 +466743,7 @@ dEQP-VK.graphicsfuzz.matrices-and-return-in-loop
 dEQP-VK.graphicsfuzz.nested-ifs-and-return-in-for-loop
 dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.return-in-loop-in-function
+dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
