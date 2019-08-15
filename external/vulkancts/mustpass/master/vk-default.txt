@@ -304730,6 +304730,14 @@ dEQP-VK.glsl.builtin.precision.mod.highp.scalar
 dEQP-VK.glsl.builtin.precision.mod.highp.vec2
 dEQP-VK.glsl.builtin.precision.mod.highp.vec3
 dEQP-VK.glsl.builtin.precision.mod.highp.vec4
+dEQP-VK.glsl.builtin.precision.frem.mediump.scalar
+dEQP-VK.glsl.builtin.precision.frem.mediump.vec2
+dEQP-VK.glsl.builtin.precision.frem.mediump.vec3
+dEQP-VK.glsl.builtin.precision.frem.mediump.vec4
+dEQP-VK.glsl.builtin.precision.frem.highp.scalar
+dEQP-VK.glsl.builtin.precision.frem.highp.vec2
+dEQP-VK.glsl.builtin.precision.frem.highp.vec3
+dEQP-VK.glsl.builtin.precision.frem.highp.vec4
 dEQP-VK.glsl.builtin.precision.modf.mediump
 dEQP-VK.glsl.builtin.precision.modf.highp
 dEQP-VK.glsl.builtin.precision.min.mediump.scalar
@@ -305064,6 +305072,10 @@ dEQP-VK.glsl.builtin.precision_fp16_storage16b.mod.compute.scalar
 dEQP-VK.glsl.builtin.precision_fp16_storage16b.mod.compute.vec2
 dEQP-VK.glsl.builtin.precision_fp16_storage16b.mod.compute.vec3
 dEQP-VK.glsl.builtin.precision_fp16_storage16b.mod.compute.vec4
+dEQP-VK.glsl.builtin.precision_fp16_storage16b.frem.compute.scalar
+dEQP-VK.glsl.builtin.precision_fp16_storage16b.frem.compute.vec2
+dEQP-VK.glsl.builtin.precision_fp16_storage16b.frem.compute.vec3
+dEQP-VK.glsl.builtin.precision_fp16_storage16b.frem.compute.vec4
 dEQP-VK.glsl.builtin.precision_fp16_storage16b.modf.compute
 dEQP-VK.glsl.builtin.precision_fp16_storage16b.min.compute.scalar
 dEQP-VK.glsl.builtin.precision_fp16_storage16b.min.compute.vec2
@@ -305294,6 +305306,10 @@ dEQP-VK.glsl.builtin.precision_fp16_storage32b.mod.compute.scalar
 dEQP-VK.glsl.builtin.precision_fp16_storage32b.mod.compute.vec2
 dEQP-VK.glsl.builtin.precision_fp16_storage32b.mod.compute.vec3
 dEQP-VK.glsl.builtin.precision_fp16_storage32b.mod.compute.vec4
+dEQP-VK.glsl.builtin.precision_fp16_storage32b.frem.compute.scalar
+dEQP-VK.glsl.builtin.precision_fp16_storage32b.frem.compute.vec2
+dEQP-VK.glsl.builtin.precision_fp16_storage32b.frem.compute.vec3
+dEQP-VK.glsl.builtin.precision_fp16_storage32b.frem.compute.vec4
 dEQP-VK.glsl.builtin.precision_fp16_storage32b.modf.compute
 dEQP-VK.glsl.builtin.precision_fp16_storage32b.min.compute.scalar
 dEQP-VK.glsl.builtin.precision_fp16_storage32b.min.compute.vec2
