@@ -466746,6 +466746,7 @@ dEQP-VK.graphicsfuzz.return-in-loop-in-function
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
+dEQP-VK.graphicsfuzz.write-red-after-search
 dEQP-VK.transform_feedback.simple.basic_1_256
 dEQP-VK.transform_feedback.simple.basic_beginqueryindexed_streamid_0_1_256
 dEQP-VK.transform_feedback.simple.basic_endqueryindexed_streamid_0_1_256
