@@ -467246,6 +467246,7 @@ dEQP-VK.graphicsfuzz.dead-barriers-in-loops
 dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.early-return-and-barrier
+dEQP-VK.graphicsfuzz.for-condition-always-false
 dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
 dEQP-VK.graphicsfuzz.if-and-switch
@@ -467263,7 +467264,7 @@ dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.graphicsfuzz.write-before-break
 dEQP-VK.graphicsfuzz.write-red-after-search
-dEQP-VK.graphicsfuzz.for-condition-always-false
+dEQP-VK.graphicsfuzz.write-red-in-loop-nest
 dEQP-VK.transform_feedback.simple.basic_1_256
 dEQP-VK.transform_feedback.simple.basic_beginqueryindexed_streamid_0_1_256
 dEQP-VK.transform_feedback.simple.basic_endqueryindexed_streamid_0_1_256
