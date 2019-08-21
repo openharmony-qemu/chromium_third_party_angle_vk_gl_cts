@@ -466941,6 +466941,7 @@ dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.graphicsfuzz.write-red-after-search
+dEQP-VK.graphicsfuzz.for-condition-always-false
 dEQP-VK.transform_feedback.simple.basic_1_256
 dEQP-VK.transform_feedback.simple.basic_beginqueryindexed_streamid_0_1_256
 dEQP-VK.transform_feedback.simple.basic_endqueryindexed_streamid_0_1_256
