@@ -1427,6 +1427,8 @@ dEQP-VK.api.info.get_physical_device_properties2.properties
 dEQP-VK.api.info.get_physical_device_properties2.format_properties
 dEQP-VK.api.info.get_physical_device_properties2.queue_family_properties
 dEQP-VK.api.info.get_physical_device_properties2.memory_properties
+dEQP-VK.api.info.vulkan1p2.features
+dEQP-VK.api.info.vulkan1p2.properties
 dEQP-VK.api.info.image_format_properties2.1d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.1d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.1d.optimal.b4g4r4a4_unorm_pack16
