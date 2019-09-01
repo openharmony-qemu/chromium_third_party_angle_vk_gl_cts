@@ -486083,6 +486083,7 @@ dEQP-VK.graphicsfuzz.return-in-loop-in-function
 dEQP-VK.graphicsfuzz.similar-nested-ifs
 dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.two-loops-matrix
 dEQP-VK.graphicsfuzz.two-loops-set-struct
 dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
 dEQP-VK.graphicsfuzz.unreachable-loops
