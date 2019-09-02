@@ -484081,6 +484081,7 @@ dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
 dEQP-VK.graphicsfuzz.mat-array-distance
 dEQP-VK.graphicsfuzz.matrices-and-return-in-loop
 dEQP-VK.graphicsfuzz.max-mix-conditional-discard
+dEQP-VK.graphicsfuzz.mix-floor-add
 dEQP-VK.graphicsfuzz.nested-ifs-and-return-in-for-loop
 dEQP-VK.graphicsfuzz.nested-loops-switch
 dEQP-VK.graphicsfuzz.pow-vec4
