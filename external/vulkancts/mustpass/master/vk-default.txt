@@ -485013,6 +485013,7 @@ dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.early-return-and-barrier
 dEQP-VK.graphicsfuzz.for-condition-always-false
+dEQP-VK.graphicsfuzz.for-with-ifs-and-return
 dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
 dEQP-VK.graphicsfuzz.if-and-switch
