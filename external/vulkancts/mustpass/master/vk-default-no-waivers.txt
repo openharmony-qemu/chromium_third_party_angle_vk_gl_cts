@@ -553288,6 +553288,7 @@ dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.disc-and-add-in-func-in-loop
 dEQP-VK.graphicsfuzz.discard-continue-return
 dEQP-VK.graphicsfuzz.discard-in-array-manipulating-loop
+dEQP-VK.graphicsfuzz.discards-in-control-flow
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.do-while-with-always-true-if
 dEQP-VK.graphicsfuzz.early-return-and-barrier
