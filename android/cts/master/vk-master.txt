@@ -519534,6 +519534,7 @@ dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.switch-if-discard
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.two-for-loops-with-barrier-function
 dEQP-VK.graphicsfuzz.two-loops-matrix
 dEQP-VK.graphicsfuzz.two-loops-set-struct
 dEQP-VK.graphicsfuzz.two-loops-with-break
