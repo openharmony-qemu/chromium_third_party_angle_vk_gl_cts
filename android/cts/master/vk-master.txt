@@ -293952,6 +293952,7 @@ dEQP-VK.spirv_assembly.instruction.compute.unused_variables.function_set_5_bindi
 dEQP-VK.spirv_assembly.instruction.compute.ptr_access_chain.workgroup
 dEQP-VK.spirv_assembly.instruction.compute.ptr_access_chain.workgroup_no_stride
 dEQP-VK.spirv_assembly.instruction.compute.ptr_access_chain.workgroup_bad_stride
+dEQP-VK.spirv_assembly.instruction.compute.hlsl_cases.cbuffer_packing
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision
@@ -522636,7 +522637,9 @@ dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
 dEQP-VK.graphicsfuzz.dead-struct-init
+dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.early-return-and-barrier
+dEQP-VK.graphicsfuzz.for-condition-always-false
 dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
 dEQP-VK.graphicsfuzz.if-and-switch
@@ -522649,9 +522652,12 @@ dEQP-VK.graphicsfuzz.return-in-loop-in-function
 dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
+dEQP-VK.graphicsfuzz.unreachable-loops
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.while-inside-switch
+dEQP-VK.graphicsfuzz.write-before-break
 dEQP-VK.graphicsfuzz.write-red-after-search
+dEQP-VK.graphicsfuzz.write-red-in-loop-nest
 dEQP-VK.imageless_framebuffer.color
 dEQP-VK.imageless_framebuffer.depth_stencil
 dEQP-VK.imageless_framebuffer.color_resolve
