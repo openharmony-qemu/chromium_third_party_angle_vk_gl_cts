@@ -520923,6 +520923,7 @@ dEQP-VK.graphicsfuzz.two-loops-matrix
 dEQP-VK.graphicsfuzz.two-loops-set-struct
 dEQP-VK.graphicsfuzz.two-loops-with-break
 dEQP-VK.graphicsfuzz.two-nested-do-whiles
+dEQP-VK.graphicsfuzz.two-nested-for-loops-with-returns
 dEQP-VK.graphicsfuzz.two-nested-infinite-loops-discard
 dEQP-VK.graphicsfuzz.uninitialized-var-decrement-and-add
 dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
