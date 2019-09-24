@@ -383861,6 +383861,7 @@ dEQP-VK.wsi.xlib.surface.query_support
 dEQP-VK.wsi.xlib.surface.query_capabilities
 dEQP-VK.wsi.xlib.surface.query_capabilities2
 dEQP-VK.wsi.xlib.surface.query_protected_capabilities
+dEQP-VK.wsi.xlib.surface.query_surface_counters
 dEQP-VK.wsi.xlib.surface.query_formats
 dEQP-VK.wsi.xlib.surface.query_formats2
 dEQP-VK.wsi.xlib.surface.query_present_modes
@@ -384276,6 +384277,7 @@ dEQP-VK.wsi.xcb.surface.query_support
 dEQP-VK.wsi.xcb.surface.query_capabilities
 dEQP-VK.wsi.xcb.surface.query_capabilities2
 dEQP-VK.wsi.xcb.surface.query_protected_capabilities
+dEQP-VK.wsi.xcb.surface.query_surface_counters
 dEQP-VK.wsi.xcb.surface.query_formats
 dEQP-VK.wsi.xcb.surface.query_formats2
 dEQP-VK.wsi.xcb.surface.query_present_modes
@@ -384691,6 +384693,7 @@ dEQP-VK.wsi.wayland.surface.query_support
 dEQP-VK.wsi.wayland.surface.query_capabilities
 dEQP-VK.wsi.wayland.surface.query_capabilities2
 dEQP-VK.wsi.wayland.surface.query_protected_capabilities
+dEQP-VK.wsi.wayland.surface.query_surface_counters
 dEQP-VK.wsi.wayland.surface.query_formats
 dEQP-VK.wsi.wayland.surface.query_formats2
 dEQP-VK.wsi.wayland.surface.query_present_modes
@@ -385105,6 +385108,7 @@ dEQP-VK.wsi.android.surface.query_support
 dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_protected_capabilities
+dEQP-VK.wsi.android.surface.query_surface_counters
 dEQP-VK.wsi.android.surface.query_formats
 dEQP-VK.wsi.android.surface.query_formats2
 dEQP-VK.wsi.android.surface.query_present_modes
@@ -386240,6 +386244,7 @@ dEQP-VK.wsi.win32.surface.query_support
 dEQP-VK.wsi.win32.surface.query_capabilities
 dEQP-VK.wsi.win32.surface.query_capabilities2
 dEQP-VK.wsi.win32.surface.query_protected_capabilities
+dEQP-VK.wsi.win32.surface.query_surface_counters
 dEQP-VK.wsi.win32.surface.query_formats
 dEQP-VK.wsi.win32.surface.query_formats2
 dEQP-VK.wsi.win32.surface.query_present_modes
@@ -386655,6 +386660,7 @@ dEQP-VK.wsi.macos.surface.query_support
 dEQP-VK.wsi.macos.surface.query_capabilities
 dEQP-VK.wsi.macos.surface.query_capabilities2
 dEQP-VK.wsi.macos.surface.query_protected_capabilities
+dEQP-VK.wsi.macos.surface.query_surface_counters
 dEQP-VK.wsi.macos.surface.query_formats
 dEQP-VK.wsi.macos.surface.query_formats2
 dEQP-VK.wsi.macos.surface.query_present_modes
@@ -387070,6 +387076,7 @@ dEQP-VK.wsi.display.get_display_mode_properties
 dEQP-VK.wsi.display.create_display_mode
 dEQP-VK.wsi.display.get_display_plane_capabilities
 dEQP-VK.wsi.display.create_display_plane_surface
+dEQP-VK.wsi.display.surface_counters
 dEQP-VK.wsi.display.get_display_properties2
 dEQP-VK.wsi.display.get_display_plane_properties2
 dEQP-VK.wsi.display.get_display_mode_properties2
