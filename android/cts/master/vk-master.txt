@@ -297905,8 +297905,6 @@ dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2dshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sampler2dshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2dshadow_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.sampler2dshadow_fragment
-dEQP-VK.glsl.texture_functions.texturegrad.sparse_samplercubeshadow_vertex
-dEQP-VK.glsl.texture_functions.texturegrad.sparse_samplercubeshadow_fragment
 dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2darrayshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sampler2darrayshadow_vertex
 dEQP-VK.glsl.texture_functions.texturegrad.sparse_sampler2darrayshadow_fragment
@@ -341096,7 +341094,6 @@ dEQP-VK.ssbo.layout.random.scalar.71
 dEQP-VK.ssbo.layout.random.scalar.72
 dEQP-VK.ssbo.layout.random.scalar.73
 dEQP-VK.ssbo.layout.random.scalar.74
-dEQP-VK.ssbo.layout.random.scalar.75
 dEQP-VK.ssbo.layout.random.scalar.76
 dEQP-VK.ssbo.layout.random.scalar.77
 dEQP-VK.ssbo.layout.random.scalar.78
