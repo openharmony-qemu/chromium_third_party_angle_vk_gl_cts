@@ -509041,6 +509041,7 @@ dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
 dEQP-VK.graphicsfuzz.dead-struct-init
+dEQP-VK.graphicsfuzz.disc-and-add-in-func-in-loop
 dEQP-VK.graphicsfuzz.discard-continue-return
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.early-return-and-barrier
