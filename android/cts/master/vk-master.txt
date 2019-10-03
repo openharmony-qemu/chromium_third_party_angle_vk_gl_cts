@@ -520874,6 +520874,7 @@ dEQP-VK.conditional_rendering.draw_clear.draw.case_13
 dEQP-VK.conditional_rendering.draw_clear.draw.case_14
 dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_no_discard
 dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_discard
+dEQP-VK.graphicsfuzz.always-false-if-in-do-while
 dEQP-VK.graphicsfuzz.always-false-if-with-discard-return
 dEQP-VK.graphicsfuzz.barrier-in-loop-with-break
 dEQP-VK.graphicsfuzz.color-write-in-loop
