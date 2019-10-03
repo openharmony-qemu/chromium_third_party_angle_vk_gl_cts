@@ -511258,6 +511258,7 @@ dEQP-VK.graphicsfuzz.unreachable-barrier-in-loops
 dEQP-VK.graphicsfuzz.unreachable-continue-statement
 dEQP-VK.graphicsfuzz.unreachable-loops
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
+dEQP-VK.graphicsfuzz.unreachable-return-in-loop
 dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.graphicsfuzz.write-before-break
 dEQP-VK.graphicsfuzz.write-red-after-search
