@@ -520901,6 +520901,7 @@ dEQP-VK.graphicsfuzz.loop-call-discard
 dEQP-VK.graphicsfuzz.loop-dead-if-loop
 dEQP-VK.graphicsfuzz.loop-nested-ifs
 dEQP-VK.graphicsfuzz.loops-breaks-returns
+dEQP-VK.graphicsfuzz.loops-ifs-continues-call
 dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
 dEQP-VK.graphicsfuzz.mat-array-distance
 dEQP-VK.graphicsfuzz.matrices-and-return-in-loop
