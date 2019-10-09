@@ -520880,6 +520880,7 @@ dEQP-VK.graphicsfuzz.always-false-if-with-discard-return
 dEQP-VK.graphicsfuzz.barrier-in-loop-with-break
 dEQP-VK.graphicsfuzz.color-write-in-loop
 dEQP-VK.graphicsfuzz.complex-nested-loops-and-call
+dEQP-VK.graphicsfuzz.conditional-return-in-infinite-while
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
