@@ -519543,6 +519543,7 @@ dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.graphicsfuzz.write-before-break
 dEQP-VK.graphicsfuzz.write-red-after-search
 dEQP-VK.graphicsfuzz.write-red-in-loop-nest
+dEQP-VK.graphicsfuzz.wrong-color-in-always-false-if
 dEQP-VK.transform_feedback.simple.basic_1_256
 dEQP-VK.transform_feedback.simple.basic_beginqueryindexed_streamid_0_1_256
 dEQP-VK.transform_feedback.simple.basic_endqueryindexed_streamid_0_1_256
