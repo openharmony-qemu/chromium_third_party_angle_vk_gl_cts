@@ -417730,6 +417730,11 @@ dEQP-VK.image.extend_operands_spirv1p4.r8_sint_matching_extend
 dEQP-VK.image.extend_operands_spirv1p4.r8_sint_force_sign_extend
 dEQP-VK.image.extend_operands_spirv1p4.r8_sint_relaxed_matching_extend
 dEQP-VK.image.extend_operands_spirv1p4.r8_sint_relaxed_force_sign_extend
+dEQP-VK.image.misaligned_cube.7
+dEQP-VK.image.misaligned_cube.8
+dEQP-VK.image.misaligned_cube.9
+dEQP-VK.image.misaligned_cube.10
+dEQP-VK.image.misaligned_cube.11
 dEQP-VK.wsi.xlib.surface.create
 dEQP-VK.wsi.xlib.surface.create_custom_allocator
 dEQP-VK.wsi.xlib.surface.create_simulate_oom
