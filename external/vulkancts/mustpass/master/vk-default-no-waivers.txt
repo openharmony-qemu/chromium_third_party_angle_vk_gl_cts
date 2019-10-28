@@ -553676,6 +553676,7 @@ dEQP-VK.conditional_rendering.draw_clear.draw.update_with_rendering_discard
 dEQP-VK.graphicsfuzz.always-false-if-with-discard-return
 dEQP-VK.graphicsfuzz.barrier-in-loop-with-break
 dEQP-VK.graphicsfuzz.color-write-in-loop
+dEQP-VK.graphicsfuzz.complex-nested-loops-and-call
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
@@ -553693,6 +553694,7 @@ dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
 dEQP-VK.graphicsfuzz.if-and-switch
 dEQP-VK.graphicsfuzz.loop-call-discard
+dEQP-VK.graphicsfuzz.loop-dead-if-loop
 dEQP-VK.graphicsfuzz.loop-nested-ifs
 dEQP-VK.graphicsfuzz.loops-breaks-returns
 dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
