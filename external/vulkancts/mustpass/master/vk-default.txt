@@ -429257,6 +429257,10 @@ dEQP-VK.wsi.display.get_display_properties2
 dEQP-VK.wsi.display.get_display_plane_properties2
 dEQP-VK.wsi.display.get_display_mode_properties2
 dEQP-VK.wsi.display.get_display_plane_capabilities2
+dEQP-VK.wsi.display_control.swapchain_counter
+dEQP-VK.wsi.display_control.display_power_control
+dEQP-VK.wsi.display_control.register_display_event
+dEQP-VK.wsi.display_control.register_device_event
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.binary_semaphores
 dEQP-VK.synchronization.smoke.timeline_semaphores
