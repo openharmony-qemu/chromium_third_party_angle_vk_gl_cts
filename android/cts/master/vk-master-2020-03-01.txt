@@ -78975,6 +78975,14 @@ dEQP-VK.binding_model.buffer_device_address.set31.depth2.basessbo.crossconvertp2
 dEQP-VK.binding_model.buffer_device_address.set31.depth2.basessbo.crossconvertp2u.store.replay.std140.vert
 dEQP-VK.spirv_assembly.instruction.compute.spirv_version.1_4_compute
 dEQP-VK.spirv_assembly.instruction.compute.spirv_version.1_5_compute
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.basic
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.dummy_instruction_set
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.large_instruction_number
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.many_parameters
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type_used
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_non_constant_type
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.placement
 dEQP-VK.spirv_assembly.instruction.compute.opfunord.equal
 dEQP-VK.spirv_assembly.instruction.compute.opfunord.less
 dEQP-VK.spirv_assembly.instruction.compute.opfunord.lessequal
