@@ -426566,6 +426566,7 @@ dEQP-VK.wsi.android.surface.create
 dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
 dEQP-VK.wsi.android.surface.query_support
+dEQP-VK.wsi.android.surface.query_presentation_support
 dEQP-VK.wsi.android.surface.query_capabilities
 dEQP-VK.wsi.android.surface.query_capabilities2
 dEQP-VK.wsi.android.surface.query_protected_capabilities
@@ -427340,6 +427341,7 @@ dEQP-VK.wsi.macos.surface.create
 dEQP-VK.wsi.macos.surface.create_custom_allocator
 dEQP-VK.wsi.macos.surface.create_simulate_oom
 dEQP-VK.wsi.macos.surface.query_support
+dEQP-VK.wsi.macos.surface.query_presentation_support
 dEQP-VK.wsi.macos.surface.query_capabilities
 dEQP-VK.wsi.macos.surface.query_capabilities2
 dEQP-VK.wsi.macos.surface.query_protected_capabilities
