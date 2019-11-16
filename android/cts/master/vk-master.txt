@@ -301354,6 +301354,11 @@ dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.vec4
 dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.matrix
 dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.floatarray
 dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.struct
+dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.float_from_workgroup
+dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.vec4_from_workgroup
+dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.matrix_from_workgroup
+dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.floatarray_from_workgroup
+dEQP-VK.spirv_assembly.instruction.compute.variable_init.private.struct_from_workgroup
 dEQP-VK.spirv_assembly.instruction.compute.conditional_branch.same_labels_true
 dEQP-VK.spirv_assembly.instruction.compute.conditional_branch.same_labels_false
 dEQP-VK.spirv_assembly.instruction.compute.indexing.input.struct.opaccesschain_u16
