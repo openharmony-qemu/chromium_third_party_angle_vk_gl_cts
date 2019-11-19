@@ -568826,6 +568826,7 @@ dEQP-VK.graphicsfuzz.unreachable-loops
 dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.unreachable-return-in-loop
 dEQP-VK.graphicsfuzz.unreachable-switch-case-with-discards
+dEQP-VK.graphicsfuzz.uv-value-comparison-as-boolean
 dEQP-VK.graphicsfuzz.while-function-always-false
 dEQP-VK.graphicsfuzz.while-inside-switch
 dEQP-VK.graphicsfuzz.write-before-break
