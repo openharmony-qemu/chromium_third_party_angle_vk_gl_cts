@@ -480396,6 +480396,9 @@ dEQP-VK.texture.filtering.2d.formats.a1r5g5b5_unorm.nearest_mipmap_nearest
 dEQP-VK.texture.filtering.2d.formats.a1r5g5b5_unorm.linear_mipmap_nearest
 dEQP-VK.texture.filtering.2d.formats.a1r5g5b5_unorm.nearest_mipmap_linear
 dEQP-VK.texture.filtering.2d.formats.a1r5g5b5_unorm.linear_mipmap_linear
+dEQP-VK.texture.filtering.2d.formats.s8_uint.nearest
+dEQP-VK.texture.filtering.2d.formats.d24_unorm_s8_uint_stencil.nearest
+dEQP-VK.texture.filtering.2d.formats.d32_sfloat_s8_uint_stencil.nearest
 dEQP-VK.texture.filtering.2d.sizes.4x8.nearest
 dEQP-VK.texture.filtering.2d.sizes.4x8.linear
 dEQP-VK.texture.filtering.2d.sizes.4x8.nearest_mipmap_nearest
@@ -480752,6 +480755,9 @@ dEQP-VK.texture.filtering.unnormal.formats.a8b8g8r8_srgb.nearest
 dEQP-VK.texture.filtering.unnormal.formats.a8b8g8r8_srgb.linear
 dEQP-VK.texture.filtering.unnormal.formats.a1r5g5b5_unorm.nearest
 dEQP-VK.texture.filtering.unnormal.formats.a1r5g5b5_unorm.linear
+dEQP-VK.texture.filtering.unnormal.formats.s8_uint.nearest
+dEQP-VK.texture.filtering.unnormal.formats.d24_unorm_s8_uint_stencil.nearest
+dEQP-VK.texture.filtering.unnormal.formats.d32_sfloat_s8_uint_stencil.nearest
 dEQP-VK.texture.filtering.unnormal.sizes.4x8.nearest
 dEQP-VK.texture.filtering.unnormal.sizes.4x8.linear
 dEQP-VK.texture.filtering.unnormal.sizes.32x64.nearest
@@ -480824,6 +480830,9 @@ dEQP-VK.texture.filtering.cube.formats.a1r5g5b5_unorm.nearest_mipmap_nearest
 dEQP-VK.texture.filtering.cube.formats.a1r5g5b5_unorm.linear_mipmap_nearest
 dEQP-VK.texture.filtering.cube.formats.a1r5g5b5_unorm.nearest_mipmap_linear
 dEQP-VK.texture.filtering.cube.formats.a1r5g5b5_unorm.linear_mipmap_linear
+dEQP-VK.texture.filtering.cube.formats.s8_uint.nearest
+dEQP-VK.texture.filtering.cube.formats.d24_unorm_s8_uint_stencil.nearest
+dEQP-VK.texture.filtering.cube.formats.d32_sfloat_s8_uint_stencil.nearest
 dEQP-VK.texture.filtering.cube.sizes.8x8.nearest
 dEQP-VK.texture.filtering.cube.sizes.8x8.linear
 dEQP-VK.texture.filtering.cube.sizes.8x8.nearest_mipmap_nearest
@@ -481216,6 +481225,9 @@ dEQP-VK.texture.filtering.2d_array.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_nearest
 dEQP-VK.texture.filtering.2d_array.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_linear_mipmap_nearest
 dEQP-VK.texture.filtering.2d_array.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_nearest_mipmap_linear
 dEQP-VK.texture.filtering.2d_array.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_linear_mipmap_linear
+dEQP-VK.texture.filtering.2d_array.formats.s8_uint.s8_uint_nearest
+dEQP-VK.texture.filtering.2d_array.formats.d24_unorm_s8_uint_stencil.d24_unorm_s8_uint_stencil_nearest
+dEQP-VK.texture.filtering.2d_array.formats.d32_sfloat_s8_uint_stencil.d32_sfloat_s8_uint_stencil_nearest
 dEQP-VK.texture.filtering.2d_array.sizes.4x8x8.nearest
 dEQP-VK.texture.filtering.2d_array.sizes.4x8x8.linear
 dEQP-VK.texture.filtering.2d_array.sizes.4x8x8.nearest_mipmap_nearest
@@ -481606,6 +481618,9 @@ dEQP-VK.texture.filtering.3d.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_nearest_mipma
 dEQP-VK.texture.filtering.3d.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_linear_mipmap_nearest
 dEQP-VK.texture.filtering.3d.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_nearest_mipmap_linear
 dEQP-VK.texture.filtering.3d.formats.a1r5g5b5_unorm.a1r5g5b5_unorm_linear_mipmap_linear
+dEQP-VK.texture.filtering.3d.formats.s8_uint.s8_uint_nearest
+dEQP-VK.texture.filtering.3d.formats.d24_unorm_s8_uint_stencil.d24_unorm_s8_uint_stencil_nearest
+dEQP-VK.texture.filtering.3d.formats.d32_sfloat_s8_uint_stencil.d32_sfloat_s8_uint_stencil_nearest
 dEQP-VK.texture.filtering.3d.sizes.4x8x8.nearest
 dEQP-VK.texture.filtering.3d.sizes.4x8x8.linear
 dEQP-VK.texture.filtering.3d.sizes.4x8x8.nearest_mipmap_nearest
