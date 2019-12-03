@@ -559685,6 +559685,7 @@ dEQP-VK.memory_model.transitive.noncoherent.atomic_atomic.payload_local.physbuff
 dEQP-VK.memory_model.transitive.noncoherent.atomic_atomic.payload_local.physbuffer.guard_local.image.transvis
 dEQP-VK.memory_model.transitive.noncoherent.atomic_atomic.payload_local.physbuffer.guard_local.physbuffer.nontransvis
 dEQP-VK.memory_model.transitive.noncoherent.atomic_atomic.payload_local.physbuffer.guard_local.physbuffer.transvis
+dEQP-VK.memory_model.padding.test
 dEQP-VK.conditional_rendering.draw.condition_expect_execution.draw
 dEQP-VK.conditional_rendering.draw.condition_expect_execution.draw_indexed
 dEQP-VK.conditional_rendering.draw.condition_expect_execution.draw_indirect
