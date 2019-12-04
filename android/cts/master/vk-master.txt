@@ -559906,6 +559906,7 @@ dEQP-VK.graphicsfuzz.loops-breaks-returns
 dEQP-VK.graphicsfuzz.loops-ifs-continues-call
 dEQP-VK.graphicsfuzz.mat-array-deep-control-flow
 dEQP-VK.graphicsfuzz.mat-array-distance
+dEQP-VK.graphicsfuzz.mat-mul-in-loop
 dEQP-VK.graphicsfuzz.matrices-and-return-in-loop
 dEQP-VK.graphicsfuzz.max-mix-conditional-discard
 dEQP-VK.graphicsfuzz.mix-floor-add
