@@ -430254,7 +430254,6 @@ dEQP-VK.wsi.display_control.register_device_event
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.binary_semaphores
 dEQP-VK.synchronization.smoke.timeline_semaphores
-dEQP-VK.synchronization.smoke.events
 dEQP-VK.synchronization.basic.fence.one
 dEQP-VK.synchronization.basic.fence.multi
 dEQP-VK.synchronization.basic.fence.empty_submit
@@ -430269,7 +430268,6 @@ dEQP-VK.synchronization.basic.timeline_semaphore.multi_queue
 dEQP-VK.synchronization.basic.timeline_semaphore.chain
 dEQP-VK.synchronization.basic.event.host_set_reset
 dEQP-VK.synchronization.basic.event.device_set_reset
-dEQP-VK.synchronization.basic.event.host_set_device_wait
 dEQP-VK.synchronization.basic.event.single_submit_multi_command_buffer
 dEQP-VK.synchronization.basic.event.multi_submit_multi_command_buffer
 dEQP-VK.synchronization.basic.event.multi_secondary_command_buffer
