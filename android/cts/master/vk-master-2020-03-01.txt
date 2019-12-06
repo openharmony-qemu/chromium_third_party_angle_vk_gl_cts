@@ -191390,6 +191390,7 @@ dEQP-VK.graphicsfuzz.discard-in-array-manipulating-loop
 dEQP-VK.graphicsfuzz.discard-in-loop
 dEQP-VK.graphicsfuzz.discard-in-loop-in-function
 dEQP-VK.graphicsfuzz.discards-in-control-flow
+dEQP-VK.graphicsfuzz.do-while-false-loops
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.do-while-with-always-true-if
 dEQP-VK.graphicsfuzz.do-while-with-if-condition
