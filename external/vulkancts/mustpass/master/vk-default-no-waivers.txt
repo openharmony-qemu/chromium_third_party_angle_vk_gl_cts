@@ -506914,6 +506914,9 @@ dEQP-VK.texture.swizzle.texture_coordinate.astc_12x12_srgb_block_2d_npot_yy
 dEQP-VK.texture.swizzle.texture_coordinate.astc_12x12_srgb_block_2d_npot_sparse_yx
 dEQP-VK.texture.swizzle.texture_coordinate.astc_12x12_srgb_block_2d_npot_sparse_xx
 dEQP-VK.texture.swizzle.texture_coordinate.astc_12x12_srgb_block_2d_npot_sparse_yy
+dEQP-VK.texture.subgroup_lod.texturelod
+dEQP-VK.texture.subgroup_lod.texturegrad
+dEQP-VK.texture.subgroup_lod.texelfetch
 dEQP-VK.geometry.input.basic_primitive.points
 dEQP-VK.geometry.input.basic_primitive.lines
 dEQP-VK.geometry.input.basic_primitive.line_strip
