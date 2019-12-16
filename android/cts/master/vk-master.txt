@@ -565941,6 +565941,7 @@ dEQP-VK.graphicsfuzz.smoothstep-after-loop
 dEQP-VK.graphicsfuzz.struct-and-unreachable-infinite-loop
 dEQP-VK.graphicsfuzz.struct-controlled-loop
 dEQP-VK.graphicsfuzz.struct-used-as-temporary
+dEQP-VK.graphicsfuzz.switch-case-with-undefined-expression
 dEQP-VK.graphicsfuzz.switch-if-discard
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
