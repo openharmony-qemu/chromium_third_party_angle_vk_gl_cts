@@ -571024,6 +571024,7 @@ dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
 dEQP-VK.graphicsfuzz.global-array-loops
 dEQP-VK.graphicsfuzz.if-and-switch
+dEQP-VK.graphicsfuzz.injection-switch-as-comparison
 dEQP-VK.graphicsfuzz.int-mat2-struct
 dEQP-VK.graphicsfuzz.loop-call-discard
 dEQP-VK.graphicsfuzz.loop-dead-if-loop
