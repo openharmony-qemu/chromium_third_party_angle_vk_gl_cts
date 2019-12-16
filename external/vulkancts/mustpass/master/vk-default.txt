@@ -568026,6 +568026,7 @@ dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.return-before-writing-wrong-color
 dEQP-VK.graphicsfuzz.return-float-from-while-loop
 dEQP-VK.graphicsfuzz.return-in-loop-in-function
+dEQP-VK.graphicsfuzz.return-inside-loop-in-function
 dEQP-VK.graphicsfuzz.returned-boolean-in-vector
 dEQP-VK.graphicsfuzz.similar-nested-ifs
 dEQP-VK.graphicsfuzz.smoothstep-after-loop
