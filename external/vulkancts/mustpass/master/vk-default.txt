@@ -570855,6 +570855,7 @@ dEQP-VK.graphicsfuzz.cov-const-folding-clamp
 dEQP-VK.graphicsfuzz.cov-const-folding-clamp-max
 dEQP-VK.graphicsfuzz.cov-const-folding-clamp-min
 dEQP-VK.graphicsfuzz.cov-const-folding-dot-condition-true
+dEQP-VK.graphicsfuzz.cov-const-folding-dot-determinant
 dEQP-VK.graphicsfuzz.cov-const-folding-vector-shuffle
 dEQP-VK.graphicsfuzz.cov-constants-mix-uniform
 dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-func-argument
