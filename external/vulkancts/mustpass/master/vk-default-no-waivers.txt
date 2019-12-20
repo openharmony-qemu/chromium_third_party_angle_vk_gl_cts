@@ -571004,6 +571004,7 @@ dEQP-VK.graphicsfuzz.conditional-return-in-infinite-while
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
+dEQP-VK.graphicsfuzz.cov-const-folding-clamp
 dEQP-VK.graphicsfuzz.cov-const-folding-clamp-max
 dEQP-VK.graphicsfuzz.cov-const-folding-clamp-min
 dEQP-VK.graphicsfuzz.cov-const-folding-dot-condition-true
