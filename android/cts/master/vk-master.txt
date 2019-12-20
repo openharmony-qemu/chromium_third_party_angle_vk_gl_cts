@@ -568751,6 +568751,7 @@ dEQP-VK.graphicsfuzz.conditional-return-in-infinite-while
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
+dEQP-VK.graphicsfuzz.cov-dead-code-unreachable-merge
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-and-zero
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
 dEQP-VK.graphicsfuzz.dead-struct-init
