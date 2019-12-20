@@ -236642,6 +236642,10 @@ dEQP-VK.pipeline.multisample_shader_builtin.sample_mask.write.137_191_1.samples_
 dEQP-VK.pipeline.multisample_shader_builtin.sample_mask.write.137_191_1.samples_8
 dEQP-VK.pipeline.multisample_shader_builtin.sample_mask.write.137_191_1.samples_16
 dEQP-VK.pipeline.multisample_shader_builtin.sample_mask.write.137_191_1.samples_32
+dEQP-VK.pipeline.multisample_shader_builtin.image_write_sample.2_samples
+dEQP-VK.pipeline.multisample_shader_builtin.image_write_sample.4_samples
+dEQP-VK.pipeline.multisample_shader_builtin.image_write_sample.8_samples
+dEQP-VK.pipeline.multisample_shader_builtin.image_write_sample.16_samples
 dEQP-VK.pipeline.vertex_input.single_attribute.int.as_r8_sint_rate_vertex
 dEQP-VK.pipeline.vertex_input.single_attribute.int.as_r8_sint_rate_instance
 dEQP-VK.pipeline.vertex_input.single_attribute.int.as_r16_sint_rate_vertex
