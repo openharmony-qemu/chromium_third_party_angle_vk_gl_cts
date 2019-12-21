@@ -467928,6 +467928,7 @@ dEQP-VK.rasterization.primitives.no_stipple.bresenham_lines_wide
 dEQP-VK.rasterization.primitives.no_stipple.bresenham_line_strip_wide
 dEQP-VK.rasterization.primitives.no_stipple.smooth_lines
 dEQP-VK.rasterization.primitives.no_stipple.smooth_line_strip
+dEQP-VK.rasterization.primitives.no_stipple.smooth_lines_wide
 dEQP-VK.rasterization.primitives.no_stipple.smooth_line_strip_wide
 dEQP-VK.rasterization.primitives.static_stipple.lines
 dEQP-VK.rasterization.primitives.static_stipple.line_strip
@@ -468062,6 +468063,7 @@ dEQP-VK.rasterization.primitives_multisample_2_bit.no_stipple.bresenham_lines_wi
 dEQP-VK.rasterization.primitives_multisample_2_bit.no_stipple.bresenham_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_2_bit.no_stipple.smooth_lines
 dEQP-VK.rasterization.primitives_multisample_2_bit.no_stipple.smooth_line_strip
+dEQP-VK.rasterization.primitives_multisample_2_bit.no_stipple.smooth_lines_wide
 dEQP-VK.rasterization.primitives_multisample_2_bit.no_stipple.smooth_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_2_bit.static_stipple.lines
 dEQP-VK.rasterization.primitives_multisample_2_bit.static_stipple.line_strip
@@ -468119,6 +468121,7 @@ dEQP-VK.rasterization.primitives_multisample_4_bit.no_stipple.bresenham_lines_wi
 dEQP-VK.rasterization.primitives_multisample_4_bit.no_stipple.bresenham_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_4_bit.no_stipple.smooth_lines
 dEQP-VK.rasterization.primitives_multisample_4_bit.no_stipple.smooth_line_strip
+dEQP-VK.rasterization.primitives_multisample_4_bit.no_stipple.smooth_lines_wide
 dEQP-VK.rasterization.primitives_multisample_4_bit.no_stipple.smooth_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_4_bit.static_stipple.lines
 dEQP-VK.rasterization.primitives_multisample_4_bit.static_stipple.line_strip
@@ -468169,12 +468172,14 @@ dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.rectangular_lines
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.rectangular_line_strip
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.rectangular_lines_wide
+dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.rectangular_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.bresenham_lines
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.bresenham_line_strip
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.bresenham_lines_wide
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.bresenham_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.smooth_lines
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.smooth_line_strip
+dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.smooth_lines_wide
 dEQP-VK.rasterization.primitives_multisample_8_bit.no_stipple.smooth_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_8_bit.static_stipple.lines
 dEQP-VK.rasterization.primitives_multisample_8_bit.static_stipple.line_strip
@@ -468232,6 +468237,7 @@ dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.bresenham_lines_w
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.bresenham_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.smooth_lines
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.smooth_line_strip
+dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.smooth_lines_wide
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.smooth_line_strip_wide
 dEQP-VK.rasterization.primitives_multisample_16_bit.static_stipple.lines
 dEQP-VK.rasterization.primitives_multisample_16_bit.static_stipple.line_strip
