@@ -570854,6 +570854,7 @@ dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.cov-const-folding-clamp-max
 dEQP-VK.graphicsfuzz.cov-const-folding-clamp-min
 dEQP-VK.graphicsfuzz.cov-const-folding-dot-condition-true
+dEQP-VK.graphicsfuzz.cov-constants-mix-uniform
 dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-func-argument
 dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-no-stores
 dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-param-uniform
