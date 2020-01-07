@@ -571005,6 +571005,7 @@ dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
 dEQP-VK.graphicsfuzz.cov-const-folding-dot-condition-true
+dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-func-argument
 dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-no-stores
 dEQP-VK.graphicsfuzz.cov-dead-code-unreachable-merge
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-and-zero
