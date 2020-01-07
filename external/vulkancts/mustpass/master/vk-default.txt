@@ -570860,6 +570860,7 @@ dEQP-VK.graphicsfuzz.cov-copy-prop-arrays-param-uniform
 dEQP-VK.graphicsfuzz.cov-dead-code-unreachable-merge
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-and-zero
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-xor
+dEQP-VK.graphicsfuzz.cov-fold-div-uniform-by-zero
 dEQP-VK.graphicsfuzz.cov-fold-logical-or-constant
 dEQP-VK.graphicsfuzz.cov-fold-negate-variable
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
