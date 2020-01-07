@@ -568761,6 +568761,7 @@ dEQP-VK.graphicsfuzz.cov-dead-code-unreachable-merge
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-and-zero
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-xor
 dEQP-VK.graphicsfuzz.cov-fold-div-uniform-by-zero
+dEQP-VK.graphicsfuzz.cov-fold-div-variable-by-zero
 dEQP-VK.graphicsfuzz.cov-fold-logical-or-constant
 dEQP-VK.graphicsfuzz.cov-fold-negate-variable
 dEQP-VK.graphicsfuzz.cov-fold-shift-right-arithmetic
