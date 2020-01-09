@@ -109151,6 +109151,12 @@ dEQP-VK.draw.scissor.dynamic_scissor_max_int32
 dEQP-VK.draw.scissor.16_dynamic_scissors
 dEQP-VK.draw.scissor.dynamic_scissor_two_clears
 dEQP-VK.draw.scissor.dynamic_scissor_mix
+dEQP-VK.draw.scissor.static_scissor_framebuffer_border_in
+dEQP-VK.draw.scissor.dynamic_scissor_framebuffer_border_in
+dEQP-VK.draw.scissor.static_scissor_framebuffer_border_out
+dEQP-VK.draw.scissor.dynamic_scissor_framebuffer_border_out
+dEQP-VK.draw.scissor.static_scissor_oversized
+dEQP-VK.draw.scissor.dynamic_scissor_oversized
 dEQP-VK.draw.multiple_interpolation.separate.1_sample
 dEQP-VK.draw.multiple_interpolation.separate.2_samples
 dEQP-VK.draw.multiple_interpolation.separate.4_samples
