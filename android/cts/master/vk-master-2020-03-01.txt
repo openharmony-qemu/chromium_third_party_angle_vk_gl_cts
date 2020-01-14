@@ -187766,6 +187766,7 @@ dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
 dEQP-VK.graphicsfuzz.two-2-iteration-loops
 dEQP-VK.graphicsfuzz.two-for-loops-with-barrier-function
+dEQP-VK.graphicsfuzz.two-loops-mat-add
 dEQP-VK.graphicsfuzz.two-loops-matrix
 dEQP-VK.graphicsfuzz.two-loops-set-struct
 dEQP-VK.graphicsfuzz.two-loops-with-break
