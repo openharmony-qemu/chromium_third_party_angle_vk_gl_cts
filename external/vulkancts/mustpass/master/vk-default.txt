@@ -570868,6 +570868,7 @@ dEQP-VK.graphicsfuzz.cov-fold-logical-or-constant
 dEQP-VK.graphicsfuzz.cov-fold-negate-variable
 dEQP-VK.graphicsfuzz.cov-fold-shift-right-arithmetic
 dEQP-VK.graphicsfuzz.cov-fold-switch-udiv
+dEQP-VK.graphicsfuzz.cov-folding-rules-construct-extract
 dEQP-VK.graphicsfuzz.cov-folding-rules-merge-add-sub
 dEQP-VK.graphicsfuzz.cov-folding-rules-merge-sub-sub
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
