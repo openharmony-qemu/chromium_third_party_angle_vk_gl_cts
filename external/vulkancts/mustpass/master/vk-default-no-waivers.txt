@@ -581650,6 +581650,7 @@ dEQP-VK.graphicsfuzz.nested-for-break-mat-color
 dEQP-VK.graphicsfuzz.nested-for-loops-with-return
 dEQP-VK.graphicsfuzz.nested-ifs-and-return-in-for-loop
 dEQP-VK.graphicsfuzz.nested-loops-switch
+dEQP-VK.graphicsfuzz.nested-switch-break-discard
 dEQP-VK.graphicsfuzz.pow-vec4
 dEQP-VK.graphicsfuzz.return-before-writing-wrong-color
 dEQP-VK.graphicsfuzz.return-float-from-while-loop
