@@ -586320,6 +586320,7 @@ dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.switch-case-with-undefined-expression
 dEQP-VK.graphicsfuzz.switch-if-discard
 dEQP-VK.graphicsfuzz.switch-inside-while-always-return
+dEQP-VK.graphicsfuzz.switch-loop-switch-if
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
