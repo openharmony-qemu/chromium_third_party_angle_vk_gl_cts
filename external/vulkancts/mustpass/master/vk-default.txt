@@ -429350,6 +429350,8 @@ dEQP-VK.wsi.xlib.swapchain.render.10swapchains2
 dEQP-VK.wsi.xlib.swapchain.destroy.null_handle
 dEQP-VK.wsi.xlib.swapchain.get_images.incomplete
 dEQP-VK.wsi.xlib.swapchain.get_images.count
+dEQP-VK.wsi.xlib.swapchain.acquire.too_many
+dEQP-VK.wsi.xlib.swapchain.acquire.too_many_timeout
 dEQP-VK.wsi.xlib.incremental_present.scale_none.immediate.identity.opaque.reference
 dEQP-VK.wsi.xlib.incremental_present.scale_none.immediate.identity.opaque.incremental_present
 dEQP-VK.wsi.xlib.incremental_present.scale_none.immediate.identity.pre_multiplied.reference
@@ -429771,6 +429773,8 @@ dEQP-VK.wsi.xcb.swapchain.render.10swapchains2
 dEQP-VK.wsi.xcb.swapchain.destroy.null_handle
 dEQP-VK.wsi.xcb.swapchain.get_images.incomplete
 dEQP-VK.wsi.xcb.swapchain.get_images.count
+dEQP-VK.wsi.xcb.swapchain.acquire.too_many
+dEQP-VK.wsi.xcb.swapchain.acquire.too_many_timeout
 dEQP-VK.wsi.xcb.incremental_present.scale_none.immediate.identity.opaque.reference
 dEQP-VK.wsi.xcb.incremental_present.scale_none.immediate.identity.opaque.incremental_present
 dEQP-VK.wsi.xcb.incremental_present.scale_none.immediate.identity.pre_multiplied.reference
@@ -430191,6 +430195,8 @@ dEQP-VK.wsi.wayland.swapchain.modify.resize
 dEQP-VK.wsi.wayland.swapchain.destroy.null_handle
 dEQP-VK.wsi.wayland.swapchain.get_images.incomplete
 dEQP-VK.wsi.wayland.swapchain.get_images.count
+dEQP-VK.wsi.wayland.swapchain.acquire.too_many
+dEQP-VK.wsi.wayland.swapchain.acquire.too_many_timeout
 dEQP-VK.wsi.wayland.incremental_present.scale_none.immediate.identity.opaque.reference
 dEQP-VK.wsi.wayland.incremental_present.scale_none.immediate.identity.opaque.incremental_present
 dEQP-VK.wsi.wayland.incremental_present.scale_none.immediate.identity.pre_multiplied.reference
@@ -430612,6 +430618,8 @@ dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.wsi.android.swapchain.destroy.null_handle
 dEQP-VK.wsi.android.swapchain.get_images.incomplete
 dEQP-VK.wsi.android.swapchain.get_images.count
+dEQP-VK.wsi.android.swapchain.acquire.too_many
+dEQP-VK.wsi.android.swapchain.acquire.too_many_timeout
 dEQP-VK.wsi.android.incremental_present.scale_none.immediate.identity.opaque.reference
 dEQP-VK.wsi.android.incremental_present.scale_none.immediate.identity.opaque.incremental_present
 dEQP-VK.wsi.android.incremental_present.scale_none.immediate.identity.pre_multiplied.reference
@@ -431753,6 +431761,8 @@ dEQP-VK.wsi.win32.swapchain.render.10swapchains2
 dEQP-VK.wsi.win32.swapchain.destroy.null_handle
 dEQP-VK.wsi.win32.swapchain.get_images.incomplete
 dEQP-VK.wsi.win32.swapchain.get_images.count
+dEQP-VK.wsi.win32.swapchain.acquire.too_many
+dEQP-VK.wsi.win32.swapchain.acquire.too_many_timeout
 dEQP-VK.wsi.win32.incremental_present.scale_none.immediate.identity.opaque.reference
 dEQP-VK.wsi.win32.incremental_present.scale_none.immediate.identity.opaque.incremental_present
 dEQP-VK.wsi.win32.incremental_present.scale_none.immediate.identity.pre_multiplied.reference
@@ -432174,6 +432184,8 @@ dEQP-VK.wsi.macos.swapchain.render.10swapchains2
 dEQP-VK.wsi.macos.swapchain.destroy.null_handle
 dEQP-VK.wsi.macos.swapchain.get_images.incomplete
 dEQP-VK.wsi.macos.swapchain.get_images.count
+dEQP-VK.wsi.macos.swapchain.acquire.too_many
+dEQP-VK.wsi.macos.swapchain.acquire.too_many_timeout
 dEQP-VK.wsi.macos.incremental_present.scale_none.immediate.identity.opaque.reference
 dEQP-VK.wsi.macos.incremental_present.scale_none.immediate.identity.opaque.incremental_present
 dEQP-VK.wsi.macos.incremental_present.scale_none.immediate.identity.pre_multiplied.reference
