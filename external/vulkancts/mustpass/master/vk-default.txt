@@ -298054,6 +298054,15 @@ dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.descriptor_array.offset_view_zero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.descriptor_array.offset_view_nonzero
 dEQP-VK.binding_model.descriptor_update.empty_descriptor.uniform_buffer
+dEQP-VK.binding_model.descriptor_update.samplerless.sampled_img_sampler_zero
+dEQP-VK.binding_model.descriptor_update.samplerless.sampled_img_sampler_one
+dEQP-VK.binding_model.descriptor_update.samplerless.sampled_img_sampler_destroyed
+dEQP-VK.binding_model.descriptor_update.samplerless.storage_img_sampler_zero
+dEQP-VK.binding_model.descriptor_update.samplerless.storage_img_sampler_one
+dEQP-VK.binding_model.descriptor_update.samplerless.storage_img_sampler_destroyed
+dEQP-VK.binding_model.descriptor_update.samplerless.input_attachment_sampler_zero
+dEQP-VK.binding_model.descriptor_update.samplerless.input_attachment_sampler_one
+dEQP-VK.binding_model.descriptor_update.samplerless.input_attachment_sampler_destroyed
 dEQP-VK.binding_model.descriptorset_random.sets4.noarray.ubolimitlow.sbolimitlow.imglimitlow.noiub.comp.noia.0
 dEQP-VK.binding_model.descriptorset_random.sets4.noarray.ubolimitlow.sbolimitlow.imglimitlow.noiub.comp.noia.1
 dEQP-VK.binding_model.descriptorset_random.sets4.noarray.ubolimitlow.sbolimitlow.imglimitlow.noiub.comp.noia.2
