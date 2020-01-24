@@ -579324,7 +579324,9 @@ dEQP-VK.graphicsfuzz.always-false-if-in-do-while
 dEQP-VK.graphicsfuzz.always-false-if-with-discard-return
 dEQP-VK.graphicsfuzz.barrier-in-loop-with-break
 dEQP-VK.graphicsfuzz.break-in-do-while-with-nested-if
+dEQP-VK.graphicsfuzz.call-function-with-discard
 dEQP-VK.graphicsfuzz.call-if-while-switch
+dEQP-VK.graphicsfuzz.color-set-in-for-loop
 dEQP-VK.graphicsfuzz.color-write-in-loop
 dEQP-VK.graphicsfuzz.complex-nested-loops-and-call
 dEQP-VK.graphicsfuzz.conditional-return-in-infinite-while
@@ -579409,6 +579411,7 @@ dEQP-VK.graphicsfuzz.struct-controlled-loop
 dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.switch-case-with-undefined-expression
 dEQP-VK.graphicsfuzz.switch-if-discard
+dEQP-VK.graphicsfuzz.switch-inside-while-always-return
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
