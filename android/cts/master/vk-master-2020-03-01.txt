@@ -108817,6 +108817,8 @@ dEQP-VK.query_pool.performance_query.query_graphic
 dEQP-VK.query_pool.performance_query.query_compute
 dEQP-VK.query_pool.performance_query.multiple_pools_graphic
 dEQP-VK.query_pool.performance_query.multiple_pools_compute
+dEQP-VK.query_pool.concurrent_queries.primary_command_buffer
+dEQP-VK.query_pool.concurrent_queries.secondary_command_buffer
 dEQP-VK.draw.concurrent.compute_and_triangle_list
 dEQP-VK.draw.instanced.draw_vk_primitive_topology_point_list_attrib_divisor_0_multiview
 dEQP-VK.draw.instanced.draw_vk_primitive_topology_point_list_attrib_divisor_1_multiview
