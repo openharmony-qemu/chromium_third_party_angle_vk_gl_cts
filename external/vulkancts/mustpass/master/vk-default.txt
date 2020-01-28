@@ -114201,6 +114201,7 @@ dEQP-VK.api.pipeline.pipeline_layout.lifetime.compute
 dEQP-VK.api.invariance.random
 dEQP-VK.api.tooling_info.validate_getter
 dEQP-VK.api.tooling_info.validate_tools_properties
+dEQP-VK.api.tooling_info.validate_instance_layers
 dEQP-VK.memory.allocation.basic.size_64.forward.count_1
 dEQP-VK.memory.allocation.basic.size_64.forward.count_10
 dEQP-VK.memory.allocation.basic.size_64.forward.count_100
