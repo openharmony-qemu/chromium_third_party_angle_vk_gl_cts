@@ -325045,6 +325045,7 @@ dEQP-VK.spirv_assembly.instruction.spirv1p4.entrypoint.vert_ssbo_entry_point
 dEQP-VK.spirv_assembly.instruction.spirv1p4.entrypoint.vert_ubo_entry_point
 dEQP-VK.spirv_assembly.instruction.spirv1p4.hlsl_functionality1.counter_buffer
 dEQP-VK.spirv_assembly.instruction.spirv1p4.hlsl_functionality1.decorate_string
+dEQP-VK.spirv_assembly.instruction.spirv1p4.hlsl_functionality1.member_decorate_string
 dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.iteration_multiple
 dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.max_iterations
 dEQP-VK.spirv_assembly.instruction.spirv1p4.loop_control.min_iterations
