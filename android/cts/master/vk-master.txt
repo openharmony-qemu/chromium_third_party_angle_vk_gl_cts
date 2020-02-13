@@ -325083,6 +325083,7 @@ dEQP-VK.spirv_assembly.instruction.spirv1p4.uconvert.spec_const_opt_truncate_983
 dEQP-VK.spirv_assembly.instruction.spirv1p4.uconvert.spec_const_opt_zero_extend_n4096
 dEQP-VK.spirv_assembly.instruction.spirv1p4.wrap.no_signed_wrap
 dEQP-VK.spirv_assembly.instruction.spirv1p4.wrap.no_unsigned_wrap
+dEQP-VK.spirv_assembly.instruction.function_params.sampler_param
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_vert
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_tessc
 dEQP-VK.spirv_assembly.type.scalar.i8.negate_tesse
