@@ -89718,6 +89718,7 @@ dEQP-VK.glsl.shader_clock.compute.clockARB
 dEQP-VK.glsl.shader_clock.compute.clock2x32ARB
 dEQP-VK.glsl.shader_clock.compute.clockRealtimeEXT
 dEQP-VK.glsl.shader_clock.compute.clockRealtime2x32EXT
+dEQP-VK.glsl.combined_operations.notxor
 dEQP-VK.renderpass.suballocation.multisample.separate_stencil_usage.d16_unorm_s8_uint.samples_2.test_depth
 dEQP-VK.renderpass.suballocation.multisample.separate_stencil_usage.d16_unorm_s8_uint.samples_2.test_stencil
 dEQP-VK.renderpass.suballocation.multisample.separate_stencil_usage.d16_unorm_s8_uint.samples_4.test_depth
