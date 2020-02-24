@@ -1856,6 +1856,8 @@ dEQP-VK.api.copy_and_blit.core.image_to_image.dimensions.src6x32768_dst6x32768.r
 dEQP-VK.api.copy_and_blit.core.image_to_image.dimensions.src6x32768_dst6x32768.r32g32b32a32_uint.r32g32b32a32_uint.optimal_general
 dEQP-VK.api.copy_and_blit.core.image_to_image.dimensions.src6x32768_dst6x32768.r32g32b32a32_uint.r32g32b32a32_uint.general_optimal
 dEQP-VK.api.copy_and_blit.core.image_to_image.dimensions.src6x32768_dst6x32768.r32g32b32a32_uint.r32g32b32a32_uint.general_general
+dEQP-VK.api.copy_and_blit.core.image_to_buffer.buffer_offset_relaxed
+dEQP-VK.api.copy_and_blit.core.buffer_to_image.buffer_offset_relaxed
 dEQP-VK.api.copy_and_blit.core.buffer_to_depthstencil.d16_unorm_D
 dEQP-VK.api.copy_and_blit.core.buffer_to_depthstencil.buffer_offset_d16_unorm_D
 dEQP-VK.api.copy_and_blit.core.buffer_to_depthstencil.x8_d24_unorm_pack32_D
@@ -3314,6 +3316,8 @@ dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.dimensions.src6x32
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.dimensions.src6x32768_dst6x32768.r16g16b16_sfloat.r16g16b16_sfloat.optimal_general
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.dimensions.src6x32768_dst6x32768.r16g16b16_sfloat.r16g16b16_sfloat.general_optimal
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.dimensions.src6x32768_dst6x32768.r16g16b16_sfloat.r16g16b16_sfloat.general_general
+dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_buffer.buffer_offset_relaxed
+dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_image.buffer_offset_relaxed
 dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_depthstencil.d16_unorm_D
 dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_depthstencil.buffer_offset_d16_unorm_D
 dEQP-VK.api.copy_and_blit.dedicated_allocation.buffer_to_depthstencil.x8_d24_unorm_pack32_D
