@@ -308378,6 +308378,8 @@ dEQP-VK.spirv_assembly.instruction.compute.opundef.array
 dEQP-VK.spirv_assembly.instruction.compute.opundef.runtimearray
 dEQP-VK.spirv_assembly.instruction.compute.opundef.struct
 dEQP-VK.spirv_assembly.instruction.compute.opundef.pointer
+dEQP-VK.spirv_assembly.instruction.compute.opundef.undefined_constant_composite
+dEQP-VK.spirv_assembly.instruction.compute.opundef.undefined_spec_constant_composite
 dEQP-VK.spirv_assembly.instruction.compute.opunreachable.all
 dEQP-VK.spirv_assembly.instruction.compute.opunreachable.unreachable-switch-merge-in-loop
 dEQP-VK.spirv_assembly.instruction.compute.opquantize.infinities

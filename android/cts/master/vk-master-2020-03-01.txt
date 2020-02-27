@@ -86410,6 +86410,8 @@ dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.shiftleftlogical_s_i
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.shiftrightlogical_s_i8
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.shiftrightarithmetic_s_i8
 dEQP-VK.spirv_assembly.instruction.compute.opspecconstantop.shiftleftlogical_s_i8
+dEQP-VK.spirv_assembly.instruction.compute.opundef.undefined_constant_composite
+dEQP-VK.spirv_assembly.instruction.compute.opundef.undefined_spec_constant_composite
 dEQP-VK.spirv_assembly.instruction.compute.opunreachable.unreachable-switch-merge-in-loop
 dEQP-VK.spirv_assembly.instruction.compute.uconvert.int8_to_uint16
 dEQP-VK.spirv_assembly.instruction.compute.uconvert.int8_to_uint32
