@@ -157404,6 +157404,8 @@ dEQP-VK.rasterization.provoking_vertex.line_list
 dEQP-VK.rasterization.provoking_vertex.line_list_with_adjacency
 dEQP-VK.rasterization.provoking_vertex.line_strip
 dEQP-VK.rasterization.provoking_vertex.line_strip_with_adjacency
+dEQP-VK.rasterization.line_continuity.line-strip
+dEQP-VK.rasterization.line_continuity.polygon-mode-lines
 dEQP-VK.clipping.clip_volume.depth_clip.point_list
 dEQP-VK.clipping.clip_volume.depth_clip.line_list
 dEQP-VK.clipping.clip_volume.depth_clip.line_list_with_adjacency
