@@ -587297,6 +587297,9 @@ dEQP-VK.graphicsfuzz.access-new-vector-inside-if-condition
 dEQP-VK.graphicsfuzz.always-discarding-function
 dEQP-VK.graphicsfuzz.always-false-if-in-do-while
 dEQP-VK.graphicsfuzz.always-false-if-with-discard-return
+dEQP-VK.graphicsfuzz.array-idx-multiplied-by-for-loop-idx
+dEQP-VK.graphicsfuzz.assign-array-value-to-another-array
+dEQP-VK.graphicsfuzz.assign-array-value-to-another-array-2
 dEQP-VK.graphicsfuzz.barrier-in-loop-with-break
 dEQP-VK.graphicsfuzz.break-in-do-while-with-nested-if
 dEQP-VK.graphicsfuzz.call-function-with-discard
@@ -587308,6 +587311,7 @@ dEQP-VK.graphicsfuzz.conditional-return-in-infinite-while
 dEQP-VK.graphicsfuzz.continue-and-merge
 dEQP-VK.graphicsfuzz.control-flow-in-function
 dEQP-VK.graphicsfuzz.control-flow-switch
+dEQP-VK.graphicsfuzz.cosh-return-inf-unused
 dEQP-VK.graphicsfuzz.cov-analysis-reachable-from-many
 dEQP-VK.graphicsfuzz.cov-apfloat-acos-ldexp
 dEQP-VK.graphicsfuzz.cov-apfloat-determinant
@@ -587398,6 +587402,7 @@ dEQP-VK.graphicsfuzz.cov-vector-dce-unused-component
 dEQP-VK.graphicsfuzz.cov-vector-log2-cosh
 dEQP-VK.graphicsfuzz.cov-wrap-op-kill-for-loop
 dEQP-VK.graphicsfuzz.cov-wrap-op-kill-two-branches
+dEQP-VK.graphicsfuzz.create-color-in-do-while-for-loop
 dEQP-VK.graphicsfuzz.dead-barriers-in-loops
 dEQP-VK.graphicsfuzz.dead-struct-init
 dEQP-VK.graphicsfuzz.disc-and-add-in-func-in-loop
@@ -587408,15 +587413,19 @@ dEQP-VK.graphicsfuzz.discard-in-loop-in-function
 dEQP-VK.graphicsfuzz.discards-in-control-flow
 dEQP-VK.graphicsfuzz.do-while-loop-in-conditionals
 dEQP-VK.graphicsfuzz.do-while-with-always-true-if
+dEQP-VK.graphicsfuzz.do-while-with-if-condition
 dEQP-VK.graphicsfuzz.early-return-and-barrier
+dEQP-VK.graphicsfuzz.find-msb-from-lsb
 dEQP-VK.graphicsfuzz.for-condition-always-false
 dEQP-VK.graphicsfuzz.for-loop-with-return
 dEQP-VK.graphicsfuzz.for-with-ifs-and-return
 dEQP-VK.graphicsfuzz.fragcoord-control-flow
 dEQP-VK.graphicsfuzz.fragcoord-control-flow-2
+dEQP-VK.graphicsfuzz.function-with-float-comparison
 dEQP-VK.graphicsfuzz.function-with-uniform-return
 dEQP-VK.graphicsfuzz.global-array-loops
 dEQP-VK.graphicsfuzz.if-and-switch
+dEQP-VK.graphicsfuzz.increment-value-in-nested-for-loop
 dEQP-VK.graphicsfuzz.injection-switch-as-comparison
 dEQP-VK.graphicsfuzz.int-mat2-struct
 dEQP-VK.graphicsfuzz.loop-call-discard
@@ -587433,6 +587442,7 @@ dEQP-VK.graphicsfuzz.mix-floor-add
 dEQP-VK.graphicsfuzz.modf-gl-color
 dEQP-VK.graphicsfuzz.modf-temp-modf-color
 dEQP-VK.graphicsfuzz.nested-for-break-mat-color
+dEQP-VK.graphicsfuzz.nested-for-loops-switch-fallthrough
 dEQP-VK.graphicsfuzz.nested-for-loops-with-return
 dEQP-VK.graphicsfuzz.nested-ifs-and-return-in-for-loop
 dEQP-VK.graphicsfuzz.nested-loops-switch
@@ -587442,10 +587452,13 @@ dEQP-VK.graphicsfuzz.return-before-writing-wrong-color
 dEQP-VK.graphicsfuzz.return-float-from-while-loop
 dEQP-VK.graphicsfuzz.return-in-loop-in-function
 dEQP-VK.graphicsfuzz.return-inside-loop-in-function
+dEQP-VK.graphicsfuzz.return-mat2x3-value-from-func
 dEQP-VK.graphicsfuzz.returned-boolean-in-vector
+dEQP-VK.graphicsfuzz.set-color-in-one-iteration-while-loop
 dEQP-VK.graphicsfuzz.similar-nested-ifs
 dEQP-VK.graphicsfuzz.smoothstep-after-loop
 dEQP-VK.graphicsfuzz.struct-and-unreachable-infinite-loop
+dEQP-VK.graphicsfuzz.struct-array-data-as-loop-iterator
 dEQP-VK.graphicsfuzz.struct-controlled-loop
 dEQP-VK.graphicsfuzz.struct-used-as-temporary
 dEQP-VK.graphicsfuzz.switch-case-with-undefined-expression
@@ -587453,6 +587466,7 @@ dEQP-VK.graphicsfuzz.switch-if-discard
 dEQP-VK.graphicsfuzz.switch-inside-while-always-return
 dEQP-VK.graphicsfuzz.switch-loop-switch-if
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
+dEQP-VK.graphicsfuzz.switch-with-fall-through-cases
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
 dEQP-VK.graphicsfuzz.two-2-iteration-loops
@@ -587477,6 +587491,7 @@ dEQP-VK.graphicsfuzz.unreachable-loops-in-switch
 dEQP-VK.graphicsfuzz.unreachable-return-in-loop
 dEQP-VK.graphicsfuzz.unreachable-switch-case-with-discards
 dEQP-VK.graphicsfuzz.uv-value-comparison-as-boolean
+dEQP-VK.graphicsfuzz.vector-values-multiplied-by-fragcoord
 dEQP-VK.graphicsfuzz.vectors-and-discard-in-function
 dEQP-VK.graphicsfuzz.while-function-always-false
 dEQP-VK.graphicsfuzz.while-inside-switch
