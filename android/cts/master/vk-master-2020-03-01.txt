@@ -26230,6 +26230,12 @@ dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_e
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_extra_bytes_offset_4
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_extra_bytes_offset_8
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_extra_bytes_offset_12
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d16_unorm
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.x8_d24_unorm_pack32
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d24_unorm_s8_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat_s8_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.s8_uint
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.import_twice
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.import_multiple_times
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.dup
