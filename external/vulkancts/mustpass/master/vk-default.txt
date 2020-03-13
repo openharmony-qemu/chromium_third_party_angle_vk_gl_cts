@@ -308081,6 +308081,14 @@ dEQP-VK.spirv_assembly.instruction.compute.localsize.specid_localsize_y
 dEQP-VK.spirv_assembly.instruction.compute.localsize.literal_localsize_z
 dEQP-VK.spirv_assembly.instruction.compute.localsize.literal_and_specid_localsize_z
 dEQP-VK.spirv_assembly.instruction.compute.localsize.specid_localsize_z
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.basic
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.dummy_instruction_set
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.large_instruction_number
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.many_parameters
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_constant_type_used
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.any_non_constant_type
+dEQP-VK.spirv_assembly.instruction.compute.non_semantic_info.placement
 dEQP-VK.spirv_assembly.instruction.compute.opnop.all
 dEQP-VK.spirv_assembly.instruction.compute.opfunord.equal
 dEQP-VK.spirv_assembly.instruction.compute.opfunord.less
