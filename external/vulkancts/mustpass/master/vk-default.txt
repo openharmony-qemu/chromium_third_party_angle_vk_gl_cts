@@ -581703,7 +581703,6 @@ dEQP-VK.graphicsfuzz.cov-intervalmap-set-stop
 dEQP-VK.graphicsfuzz.cov-liveinterval-different-dest
 dEQP-VK.graphicsfuzz.cov-merge-return-condition-twice
 dEQP-VK.graphicsfuzz.cov-modf-integer-to-private
-dEQP-VK.graphicsfuzz.cov-reduce-load-array-replace-extract
 dEQP-VK.graphicsfuzz.cov-reduce-load-replace-extract
 dEQP-VK.graphicsfuzz.cov-simplification-while-inside-for
 dEQP-VK.graphicsfuzz.cov-single-block-elim-self-assign
