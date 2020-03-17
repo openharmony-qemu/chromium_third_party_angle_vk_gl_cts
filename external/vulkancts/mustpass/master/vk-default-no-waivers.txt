@@ -312387,6 +312387,8 @@ dEQP-VK.spirv_assembly.instruction.compute.fconvert.float32_to_float16_no_storag
 dEQP-VK.spirv_assembly.instruction.compute.fconvert.float16_to_float32_no_storage
 dEQP-VK.spirv_assembly.instruction.compute.fconvert.float16_to_float64
 dEQP-VK.spirv_assembly.instruction.compute.fconvert.float64_to_float16
+dEQP-VK.spirv_assembly.instruction.compute.fconvert.float16_to_float64_no_storage
+dEQP-VK.spirv_assembly.instruction.compute.fconvert.float64_to_float16_no_storage
 dEQP-VK.spirv_assembly.instruction.compute.convertstof.int8_to_float16_m21
 dEQP-VK.spirv_assembly.instruction.compute.convertstof.int8_to_float32_m21
 dEQP-VK.spirv_assembly.instruction.compute.convertstof.int8_to_float64_m99
@@ -326062,6 +326064,16 @@ dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_geom
 dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_frag
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_vert
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_geom
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_frag
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_vert
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_geom
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_frag
 dEQP-VK.spirv_assembly.instruction.graphics.convertstof.int8_to_float16_m21_vert
 dEQP-VK.spirv_assembly.instruction.graphics.convertstof.int8_to_float16_m21_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.convertstof.int8_to_float16_m21_tesse

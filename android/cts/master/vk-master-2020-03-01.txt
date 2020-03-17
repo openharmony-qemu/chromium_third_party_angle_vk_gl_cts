@@ -90461,6 +90461,8 @@ dEQP-VK.spirv_assembly.instruction.compute.uconvert.int64_to_uint32
 dEQP-VK.spirv_assembly.instruction.compute.uconvert.int64_to_uint16
 dEQP-VK.spirv_assembly.instruction.compute.fconvert.float32_to_float16_no_storage
 dEQP-VK.spirv_assembly.instruction.compute.fconvert.float16_to_float32_no_storage
+dEQP-VK.spirv_assembly.instruction.compute.fconvert.float16_to_float64_no_storage
+dEQP-VK.spirv_assembly.instruction.compute.fconvert.float64_to_float16_no_storage
 dEQP-VK.spirv_assembly.instruction.compute.float_controls_extensionless.spirv1p4.fp16_denorm_preserve
 dEQP-VK.spirv_assembly.instruction.compute.float_controls_extensionless.spirv1p4.fp16_denorm_flush_to_zero
 dEQP-VK.spirv_assembly.instruction.compute.float_controls_extensionless.spirv1p4.fp16_signed_zero_inf_nan_preserve
@@ -91001,6 +91003,16 @@ dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float32_no_stora
 dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float32_no_storage_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float32_no_storage_geom
 dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float32_no_storage_frag
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_vert
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_geom
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float16_to_float64_no_storage_frag
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_vert
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_tessc
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_tesse
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_geom
+dEQP-VK.spirv_assembly.instruction.graphics.fconvert.float64_to_float16_no_storage_frag
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_vert
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_ids_abuse.sparse_ids_tesse
