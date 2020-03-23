@@ -509783,6 +509783,7 @@ dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.points
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.strict_lines
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.strict_lines_wide
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.non_strict_lines
+dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.non_strict_lines_wide
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.lines
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.line_strip
 dEQP-VK.rasterization.primitives_multisample_16_bit.no_stipple.lines_wide
@@ -509838,9 +509839,11 @@ dEQP-VK.rasterization.fill_rules_multisample_16_bit.clipped_partly
 dEQP-VK.rasterization.fill_rules_multisample_16_bit.projected
 dEQP-VK.rasterization.interpolation_multisample_16_bit.triangles
 dEQP-VK.rasterization.interpolation_multisample_16_bit.lines
+dEQP-VK.rasterization.interpolation_multisample_16_bit.lines_wide
 dEQP-VK.rasterization.interpolation_multisample_16_bit.strict_lines
 dEQP-VK.rasterization.interpolation_multisample_16_bit.strict_lines_wide
 dEQP-VK.rasterization.interpolation_multisample_16_bit.non_strict_lines
+dEQP-VK.rasterization.interpolation_multisample_16_bit.non_strict_lines_wide
 dEQP-VK.rasterization.primitives_multisample_32_bit.no_stipple.triangles
 dEQP-VK.rasterization.primitives_multisample_32_bit.no_stipple.points
 dEQP-VK.rasterization.primitives_multisample_32_bit.no_stipple.strict_lines
