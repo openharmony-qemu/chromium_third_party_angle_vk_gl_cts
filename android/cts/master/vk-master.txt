@@ -588473,6 +588473,10 @@ dEQP-VK.fragment_shader_interlock.basic.discard.ssbo.shading_rate_unordered.4xaa
 dEQP-VK.fragment_shader_interlock.basic.discard.ssbo.shading_rate_unordered.4xaa.sample_shading.256x256
 dEQP-VK.fragment_shader_interlock.basic.discard.ssbo.shading_rate_unordered.4xaa.sample_shading.512x512
 dEQP-VK.fragment_shader_interlock.basic.discard.ssbo.shading_rate_unordered.4xaa.sample_shading.1024x1024
+dEQP-VK.ray_tracing.callable_shader.rgen_call
+dEQP-VK.ray_tracing.callable_shader.rgen_call_call
+dEQP-VK.ray_tracing.callable_shader.hit_call
+dEQP-VK.ray_tracing.callable_shader.rgen_multicall
 dEQP-VK.ray_tracing.trace_rays_indirect.cpu.8_1_1
 dEQP-VK.ray_tracing.trace_rays_indirect.cpu.8_8_1
 dEQP-VK.ray_tracing.trace_rays_indirect.cpu.8_8_8
