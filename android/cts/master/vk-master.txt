@@ -357482,6 +357482,7 @@ dEQP-VK.glsl.shader_clock.compute.clock2x32ARB
 dEQP-VK.glsl.shader_clock.compute.clockRealtimeEXT
 dEQP-VK.glsl.shader_clock.compute.clockRealtime2x32EXT
 dEQP-VK.glsl.combined_operations.notxor
+dEQP-VK.glsl.combined_operations.negintdivand
 dEQP-VK.renderpass.suballocation.simple.color
 dEQP-VK.renderpass.suballocation.simple.depth
 dEQP-VK.renderpass.suballocation.simple.stencil
