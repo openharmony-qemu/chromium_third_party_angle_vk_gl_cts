@@ -26,6 +26,7 @@ dEQP-VK.api.info.vulkan1p2_limits_validation.timeline_semaphore
 dEQP-VK.api.info.vulkan1p2_limits_validation.ext_line_rasterization
 dEQP-VK.api.device_init.create_instance_extension_name_abuse
 dEQP-VK.api.device_init.create_instance_layer_name_abuse
+dEQP-VK.api.device_init.enumerate_devices_alloc_leak
 dEQP-VK.api.buffer.basic.size_max_uint64
 dEQP-VK.api.buffer_marker.graphics.external_host_mem.top_of_pipe.sequential.4
 dEQP-VK.api.buffer_marker.graphics.external_host_mem.top_of_pipe.sequential.64
