@@ -590927,3 +590927,11 @@ dEQP-VK.ray_tracing.shader_binding_table.indexing_call.sbt_offset_16.no_shaderre
 dEQP-VK.ray_tracing.shader_binding_table.indexing_call.sbt_offset_16.shaderrecord.0_0
 dEQP-VK.ray_tracing.shader_binding_table.indexing_call.sbt_offset_16.shaderrecord.1_0
 dEQP-VK.ray_tracing.shader_binding_table.indexing_call.sbt_offset_16.shaderrecord.2_0
+dEQP-VK.ray_tracing.traversal_control.isect_report_intersection.aabbs
+dEQP-VK.ray_tracing.traversal_control.isect_dont_report_intersection.aabbs
+dEQP-VK.ray_tracing.traversal_control.ahit_pass_through.triangles
+dEQP-VK.ray_tracing.traversal_control.ahit_pass_through.aabbs
+dEQP-VK.ray_tracing.traversal_control.ahit_ignore_intersection.triangles
+dEQP-VK.ray_tracing.traversal_control.ahit_ignore_intersection.aabbs
+dEQP-VK.ray_tracing.traversal_control.ahit_terminate_ray.triangles
+dEQP-VK.ray_tracing.traversal_control.ahit_terminate_ray.aabbs
