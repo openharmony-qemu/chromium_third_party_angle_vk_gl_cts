@@ -600843,3 +600843,13 @@ dEQP-VK.ray_tracing.pipeline_library.configurations.multithreaded_compilation.s0
 dEQP-VK.ray_tracing.pipeline_library.configurations.multithreaded_compilation.s3_l2_l3
 dEQP-VK.ray_tracing.pipeline_library.configurations.multithreaded_compilation.s3_l232
 dEQP-VK.ray_tracing.pipeline_library.configurations.multithreaded_compilation.s3_l22_l22
+dEQP-VK.ray_tracing.memguarantee.inside.rgen
+dEQP-VK.ray_tracing.memguarantee.inside.chit
+dEQP-VK.ray_tracing.memguarantee.inside.sect
+dEQP-VK.ray_tracing.memguarantee.inside.miss
+dEQP-VK.ray_tracing.memguarantee.inside.call
+dEQP-VK.ray_tracing.memguarantee.between.rgen
+dEQP-VK.ray_tracing.memguarantee.between.chit
+dEQP-VK.ray_tracing.memguarantee.between.sect
+dEQP-VK.ray_tracing.memguarantee.between.miss
+dEQP-VK.ray_tracing.memguarantee.between.call
