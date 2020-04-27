@@ -84229,7 +84229,6 @@ dEQP-VK.wsi.android.swapchain.render.basic
 dEQP-VK.wsi.android.swapchain.modify.resize
 dEQP-VK.synchronization.smoke.fences
 dEQP-VK.synchronization.smoke.semaphores
-dEQP-VK.synchronization.smoke.events
 dEQP-VK.sparse_resources.buffer.transfer.sparse_binding.buffer_size_2_10
 dEQP-VK.sparse_resources.buffer.transfer.sparse_binding.buffer_size_2_12
 dEQP-VK.sparse_resources.buffer.transfer.sparse_binding.buffer_size_2_16
