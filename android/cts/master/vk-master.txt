@@ -8118,6 +8118,10 @@ dEQP-VK.api.command_buffers.submit_two_buffers_one_buffer_null_with_fence
 dEQP-VK.api.command_buffers.secondary_execute
 dEQP-VK.api.command_buffers.secondary_execute_twice
 dEQP-VK.api.command_buffers.order_bind_pipeline
+dEQP-VK.api.command_buffers.recording_to_ininitial
+dEQP-VK.api.command_buffers.executable_to_ininitial
+dEQP-VK.api.command_buffers.recording_to_invalid
+dEQP-VK.api.command_buffers.executable_to_invalid
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image_diff_fromat
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.partial_image
