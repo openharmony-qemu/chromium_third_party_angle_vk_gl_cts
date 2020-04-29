@@ -421928,6 +421928,7 @@ dEQP-VK.draw.shader_viewport_index.vertex_shader_13
 dEQP-VK.draw.shader_viewport_index.vertex_shader_14
 dEQP-VK.draw.shader_viewport_index.vertex_shader_15
 dEQP-VK.draw.shader_viewport_index.vertex_shader_16
+dEQP-VK.draw.shader_viewport_index.fragment_shader_implicit
 dEQP-VK.draw.shader_viewport_index.fragment_shader_1
 dEQP-VK.draw.shader_viewport_index.fragment_shader_2
 dEQP-VK.draw.shader_viewport_index.fragment_shader_3
