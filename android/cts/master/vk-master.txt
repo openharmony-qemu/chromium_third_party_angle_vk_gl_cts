@@ -318519,6 +318519,7 @@ dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opulessthan
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opulessthanequal_vector
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opugreaterthan_vector
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opugreaterthanequal_vector
+dEQP-VK.spirv_assembly.instruction.compute.oparraylength.array-stride-larger-than-element-size
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision

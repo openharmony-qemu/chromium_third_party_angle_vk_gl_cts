@@ -92934,6 +92934,7 @@ dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opulessthan
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opulessthanequal_vector
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opugreaterthan_vector
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opugreaterthanequal_vector
+dEQP-VK.spirv_assembly.instruction.compute.oparraylength.array-stride-larger-than-element-size
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_version.1_4_vertex
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_version.1_4_tesselation_evaluation
 dEQP-VK.spirv_assembly.instruction.graphics.spirv_version.1_4_tesselation_control
