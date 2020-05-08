@@ -591563,6 +591563,7 @@ dEQP-VK.graphicsfuzz.switch-loop-switch-if
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.switch-with-fall-through-cases
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.texel_offset
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
 dEQP-VK.graphicsfuzz.two-2-iteration-loops
 dEQP-VK.graphicsfuzz.two-for-loops-with-barrier-function
