@@ -165096,6 +165096,7 @@ dEQP-VK.texture.swizzle.texture_coordinate.astc_12x12_srgb_block_2d_npot_sparse_
 dEQP-VK.texture.subgroup_lod.texturelod
 dEQP-VK.texture.subgroup_lod.texturegrad
 dEQP-VK.texture.subgroup_lod.texelfetch
+dEQP-VK.texture.conversion.b10g11r11-negative-values
 dEQP-VK.geometry.layered.1d_array.64_1_4.render_to_default_layer
 dEQP-VK.geometry.layered.1d_array.64_1_4.render_to_one
 dEQP-VK.geometry.layered.1d_array.64_1_4.render_to_all
