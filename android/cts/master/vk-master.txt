@@ -114052,6 +114052,12 @@ dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r8g8b8a8_unorm
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r5g6b5_unorm_pack16
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r16g16b16a16_sfloat
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.a2b10g10r10_unorm_pack32
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d16_unorm
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.x8_d24_unorm_pack32
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d24_unorm_s8_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat_s8_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.s8_uint
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.import_twice
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.import_multiple_times
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.dup
@@ -324813,6 +324819,7 @@ dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opulessthan
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opulessthanequal_vector
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opugreaterthan_vector
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.uint64.comp_opugreaterthanequal_vector
+dEQP-VK.spirv_assembly.instruction.compute.oparraylength.array-stride-larger-than-element-size
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.flat
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.no_perspective
 dEQP-VK.spirv_assembly.instruction.graphics.cross_stage.basic_type.relaxedprecision
@@ -428221,6 +428228,7 @@ dEQP-VK.draw.shader_viewport_index.vertex_shader_13
 dEQP-VK.draw.shader_viewport_index.vertex_shader_14
 dEQP-VK.draw.shader_viewport_index.vertex_shader_15
 dEQP-VK.draw.shader_viewport_index.vertex_shader_16
+dEQP-VK.draw.shader_viewport_index.fragment_shader_implicit
 dEQP-VK.draw.shader_viewport_index.fragment_shader_1
 dEQP-VK.draw.shader_viewport_index.fragment_shader_2
 dEQP-VK.draw.shader_viewport_index.fragment_shader_3
@@ -529884,6 +529892,7 @@ dEQP-VK.texture.swizzle.texture_coordinate.astc_12x12_srgb_block_2d_npot_sparse_
 dEQP-VK.texture.subgroup_lod.texturelod
 dEQP-VK.texture.subgroup_lod.texturegrad
 dEQP-VK.texture.subgroup_lod.texelfetch
+dEQP-VK.texture.conversion.b10g11r11-negative-values
 dEQP-VK.geometry.input.basic_primitive.points
 dEQP-VK.geometry.input.basic_primitive.lines
 dEQP-VK.geometry.input.basic_primitive.line_strip
@@ -597856,6 +597865,7 @@ dEQP-VK.graphicsfuzz.switch-loop-switch-if
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.switch-with-fall-through-cases
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
+dEQP-VK.graphicsfuzz.texel_offset
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
 dEQP-VK.graphicsfuzz.two-2-iteration-loops
 dEQP-VK.graphicsfuzz.two-for-loops-with-barrier-function
