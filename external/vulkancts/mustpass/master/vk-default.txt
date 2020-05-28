@@ -547815,6 +547815,9 @@ dEQP-VK.rasterization.primitives.dynamic_stipple.smooth_lines
 dEQP-VK.rasterization.primitives.dynamic_stipple.smooth_line_strip
 dEQP-VK.rasterization.primitives.dynamic_stipple.smooth_lines_wide
 dEQP-VK.rasterization.primitives.dynamic_stipple.smooth_line_strip_wide
+dEQP-VK.rasterization.primitives.stride_zero.single_point
+dEQP-VK.rasterization.primitives.stride_zero.four_points
+dEQP-VK.rasterization.primitives.stride_zero.many_points
 dEQP-VK.rasterization.primitive_size.points.point_size_128
 dEQP-VK.rasterization.primitive_size.points.point_size_256
 dEQP-VK.rasterization.primitive_size.points.point_size_512
