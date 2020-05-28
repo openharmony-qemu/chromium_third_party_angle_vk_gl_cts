@@ -389993,6 +389993,10 @@ dEQP-VK.glsl.builtin.function.common.isnan.vec3_mediump_compute
 dEQP-VK.glsl.builtin.function.common.isnan.vec3_highp_compute
 dEQP-VK.glsl.builtin.function.common.isnan.vec4_mediump_compute
 dEQP-VK.glsl.builtin.function.common.isnan.vec4_highp_compute
+dEQP-VK.glsl.builtin.function.common.isnan.double_compute
+dEQP-VK.glsl.builtin.function.common.isnan.dvec2_compute
+dEQP-VK.glsl.builtin.function.common.isnan.dvec3_compute
+dEQP-VK.glsl.builtin.function.common.isnan.dvec4_compute
 dEQP-VK.glsl.builtin.function.common.isinf.float_mediump_compute
 dEQP-VK.glsl.builtin.function.common.isinf.float_highp_compute
 dEQP-VK.glsl.builtin.function.common.isinf.vec2_mediump_compute
@@ -390001,6 +390005,10 @@ dEQP-VK.glsl.builtin.function.common.isinf.vec3_mediump_compute
 dEQP-VK.glsl.builtin.function.common.isinf.vec3_highp_compute
 dEQP-VK.glsl.builtin.function.common.isinf.vec4_mediump_compute
 dEQP-VK.glsl.builtin.function.common.isinf.vec4_highp_compute
+dEQP-VK.glsl.builtin.function.common.isinf.double_compute
+dEQP-VK.glsl.builtin.function.common.isinf.dvec2_compute
+dEQP-VK.glsl.builtin.function.common.isinf.dvec3_compute
+dEQP-VK.glsl.builtin.function.common.isinf.dvec4_compute
 dEQP-VK.glsl.builtin.function.common.floatbitstoint.float_mediump_compute
 dEQP-VK.glsl.builtin.function.common.floatbitstoint.float_highp_compute
 dEQP-VK.glsl.builtin.function.common.floatbitstoint.vec2_mediump_compute

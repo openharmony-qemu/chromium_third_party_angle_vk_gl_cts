@@ -128984,6 +128984,14 @@ dEQP-VK.glsl.operator.common_functions.max.highp_uvec4_uint_vertex
 dEQP-VK.glsl.operator.common_functions.max.highp_uvec4_uint_fragment
 dEQP-VK.glsl.builtin_var.simple.pointcoord_uniform_frag
 dEQP-VK.glsl.builtin_var.simple.pointcoord_uniform_vert
+dEQP-VK.glsl.builtin.function.common.isnan.double_compute
+dEQP-VK.glsl.builtin.function.common.isnan.dvec2_compute
+dEQP-VK.glsl.builtin.function.common.isnan.dvec3_compute
+dEQP-VK.glsl.builtin.function.common.isnan.dvec4_compute
+dEQP-VK.glsl.builtin.function.common.isinf.double_compute
+dEQP-VK.glsl.builtin.function.common.isinf.dvec2_compute
+dEQP-VK.glsl.builtin.function.common.isinf.dvec3_compute
+dEQP-VK.glsl.builtin.function.common.isinf.dvec4_compute
 dEQP-VK.glsl.builtin.precision.div.highp.scalar
 dEQP-VK.glsl.builtin.precision.div.highp.vec2
 dEQP-VK.glsl.builtin.precision.div.highp.vec3
