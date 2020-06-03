@@ -8059,6 +8059,7 @@ dEQP-VK.api.command_buffers.submit_twice_secondary
 dEQP-VK.api.command_buffers.record_one_time_submit_primary
 dEQP-VK.api.command_buffers.record_one_time_submit_secondary
 dEQP-VK.api.command_buffers.render_pass_continue
+dEQP-VK.api.command_buffers.render_pass_continue_no_fb
 dEQP-VK.api.command_buffers.record_simul_use_primary
 dEQP-VK.api.command_buffers.record_simul_use_secondary
 dEQP-VK.api.command_buffers.record_simul_use_secondary_one_primary
