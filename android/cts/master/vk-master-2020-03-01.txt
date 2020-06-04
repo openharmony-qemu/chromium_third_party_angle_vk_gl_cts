@@ -160480,6 +160480,10 @@ dEQP-VK.wsi.android.swapchain.private_data.pre_transform
 dEQP-VK.wsi.android.swapchain.private_data.composite_alpha
 dEQP-VK.wsi.android.swapchain.private_data.present_mode
 dEQP-VK.wsi.android.swapchain.private_data.clipped
+dEQP-VK.wsi.android.full_screen_exclusive.default
+dEQP-VK.wsi.android.full_screen_exclusive.allowed
+dEQP-VK.wsi.android.full_screen_exclusive.disallowed
+dEQP-VK.wsi.android.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.macos.surface.query_presentation_support
 dEQP-VK.wsi.macos.surface.query_surface_counters
 dEQP-VK.wsi.macos.swapchain.create.image_swapchain_create_info
@@ -160502,6 +160506,10 @@ dEQP-VK.wsi.macos.swapchain.private_data.pre_transform
 dEQP-VK.wsi.macos.swapchain.private_data.composite_alpha
 dEQP-VK.wsi.macos.swapchain.private_data.present_mode
 dEQP-VK.wsi.macos.swapchain.private_data.clipped
+dEQP-VK.wsi.macos.full_screen_exclusive.default
+dEQP-VK.wsi.macos.full_screen_exclusive.allowed
+dEQP-VK.wsi.macos.full_screen_exclusive.disallowed
+dEQP-VK.wsi.macos.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.display.surface_counters
 dEQP-VK.wsi.display_control.swapchain_counter
 dEQP-VK.wsi.display_control.display_power_control

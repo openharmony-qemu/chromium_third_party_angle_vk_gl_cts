@@ -498077,6 +498077,10 @@ dEQP-VK.wsi.xlib.shared_presentable_image.scale_none.inherit.inherit.continuous
 dEQP-VK.wsi.xlib.colorspace.extensions
 dEQP-VK.wsi.xlib.colorspace.basic
 dEQP-VK.wsi.xlib.colorspace.hdr
+dEQP-VK.wsi.xlib.full_screen_exclusive.default
+dEQP-VK.wsi.xlib.full_screen_exclusive.allowed
+dEQP-VK.wsi.xlib.full_screen_exclusive.disallowed
+dEQP-VK.wsi.xlib.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.xcb.surface.create
 dEQP-VK.wsi.xcb.surface.create_custom_allocator
 dEQP-VK.wsi.xcb.surface.create_simulate_oom
@@ -498509,6 +498513,10 @@ dEQP-VK.wsi.xcb.shared_presentable_image.scale_none.inherit.inherit.continuous
 dEQP-VK.wsi.xcb.colorspace.extensions
 dEQP-VK.wsi.xcb.colorspace.basic
 dEQP-VK.wsi.xcb.colorspace.hdr
+dEQP-VK.wsi.xcb.full_screen_exclusive.default
+dEQP-VK.wsi.xcb.full_screen_exclusive.allowed
+dEQP-VK.wsi.xcb.full_screen_exclusive.disallowed
+dEQP-VK.wsi.xcb.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.wayland.surface.create
 dEQP-VK.wsi.wayland.surface.create_custom_allocator
 dEQP-VK.wsi.wayland.surface.create_simulate_oom
@@ -498940,6 +498948,10 @@ dEQP-VK.wsi.wayland.shared_presentable_image.scale_none.inherit.inherit.continuo
 dEQP-VK.wsi.wayland.colorspace.extensions
 dEQP-VK.wsi.wayland.colorspace.basic
 dEQP-VK.wsi.wayland.colorspace.hdr
+dEQP-VK.wsi.wayland.full_screen_exclusive.default
+dEQP-VK.wsi.wayland.full_screen_exclusive.allowed
+dEQP-VK.wsi.wayland.full_screen_exclusive.disallowed
+dEQP-VK.wsi.wayland.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.android.surface.create
 dEQP-VK.wsi.android.surface.create_custom_allocator
 dEQP-VK.wsi.android.surface.create_simulate_oom
@@ -500092,6 +500104,10 @@ dEQP-VK.wsi.android.shared_presentable_image.scale_down.inherit.inherit.continuo
 dEQP-VK.wsi.android.colorspace.extensions
 dEQP-VK.wsi.android.colorspace.basic
 dEQP-VK.wsi.android.colorspace.hdr
+dEQP-VK.wsi.android.full_screen_exclusive.default
+dEQP-VK.wsi.android.full_screen_exclusive.allowed
+dEQP-VK.wsi.android.full_screen_exclusive.disallowed
+dEQP-VK.wsi.android.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.win32.surface.create
 dEQP-VK.wsi.win32.surface.create_custom_allocator
 dEQP-VK.wsi.win32.surface.create_simulate_oom
@@ -500524,6 +500540,10 @@ dEQP-VK.wsi.win32.shared_presentable_image.scale_none.inherit.inherit.continuous
 dEQP-VK.wsi.win32.colorspace.extensions
 dEQP-VK.wsi.win32.colorspace.basic
 dEQP-VK.wsi.win32.colorspace.hdr
+dEQP-VK.wsi.win32.full_screen_exclusive.default
+dEQP-VK.wsi.win32.full_screen_exclusive.allowed
+dEQP-VK.wsi.win32.full_screen_exclusive.disallowed
+dEQP-VK.wsi.win32.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.macos.surface.create
 dEQP-VK.wsi.macos.surface.create_custom_allocator
 dEQP-VK.wsi.macos.surface.create_simulate_oom
@@ -500956,6 +500976,10 @@ dEQP-VK.wsi.macos.shared_presentable_image.scale_none.inherit.inherit.continuous
 dEQP-VK.wsi.macos.colorspace.extensions
 dEQP-VK.wsi.macos.colorspace.basic
 dEQP-VK.wsi.macos.colorspace.hdr
+dEQP-VK.wsi.macos.full_screen_exclusive.default
+dEQP-VK.wsi.macos.full_screen_exclusive.allowed
+dEQP-VK.wsi.macos.full_screen_exclusive.disallowed
+dEQP-VK.wsi.macos.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.display.get_display_properties
 dEQP-VK.wsi.display.get_display_plane_properties
 dEQP-VK.wsi.display.get_display_plane_supported_displays

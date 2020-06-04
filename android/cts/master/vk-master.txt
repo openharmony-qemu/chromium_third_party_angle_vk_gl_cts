@@ -498520,6 +498520,10 @@ dEQP-VK.wsi.android.shared_presentable_image.scale_up.inherit.inherit.continuous
 dEQP-VK.wsi.android.colorspace.extensions
 dEQP-VK.wsi.android.colorspace.basic
 dEQP-VK.wsi.android.colorspace.hdr
+dEQP-VK.wsi.android.full_screen_exclusive.default
+dEQP-VK.wsi.android.full_screen_exclusive.allowed
+dEQP-VK.wsi.android.full_screen_exclusive.disallowed
+dEQP-VK.wsi.android.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.macos.surface.create
 dEQP-VK.wsi.macos.surface.create_custom_allocator
 dEQP-VK.wsi.macos.surface.create_simulate_oom
@@ -498952,6 +498956,10 @@ dEQP-VK.wsi.macos.shared_presentable_image.scale_none.inherit.inherit.continuous
 dEQP-VK.wsi.macos.colorspace.extensions
 dEQP-VK.wsi.macos.colorspace.basic
 dEQP-VK.wsi.macos.colorspace.hdr
+dEQP-VK.wsi.macos.full_screen_exclusive.default
+dEQP-VK.wsi.macos.full_screen_exclusive.allowed
+dEQP-VK.wsi.macos.full_screen_exclusive.disallowed
+dEQP-VK.wsi.macos.full_screen_exclusive.application_controlled
 dEQP-VK.wsi.display.get_display_properties
 dEQP-VK.wsi.display.get_display_plane_properties
 dEQP-VK.wsi.display.get_display_plane_supported_displays
