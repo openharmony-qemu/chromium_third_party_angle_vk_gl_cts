@@ -151765,6 +151765,9 @@ dEQP-VK.draw.output_location.array.r8g8-uint-mediump-output-uint
 dEQP-VK.draw.output_location.shuffle.inputs-outputs
 dEQP-VK.draw.output_location.shuffle.inputs-outputs-mod
 dEQP-VK.compute.basic.concurrent_compute
+dEQP-VK.compute.basic.max_local_size_x
+dEQP-VK.compute.basic.max_local_size_y
+dEQP-VK.compute.basic.max_local_size_z
 dEQP-VK.compute.cooperative_matrix.length.float32_float32.buffer.rowmajor
 dEQP-VK.compute.cooperative_matrix.length.float32_float32.buffer.colmajor
 dEQP-VK.compute.cooperative_matrix.length.float32_float32.workgroup.rowmajor

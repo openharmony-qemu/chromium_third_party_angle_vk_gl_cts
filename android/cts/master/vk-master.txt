@@ -454483,6 +454483,9 @@ dEQP-VK.draw.output_location.shuffle.inputs-outputs
 dEQP-VK.draw.output_location.shuffle.inputs-outputs-mod
 dEQP-VK.compute.basic.empty_shader
 dEQP-VK.compute.basic.concurrent_compute
+dEQP-VK.compute.basic.max_local_size_x
+dEQP-VK.compute.basic.max_local_size_y
+dEQP-VK.compute.basic.max_local_size_z
 dEQP-VK.compute.basic.ubo_to_ssbo_single_invocation
 dEQP-VK.compute.basic.ubo_to_ssbo_single_group
 dEQP-VK.compute.basic.ubo_to_ssbo_multiple_invocations
