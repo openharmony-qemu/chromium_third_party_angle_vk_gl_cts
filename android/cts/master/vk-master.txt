@@ -166414,6 +166414,8 @@ dEQP-VK.memory.device_memory_report.create_and_destroy_object.command_pool
 dEQP-VK.memory.device_memory_report.create_and_destroy_object.command_pool_transient
 dEQP-VK.memory.device_memory_report.create_and_destroy_object.command_buffer_primary
 dEQP-VK.memory.device_memory_report.create_and_destroy_object.command_buffer_secondary
+dEQP-VK.memory.device_memory_report.vk_device_memory.allocate_and_free
+dEQP-VK.memory.device_memory_report.vk_device_memory.allocation_failed
 dEQP-VK.pipeline.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_never
 dEQP-VK.pipeline.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_less
 dEQP-VK.pipeline.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_equal
