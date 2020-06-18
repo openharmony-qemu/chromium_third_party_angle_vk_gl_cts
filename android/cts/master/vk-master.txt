@@ -702736,6 +702736,7 @@ dEQP-VK.transform_feedback.simple.draw_indirect_endqueryindexed_streamid_0_2036
 dEQP-VK.transform_feedback.simple.backward_dependency
 dEQP-VK.transform_feedback.simple.backward_dependency_beginqueryindexed_streamid_0
 dEQP-VK.transform_feedback.simple.backward_dependency_endqueryindexed_streamid_0
+dEQP-VK.transform_feedback.simple.backward_dependency_no_offset_array
 dEQP-VK.transform_feedback.simple.query_0_4_32bits
 dEQP-VK.transform_feedback.simple.query_copy_0_4_32bits
 dEQP-VK.transform_feedback.simple.host_query_reset_0_4_32bits
