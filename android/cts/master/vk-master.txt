@@ -570040,6 +570040,13 @@ dEQP-VK.texture.conversion.snorm_clamp.r8g8b8a8_snorm
 dEQP-VK.texture.conversion.snorm_clamp.r8g8b8_snorm
 dEQP-VK.texture.conversion.snorm_clamp.r8g8_snorm
 dEQP-VK.texture.conversion.snorm_clamp.r8_snorm
+dEQP-VK.texture.texel_buffer.uniform.packed.a2b10g10r10-uint-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.a2b10g10r10-unorm-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-sint-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-snorm-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-uint-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-unorm-pack32
+dEQP-VK.texture.texel_buffer.uniform.packed.b10g11r11-ufloat-pack32
 dEQP-VK.texture.multisample.atomic.storage_image_r32i
 dEQP-VK.texture.multisample.atomic.storage_image_r32ui
 dEQP-VK.geometry.input.basic_primitive.points
