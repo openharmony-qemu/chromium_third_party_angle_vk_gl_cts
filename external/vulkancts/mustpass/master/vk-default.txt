@@ -571814,6 +571814,8 @@ dEQP-VK.texture.conversion.snorm_clamp.r8g8b8a8_snorm
 dEQP-VK.texture.conversion.snorm_clamp.r8g8b8_snorm
 dEQP-VK.texture.conversion.snorm_clamp.r8g8_snorm
 dEQP-VK.texture.conversion.snorm_clamp.r8_snorm
+dEQP-VK.texture.multisample.atomic.storage_image_r32i
+dEQP-VK.texture.multisample.atomic.storage_image_r32ui
 dEQP-VK.geometry.input.basic_primitive.points
 dEQP-VK.geometry.input.basic_primitive.lines
 dEQP-VK.geometry.input.basic_primitive.line_strip
