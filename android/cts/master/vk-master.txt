@@ -140455,6 +140455,7 @@ dEQP-VK.api.pipeline.renderpass.destroy_pipeline_renderpass
 dEQP-VK.api.pipeline.renderpass.framebuffer_compatible_renderpass
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.graphics
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.compute
+dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_end
 dEQP-VK.api.invariance.random
 dEQP-VK.api.tooling_info.validate_getter
 dEQP-VK.api.tooling_info.validate_tools_properties

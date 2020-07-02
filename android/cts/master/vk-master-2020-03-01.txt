@@ -52533,6 +52533,7 @@ dEQP-VK.api.external.memory.dma_buf.dedicated.image.info
 dEQP-VK.api.external.memory.dma_buf.dedicated.image.bind_export_import_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.image.export_bind_import_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.image.export_import_bind_bind
+dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_end
 dEQP-VK.api.tooling_info.validate_getter
 dEQP-VK.api.tooling_info.validate_tools_properties
 dEQP-VK.api.tooling_info.validate_instance_layers
