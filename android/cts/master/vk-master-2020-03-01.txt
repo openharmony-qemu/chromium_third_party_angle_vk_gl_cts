@@ -27,6 +27,7 @@ dEQP-VK.api.info.vulkan1p2_limits_validation.ext_line_rasterization
 dEQP-VK.api.device_init.create_instance_extension_name_abuse
 dEQP-VK.api.device_init.create_instance_layer_name_abuse
 dEQP-VK.api.device_init.enumerate_devices_alloc_leak
+dEQP-VK.api.device_init.create_device_global_priority
 dEQP-VK.api.object_management.private_data.device_memory_small
 dEQP-VK.api.object_management.private_data.buffer_uniform_small
 dEQP-VK.api.object_management.private_data.buffer_uniform_large
