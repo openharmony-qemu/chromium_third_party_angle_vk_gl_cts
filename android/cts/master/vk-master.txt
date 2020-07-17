@@ -702367,6 +702367,14 @@ dEQP-VK.graphicsfuzz.returned-boolean-in-vector
 dEQP-VK.graphicsfuzz.set-color-in-one-iteration-while-loop
 dEQP-VK.graphicsfuzz.similar-nested-ifs
 dEQP-VK.graphicsfuzz.smoothstep-after-loop
+dEQP-VK.graphicsfuzz.spv-access-chains
+dEQP-VK.graphicsfuzz.spv-composite-phi
+dEQP-VK.graphicsfuzz.spv-composite2
+dEQP-VK.graphicsfuzz.spv-composites
+dEQP-VK.graphicsfuzz.spv-copy-object
+dEQP-VK.graphicsfuzz.spv-dead-break-and-unroll
+dEQP-VK.graphicsfuzz.spv-declare-bvec4
+dEQP-VK.graphicsfuzz.spv-null-in-phi-and-unroll
 dEQP-VK.graphicsfuzz.stable-binarysearch-tree-with-loop-read-write-global
 dEQP-VK.graphicsfuzz.stable-colorgrid-modulo-injected-conditional-true
 dEQP-VK.graphicsfuzz.stable-colorgrid-modulo-true-conditional-simple-loop
