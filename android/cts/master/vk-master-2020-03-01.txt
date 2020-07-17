@@ -276076,6 +276076,7 @@ dEQP-VK.graphicsfuzz.set-color-in-one-iteration-while-loop
 dEQP-VK.graphicsfuzz.similar-nested-ifs
 dEQP-VK.graphicsfuzz.smoothstep-after-loop
 dEQP-VK.graphicsfuzz.stable-binarysearch-tree-with-loop-read-write-global
+dEQP-VK.graphicsfuzz.stable-rects-vec4-clamp-conditional-min-mix
 dEQP-VK.graphicsfuzz.struct-and-unreachable-infinite-loop
 dEQP-VK.graphicsfuzz.struct-array-data-as-loop-iterator
 dEQP-VK.graphicsfuzz.struct-controlled-loop
