@@ -143907,6 +143907,7 @@ dEQP-VK.api.external.fence.sync_fd.signal_export_import_wait_temporary
 dEQP-VK.api.external.fence.sync_fd.signal_import_temporary
 dEQP-VK.api.external.fence.sync_fd.reset_temporary
 dEQP-VK.api.external.fence.sync_fd.transference_temporary
+dEQP-VK.api.external.fence.sync_fd.import_signaled_temporary
 dEQP-VK.api.external.fence.sync_fd.export_multiple_times_temporary
 dEQP-VK.api.external.fence.sync_fd.dup_temporary
 dEQP-VK.api.external.fence.sync_fd.dup2_temporary
