@@ -25,6 +25,7 @@
 
 #include "vktPostmortemTests.hpp"
 #include "vktPostmortemShaderTimeoutTests.hpp"
+#include "vktPostmortemUseAfterFreeTests.hpp"
 #include "vktTestGroupUtil.hpp"
 
 namespace vkt
@@ -38,6 +39,7 @@ void createChildren(tcu::TestCaseGroup *postmortemTests)
 {
 	tcu::TestContext &testCtx = postmortemTests->getTestContext();
 	postmortemTests->addChild(createShaderTimeoutTests(testCtx));
+	postmortemTests->addChild(createUseAfterFreeTests(testCtx));
 }
 
 } // namespace
