@@ -290268,6 +290268,16 @@ dEQP-VK.ray_tracing_pipeline.builtin.worldtoobjectext.chit_triangles
 dEQP-VK.ray_tracing_pipeline.builtin.worldtoobjectext.ahit_aabs
 dEQP-VK.ray_tracing_pipeline.builtin.worldtoobjectext.chit_aabs
 dEQP-VK.ray_tracing_pipeline.builtin.worldtoobjectext.sect_aabs
+dEQP-VK.ray_tracing_pipeline.builtin.objecttoworld3x4ext.ahit_triangles
+dEQP-VK.ray_tracing_pipeline.builtin.objecttoworld3x4ext.chit_triangles
+dEQP-VK.ray_tracing_pipeline.builtin.objecttoworld3x4ext.ahit_aabs
+dEQP-VK.ray_tracing_pipeline.builtin.objecttoworld3x4ext.chit_aabs
+dEQP-VK.ray_tracing_pipeline.builtin.objecttoworld3x4ext.sect_aabs
+dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.ahit_triangles
+dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.chit_triangles
+dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.ahit_aabs
+dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.chit_aabs
+dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.sect_aabs
 dEQP-VK.ray_tracing_pipeline.large_shader_set.gpu.64
 dEQP-VK.ray_tracing_pipeline.large_shader_set.gpu.256
 dEQP-VK.ray_tracing_pipeline.large_shader_set.gpu.1024
