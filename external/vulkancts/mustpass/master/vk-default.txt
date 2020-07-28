@@ -704518,6 +704518,14 @@ dEQP-VK.ray_tracing_pipeline.capture_replay.acceleration_structures.serializatio
 dEQP-VK.ray_tracing_pipeline.capture_replay.acceleration_structures.serialization.gpu_built.top_acceleration_structure.aabbs
 dEQP-VK.ray_tracing_pipeline.capture_replay.acceleration_structures.serialization.gpu_built.bottom_acceleration_structure.triangles
 dEQP-VK.ray_tracing_pipeline.capture_replay.acceleration_structures.serialization.gpu_built.bottom_acceleration_structure.aabbs
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TL1BL1G_AABB
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TL1BLnG_AABB
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TLnBL1G_AABB
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TLnBLnG_AABB
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TL1BL1G_tri
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TL1BLnG_tri
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TLnBL1G_tri
+dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TLnBLnG_tri
 dEQP-VK.ray_query.builtin.flow.vert.triangles
 dEQP-VK.ray_query.builtin.flow.vert.aabbs
 dEQP-VK.ray_query.builtin.flow.tesc.triangles
