@@ -704428,6 +704428,16 @@ dEQP-VK.ray_tracing_pipeline.watertightness.9.1024
 dEQP-VK.ray_tracing_pipeline.watertightness.9.4096
 dEQP-VK.ray_tracing_pipeline.watertightness.9.16384
 dEQP-VK.ray_tracing_pipeline.watertightness.9.65536
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan.4
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan.16
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan.64
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan.256
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan.1024
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan2.4
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan2.16
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan2.64
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan2.256
+dEQP-VK.ray_tracing_pipeline.watertightness.closedFan2.1024
 dEQP-VK.ray_tracing_pipeline.pipeline_library.configurations.singlethreaded_compilation.s0_l1
 dEQP-VK.ray_tracing_pipeline.pipeline_library.configurations.singlethreaded_compilation.s1_l1
 dEQP-VK.ray_tracing_pipeline.pipeline_library.configurations.singlethreaded_compilation.s0_l11
