@@ -276070,7 +276070,6 @@ dEQP-VK.graphicsfuzz.return-before-writing-wrong-color
 dEQP-VK.graphicsfuzz.return-float-from-while-loop
 dEQP-VK.graphicsfuzz.return-in-loop-in-function
 dEQP-VK.graphicsfuzz.return-inside-loop-in-function
-dEQP-VK.graphicsfuzz.return-mat2x3-value-from-func
 dEQP-VK.graphicsfuzz.returned-boolean-in-vector
 dEQP-VK.graphicsfuzz.set-color-in-one-iteration-while-loop
 dEQP-VK.graphicsfuzz.similar-nested-ifs
