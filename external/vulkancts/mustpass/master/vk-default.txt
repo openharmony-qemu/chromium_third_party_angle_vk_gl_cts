@@ -581483,6 +581483,7 @@ dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-unorm-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.b10g11r11-ufloat-pack32
 dEQP-VK.texture.multisample.atomic.storage_image_r32i
 dEQP-VK.texture.multisample.atomic.storage_image_r32ui
+dEQP-VK.texture.texel_offset.texel_offset
 dEQP-VK.geometry.input.basic_primitive.points
 dEQP-VK.geometry.input.basic_primitive.lines
 dEQP-VK.geometry.input.basic_primitive.line_strip
@@ -697678,7 +697679,6 @@ dEQP-VK.graphicsfuzz.switch-loop-switch-if
 dEQP-VK.graphicsfuzz.switch-with-empty-if-false
 dEQP-VK.graphicsfuzz.switch-with-fall-through-cases
 dEQP-VK.graphicsfuzz.swizzle-struct-init-min
-dEQP-VK.graphicsfuzz.texel_offset
 dEQP-VK.graphicsfuzz.transpose-rectangular-matrix
 dEQP-VK.graphicsfuzz.two-2-iteration-loops
 dEQP-VK.graphicsfuzz.two-for-loops-with-barrier-function
