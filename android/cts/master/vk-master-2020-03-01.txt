@@ -62744,6 +62744,7 @@ dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_e
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_extra_bytes_offset_4
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_extra_bytes_offset_8
 dEQP-VK.api.fill_and_update_buffer.dedicated_alloc.fill_buffer_vk_whole_size_3_extra_bytes_offset_12
+dEQP-VK.api.external.semaphore.sync_fd.import_signaled_temporary
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d16_unorm
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.x8_d24_unorm_pack32
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d24_unorm_s8_uint
