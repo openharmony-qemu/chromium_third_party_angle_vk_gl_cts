@@ -131167,6 +131167,15 @@ dEQP-VK.pipeline.sampler.separate_stencil_usage.view_type.cube_array.format.d32_
 dEQP-VK.pipeline.sampler.separate_stencil_usage.view_type.cube_array.format.d32_sfloat_s8_uint.mipmap.linear.lod.select_bias_2_5
 dEQP-VK.pipeline.sampler.separate_stencil_usage.view_type.cube_array.format.d32_sfloat_s8_uint.mipmap.linear.lod.select_bias_3_1
 dEQP-VK.pipeline.sampler.separate_stencil_usage.view_type.cube_array.format.d32_sfloat_s8_uint.mipmap.linear.lod.select_bias_3_7
+dEQP-VK.pipeline.push_constant.lifetime.push_range0_bind_layout1
+dEQP-VK.pipeline.push_constant.lifetime.push_range1_bind_layout1_push_range0
+dEQP-VK.pipeline.push_constant.lifetime.push_range0_bind_layout0_push_range1_push_range0
+dEQP-VK.pipeline.push_constant.lifetime.push_range0_bind_layout0_push_diff_overlapping_range1_push_range0
+dEQP-VK.pipeline.push_constant.lifetime.push_range0_bind_layout1_bind_layout0
+dEQP-VK.pipeline.push_constant.lifetime.push_range0_bind_layout1_overlapping_range_bind_layout0
+dEQP-VK.pipeline.push_constant.lifetime.bind_layout1_push_range0_bind_layout0
+dEQP-VK.pipeline.push_constant.lifetime.pipeline_change_same_range_bind_push_vert_and_comp
+dEQP-VK.pipeline.push_constant.lifetime.pipeline_change_diff_range_bind_push_vert_and_comp
 dEQP-VK.pipeline.spec_constant.graphics.vertex.default_value.int8
 dEQP-VK.pipeline.spec_constant.graphics.vertex.default_value.uint8
 dEQP-VK.pipeline.spec_constant.graphics.vertex.default_value.int16
