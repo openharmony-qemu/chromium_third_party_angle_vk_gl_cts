@@ -719127,6 +719127,10 @@ dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TL1BLnG_tri
 dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TLnBL1G_tri
 dEQP-VK.ray_tracing_pipeline.misc.NO_DUPLICATE_ANY_HIT_1TLnBLnG_tri
 dEQP-VK.ray_tracing_pipeline.misc.mixedPrimTL
+dEQP-VK.ray_tracing_pipeline.misc.maxrayhitattributesize_1TL1BL1G
+dEQP-VK.ray_tracing_pipeline.misc.maxrayhitattributesize_1TL1BLnG
+dEQP-VK.ray_tracing_pipeline.misc.maxrayhitattributesize_1TLnBL1G
+dEQP-VK.ray_tracing_pipeline.misc.maxrayhitattributesize_1TLnBLnG
 dEQP-VK.ray_tracing_pipeline.complexcontrolflow.if.execute_callable.rgen
 dEQP-VK.ray_tracing_pipeline.complexcontrolflow.if.execute_callable.chit
 dEQP-VK.ray_tracing_pipeline.complexcontrolflow.if.execute_callable.miss
