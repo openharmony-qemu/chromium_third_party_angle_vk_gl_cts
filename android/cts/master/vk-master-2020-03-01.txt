@@ -299220,6 +299220,12 @@ dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.chit_triangles
 dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.ahit_aabs
 dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.chit_aabs
 dEQP-VK.ray_tracing_pipeline.builtin.worldtoobject3x4ext.sect_aabs
+dEQP-VK.ray_tracing_pipeline.spec_constants.rgen
+dEQP-VK.ray_tracing_pipeline.spec_constants.ahit
+dEQP-VK.ray_tracing_pipeline.spec_constants.chit
+dEQP-VK.ray_tracing_pipeline.spec_constants.sect
+dEQP-VK.ray_tracing_pipeline.spec_constants.miss
+dEQP-VK.ray_tracing_pipeline.spec_constants.call
 dEQP-VK.ray_tracing_pipeline.large_shader_set.gpu.64
 dEQP-VK.ray_tracing_pipeline.large_shader_set.gpu.256
 dEQP-VK.ray_tracing_pipeline.large_shader_set.gpu.1024
