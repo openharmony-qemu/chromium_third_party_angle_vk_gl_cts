@@ -285458,6 +285458,9 @@ dEQP-VK.graphicsfuzz.stable-binarysearch-tree-with-loop-read-write-global
 dEQP-VK.graphicsfuzz.stable-colorgrid-modulo-injected-conditional-true
 dEQP-VK.graphicsfuzz.stable-colorgrid-modulo-true-conditional-simple-loop
 dEQP-VK.graphicsfuzz.stable-colorgrid-modulo-vec3-values-from-matrix
+dEQP-VK.graphicsfuzz.stable-quicksort-for-loop-with-injection
+dEQP-VK.graphicsfuzz.stable-quicksort-if-false-else-return
+dEQP-VK.graphicsfuzz.stable-quicksort-max-value-as-index
 dEQP-VK.graphicsfuzz.stable-rects-vec4-clamp-conditional-min-mix
 dEQP-VK.graphicsfuzz.struct-and-unreachable-infinite-loop
 dEQP-VK.graphicsfuzz.struct-array-data-as-loop-iterator
