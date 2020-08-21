@@ -234381,6 +234381,8 @@ dEQP-VK.pipeline.dynamic_offset.compute.arrays.storage_buffer.numcmdbuffers_2.sa
 dEQP-VK.pipeline.dynamic_offset.compute.arrays.storage_buffer.numcmdbuffers_2.sameorder.numdescriptorsetbindings_1.numdynamicbindings_2.numnondynamicbindings_1
 dEQP-VK.pipeline.early_destroy.cache
 dEQP-VK.pipeline.early_destroy.no_cache
+dEQP-VK.pipeline.early_destroy.cache_destroy_layout
+dEQP-VK.pipeline.early_destroy.no_cache_destroy_layout
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.1x1
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.2x1
 dEQP-VK.pipeline.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.32x1
