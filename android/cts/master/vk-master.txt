@@ -586322,6 +586322,16 @@ dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-snorm-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-uint-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.a8b8g8r8-unorm-pack32
 dEQP-VK.texture.texel_buffer.uniform.packed.b10g11r11-ufloat-pack32
+dEQP-VK.texture.texel_buffer.uniform.snorm.b8g8r8-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.b8g8r8a8-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r16-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r16g16-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r16g16b16-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r16g16b16a16-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r8-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r8g8-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r8g8b8-snorm
+dEQP-VK.texture.texel_buffer.uniform.snorm.r8g8b8a8-snorm
 dEQP-VK.texture.multisample.atomic.storage_image_r32i
 dEQP-VK.texture.multisample.atomic.storage_image_r32ui
 dEQP-VK.texture.texel_offset.texel_offset
