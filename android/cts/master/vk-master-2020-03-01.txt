@@ -136984,10 +136984,8 @@ dEQP-VK.spirv_assembly.instruction.compute.signed_op.int_ulessthanequal
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_atomicsmax
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_atomicsmin
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_sdiv
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_smod
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_smulextended
 dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_snegate
-dEQP-VK.spirv_assembly.instruction.compute.signed_op.uint_srem
 dEQP-VK.spirv_assembly.instruction.compute.unused_variables.variable_set_0_binding_5
 dEQP-VK.spirv_assembly.instruction.compute.unused_variables.function_set_0_binding_5
 dEQP-VK.spirv_assembly.instruction.compute.unused_variables.variable_set_5_binding_5
