@@ -715840,6 +715840,10 @@ dEQP-VK.graphicsfuzz.spv-composites
 dEQP-VK.graphicsfuzz.spv-copy-object
 dEQP-VK.graphicsfuzz.spv-dead-break-and-unroll
 dEQP-VK.graphicsfuzz.spv-declare-bvec4
+dEQP-VK.graphicsfuzz.spv-double-branch-to-same-block
+dEQP-VK.graphicsfuzz.spv-double-branch-to-same-block2
+dEQP-VK.graphicsfuzz.spv-double-branch-to-same-block3
+dEQP-VK.graphicsfuzz.spv-load-from-frag-color
 dEQP-VK.graphicsfuzz.spv-null-in-phi-and-unroll
 dEQP-VK.graphicsfuzz.stable-binarysearch-tree-with-loop-read-write-global
 dEQP-VK.graphicsfuzz.stable-colorgrid-modulo-injected-conditional-true
