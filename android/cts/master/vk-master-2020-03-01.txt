@@ -166,6 +166,11 @@ dEQP-VK.api.buffer_marker.transfer.default_mem.bottom_of_pipe.overwrite.4
 dEQP-VK.api.buffer_marker.transfer.default_mem.bottom_of_pipe.overwrite.64
 dEQP-VK.api.buffer_marker.transfer.default_mem.bottom_of_pipe.memory_dep.buffer_copy
 dEQP-VK.api.command_buffers.render_pass_continue_no_fb
+dEQP-VK.api.command_buffers.bad_inheritance_info_random
+dEQP-VK.api.command_buffers.bad_inheritance_info_random_cont
+dEQP-VK.api.command_buffers.bad_inheritance_info_random_data
+dEQP-VK.api.command_buffers.bad_inheritance_info_invalid_type
+dEQP-VK.api.command_buffers.bad_inheritance_info_valid_nonsense_type
 dEQP-VK.api.command_buffers.recording_to_ininitial
 dEQP-VK.api.command_buffers.executable_to_ininitial
 dEQP-VK.api.command_buffers.recording_to_invalid

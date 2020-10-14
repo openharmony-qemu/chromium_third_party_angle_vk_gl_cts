@@ -8110,6 +8110,11 @@ dEQP-VK.api.command_buffers.record_simul_use_secondary_two_primary
 dEQP-VK.api.command_buffers.record_query_precise_w_flag
 dEQP-VK.api.command_buffers.record_query_imprecise_w_flag
 dEQP-VK.api.command_buffers.record_query_imprecise_wo_flag
+dEQP-VK.api.command_buffers.bad_inheritance_info_random
+dEQP-VK.api.command_buffers.bad_inheritance_info_random_cont
+dEQP-VK.api.command_buffers.bad_inheritance_info_random_data
+dEQP-VK.api.command_buffers.bad_inheritance_info_invalid_type
+dEQP-VK.api.command_buffers.bad_inheritance_info_valid_nonsense_type
 dEQP-VK.api.command_buffers.submit_count_non_zero
 dEQP-VK.api.command_buffers.submit_count_equal_zero
 dEQP-VK.api.command_buffers.submit_wait_single_semaphore
