@@ -392920,6 +392920,11 @@ dEQP-VK.spirv_assembly.instruction.compute.ptr_access_chain.workgroup_no_stride
 dEQP-VK.spirv_assembly.instruction.compute.ptr_access_chain.workgroup_bad_stride
 dEQP-VK.spirv_assembly.instruction.compute.vector_shuffle.vector_shuffle
 dEQP-VK.spirv_assembly.instruction.compute.hlsl_cases.cbuffer_packing
+dEQP-VK.spirv_assembly.instruction.compute.empty_struct.copying.copy_object_ubo
+dEQP-VK.spirv_assembly.instruction.compute.empty_struct.copying.copy_memory_ubo
+dEQP-VK.spirv_assembly.instruction.compute.empty_struct.copying.copy_object_ssbo
+dEQP-VK.spirv_assembly.instruction.compute.empty_struct.copying.copy_memory_ssbo
+dEQP-VK.spirv_assembly.instruction.compute.empty_struct.pointer_comparison.ssbo
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.double.comp_opfordequal_nonan_single
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.double.comp_opfordnotequal_nonan_single
 dEQP-VK.spirv_assembly.instruction.compute.64bit_compare.double.comp_opfordlessthan_nonan_single
