@@ -742279,6 +742279,14 @@ dEQP-VK.ray_tracing_pipeline.acceleration_structures.empty.gpu_built.index_uint3
 dEQP-VK.ray_tracing_pipeline.acceleration_structures.empty.gpu_built.index_uint32.no_geometries_bottom
 dEQP-VK.ray_tracing_pipeline.acceleration_structures.empty.gpu_built.index_uint32.no_primitives_top
 dEQP-VK.ray_tracing_pipeline.acceleration_structures.empty.gpu_built.index_uint32.no_primitives_bottom
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.cpu_built.no_instance_index
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.cpu_built.ahit
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.cpu_built.chit
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.cpu_built.isec
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.gpu_built.no_instance_index
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.gpu_built.ahit
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.gpu_built.chit
+dEQP-VK.ray_tracing_pipeline.acceleration_structures.instance_index.gpu_built.isec
 dEQP-VK.ray_tracing_pipeline.indirect.build_structure
 dEQP-VK.ray_tracing_pipeline.watertightness.0.4
 dEQP-VK.ray_tracing_pipeline.watertightness.0.16
