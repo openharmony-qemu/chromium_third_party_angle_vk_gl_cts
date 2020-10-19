@@ -649782,6 +649782,8 @@ dEQP-VK.robustness.image_robustness.push.notemplate.rgba32f.unroll.volatile.stor
 dEQP-VK.robustness.image_robustness.push.notemplate.rgba32f.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.frag
 dEQP-VK.robustness.image_robustness.push.notemplate.rgba32f.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.vert
 dEQP-VK.robustness.image_robustness.push.notemplate.rgba32f.unroll.volatile.storage_image.fmt_qual.img.samples_4.2d_array.rgen
+dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_underflow
+dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_overflow
 dEQP-VK.multiview.masks.15
 dEQP-VK.multiview.masks.8
 dEQP-VK.multiview.masks.1_2_4_8
