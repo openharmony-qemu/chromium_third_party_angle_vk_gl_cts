@@ -281909,6 +281909,7 @@ dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.min_reduce.co
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.min_reduce.comp_one_r_r_r.average
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.min_reduce.comp_one_r_r_r.min
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.min_reduce.comp_one_r_r_r.max
+dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mag_filter.linear
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mag_filter.nearest
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mag_reduce.comp_identity_zero_zero_zero.average
 dEQP-VK.pipeline.sampler.view_type.cube.format.r5g6b5_unorm_pack16.mag_reduce.comp_identity_zero_zero_zero.min
