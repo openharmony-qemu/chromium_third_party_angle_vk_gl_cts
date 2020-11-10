@@ -612641,6 +612641,7 @@ dEQP-VK.rasterization.line_continuity.line-strip
 dEQP-VK.rasterization.line_continuity.polygon-mode-lines
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.kill
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.demote
+dEQP-VK.rasterization.frag_side_effects.color_at_beginning.terminate_invocation
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.sample_mask_before
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.sample_mask_after
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.stencil_never
@@ -612650,6 +612651,7 @@ dEQP-VK.rasterization.frag_side_effects.color_at_beginning.alpha_coverage_after
 dEQP-VK.rasterization.frag_side_effects.color_at_beginning.depth_bounds
 dEQP-VK.rasterization.frag_side_effects.color_at_end.kill
 dEQP-VK.rasterization.frag_side_effects.color_at_end.demote
+dEQP-VK.rasterization.frag_side_effects.color_at_end.terminate_invocation
 dEQP-VK.rasterization.frag_side_effects.color_at_end.sample_mask_before
 dEQP-VK.rasterization.frag_side_effects.color_at_end.sample_mask_after
 dEQP-VK.rasterization.frag_side_effects.color_at_end.stencil_never
