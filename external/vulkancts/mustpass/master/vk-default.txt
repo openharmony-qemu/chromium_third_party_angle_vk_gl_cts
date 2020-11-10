@@ -787975,3 +787975,4 @@ dEQP-VK.ray_query.ray_flags.call_shader.skip_geometry.triangles.skiptriangles
 dEQP-VK.ray_query.ray_flags.call_shader.skip_geometry.triangles.skipaabb
 dEQP-VK.ray_query.ray_flags.call_shader.skip_geometry.aabbs.skiptriangles
 dEQP-VK.ray_query.ray_flags.call_shader.skip_geometry.aabbs.skipaabb
+dEQP-VK.ray_query.misc.dynamic_indexing
