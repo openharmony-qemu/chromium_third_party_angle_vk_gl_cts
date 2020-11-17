@@ -763730,6 +763730,7 @@ dEQP-VK.ray_tracing_pipeline.misc.shaderRecordExplicitSTD430Offset_3
 dEQP-VK.ray_tracing_pipeline.misc.shaderRecordExplicitSTD430Offset_4
 dEQP-VK.ray_tracing_pipeline.misc.shaderRecordExplicitSTD430Offset_5
 dEQP-VK.ray_tracing_pipeline.misc.shaderRecordExplicitSTD430Offset_6
+dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_0
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_1
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_2
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_3
@@ -763745,6 +763746,7 @@ dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_12
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_13
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_14
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_AABB_15
+dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_tri_0
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_tri_1
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_tri_2
 dEQP-VK.ray_tracing_pipeline.misc.recursiveTraces_tri_3
