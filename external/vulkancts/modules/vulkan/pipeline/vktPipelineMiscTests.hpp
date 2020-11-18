@@ -1,5 +1,5 @@
-#ifndef _VKTPIPELINEVERTEXONLYTESTS_HPP
-#define _VKTPIPELINEVERTEXONLYTESTS_HPP
+#ifndef _VKTPIPELINEMISCTESTS_HPP
+#define _VKTPIPELINEMISCTESTS_HPP
 /*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
@@ -32,9 +32,9 @@ namespace vkt
 namespace pipeline
 {
 
-tcu::TestCaseGroup*	createVertexOnlyTests (tcu::TestContext& testCtx);
+tcu::TestCaseGroup*	createMiscTests (tcu::TestContext& testCtx);
 
 } // pipeline
 } // vkt
 
-#endif // _VKTPIPELINEVERTEXONLYTESTS_HPP
+#endif // _VKTPIPELINEMISCTESTS_HPP

@@ -313612,7 +313612,8 @@ dEQP-VK.pipeline.executable_properties.compute.compute_stage
 dEQP-VK.pipeline.executable_properties.compute.compute_stage_statistics
 dEQP-VK.pipeline.executable_properties.compute.compute_stage_internal_representations
 dEQP-VK.pipeline.executable_properties.compute.compute_stage_statistics_internal_representations
-dEQP-VK.pipeline.vertex_only.position_to_ssbo
+dEQP-VK.pipeline.misc.position_to_ssbo
+dEQP-VK.pipeline.misc.primitive_id_from_tess
 dEQP-VK.pipeline.max_varyings.test_vertex_io_between_vertex_fragment
 dEQP-VK.pipeline.max_varyings.test_fragment_io_between_vertex_fragment
 dEQP-VK.pipeline.max_varyings.test_tess_eval_io_between_tess_eval_fragment
