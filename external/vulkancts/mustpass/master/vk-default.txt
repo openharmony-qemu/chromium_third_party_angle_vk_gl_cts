@@ -408018,6 +408018,7 @@ dEQP-VK.spirv_assembly.instruction.graphics.switch_block_order.out_of_order_tess
 dEQP-VK.spirv_assembly.instruction.graphics.switch_block_order.out_of_order_tesse
 dEQP-VK.spirv_assembly.instruction.graphics.switch_block_order.out_of_order_geom
 dEQP-VK.spirv_assembly.instruction.graphics.switch_block_order.out_of_order_frag
+dEQP-VK.spirv_assembly.instruction.graphics.switch_block_order.switch-case-to-merge-block
 dEQP-VK.spirv_assembly.instruction.graphics.opphi.out_of_order_vert
 dEQP-VK.spirv_assembly.instruction.graphics.opphi.out_of_order_tessc
 dEQP-VK.spirv_assembly.instruction.graphics.opphi.out_of_order_tesse
