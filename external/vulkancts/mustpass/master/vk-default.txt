@@ -516056,6 +516056,10 @@ dEQP-VK.draw.depth_clamp.d32_sfloat_s8_uint_depth_bias_clamp_input_negative
 dEQP-VK.draw.depth_clamp.d32_sfloat_s8_uint_depth_bias_clamp_input_positive
 dEQP-VK.draw.depth_clamp.d32_sfloat_s8_uint_depth_range_unrestricted_negative
 dEQP-VK.draw.depth_clamp.d32_sfloat_s8_uint_depth_range_unrestricted_positive
+dEQP-VK.draw.ahb.triangle_list
+dEQP-VK.draw.ahb.triangle_list_layers_3
+dEQP-VK.draw.ahb.triangle_list_layers_5
+dEQP-VK.draw.ahb.triangle_list_layers_8
 dEQP-VK.compute.basic.empty_shader
 dEQP-VK.compute.basic.concurrent_compute
 dEQP-VK.compute.basic.max_local_size_x
