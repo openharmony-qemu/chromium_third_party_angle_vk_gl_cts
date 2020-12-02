@@ -8131,6 +8131,7 @@ dEQP-VK.api.command_buffers.executable_to_invalid
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image_diff_fromat
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.partial_image
+dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.partial_image_npot_diff_format_clear
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.depth
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.stencil
 dEQP-VK.api.copy_and_blit.core.image_to_image.all_formats.color.2d.r4g4_unorm_pack8.r4g4_unorm_pack8.optimal_optimal
@@ -102447,6 +102448,7 @@ dEQP-VK.api.copy_and_blit.core.resolve_image.diff_image_size.dst_256_256_11_64_b
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.whole_image
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.whole_image_diff_fromat
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.partial_image
+dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.partial_image_npot_diff_format_clear
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.depth
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.stencil
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.all_formats.color.2d.r4g4_unorm_pack8.r4g4_unorm_pack8.optimal_optimal
@@ -115238,6 +115240,7 @@ dEQP-VK.api.copy_and_blit.dedicated_allocation.resolve_image.diff_image_size.dst
 dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.simple_tests.whole_image
 dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.simple_tests.whole_image_diff_fromat
 dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.simple_tests.partial_image
+dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.simple_tests.partial_image_npot_diff_format_clear
 dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.simple_tests.depth
 dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.simple_tests.stencil
 dEQP-VK.api.copy_and_blit.copy_commands2.image_to_image.all_formats.color.2d.r4g4_unorm_pack8.r4g4_unorm_pack8.optimal_optimal
