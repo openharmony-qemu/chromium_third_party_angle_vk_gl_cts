@@ -521465,6 +521465,13 @@ dEQP-VK.compute.workgroup_memory_explicit_layout.padding.uint8_t_27_uint8_t_28
 dEQP-VK.compute.workgroup_memory_explicit_layout.padding.uint8_t_28_uint8_t_29
 dEQP-VK.compute.workgroup_memory_explicit_layout.padding.uint8_t_29_uint8_t_30
 dEQP-VK.compute.workgroup_memory_explicit_layout.padding.uint8_t_30_uint8_t_31
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.8
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.64
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.4096
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.16384
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.32768
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.49152
+dEQP-VK.compute.workgroup_memory_explicit_layout.size.65536
 dEQP-VK.image.store.with_format.1d.r32g32b32a32_sfloat
 dEQP-VK.image.store.with_format.1d.r16g16b16a16_sfloat
 dEQP-VK.image.store.with_format.1d.r32_sfloat
