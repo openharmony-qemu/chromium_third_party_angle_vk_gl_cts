@@ -748241,7 +748241,6 @@ dEQP-VK.graphicsfuzz.cov-fold-and-in-for-loop-range
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-and-zero
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-or-full-mask
 dEQP-VK.graphicsfuzz.cov-fold-bitwise-xor
-dEQP-VK.graphicsfuzz.cov-fold-div-uniform-by-zero
 dEQP-VK.graphicsfuzz.cov-fold-logical-and-const-variable
 dEQP-VK.graphicsfuzz.cov-fold-logical-and-constant
 dEQP-VK.graphicsfuzz.cov-fold-logical-or-constant
