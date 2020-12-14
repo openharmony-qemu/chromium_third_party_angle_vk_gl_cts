@@ -22,6 +22,7 @@
  *//*--------------------------------------------------------------------*/
 
 #include "tes31TestPackage.hpp"
+#include "tes31TestCaseWrapper.hpp"
 #include "tes31InfoTests.hpp"
 #include "es31fFunctionalTests.hpp"
 #include "es31sStressTests.hpp"
@@ -37,73 +38,6 @@ namespace deqp
 {
 namespace gles31
 {
-
-class TestCaseWrapper : public tcu::TestCaseExecutor
-{
-public:
-									TestCaseWrapper		(TestPackage& package, de::SharedPtr<tcu::WaiverUtil> waiverMechanism);
-									~TestCaseWrapper	(void);
-
-	void							init				(tcu::TestCase* testCase, const std::string& path);
-	void							deinit				(tcu::TestCase* testCase);
-	tcu::TestNode::IterateResult	iterate				(tcu::TestCase* testCase);
-
-private:
-	TestPackage&					m_testPackage;
-	de::SharedPtr<tcu::WaiverUtil>	m_waiverMechanism;
-};
-
-TestCaseWrapper::TestCaseWrapper (TestPackage& package, de::SharedPtr<tcu::WaiverUtil> waiverMechanism)
-	: m_testPackage		(package)
-	, m_waiverMechanism	(waiverMechanism)
-{
-}
-
-TestCaseWrapper::~TestCaseWrapper (void)
-{
-}
-
-void TestCaseWrapper::init (tcu::TestCase* testCase, const std::string& path)
-{
-	if (m_waiverMechanism->isOnWaiverList(path))
-		throw tcu::TestException("Waived test", QP_TEST_RESULT_WAIVER);
-
-	testCase->init();
-}
-
-void TestCaseWrapper::deinit (tcu::TestCase* testCase)
-{
-	testCase->deinit();
-
-	DE_ASSERT(m_testPackage.getContext());
-	glu::resetState(m_testPackage.getContext()->getRenderContext(), m_testPackage.getContext()->getContextInfo());
-}
-
-tcu::TestNode::IterateResult TestCaseWrapper::iterate (tcu::TestCase* testCase)
-{
-	tcu::TestContext&					testCtx	= m_testPackage.getContext()->getTestContext();
-	const tcu::TestCase::IterateResult	result	= testCase->iterate();
-
-	// Call implementation specific post-iterate routine (usually handles native events and swaps buffers)
-	try
-	{
-		m_testPackage.getContext()->getRenderContext().postIterate();
-		return result;
-	}
-	catch (const tcu::ResourceError& e)
-	{
-		testCtx.getLog() << e;
-		testCtx.setTestResult(QP_TEST_RESULT_RESOURCE_ERROR, "Resource error in context post-iteration routine");
-		testCtx.setTerminateAfter(true);
-		return tcu::TestNode::STOP;
-	}
-	catch (const std::exception& e)
-	{
-		testCtx.getLog() << e;
-		testCtx.setTestResult(QP_TEST_RESULT_FAIL, "Error in context post-iteration routine");
-		return tcu::TestNode::STOP;
-	}
-}
 
 TestPackage::TestPackage (tcu::TestContext& testCtx)
 	: tcu::TestPackage	(testCtx, "dEQP-GLES31", "dEQP OpenGL ES 3.1 Tests")
@@ -162,7 +96,7 @@ void TestPackage::deinit (void)
 
 tcu::TestCaseExecutor* TestPackage::createExecutor (void) const
 {
-	return new TestCaseWrapper(const_cast<TestPackage&>(*this), m_waiverMechanism);
+	return new TestCaseWrapper<TestPackage>(const_cast<TestPackage&>(*this), m_waiverMechanism);
 }
 
 } // gles31
