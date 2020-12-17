@@ -753430,6 +753430,7 @@ dEQP-VK.graphicsfuzz.cov-single-block-elim-self-assign
 dEQP-VK.graphicsfuzz.cov-single-store-elim-assume-store
 dEQP-VK.graphicsfuzz.cov-ssa-rewrite-case-with-default
 dEQP-VK.graphicsfuzz.cov-tail-duplicator-for-for-for
+dEQP-VK.graphicsfuzz.cov-tail-duplicator-infinite-loops
 dEQP-VK.graphicsfuzz.cov-target-lowering-dfdx-cos
 dEQP-VK.graphicsfuzz.cov-target-lowering-inst-combine-compares-struct-array-clamp-function-cal
 dEQP-VK.graphicsfuzz.cov-types-return-in-main-never-hit
