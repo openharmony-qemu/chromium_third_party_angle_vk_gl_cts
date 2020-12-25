@@ -519485,10 +519485,14 @@ dEQP-VK.draw.zero_viewport_height.front_cw_cull_both
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltazero
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltasmall
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltaone
+dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltaone_bias_clamp_neg
+dEQP-VK.draw.inverted_depth_ranges.depthclamp_deltasmall_bias_clamp_pos
 dEQP-VK.draw.inverted_depth_ranges.depthclamp_depth_range_unrestricted
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltazero
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltasmall
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltaone
+dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltaone_bias_clamp_neg
+dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_deltasmall_bias_clamp_pos
 dEQP-VK.draw.inverted_depth_ranges.nodepthclamp_depth_range_unrestricted
 dEQP-VK.draw.differing_interpolation.flat_0
 dEQP-VK.draw.differing_interpolation.flat_1
