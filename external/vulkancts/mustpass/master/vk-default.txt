@@ -525801,6 +525801,9 @@ dEQP-VK.compute.workgroup_memory_explicit_layout.size.16384
 dEQP-VK.compute.workgroup_memory_explicit_layout.size.32768
 dEQP-VK.compute.workgroup_memory_explicit_layout.size.49152
 dEQP-VK.compute.workgroup_memory_explicit_layout.size.65536
+dEQP-VK.compute.workgroup_memory_explicit_layout.copy_memory.basic
+dEQP-VK.compute.workgroup_memory_explicit_layout.copy_memory.two_invocations
+dEQP-VK.compute.workgroup_memory_explicit_layout.copy_memory.variable_pointers
 dEQP-VK.image.store.with_format.1d.r32g32b32a32_sfloat
 dEQP-VK.image.store.with_format.1d.r16g16b16a16_sfloat
 dEQP-VK.image.store.with_format.1d.r32_sfloat
