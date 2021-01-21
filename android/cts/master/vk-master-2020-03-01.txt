@@ -179192,6 +179192,13 @@ dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.rgba8i.base_lev
 dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.rgba8i.base_level.sparse_level_2_amd_bias
 dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.rgba8i.base_level.level_2_amd_lod
 dEQP-VK.glsl.texture_gather.offsets.min_required_offset.2d_array.rgba8i.base_level.sparse_level_2_amd_lod
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.1_bit
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.2_bit
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.4_bit
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.8_bit
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.16_bit
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.32_bit
+dEQP-VK.glsl.builtin_var.fragcoord_msaa_input.64_bit
 dEQP-VK.glsl.builtin_var.simple.pointcoord_uniform_frag
 dEQP-VK.glsl.builtin_var.simple.pointcoord_uniform_vert
 dEQP-VK.glsl.builtin.function.common.isnan.double_compute
