@@ -11,6 +11,13 @@ dEQP-VK.api.info.image_format_properties.2d.linear.g10x6_b10x6r10x6_2plane_444_u
 dEQP-VK.api.info.image_format_properties.2d.linear.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties.2d.linear.g16_b16r16_2plane_444_unorm
 dEQP-VK.api.info.extension_core_versions.extension_core_versions
+dEQP-VK.api.info.vulkan1p3.features
+dEQP-VK.api.info.vulkan1p3.properties
+dEQP-VK.api.info.vulkan1p3.feature_extensions_consistency
+dEQP-VK.api.info.vulkan1p3.property_extensions_consistency
+dEQP-VK.api.info.vulkan1p3.feature_bits_influence
+dEQP-VK.api.info.vulkan1p3_limits_validation.khr_maintenance4
+dEQP-VK.api.info.vulkan1p3_limits_validation.max_inline_uniform_total_size
 dEQP-VK.api.info.image_format_properties2.2d.optimal.g8_b8r8_2plane_444_unorm
 dEQP-VK.api.info.image_format_properties2.2d.optimal.g10x6_b10x6r10x6_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties2.2d.optimal.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
