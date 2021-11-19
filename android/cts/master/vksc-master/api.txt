@@ -2674,7 +2674,6 @@ dEQP-VKSC.api.object_management.single.command_pool_transient
 dEQP-VKSC.api.object_management.single.command_buffer_primary
 dEQP-VKSC.api.object_management.single.command_buffer_secondary
 dEQP-VKSC.api.object_management.multiple_unique_resources.instance
-dEQP-VKSC.api.object_management.multiple_unique_resources.device_group
 dEQP-VKSC.api.object_management.multiple_unique_resources.device_memory_small
 dEQP-VKSC.api.object_management.multiple_unique_resources.buffer_uniform_small
 dEQP-VKSC.api.object_management.multiple_unique_resources.buffer_uniform_large
@@ -2715,8 +2714,6 @@ dEQP-VKSC.api.object_management.multiple_unique_resources.command_pool
 dEQP-VKSC.api.object_management.multiple_unique_resources.command_pool_transient
 dEQP-VKSC.api.object_management.multiple_unique_resources.command_buffer_primary
 dEQP-VKSC.api.object_management.multiple_unique_resources.command_buffer_secondary
-dEQP-VKSC.api.object_management.multiple_shared_resources.device
-dEQP-VKSC.api.object_management.multiple_shared_resources.device_group
 dEQP-VKSC.api.object_management.multiple_shared_resources.device_memory_small
 dEQP-VKSC.api.object_management.multiple_shared_resources.buffer_uniform_small
 dEQP-VKSC.api.object_management.multiple_shared_resources.buffer_uniform_large
