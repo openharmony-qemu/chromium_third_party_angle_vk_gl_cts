@@ -46962,7 +46962,6 @@ dEQP-VK.api.external.fence.sync_fd.import_signaled_temporary
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_end
 dEQP-VK.api.tooling_info.validate_getter
 dEQP-VK.api.tooling_info.validate_tools_properties
-dEQP-VK.api.tooling_info.validate_instance_layers
 dEQP-VK.memory.device_memory_report.create_and_destroy_object.device
 dEQP-VK.memory.device_memory_report.create_and_destroy_object.device_memory_small
 dEQP-VK.memory.device_memory_report.create_and_destroy_object.buffer_uniform_small
