@@ -3735,6 +3735,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.astc_12x10_unorm_bloc
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.astc_12x10_srgb_block
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.astc_12x12_unorm_block
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.astc_12x12_srgb_block
+dEQP-VK.api.info.profiles.roadmap_2022
 dEQP-VK.api.info.android.mandatory_extensions
 dEQP-VK.api.info.android.no_unknown_extensions
 dEQP-VK.api.info.android.no_layers
