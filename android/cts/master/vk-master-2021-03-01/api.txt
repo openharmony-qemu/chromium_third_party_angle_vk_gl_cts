@@ -30,7 +30,9 @@ dEQP-VK.api.info.profiles.roadmap_2022
 dEQP-VK.api.device_drm_properties.drm_files_exist
 dEQP-VK.api.device_init.enumerate_devices_alloc_leak
 dEQP-VK.api.device_init.create_device_global_priority
+dEQP-VK.api.device_init.create_device_global_priority_khr
 dEQP-VK.api.device_init.create_device_global_priority_query
+dEQP-VK.api.device_init.create_device_global_priority_query_khr
 dEQP-VK.api.object_management.private_data.device_memory_small
 dEQP-VK.api.object_management.private_data.buffer_uniform_small
 dEQP-VK.api.object_management.private_data.buffer_uniform_large
