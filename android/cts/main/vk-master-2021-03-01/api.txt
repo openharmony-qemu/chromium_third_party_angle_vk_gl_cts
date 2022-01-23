@@ -107406,7 +107406,6 @@ dEQP-VK.api.pipeline.pipeline_invalid_pointers_unused_structs.compute
 dEQP-VK.api.invariance.memory_requirements_matching
 dEQP-VK.api.tooling_info.validate_getter
 dEQP-VK.api.tooling_info.validate_tools_properties
-dEQP-VK.api.tooling_info.validate_instance_layers
 dEQP-VK.api.format_feature_flags2.r4g4_unorm_pack8
 dEQP-VK.api.format_feature_flags2.r4g4b4a4_unorm_pack16
 dEQP-VK.api.format_feature_flags2.b4g4r4a4_unorm_pack16
