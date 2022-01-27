@@ -2616,7 +2616,6 @@ dEQP-VKSC.api.info.android.mandatory_extensions
 dEQP-VKSC.api.info.android.no_unknown_extensions
 dEQP-VKSC.api.info.android.no_layers
 dEQP-VKSC.api.device_init.create_instance_name_version
-dEQP-VKSC.api.device_init.create_instance_invalid_api_version
 dEQP-VKSC.api.device_init.create_instance_null_appinfo
 dEQP-VKSC.api.device_init.create_instance_unsupported_extensions
 dEQP-VKSC.api.device_init.create_instance_extension_name_abuse

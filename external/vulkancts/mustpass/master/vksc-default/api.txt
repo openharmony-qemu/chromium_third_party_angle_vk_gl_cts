@@ -2613,7 +2613,6 @@ dEQP-VKSC.api.info.image_format_properties2.3d.linear.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties2.3d.linear.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.3d.linear.astc_12x12_srgb_block
 dEQP-VKSC.api.device_init.create_instance_name_version
-dEQP-VKSC.api.device_init.create_instance_invalid_api_version
 dEQP-VKSC.api.device_init.create_instance_null_appinfo
 dEQP-VKSC.api.device_init.create_instance_unsupported_extensions
 dEQP-VKSC.api.device_init.create_instance_extension_name_abuse
