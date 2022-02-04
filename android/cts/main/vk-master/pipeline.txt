@@ -440749,6 +440749,10 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_01_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_1_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_1_1_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1_1_1_1
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets_fast_linked
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets_link_opt_union_handle
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets_link_opt_null_handle
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.compare_link_times
 dEQP-VK.pipeline.fast_linked_library.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_never
 dEQP-VK.pipeline.fast_linked_library.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_less
 dEQP-VK.pipeline.fast_linked_library.stencil.format.s8_uint.states.fail_keep.pass_keep.dfail_keep.comp_equal
