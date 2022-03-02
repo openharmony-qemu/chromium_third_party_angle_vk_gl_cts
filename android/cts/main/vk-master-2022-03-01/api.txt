@@ -11,6 +11,13 @@ dEQP-VK.api.device_drm_properties.drm_files_exist
 dEQP-VK.api.device_init.create_device_global_priority_khr
 dEQP-VK.api.device_init.create_device_global_priority_query
 dEQP-VK.api.device_init.create_device_global_priority_query_khr
+dEQP-VK.api.device_init.create_device_queue2_two_queues
+dEQP-VK.api.device_init.create_device_queue2_all_protected
+dEQP-VK.api.device_init.create_device_queue2_all_unprotected
+dEQP-VK.api.device_init.create_device_queue2_split
+dEQP-VK.api.device_init.create_device_queue2_all_families
+dEQP-VK.api.device_init.create_device_queue2_all_families_protected
+dEQP-VK.api.device_init.create_device_queue2_all_combinations
 dEQP-VK.api.buffer.basic.max_size
 dEQP-VK.api.buffer.basic.max_size_sparse
 dEQP-VK.api.buffer.invalid_buffer_features.vk_format_s8_uint
