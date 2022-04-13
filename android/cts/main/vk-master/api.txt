@@ -225639,6 +225639,7 @@ dEQP-VK.api.descriptor_pool.repeated_reset_long
 dEQP-VK.api.descriptor_pool.repeated_free_reset_short
 dEQP-VK.api.descriptor_pool.repeated_free_reset_long
 dEQP-VK.api.descriptor_pool.out_of_pool_memory
+dEQP-VK.api.descriptor_pool.zero_pool_size_count
 dEQP-VK.api.null_handle.destroy_buffer
 dEQP-VK.api.null_handle.destroy_buffer_view
 dEQP-VK.api.null_handle.destroy_command_pool
