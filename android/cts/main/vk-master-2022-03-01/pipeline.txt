@@ -282702,7 +282702,6 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_1_1_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1_1_1_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.fast_linked
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.link_opt_union_handle
-dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.link_opt_null_handle
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.1
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.11
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.01
