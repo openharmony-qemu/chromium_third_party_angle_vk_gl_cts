@@ -5209,6 +5209,10 @@ dEQP-VK.api.image_compression_control.swapchain.headless.default
 dEQP-VK.api.image_compression_control.swapchain.headless.fixed_rate_default
 dEQP-VK.api.image_compression_control.swapchain.headless.disabled
 dEQP-VK.api.image_compression_control.swapchain.headless.explicit
+dEQP-VK.api.image_compression_control.swapchain.direct_drm.default
+dEQP-VK.api.image_compression_control.swapchain.direct_drm.fixed_rate_default
+dEQP-VK.api.image_compression_control.swapchain.direct_drm.disabled
+dEQP-VK.api.image_compression_control.swapchain.direct_drm.explicit
 dEQP-VK.api.image_clearing.core.clear_color_image.1d.optimal.single_layer.r4g4_unorm_pack8
 dEQP-VK.api.image_clearing.core.clear_color_image.1d.optimal.single_layer.r4g4_unorm_pack8_multiple_subresourcerange
 dEQP-VK.api.image_clearing.core.clear_color_image.1d.optimal.single_layer.r4g4_unorm_pack8_clamp_input
