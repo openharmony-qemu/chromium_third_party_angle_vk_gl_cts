@@ -226527,6 +226527,7 @@ dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d24_unorm_s8_u
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat_s8_uint
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.s8_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r8_unorm
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.import_twice
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.import_multiple_times
 dEQP-VK.api.external.memory.dma_buf.suballocated.device_only.dup
