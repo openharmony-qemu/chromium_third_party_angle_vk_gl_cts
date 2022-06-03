@@ -8,9 +8,12 @@ dEQP-VK.api.info.vulkan1p3_limits_validation.khr_maintenance4
 dEQP-VK.api.info.vulkan1p3_limits_validation.max_inline_uniform_total_size
 dEQP-VK.api.info.profiles.roadmap_2022
 dEQP-VK.api.device_drm_properties.drm_files_exist
-dEQP-VK.api.device_init.create_device_global_priority_khr
-dEQP-VK.api.device_init.create_device_global_priority_query
-dEQP-VK.api.device_init.create_device_global_priority_query_khr
+dEQP-VK.api.device_init.create_device_global_priority_khr.basic
+dEQP-VK.api.device_init.create_device_global_priority_query.basic
+dEQP-VK.api.device_init.create_device_global_priority_query_khr.basic
+dEQP-VK.api.device_init.create_device_unsupported_features.graphics_pipeline_library_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.primitives_generated_query_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.descriptor_set_host_mapping_features_valve
 dEQP-VK.api.buffer.basic.max_size
 dEQP-VK.api.buffer.basic.max_size_sparse
 dEQP-VK.api.buffer.invalid_buffer_features.vk_format_s8_uint
