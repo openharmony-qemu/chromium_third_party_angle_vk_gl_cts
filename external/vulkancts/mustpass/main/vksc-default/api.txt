@@ -38947,6 +38947,7 @@ dEQP-VKSC.api.driver_properties.name_zero_terminated
 dEQP-VKSC.api.driver_properties.info_zero_terminated
 dEQP-VKSC.api.driver_properties.conformance_version
 dEQP-VKSC.api.device_init.create_instance_name_version.basic
+dEQP-VKSC.api.device_init.create_instance_invalid_api_version.basic
 dEQP-VKSC.api.device_init.create_instance_null_appinfo.basic
 dEQP-VKSC.api.device_init.create_instance_unsupported_extensions.basic
 dEQP-VKSC.api.device_init.create_instance_extension_name_abuse.basic
