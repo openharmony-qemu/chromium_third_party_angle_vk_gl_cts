@@ -245737,7 +245737,7 @@ dEQP-VK.api.frame_boundary.sync2.single_frame_multi_submissions
 dEQP-VK.api.frame_boundary.wsi.android
 dEQP-VK.api.frame_boundary.wsi.direct_drm
 dEQP-VK.api.frame_boundary.wsi.headless
-dEQP-VK.api.frame_boundary.wsi.macos
+dEQP-VK.api.frame_boundary.wsi.metal
 dEQP-VK.api.frame_boundary.wsi.wayland
 dEQP-VK.api.frame_boundary.wsi.win32
 dEQP-VK.api.frame_boundary.wsi.xcb
@@ -292045,10 +292045,10 @@ dEQP-VK.api.image_compression_control.swapchain.headless.default
 dEQP-VK.api.image_compression_control.swapchain.headless.disabled
 dEQP-VK.api.image_compression_control.swapchain.headless.explicit
 dEQP-VK.api.image_compression_control.swapchain.headless.fixed_rate_default
-dEQP-VK.api.image_compression_control.swapchain.macos.default
-dEQP-VK.api.image_compression_control.swapchain.macos.disabled
-dEQP-VK.api.image_compression_control.swapchain.macos.explicit
-dEQP-VK.api.image_compression_control.swapchain.macos.fixed_rate_default
+dEQP-VK.api.image_compression_control.swapchain.metal.default
+dEQP-VK.api.image_compression_control.swapchain.metal.disabled
+dEQP-VK.api.image_compression_control.swapchain.metal.explicit
+dEQP-VK.api.image_compression_control.swapchain.metal.fixed_rate_default
 dEQP-VK.api.image_compression_control.swapchain.wayland.default
 dEQP-VK.api.image_compression_control.swapchain.wayland.disabled
 dEQP-VK.api.image_compression_control.swapchain.wayland.explicit
