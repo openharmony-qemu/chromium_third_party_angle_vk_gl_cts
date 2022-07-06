@@ -225445,4 +225445,5 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.101
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.1010
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.1001
-dEQP-VK.pipeline.pipeline_library.graphics_library.misc.timing.compare_link_times
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.compare_link_times
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_descriptor_set_in_monolithic_pipeline
