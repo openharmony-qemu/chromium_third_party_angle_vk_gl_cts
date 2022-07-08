@@ -209175,6 +209175,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.enable_raste
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.topology_patch
@@ -210566,6 +210567,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.enable_raster
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.topology_patch
@@ -211957,6 +211959,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.enable_rast
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.topology_patch
@@ -213348,6 +213351,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.enable_raster
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.topology_patch
@@ -214739,6 +214743,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.enable_ras
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.topology_patch
@@ -216130,6 +216135,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.enable_rast
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.topology_patch
@@ -217520,6 +217526,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.enable_raste
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.logic_op_or
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.prim_restart_enable
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.patch_control_points
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.patch_control_points_extra_pipeline
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.topology_triangle
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.topology_line
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.topology_patch
