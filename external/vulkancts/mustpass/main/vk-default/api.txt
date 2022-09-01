@@ -1901,6 +1901,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.shader_atomic_float2_f
 dEQP-VK.api.info.get_physical_device_properties2.features.vertex_attribute_divisor_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.astc_decode_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.transform_feedback_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.mesh_shader_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.acceleration_structure_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.ray_tracing_pipeline_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.ray_query_features_khr
@@ -1971,6 +1972,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.non_seamless_cube_map_
 dEQP-VK.api.info.get_physical_device_properties2.features.pipeline_robustness_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.amigo_profiling_features_sec
 dEQP-VK.api.info.get_physical_device_properties2.features.attachment_feedback_loop_layout_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.depth_clamp_zero_one_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.properties.basic
 dEQP-VK.api.info.get_physical_device_properties2.format_properties.basic
 dEQP-VK.api.info.get_physical_device_properties2.queue_family_properties.basic
@@ -42363,6 +42365,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.dedicated_allocation_
 dEQP-VK.api.device_init.create_device_unsupported_features.shading_rate_image_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.invocation_mask_features_huawei
 dEQP-VK.api.device_init.create_device_unsupported_features.mesh_shader_features_nv
+dEQP-VK.api.device_init.create_device_unsupported_features.mesh_shader_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.acceleration_structure_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_pipeline_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_query_features_khr
@@ -42451,6 +42454,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.image_processing_feat
 dEQP-VK.api.device_init.create_device_unsupported_features.tile_properties_features_qcom
 dEQP-VK.api.device_init.create_device_unsupported_features.amigo_profiling_features_sec
 dEQP-VK.api.device_init.create_device_unsupported_features.attachment_feedback_loop_layout_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.depth_clamp_zero_one_features_ext
 dEQP-VK.api.device_init.create_device_queue2.basic
 dEQP-VK.api.device_init.create_instance_device_intentional_alloc_fail.basic
 dEQP-VK.api.device_init.create_device_queue2_two_queues.basic
