@@ -199974,8 +199974,6 @@ dEQP-VKSC.api.command_buffers.record_one_time_submit_primary
 dEQP-VKSC.api.command_buffers.record_one_time_submit_secondary
 dEQP-VKSC.api.command_buffers.render_pass_continue
 dEQP-VKSC.api.command_buffers.render_pass_continue_no_fb
-dEQP-VKSC.api.command_buffers.record_simul_use_primary
-dEQP-VKSC.api.command_buffers.record_simul_use_secondary
 dEQP-VKSC.api.command_buffers.record_simul_use_secondary_one_primary
 dEQP-VKSC.api.command_buffers.record_simul_use_secondary_two_primary
 dEQP-VKSC.api.command_buffers.record_query_precise_w_flag
