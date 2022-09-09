@@ -57355,6 +57355,7 @@ dEQP-VKSC.api.copy_and_blit.core.buffer_to_depthstencil.buffer_offset_d32_sfloat
 dEQP-VKSC.api.copy_and_blit.core.buffer_to_buffer.whole
 dEQP-VKSC.api.copy_and_blit.core.buffer_to_buffer.partial
 dEQP-VKSC.api.copy_and_blit.core.buffer_to_buffer.regions
+dEQP-VKSC.api.copy_and_blit.core.buffer_to_buffer.unaligned_regions
 dEQP-VKSC.api.copy_and_blit.core.blit_image.simple_tests.whole.nearest
 dEQP-VKSC.api.copy_and_blit.core.blit_image.simple_tests.whole.r32_sfloat_nearest
 dEQP-VKSC.api.copy_and_blit.core.blit_image.simple_tests.whole.b8g8r8a8_unorm_nearest
@@ -181477,6 +181478,7 @@ dEQP-VKSC.api.copy_and_blit.dedicated_allocation.buffer_to_depthstencil.buffer_o
 dEQP-VKSC.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.whole
 dEQP-VKSC.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.partial
 dEQP-VKSC.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.regions
+dEQP-VKSC.api.copy_and_blit.dedicated_allocation.buffer_to_buffer.unaligned_regions
 dEQP-VKSC.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.whole.nearest
 dEQP-VKSC.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.whole.r32_sfloat_nearest
 dEQP-VKSC.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.whole.b8g8r8a8_unorm_nearest
