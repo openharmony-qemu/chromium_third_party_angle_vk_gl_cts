@@ -139611,6 +139611,7 @@ dEQP-VKSC.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_
 dEQP-VKSC.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_64.primitive_line
 dEQP-VKSC.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_64.primitive_point_1px
 dEQP-VKSC.pipeline.pipeline_library.multisample.sample_mask.mask_random.samples_64.primitive_point
+dEQP-VKSC.pipeline.pipeline_library.multisample.alpha_to_one.samples_1
 dEQP-VKSC.pipeline.pipeline_library.multisample.alpha_to_one.samples_2
 dEQP-VKSC.pipeline.pipeline_library.multisample.alpha_to_one.samples_4
 dEQP-VKSC.pipeline.pipeline_library.multisample.alpha_to_one.samples_8
@@ -141093,6 +141094,7 @@ dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.sampl
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_line
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_point_1px
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_point
+dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_1
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_2
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_4
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_8
@@ -304900,6 +304902,7 @@ dEQP-VKSC.pipeline.monolithic.multisample.sample_mask.mask_random.samples_64.pri
 dEQP-VKSC.pipeline.monolithic.multisample.sample_mask.mask_random.samples_64.primitive_line
 dEQP-VKSC.pipeline.monolithic.multisample.sample_mask.mask_random.samples_64.primitive_point_1px
 dEQP-VKSC.pipeline.monolithic.multisample.sample_mask.mask_random.samples_64.primitive_point
+dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_one.samples_1
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_one.samples_2
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_one.samples_4
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_one.samples_8
@@ -306382,6 +306385,7 @@ dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.sample_mask
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_line
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_point_1px
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_point
+dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.alpha_to_one.samples_1
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.alpha_to_one.samples_2
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.alpha_to_one.samples_4
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.alpha_to_one.samples_8
@@ -469790,6 +469794,7 @@ dEQP-VKSC.pipeline.fast_linked_library.multisample.sample_mask.mask_random.sampl
 dEQP-VKSC.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples_64.primitive_line
 dEQP-VKSC.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples_64.primitive_point_1px
 dEQP-VKSC.pipeline.fast_linked_library.multisample.sample_mask.mask_random.samples_64.primitive_point
+dEQP-VKSC.pipeline.fast_linked_library.multisample.alpha_to_one.samples_1
 dEQP-VKSC.pipeline.fast_linked_library.multisample.alpha_to_one.samples_2
 dEQP-VKSC.pipeline.fast_linked_library.multisample.alpha_to_one.samples_4
 dEQP-VKSC.pipeline.fast_linked_library.multisample.alpha_to_one.samples_8
@@ -471272,6 +471277,7 @@ dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.sa
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_line
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_point_1px
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.sample_mask.mask_random.samples_64.primitive_point
+dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_1
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_2
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_4
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.alpha_to_one.samples_8
