@@ -1715,7 +1715,6 @@ dEQP-VK.api.device_init.create_device_unsupported_features.depth_clamp_zero_one_
 dEQP-VK.api.device_init.create_device_unsupported_features.address_binding_report_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.optical_flow_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.fault_features_ext
-dEQP-VK.api.device_init.create_device_unsupported_features.shader_core_builtins_features_arm
 dEQP-VK.api.device_init.create_device_queue2_two_queues.basic
 dEQP-VK.api.device_init.create_device_queue2_all_protected.basic
 dEQP-VK.api.device_init.create_device_queue2_all_unprotected.basic
