@@ -1,6 +1,5 @@
 dEQP-VK.info.device_memory_budget
 dEQP-VK.info.device_mandatory_features
-dEQP-VK.api.smoke.triangle_ext_structs
 dEQP-VK.api.info.vulkan1p2.features
 dEQP-VK.api.info.vulkan1p2.properties
 dEQP-VK.api.info.vulkan1p2.feature_extensions_consistency
