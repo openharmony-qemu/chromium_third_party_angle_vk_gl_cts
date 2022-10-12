@@ -212395,6 +212395,8 @@ dEQP-VK.pipeline.monolithic.framebuffer_attachment.diff_attachments_2d_32x32_48x
 dEQP-VK.pipeline.monolithic.framebuffer_attachment.diff_attachments_2d_32x32_39x41_ms
 dEQP-VK.pipeline.monolithic.framebuffer_attachment.diff_attachments_2d_19x27_32x32_ms
 dEQP-VK.pipeline.monolithic.framebuffer_attachment.resolve_input_same_attachment
+dEQP-VK.pipeline.monolithic.framebuffer_attachment.multi_attachments_not_exported_2d_64x64_64x64
+dEQP-VK.pipeline.monolithic.framebuffer_attachment.multi_attachments_not_exported_2d_64x64_64x64_ms
 dEQP-VK.pipeline.monolithic.render_to_image.core.1d.small.r8g8b8a8_unorm
 dEQP-VK.pipeline.monolithic.render_to_image.core.1d.small.r32_uint
 dEQP-VK.pipeline.monolithic.render_to_image.core.1d.small.r16g16_sint
