@@ -41680,6 +41680,7 @@ dEQP-VK.api.granularity.in_render_pass.d24_unorm_s8_uint
 dEQP-VK.api.granularity.in_render_pass.d32_sfloat_s8_uint
 dEQP-VK.api.get_memory_commitment.memory_commitment
 dEQP-VK.api.get_memory_commitment.memory_commitment_allocate_only
+dEQP-VK.api.get_device_proc_addr.non_enabled
 dEQP-VK.api.format_feature_flags2.r4g4_unorm_pack8
 dEQP-VK.api.format_feature_flags2.r4g4b4a4_unorm_pack16
 dEQP-VK.api.format_feature_flags2.b4g4r4a4_unorm_pack16
