@@ -287670,6 +287670,9 @@ dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_geom
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_tess
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_tess_include_geom
+dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards
+dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_holes
+dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.4
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.0_1111
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.0_112

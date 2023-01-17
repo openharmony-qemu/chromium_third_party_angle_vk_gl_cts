@@ -171006,6 +171006,9 @@ dEQP-VKSC.pipeline.pipeline_library.color_write_enable_maxa.cwe_after_bind.attac
 dEQP-VKSC.pipeline.pipeline_library.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VKSC.pipeline.pipeline_library.misc.implicit_primitive_id
 dEQP-VKSC.pipeline.pipeline_library.misc.implicit_primitive_id_with_tessellation
+dEQP-VKSC.pipeline.pipeline_library.misc.descriptor_bind_test_backwards
+dEQP-VKSC.pipeline.pipeline_library.misc.descriptor_bind_test_holes
+dEQP-VKSC.pipeline.pipeline_library.misc.descriptor_bind_test_backwards_holes
 dEQP-VKSC.pipeline.monolithic.dynamic_control_points.change_output
 dEQP-VKSC.pipeline.monolithic.dynamic_control_points.change_winding
 dEQP-VKSC.pipeline.monolithic.dynamic_control_points.change_output_winding
@@ -342655,6 +342658,9 @@ dEQP-VKSC.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments
 dEQP-VKSC.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
+dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_backwards
+dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_holes
+dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VKSC.pipeline.fast_linked_library.dynamic_control_points.change_output
 dEQP-VKSC.pipeline.fast_linked_library.dynamic_control_points.change_winding
 dEQP-VKSC.pipeline.fast_linked_library.dynamic_control_points.change_output_winding
@@ -513663,3 +513669,6 @@ dEQP-VKSC.pipeline.fast_linked_library.color_write_enable_maxa.cwe_after_bind.at
 dEQP-VKSC.pipeline.fast_linked_library.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VKSC.pipeline.fast_linked_library.misc.implicit_primitive_id
 dEQP-VKSC.pipeline.fast_linked_library.misc.implicit_primitive_id_with_tessellation
+dEQP-VKSC.pipeline.fast_linked_library.misc.descriptor_bind_test_backwards
+dEQP-VKSC.pipeline.fast_linked_library.misc.descriptor_bind_test_holes
+dEQP-VKSC.pipeline.fast_linked_library.misc.descriptor_bind_test_backwards_holes
