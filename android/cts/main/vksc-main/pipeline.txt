@@ -74049,6 +74049,7 @@ dEQP-VKSC.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_o
 dEQP-VKSC.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_offset.reverse_order_64_compute_first
 dEQP-VKSC.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_graphics_first
 dEQP-VKSC.pipeline.pipeline_library.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_compute_first
+dEQP-VKSC.pipeline.pipeline_library.dynamic_vertex_attribute.nonsequential
 dEQP-VKSC.pipeline.pipeline_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.1x1
 dEQP-VKSC.pipeline.pipeline_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.2x1
 dEQP-VKSC.pipeline.pipeline_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.32x1
@@ -250099,6 +250100,7 @@ dEQP-VKSC.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.
 dEQP-VKSC.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.reverse_order_64_compute_first
 dEQP-VKSC.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_graphics_first
 dEQP-VKSC.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_compute_first
+dEQP-VKSC.pipeline.monolithic.dynamic_vertex_attribute.nonsequential
 dEQP-VKSC.pipeline.monolithic.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.1x1
 dEQP-VKSC.pipeline.monolithic.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.2x1
 dEQP-VKSC.pipeline.monolithic.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.32x1
@@ -426232,6 +426234,7 @@ dEQP-VKSC.pipeline.fast_linked_library.dynamic_offset.combined_descriptors.singl
 dEQP-VKSC.pipeline.fast_linked_library.dynamic_offset.combined_descriptors.single_offset.reverse_order_64_compute_first
 dEQP-VKSC.pipeline.fast_linked_library.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_graphics_first
 dEQP-VKSC.pipeline.fast_linked_library.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_compute_first
+dEQP-VKSC.pipeline.fast_linked_library.dynamic_vertex_attribute.nonsequential
 dEQP-VKSC.pipeline.fast_linked_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.1x1
 dEQP-VKSC.pipeline.fast_linked_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.2x1
 dEQP-VKSC.pipeline.fast_linked_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.32x1

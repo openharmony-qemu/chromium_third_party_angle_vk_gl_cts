@@ -74390,6 +74390,7 @@ dEQP-VK.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.re
 dEQP-VK.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.reverse_order_64_compute_first
 dEQP-VK.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_graphics_first
 dEQP-VK.pipeline.monolithic.dynamic_offset.combined_descriptors.single_offset.reverse_order_256_compute_first
+dEQP-VK.pipeline.monolithic.dynamic_vertex_attribute.nonsequential
 dEQP-VK.pipeline.monolithic.early_destroy.cache
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache
 dEQP-VK.pipeline.monolithic.early_destroy.cache_destroy_layout
