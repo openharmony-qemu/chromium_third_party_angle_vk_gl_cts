@@ -287643,7 +287643,6 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.fast.0_01_11_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.1_01_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.1_1_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.1_1_1_1
-dEQP-VK.pipeline.pipeline_library.graphics_library.fast.0_1_1_1_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1111
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_112
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_121
@@ -287657,7 +287656,6 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_01_11_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_01_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_1_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.1_1_1_1
-dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1_1_1_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.fast_linked
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.independent_pipeline_layout_sets.link_opt_union_handle
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.1
