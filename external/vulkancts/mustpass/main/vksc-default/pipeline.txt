@@ -146503,6 +146503,10 @@ dEQP-VKSC.pipeline.pipeline_library.multisample.mixed_count.64_16
 dEQP-VKSC.pipeline.pipeline_library.multisample.mixed_count.64_16_unused
 dEQP-VKSC.pipeline.pipeline_library.multisample.mixed_count.64_32
 dEQP-VKSC.pipeline.pipeline_library.multisample.mixed_count.64_32_unused
+dEQP-VKSC.pipeline.pipeline_library.multisample.z_export.depth_static_atc
+dEQP-VKSC.pipeline.pipeline_library.multisample.z_export.stencil_static_atc
+dEQP-VKSC.pipeline.pipeline_library.multisample.z_export.sample_mask_static_atc
+dEQP-VKSC.pipeline.pipeline_library.multisample.z_export.write_all_static_atc
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_triangle
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_line
 dEQP-VKSC.pipeline.pipeline_library.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_point_1px
@@ -322783,6 +322787,10 @@ dEQP-VKSC.pipeline.monolithic.multisample.mixed_count.64_16
 dEQP-VKSC.pipeline.monolithic.multisample.mixed_count.64_16_unused
 dEQP-VKSC.pipeline.monolithic.multisample.mixed_count.64_32
 dEQP-VKSC.pipeline.monolithic.multisample.mixed_count.64_32_unused
+dEQP-VKSC.pipeline.monolithic.multisample.z_export.depth_static_atc
+dEQP-VKSC.pipeline.monolithic.multisample.z_export.stencil_static_atc
+dEQP-VKSC.pipeline.monolithic.multisample.z_export.sample_mask_static_atc
+dEQP-VKSC.pipeline.monolithic.multisample.z_export.write_all_static_atc
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_triangle
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_line
 dEQP-VKSC.pipeline.monolithic.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_point_1px
@@ -498664,6 +498672,10 @@ dEQP-VKSC.pipeline.fast_linked_library.multisample.mixed_count.64_16
 dEQP-VKSC.pipeline.fast_linked_library.multisample.mixed_count.64_16_unused
 dEQP-VKSC.pipeline.fast_linked_library.multisample.mixed_count.64_32
 dEQP-VKSC.pipeline.fast_linked_library.multisample.mixed_count.64_32_unused
+dEQP-VKSC.pipeline.fast_linked_library.multisample.z_export.depth_static_atc
+dEQP-VKSC.pipeline.fast_linked_library.multisample.z_export.stencil_static_atc
+dEQP-VKSC.pipeline.fast_linked_library.multisample.z_export.sample_mask_static_atc
+dEQP-VKSC.pipeline.fast_linked_library.multisample.z_export.write_all_static_atc
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_triangle
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_line
 dEQP-VKSC.pipeline.fast_linked_library.multisample_with_fragment_shading_rate.raster_samples.samples_2.primitive_point_1px
