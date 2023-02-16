@@ -56911,3 +56911,7 @@ dEQP-VK.synchronization.basic.timeline_semaphore.one_queue
 dEQP-VK.synchronization.basic.timeline_semaphore.multi_queue
 dEQP-VK.synchronization.basic.timeline_semaphore.chain
 dEQP-VK.synchronization.basic.timeline_semaphore.two_threads
+dEQP-VK.synchronization.basic.timeline_semaphore.wait_for_any_current_value
+dEQP-VK.synchronization.basic.timeline_semaphore.wait_for_any_lesser_value
+dEQP-VK.synchronization.basic.timeline_semaphore.wait_for_all_current_value
+dEQP-VK.synchronization.basic.timeline_semaphore.wait_for_all_lesser_value
