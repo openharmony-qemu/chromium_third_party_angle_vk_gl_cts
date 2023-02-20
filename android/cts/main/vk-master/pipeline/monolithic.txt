@@ -301304,6 +301304,14 @@ dEQP-VK.pipeline.monolithic.shader_module_identifier.pipeline_from_id.ray_tracin
 dEQP-VK.pipeline.monolithic.shader_module_identifier.pipeline_from_id.ray_tracing_libs.4_variants.use_spec_constants.use_pipeline_cache.pseudorandom_id.no_exec_properties.rgen_isec_ahit_chit_miss
 dEQP-VK.pipeline.monolithic.shader_module_identifier.pipeline_from_id.ray_tracing_libs.4_variants.use_spec_constants.use_pipeline_cache.pseudorandom_id.no_exec_properties.rgen_call
 dEQP-VK.pipeline.monolithic.shader_module_identifier.hlsl_tessellation.test
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness.storage
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness.uniform
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness.vertex_input
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness.image
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness2.storage
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness2.uniform
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness2.vertex_input
+dEQP-VK.pipeline.monolithic.pipeline_cache.robustness2.image
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments3_more0
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments3_more1
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments3_more2
