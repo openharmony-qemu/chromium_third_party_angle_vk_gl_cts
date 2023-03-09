@@ -276502,6 +276502,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.line_stipple
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.2_viewports_switch
@@ -278012,6 +278013,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.line_stipple_enab
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.2_viewports_switch
@@ -279511,6 +279513,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.line_stippl
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.2_viewports_switch
@@ -281010,6 +281013,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.line_stipple_
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.2_viewports_switch
@@ -282509,6 +282513,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.line_stipp
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.2_viewports_switch
@@ -284000,6 +284005,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.line_stippl
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.2_viewports_switch
@@ -285490,6 +285496,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.line_stipple
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.line_stipple_params
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.line_raster_mode_bresenham
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.line_raster_mode_rectangular
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.line_raster_mode_smooth
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.2_viewports
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.1_full_viewport
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.2_viewports_switch
