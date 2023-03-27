@@ -298922,6 +298922,7 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.fast.0_01_11_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.1_01_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.1_1_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.1_1_1_1
+dEQP-VK.pipeline.pipeline_library.graphics_library.fast.maintenance5
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1111
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_112
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_121
