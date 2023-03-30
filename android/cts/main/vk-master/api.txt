@@ -1,5 +1,6 @@
 dEQP-VK.api.version_check.version
 dEQP-VK.api.version_check.entry_points
+dEQP-VK.api.version_check.unavailable_entry_points
 dEQP-VK.api.tooling_info.validate_getter
 dEQP-VK.api.tooling_info.validate_tools_properties
 dEQP-VK.api.smoke.create_sampler

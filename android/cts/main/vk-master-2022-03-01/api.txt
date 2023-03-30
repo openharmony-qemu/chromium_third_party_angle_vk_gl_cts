@@ -1,3 +1,4 @@
+dEQP-VK.api.version_check.unavailable_entry_points
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_compute_pipeline_construction
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_graphics_pipeline_construction
 dEQP-VK.api.pipeline.pipeline_invalid_pointers_unused_structs.graphics
