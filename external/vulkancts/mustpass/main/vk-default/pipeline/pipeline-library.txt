@@ -299447,6 +299447,7 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.bind_null_descriptor_set.1001
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.compare_link_times
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_descriptor_set_in_monolithic_pipeline
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_rendering_create_info
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.non_graphics.shader_module_info_comp
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.non_graphics.shader_module_info_rt
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.non_graphics.shader_module_info_rt_lib
