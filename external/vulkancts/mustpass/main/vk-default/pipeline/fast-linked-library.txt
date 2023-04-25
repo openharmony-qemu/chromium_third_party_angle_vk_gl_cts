@@ -74126,6 +74126,7 @@ dEQP-VK.pipeline.fast_linked_library.early_destroy.cache
 dEQP-VK.pipeline.fast_linked_library.early_destroy.no_cache
 dEQP-VK.pipeline.fast_linked_library.early_destroy.cache_destroy_layout
 dEQP-VK.pipeline.fast_linked_library.early_destroy.no_cache_destroy_layout
+dEQP-VK.pipeline.fast_linked_library.early_destroy.no_cache_destroy_layout_maintenance5
 dEQP-VK.pipeline.fast_linked_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.1x1
 dEQP-VK.pipeline.fast_linked_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.2x1
 dEQP-VK.pipeline.fast_linked_library.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.32x1

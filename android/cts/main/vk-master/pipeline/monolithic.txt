@@ -74395,6 +74395,7 @@ dEQP-VK.pipeline.monolithic.early_destroy.cache
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache
 dEQP-VK.pipeline.monolithic.early_destroy.cache_destroy_layout
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout
+dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout_maintenance5
 dEQP-VK.pipeline.monolithic.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.1x1
 dEQP-VK.pipeline.monolithic.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.2x1
 dEQP-VK.pipeline.monolithic.image.suballocation.sampling_type.combined.view_type.1d.format.r4g4_unorm_pack8.count_1.size.32x1
@@ -246235,6 +246236,9 @@ dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding0_numcalls1_input_at
 dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding0_numcalls2_input_attachment
 dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding1_numcalls2_input_attachment
 dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding3_numcalls2_input_attachment
+dEQP-VK.pipeline.monolithic.push_descriptor.graphics.maintenance5_unifor_texel_buffer
+dEQP-VK.pipeline.monolithic.push_descriptor.graphics.maintenance5_storage_texel_buffer
+dEQP-VK.pipeline.monolithic.push_descriptor.graphics.maintenance5_uniform_buffer
 dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding0_numcalls1_uniform_buffer
 dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding0_numcalls2_uniform_buffer
 dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding1_numcalls2_uniform_buffer
@@ -301607,6 +301611,8 @@ dEQP-VK.pipeline.monolithic.attachment_feedback_loop_layout.sampler.sampled_imag
 dEQP-VK.pipeline.monolithic.attachment_feedback_loop_layout.sampler.sampled_image.image_type.cube_array.format.d32_sfloat_s8_uint_depth_read
 dEQP-VK.pipeline.monolithic.attachment_feedback_loop_layout.sampler.sampled_image.image_type.cube_array.format.d32_sfloat_s8_uint_stencil_read
 dEQP-VK.pipeline.monolithic.attachment_feedback_loop_layout.sampler.sampled_image.image_type.cube_array.format.s8_uint_stencil_read
+dEQP-VK.pipeline.monolithic.attachment_feedback_loop_layout.sampler.misc.maintenance5_color_attachment
+dEQP-VK.pipeline.monolithic.attachment_feedback_loop_layout.sampler.misc.maintenance5_ds_attachment
 dEQP-VK.pipeline.monolithic.shader_module_identifier.properties.constant_algorithm_uuid
 dEQP-VK.pipeline.monolithic.shader_module_identifier.constant_identifiers.compute.1_variants.no_spec_constants.module_id.same_device.comp
 dEQP-VK.pipeline.monolithic.shader_module_identifier.constant_identifiers.compute.1_variants.no_spec_constants.module_id.different_devices.comp
@@ -302897,6 +302903,8 @@ dEQP-VK.pipeline.monolithic.shader_module_identifier.pipeline_from_id.ray_tracin
 dEQP-VK.pipeline.monolithic.shader_module_identifier.pipeline_from_id.ray_tracing_libs.4_variants.use_spec_constants.use_pipeline_cache.pseudorandom_id.no_exec_properties.rgen_isec_ahit_chit_miss
 dEQP-VK.pipeline.monolithic.shader_module_identifier.pipeline_from_id.ray_tracing_libs.4_variants.use_spec_constants.use_pipeline_cache.pseudorandom_id.no_exec_properties.rgen_call
 dEQP-VK.pipeline.monolithic.shader_module_identifier.hlsl_tessellation.test
+dEQP-VK.pipeline.monolithic.shader_module_identifier.misc.capture_statistics_maintenance5
+dEQP-VK.pipeline.monolithic.shader_module_identifier.misc.capture_internal_representations_maintenance5
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments3_more0
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments3_more1
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments3_more2
@@ -303049,6 +303057,7 @@ dEQP-VK.pipeline.monolithic.bind_buffers_2.maintenance5.robust.ver2.triangle_str
 dEQP-VK.pipeline.monolithic.bind_buffers_2.maintenance5.robust.ver2.triangle_strip.buffers9.stride_offset_rnd654.true_size.beyond_buffer
 dEQP-VK.pipeline.monolithic.bind_buffers_2.maintenance5.robust.ver2.triangle_strip.buffers9.stride_offset_rnd654.true_size.beyond_size
 dEQP-VK.pipeline.monolithic.derivative.compute.derivative_by_handle
+dEQP-VK.pipeline.monolithic.derivative.compute.derivative_by_handle_maintenance5
 dEQP-VK.pipeline.monolithic.derivative.compute.derivative_by_index
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.single_pipeline_no_compile
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.batch_pipelines_early_return
@@ -303058,6 +303067,7 @@ dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_batch_pipelines_explicit_cache
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_batch_pipelines_no_cache
 dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.duplicate_batch_pipelines_derivative_index
+dEQP-VK.pipeline.monolithic.creation_cache_control.graphics_pipelines.batch_pipelines_early_return_maintenance5
 dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.single_pipeline_no_compile
 dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.batch_pipelines_early_return
 dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.duplicate_single_recreate_explicit_caching
@@ -303066,6 +303076,7 @@ dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.duplicate_s
 dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.duplicate_batch_pipelines_explicit_cache
 dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.duplicate_batch_pipelines_no_cache
 dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.duplicate_batch_pipelines_derivative_index
+dEQP-VK.pipeline.monolithic.creation_cache_control.compute_pipelines.batch_pipelines_early_return_maintenance5
 dEQP-VK.pipeline.monolithic.sliced_view_of_3d_image.basic.load.comp.offset_0
 dEQP-VK.pipeline.monolithic.sliced_view_of_3d_image.basic.load.comp.offset_0_with_sampling
 dEQP-VK.pipeline.monolithic.sliced_view_of_3d_image.basic.load.comp.offset_1

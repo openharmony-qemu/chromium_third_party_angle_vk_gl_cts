@@ -42657,6 +42657,7 @@ dEQP-VK.api.external.memory.opaque_fd.suballocated.host_visible.dup3
 dEQP-VK.api.external.memory.opaque_fd.suballocated.host_visible.send_over_socket
 dEQP-VK.api.external.memory.opaque_fd.suballocated.host_visible.export_multiple_times
 dEQP-VK.api.external.memory.opaque_fd.suballocated.buffer.info
+dEQP-VK.api.external.memory.opaque_fd.suballocated.buffer.maintenance5
 dEQP-VK.api.external.memory.opaque_fd.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.opaque_fd.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.opaque_fd.suballocated.buffer.export_import_bind_bind
@@ -42679,6 +42680,7 @@ dEQP-VK.api.external.memory.opaque_fd.dedicated.host_visible.dup3
 dEQP-VK.api.external.memory.opaque_fd.dedicated.host_visible.send_over_socket
 dEQP-VK.api.external.memory.opaque_fd.dedicated.host_visible.export_multiple_times
 dEQP-VK.api.external.memory.opaque_fd.dedicated.buffer.info
+dEQP-VK.api.external.memory.opaque_fd.dedicated.buffer.maintenance5
 dEQP-VK.api.external.memory.opaque_fd.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.opaque_fd.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.opaque_fd.dedicated.buffer.export_import_bind_bind
@@ -42693,6 +42695,7 @@ dEQP-VK.api.external.memory.opaque_win32.suballocated.host_visible.create_win32
 dEQP-VK.api.external.memory.opaque_win32.suballocated.host_visible.import_twice
 dEQP-VK.api.external.memory.opaque_win32.suballocated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.opaque_win32.suballocated.buffer.info
+dEQP-VK.api.external.memory.opaque_win32.suballocated.buffer.maintenance5
 dEQP-VK.api.external.memory.opaque_win32.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.opaque_win32.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.opaque_win32.suballocated.buffer.export_import_bind_bind
@@ -42707,6 +42710,7 @@ dEQP-VK.api.external.memory.opaque_win32.dedicated.host_visible.create_win32
 dEQP-VK.api.external.memory.opaque_win32.dedicated.host_visible.import_twice
 dEQP-VK.api.external.memory.opaque_win32.dedicated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.opaque_win32.dedicated.buffer.info
+dEQP-VK.api.external.memory.opaque_win32.dedicated.buffer.maintenance5
 dEQP-VK.api.external.memory.opaque_win32.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.opaque_win32.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.opaque_win32.dedicated.buffer.export_import_bind_bind
@@ -42721,6 +42725,7 @@ dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.host_visible.create_wi
 dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.host_visible.import_twice
 dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.buffer.info
+dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.buffer.maintenance5
 dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.opaque_win32_kmt.suballocated.buffer.export_import_bind_bind
@@ -42735,6 +42740,7 @@ dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.host_visible.create_win32
 dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.host_visible.import_twice
 dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.buffer.info
+dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.buffer.maintenance5
 dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.opaque_win32_kmt.dedicated.buffer.export_import_bind_bind
@@ -42747,6 +42753,7 @@ dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.device_only.imp
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.host_visible.import_twice
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.info
+dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.maintenance5
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.export_import_bind_bind
@@ -42759,6 +42766,7 @@ dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.device_only.import
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.host_visible.import_twice
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.buffer.info
+dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.buffer.maintenance5
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.buffer.export_import_bind_bind
@@ -42795,6 +42803,7 @@ dEQP-VK.api.external.memory.dma_buf.suballocated.host_visible.send_over_socket
 dEQP-VK.api.external.memory.dma_buf.suballocated.host_visible.export_multiple_times
 dEQP-VK.api.external.memory.dma_buf.suballocated.host_visible.fd_properties
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.info
+dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.maintenance5
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.dma_buf.suballocated.buffer.export_import_bind_bind
@@ -42819,6 +42828,7 @@ dEQP-VK.api.external.memory.dma_buf.dedicated.host_visible.send_over_socket
 dEQP-VK.api.external.memory.dma_buf.dedicated.host_visible.export_multiple_times
 dEQP-VK.api.external.memory.dma_buf.dedicated.host_visible.fd_properties
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.info
+dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.maintenance5
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.dma_buf.dedicated.buffer.export_import_bind_bind
@@ -42831,6 +42841,7 @@ dEQP-VK.api.external.memory.zircon_vmo.suballocated.device_only.import_multiple_
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.host_visible.import_twice
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.buffer.info
+dEQP-VK.api.external.memory.zircon_vmo.suballocated.buffer.maintenance5
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.buffer.export_import_bind_bind
@@ -42843,6 +42854,7 @@ dEQP-VK.api.external.memory.zircon_vmo.dedicated.device_only.import_multiple_tim
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.host_visible.import_twice
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.host_visible.import_multiple_times
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.buffer.info
+dEQP-VK.api.external.memory.zircon_vmo.dedicated.buffer.maintenance5
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.buffer.export_import_bind_bind
