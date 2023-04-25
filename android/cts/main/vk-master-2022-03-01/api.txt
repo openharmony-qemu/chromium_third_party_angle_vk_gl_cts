@@ -3,6 +3,16 @@ dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_compute_pipeline_con
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_graphics_pipeline_construction
 dEQP-VK.api.pipeline.pipeline_invalid_pointers_unused_structs.graphics
 dEQP-VK.api.pipeline.pipeline_invalid_pointers_unused_structs.compute
+dEQP-VK.api.maintenance5.format.device_format_props
+dEQP-VK.api.maintenance5.format.device_format_props2
+dEQP-VK.api.maintenance5.format.image_format_props
+dEQP-VK.api.maintenance5.format.image_format_props2
+dEQP-VK.api.maintenance5.format.sparse_image_format_props
+dEQP-VK.api.maintenance5.format.sparse_image_format_props2
+dEQP-VK.api.maintenance5.flags.image_format_props
+dEQP-VK.api.maintenance5.flags.image_format_props2
+dEQP-VK.api.maintenance5.flags.sparse_image_format_props
+dEQP-VK.api.maintenance5.flags.sparse_image_format_props2
 dEQP-VK.api.invariance.memory_requirements_matching
 dEQP-VK.api.info.extension_core_versions.extension_core_versions
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance5_features_khr
