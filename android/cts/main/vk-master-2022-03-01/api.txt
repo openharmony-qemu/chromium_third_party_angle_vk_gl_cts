@@ -2468,6 +2468,9 @@ dEQP-VK.api.external.semaphore.zircon_event.signal_wait_import_permanent
 dEQP-VK.api.external.semaphore.zircon_event.export_signal_import_wait_permanent
 dEQP-VK.api.external.semaphore.zircon_event.export_import_signal_wait_permanent
 dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r8_unorm
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r16_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r16g16_uint
+dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r10x6g10x6b10x6a10x6_unorm_4pack16
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.device_only.import_twice
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.device_only.import_multiple_times
 dEQP-VK.api.external.memory.zircon_vmo.suballocated.host_visible.import_twice
