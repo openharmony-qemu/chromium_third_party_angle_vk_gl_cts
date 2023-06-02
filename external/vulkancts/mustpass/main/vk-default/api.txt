@@ -51394,6 +51394,10 @@ dEQP-VK.api.external.fence.opaque_win32_kmt.transference_permanent
 dEQP-VK.api.external.fence.opaque_win32_kmt.signal_wait_import_permanent
 dEQP-VK.api.external.fence.opaque_win32_kmt.export_signal_import_wait_permanent
 dEQP-VK.api.external.fence.opaque_win32_kmt.export_import_signal_wait_permanent
+dEQP-VK.api.extension_duplicates.instance.by_pointers
+dEQP-VK.api.extension_duplicates.instance.by_names
+dEQP-VK.api.extension_duplicates.device.by_pointers
+dEQP-VK.api.extension_duplicates.device.by_names
 dEQP-VK.api.driver_properties.driver_id_match
 dEQP-VK.api.driver_properties.name_is_not_empty
 dEQP-VK.api.driver_properties.name_zero_terminated

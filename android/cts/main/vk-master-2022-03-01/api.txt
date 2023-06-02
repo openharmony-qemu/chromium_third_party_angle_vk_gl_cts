@@ -10762,6 +10762,10 @@ dEQP-VK.api.external.memory.zircon_vmo.dedicated.image.info
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.image.bind_export_import_bind
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.image.export_bind_import_bind
 dEQP-VK.api.external.memory.zircon_vmo.dedicated.image.export_import_bind_bind
+dEQP-VK.api.extension_duplicates.instance.by_pointers
+dEQP-VK.api.extension_duplicates.instance.by_names
+dEQP-VK.api.extension_duplicates.device.by_pointers
+dEQP-VK.api.extension_duplicates.device.by_names
 dEQP-VK.api.device_init.create_device_global_priority_khr.basic
 dEQP-VK.api.device_init.create_device_global_priority_query.basic
 dEQP-VK.api.device_init.create_device_global_priority_query_khr.basic
