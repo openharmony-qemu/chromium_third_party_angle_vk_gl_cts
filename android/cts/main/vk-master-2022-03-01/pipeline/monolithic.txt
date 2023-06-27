@@ -103672,6 +103672,11 @@ dEQP-VK.pipeline.monolithic.sampler.border_swizzle.d32_sfloat_s8_uint_stencil.rg
 dEQP-VK.pipeline.monolithic.sampler.border_swizzle.d32_sfloat_s8_uint_stencil.rgb0.custom.gather_2.with_swizzle_hint
 dEQP-VK.pipeline.monolithic.sampler.border_swizzle.d32_sfloat_s8_uint_stencil.rgb0.custom.gather_3.no_swizzle_hint
 dEQP-VK.pipeline.monolithic.sampler.border_swizzle.d32_sfloat_s8_uint_stencil.rgb0.custom.gather_3.with_swizzle_hint
+dEQP-VK.pipeline.monolithic.sampler.max_sampler_lod_bias.sampler_bias
+dEQP-VK.pipeline.monolithic.sampler.max_sampler_lod_bias.sampler_minlod
+dEQP-VK.pipeline.monolithic.sampler.max_sampler_lod_bias.shader_lod
+dEQP-VK.pipeline.monolithic.sampler.max_sampler_lod_bias.shader_bias
+dEQP-VK.pipeline.monolithic.sampler.max_sampler_lod_bias.view_minlod
 dEQP-VK.pipeline.monolithic.image_view.view_type.1d.format.r10x6g10x6b10x6a10x6_unorm_4pack16.component_swizzle.r_g_b_a
 dEQP-VK.pipeline.monolithic.image_view.view_type.1d.format.r10x6g10x6b10x6a10x6_unorm_4pack16.component_swizzle.g_b_a_r
 dEQP-VK.pipeline.monolithic.image_view.view_type.1d.format.r10x6g10x6b10x6a10x6_unorm_4pack16.component_swizzle.b_a_r_g
