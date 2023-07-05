@@ -131813,6 +131813,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.misc.sample_shading_dynamic_sample_count
 dEQP-VK.pipeline.monolithic.color_write_enable.red_channel.cmd_buffer_start.enable_all
 dEQP-VK.pipeline.monolithic.color_write_enable.red_channel.cmd_buffer_start.enable_first
 dEQP-VK.pipeline.monolithic.color_write_enable.red_channel.cmd_buffer_start.enable_second
