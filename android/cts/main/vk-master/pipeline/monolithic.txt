@@ -275403,6 +275403,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.null_rasteri
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.cmd_buffer_start.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.cull_front
@@ -276924,6 +276925,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.null_rasterizatio
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_draw.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.cull_front
@@ -278441,6 +278443,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.null_raster
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.between_pipelines.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.cull_front
@@ -279958,6 +279961,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.null_rasteriz
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.after_pipelines.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.cull_front
@@ -281475,6 +281479,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.null_raste
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.before_good_static.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.cull_front
@@ -282983,6 +282988,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.null_raster
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_dynamic.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.cull_front
@@ -284480,6 +284486,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.null_rasteri
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.two_draws_static.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.cull_front
@@ -285967,6 +285974,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.cmd_buffer_start.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.cull_front
@@ -287454,6 +287462,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.null_
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_draw.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.cull_front
@@ -288937,6 +288946,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.between_pipelines.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.cull_front
@@ -290420,6 +290430,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.n
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.after_pipelines.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.cull_front
@@ -291903,6 +291914,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_stati
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.before_good_static.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.cull_front
@@ -293378,6 +293390,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_dynamic.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.cull_none
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.cull_back
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.cull_front
@@ -294850,6 +294863,7 @@ dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.null_multisample_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.null_depth_stencil_state
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.null_color_blend_state
+dEQP-VK.pipeline.monolithic.extended_dynamic_state.mesh_shader.two_draws_static.sample_shading_sample_count
 dEQP-VK.pipeline.monolithic.extended_dynamic_state.misc.sample_shading_dynamic_sample_count
 dEQP-VK.pipeline.monolithic.no_position.implicit_declarations.basic.single_view.v0
 dEQP-VK.pipeline.monolithic.no_position.implicit_declarations.basic.single_view.v1
