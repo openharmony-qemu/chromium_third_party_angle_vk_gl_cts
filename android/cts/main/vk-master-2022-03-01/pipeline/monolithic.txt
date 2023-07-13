@@ -134247,6 +134247,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_0.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.packed.with_memory_offset.static
@@ -134255,6 +134259,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_1.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.packed.with_memory_offset.static
@@ -134263,6 +134271,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_2.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.packed.with_memory_offset.static
@@ -134271,6 +134283,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_3.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.packed.with_memory_offset.static
@@ -134279,6 +134295,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_4.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.packed.with_memory_offset.static
@@ -134287,6 +134307,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_5.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.packed.with_memory_offset.static
@@ -134295,6 +134319,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_6.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.packed.with_memory_offset.static
@@ -134303,6 +134331,10 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.padded.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.padded.with_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.padded.with_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.overlapping.no_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.overlapping.no_memory_offset.dynamic
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.overlapping.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.input_attribute_offset.vec2.offset_7.overlapping.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_0.packed.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_0.packed.no_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_0.packed.with_memory_offset.static
