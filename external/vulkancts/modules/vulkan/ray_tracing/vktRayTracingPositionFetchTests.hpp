@@ -1,10 +1,11 @@
-#ifndef _VKTVIDEOPICTUREUTILS_HPP
-#define _VKTVIDEOPICTUREUTILS_HPP
-/*------------------------------------------------------------------------
+#ifndef _VKTRAYTRACINGPOSITIONFETCHTESTS_HPP
+#define _VKTRAYTRACINGPOSITIONFETCHTESTS_HPP
+/*-------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright (c) 2021 The Khronos Group Inc.
+ * Copyright (c) 2022 The Khronos Group Inc.
+ * Copyright (c) 2022 NVIDIA Corporation.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,35 +21,20 @@
  *
  *//*!
  * \file
- * \brief Video Encoding and Decoding Picture Utility Functions
+ * \brief Ray Tracing Position Fetch Tests
  *//*--------------------------------------------------------------------*/
 
-#include "vkDefs.hpp"
-#include "extNvidiaVideoParserIf.hpp"
+#include "tcuDefs.hpp"
+#include "tcuTestCase.hpp"
 
 namespace vkt
 {
-namespace video
+namespace RayTracing
 {
 
-class VulkanPicture: public INvidiaVulkanPicture
-{
-public:
-							VulkanPicture	();
-							~VulkanPicture	();
+tcu::TestCaseGroup* createPositionFetchTests(tcu::TestContext& testCtx);
 
-	virtual void			AddRef			() override;
-	virtual void			Release			() override;
-	void					Reset			();
-
-protected:
-	void					Clear			();
-
-	std::atomic<int32_t>	m_refCount;
-};
-
-
-} // video
+} // RayTracing
 } // vkt
 
-#endif // _VKTVIDEOPICTUREUTILS_HPP
+#endif // _VKTRAYTRACINGPOSITIONFETCHTESTS_HPP
