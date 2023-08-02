@@ -54742,6 +54742,8 @@ dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image
 dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image.fmt_qual.null_descriptor.samples_4.2d_array.frag
 dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image.fmt_qual.null_descriptor.samples_4.2d_array.vert
 dEQP-VK.robustness.robustness2.push.template.r64ui.unroll.volatile.storage_image.fmt_qual.null_descriptor.samples_4.2d_array.rgen
+dEQP-VK.robustness.robustness2.misc.out_of_bounds_stride
+dEQP-VK.robustness.robustness2.misc.out_of_bounds_stride_dynamic_stride
 dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_0
 dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_16_single_buffer
 dEQP-VK.robustness.robustness1_vertex_access.out_of_bounds_stride_30_middle_of_buffer
@@ -55271,6 +55273,8 @@ dEQP-VK.robustness.pipeline_robustness.robustness2.push.notemplate.r64i.dontunro
 dEQP-VK.robustness.pipeline_robustness.robustness2.push.notemplate.r64i.dontunroll.volatile.storage_buffer.readwrite.no_fmt_qual.len_512.samples_1.1d.comp
 dEQP-VK.robustness.pipeline_robustness.robustness2.push.notemplate.r64i.dontunroll.volatile.storage_buffer.readwrite.no_fmt_qual.len_512.samples_1.1d.frag
 dEQP-VK.robustness.pipeline_robustness.robustness2.push.notemplate.r64i.dontunroll.volatile.storage_buffer.readwrite.no_fmt_qual.len_512.samples_1.1d.vert
+dEQP-VK.robustness.pipeline_robustness.robustness2.misc.out_of_bounds_stride
+dEQP-VK.robustness.pipeline_robustness.robustness2.misc.out_of_bounds_stride_dynamic_stride
 dEQP-VK.robustness.pipeline_robustness.image_robustness.bind.notemplate.r32ui.dontunroll.nonvolatile.sampled_image.no_fmt_qual.img.samples_1.1d.comp
 dEQP-VK.robustness.pipeline_robustness.image_robustness.bind.notemplate.r32ui.dontunroll.nonvolatile.sampled_image.no_fmt_qual.img.samples_1.1d.frag
 dEQP-VK.robustness.pipeline_robustness.image_robustness.bind.notemplate.r32ui.dontunroll.nonvolatile.sampled_image.no_fmt_qual.img.samples_1.1d.vert
@@ -55327,10 +55331,6 @@ dEQP-VK.robustness.pipeline_robustness.image_robustness.push.notemplate.r64i.don
 dEQP-VK.robustness.pipeline_robustness.image_robustness.push.notemplate.r64i.dontunroll.nonvolatile.sampled_image.no_fmt_qual.img.samples_1.2d_array.vert
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_underflow
 dEQP-VK.robustness.non_robust_buffer_access.unexecuted_oob_overflow
-dEQP-VK.robustness.index_access.draw_indexed_1
-dEQP-VK.robustness.index_access.draw_indexed_indirect_1
-dEQP-VK.robustness.index_access.draw_indexed_indirect_count_1
-dEQP-VK.robustness.index_access.draw_multi_indexed_1
 dEQP-VK.robustness.index_access.draw_indexed_2
 dEQP-VK.robustness.index_access.draw_indexed_indirect_2
 dEQP-VK.robustness.index_access.draw_indexed_indirect_count_2
