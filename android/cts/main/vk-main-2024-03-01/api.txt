@@ -140095,6 +140095,7 @@ dEQP-VK.api.frame_boundary.sync2.multi_frame_overlapping_submissions
 dEQP-VK.api.frame_boundary.sync2.single_frame
 dEQP-VK.api.frame_boundary.sync2.single_frame_multi_submissions
 dEQP-VK.api.frame_boundary.wsi.android
+dEQP-VK.api.frame_boundary.wsi.direct
 dEQP-VK.api.frame_boundary.wsi.direct_drm
 dEQP-VK.api.frame_boundary.wsi.headless
 dEQP-VK.api.get_device_proc_addr.non_enabled
@@ -149044,6 +149045,10 @@ dEQP-VK.api.image_clearing.dedicated_allocation.partial_clear_color_attachment.s
 dEQP-VK.api.image_clearing.dedicated_allocation.partial_clear_color_attachment.single_layer.a8_unorm_64x11
 dEQP-VK.api.image_clearing.dedicated_allocation.partial_clear_color_attachment.single_layer.a8_unorm_64x11_clamp_input
 dEQP-VK.api.image_clearing.dedicated_allocation.partial_clear_color_attachment.single_layer.a8_unorm_clamp_input
+dEQP-VK.api.image_compression_control.swapchain.direct.default
+dEQP-VK.api.image_compression_control.swapchain.direct.disabled
+dEQP-VK.api.image_compression_control.swapchain.direct.explicit
+dEQP-VK.api.image_compression_control.swapchain.direct.fixed_rate_default
 dEQP-VK.api.info.format_properties.undefined
 dEQP-VK.api.info.get_physical_device_properties2.features.attachment_feedback_loop_dynamic_state_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.compute_shader_derivatives_features_khr
