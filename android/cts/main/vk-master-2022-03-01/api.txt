@@ -109,6 +109,7 @@ dEQP-VK.api.info.vulkan1p3.properties
 dEQP-VK.api.info.vulkan1p3.feature_extensions_consistency
 dEQP-VK.api.info.vulkan1p3.property_extensions_consistency
 dEQP-VK.api.info.vulkan1p3.feature_bits_influence
+dEQP-VK.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VK.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VK.api.info.vulkan1p3_limits_validation.khr_maintenance4
 dEQP-VK.api.info.vulkan1p3_limits_validation.max_inline_uniform_total_size

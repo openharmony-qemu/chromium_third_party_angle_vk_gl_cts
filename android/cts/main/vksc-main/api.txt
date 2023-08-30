@@ -1799,6 +1799,7 @@ dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_descriptor_indexing
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_vertex_attribute_divisor
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.timeline_semaphore
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_line_rasterization
+dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.r4g4b4a4_unorm_pack16
