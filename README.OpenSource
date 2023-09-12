@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chromium_third_party_angle_vk_gl_cts",                   # 上游开源软件名全称
+        "Name": "VK-GL-CTS",                   # 上游开源软件名全称
         "License":         # 上游开源软件中包含的许可证信息
         "License File":"LICENSE",      # 许可证所在文件路径
         "Version Number": "bfede065f419a93f3ea37dcc0c8fbcd794d3b7f8",
