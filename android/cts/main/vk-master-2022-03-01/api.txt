@@ -2,6 +2,7 @@ dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_compute_pipeline_con
 dEQP-VK.api.pipeline.pipeline_layout.lifetime.destroy_after_graphics_pipeline_construction
 dEQP-VK.api.pipeline.pipeline_invalid_pointers_unused_structs.graphics
 dEQP-VK.api.pipeline.pipeline_invalid_pointers_unused_structs.compute
+dEQP-VK.api.maintenance6_check.maintenance6_properties
 dEQP-VK.api.maintenance3_check.support_count_sampler_no_variable_size
 dEQP-VK.api.maintenance3_check.support_count_sampler
 dEQP-VK.api.maintenance3_check.support_count_sampler_extra_bindings_no_variable_size
