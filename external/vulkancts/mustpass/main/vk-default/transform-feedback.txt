@@ -4071,6 +4071,10 @@ dEQP-VK.transform_feedback.simple.multiquery_6
 dEQP-VK.transform_feedback.simple.multiquery_omit_write_6
 dEQP-VK.transform_feedback.simple.multiquery_14
 dEQP-VK.transform_feedback.simple.multiquery_omit_write_14
+dEQP-VK.transform_feedback.simple.holes_vert
+dEQP-VK.transform_feedback.simple.holes_extra_draw_vert
+dEQP-VK.transform_feedback.simple.holes_geom
+dEQP-VK.transform_feedback.simple.holes_extra_draw_geom
 dEQP-VK.transform_feedback.primitives_generated_query.get.queue_reset.32bit.vert.no_xfb.no_rast.point_list.pgq_default.single_draw.pqg_first.none
 dEQP-VK.transform_feedback.primitives_generated_query.get.queue_reset.32bit.vert.no_xfb.no_rast.point_list.pgq_default.single_draw.pqg_first.none_2_queries
 dEQP-VK.transform_feedback.primitives_generated_query.get.queue_reset.32bit.vert.no_xfb.no_rast.point_list.pgq_default.single_draw.pqg_first.before
