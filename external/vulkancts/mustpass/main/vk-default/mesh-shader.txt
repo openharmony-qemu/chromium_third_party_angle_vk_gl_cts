@@ -1704,6 +1704,7 @@ dEQP-VK.mesh_shader.ext.builtin.primitive_shading_rate_1x1_2x1
 dEQP-VK.mesh_shader.ext.builtin.primitive_shading_rate_1x1_1x1
 dEQP-VK.mesh_shader.ext.misc.complex_task_data
 dEQP-VK.mesh_shader.ext.misc.single_point
+dEQP-VK.mesh_shader.ext.misc.single_point_default_size
 dEQP-VK.mesh_shader.ext.misc.single_line
 dEQP-VK.mesh_shader.ext.misc.single_triangle
 dEQP-VK.mesh_shader.ext.misc.max_points
