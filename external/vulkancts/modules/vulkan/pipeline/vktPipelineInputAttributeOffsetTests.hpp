@@ -1,10 +1,11 @@
-#ifndef _VKTVIDEOPICTUREUTILS_HPP
-#define _VKTVIDEOPICTUREUTILS_HPP
+#ifndef _VKTPIPELINEINPUTATTRIBUTEOFFSETTESTS_HPP
+#define _VKTPIPELINEINPUTATTRIBUTEOFFSETTESTS_HPP
 /*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright (c) 2021 The Khronos Group Inc.
+ * Copyright (c) 2023 The Khronos Group Inc.
+ * Copyright (c) 2023 Valve Corporation.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,35 +21,20 @@
  *
  *//*!
  * \file
- * \brief Video Encoding and Decoding Picture Utility Functions
+ * \brief Input Attribute Offset Tests
  *//*--------------------------------------------------------------------*/
 
-#include "vkDefs.hpp"
-#include "extNvidiaVideoParserIf.hpp"
+#include "vktTestCase.hpp"
+#include "vkPipelineConstructionUtil.hpp"
 
 namespace vkt
 {
-namespace video
+namespace pipeline
 {
 
-class VulkanPicture: public INvidiaVulkanPicture
-{
-public:
-							VulkanPicture	();
-							~VulkanPicture	();
+tcu::TestCaseGroup* createInputAttributeOffsetTests (tcu::TestContext& testCtx, vk::PipelineConstructionType pipelineConstructionType);
 
-	virtual void			AddRef			() override;
-	virtual void			Release			() override;
-	void					Reset			();
-
-protected:
-	void					Clear			();
-
-	std::atomic<int32_t>	m_refCount;
-};
-
-
-} // video
+} // pipeline
 } // vkt
 
-#endif // _VKTVIDEOPICTUREUTILS_HPP
+#endif // _VKTPIPELINEINPUTATTRIBUTEOFFSETTESTS_HPP

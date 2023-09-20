@@ -10140,7 +10140,7 @@ dEQP-VK.api.descriptor_pool.repeated_free_reset_short
 dEQP-VK.api.descriptor_pool.repeated_free_reset_long
 dEQP-VK.api.descriptor_pool.out_of_pool_memory
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image
-dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image_diff_fromat
+dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.whole_image_diff_format
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.partial_image
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.depth
 dEQP-VK.api.copy_and_blit.core.image_to_image.simple_tests.stencil
@@ -75869,7 +75869,7 @@ dEQP-VK.api.copy_and_blit.core.resolve_image.diff_image_size.dst_256_256_11_16_b
 dEQP-VK.api.copy_and_blit.core.resolve_image.diff_image_size.dst_256_256_11_32_bit
 dEQP-VK.api.copy_and_blit.core.resolve_image.diff_image_size.dst_256_256_11_64_bit
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.whole_image
-dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.whole_image_diff_fromat
+dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.whole_image_diff_format
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.partial_image
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.depth
 dEQP-VK.api.copy_and_blit.dedicated_allocation.image_to_image.simple_tests.stencil

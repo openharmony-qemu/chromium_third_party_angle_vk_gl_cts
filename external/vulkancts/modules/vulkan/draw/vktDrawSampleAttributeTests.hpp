@@ -1,8 +1,11 @@
+#ifndef _VKTDRAWSAMPLEATTRIBUTETESTS_HPP
+#define _VKTDRAWSAMPLEATTRIBUTETESTS_HPP
 /*------------------------------------------------------------------------
  * Vulkan Conformance Tests
  * ------------------------
  *
- * Copyright (c) 2021 The Khronos Group Inc.
+ * Copyright (c) 2022 The Khronos Group Inc.
+ * Copyright (c) 2022 Valve Corporation.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,61 +20,21 @@
  * limitations under the License.
  *
  *//*!
- * \file
- * \brief Video Encoding and Decoding Utility Functions
+ * \file vktDrawSampleAttributeTests.hpp
+ * \brief Tests for the sample interpolation attribute
  *//*--------------------------------------------------------------------*/
 
-#include "vktVideoPictureUtils.hpp"
-#include "deMemory.h"
-
-using namespace vk;
-using namespace std;
+#include "vktTestCase.hpp"
+#include "vktDrawGroupParams.hpp"
 
 namespace vkt
 {
-namespace video
+namespace Draw
 {
-VulkanPicture::VulkanPicture()
-	: m_refCount ()
-{
-	Clear();
-}
 
-VulkanPicture::~VulkanPicture ()
-{
-}
+tcu::TestCaseGroup*	createSampleAttributeTests (tcu::TestContext& testCtx, const SharedGroupParams groupParams);
 
-void VulkanPicture::AddRef ()
-{
-	m_refCount++;
-}
-
-void VulkanPicture::Release ()
-{
-	int32_t ref = --m_refCount;
-
-	if (ref == 0)
-		Reset();
-	else
-		DE_ASSERT(ref > 0);
-}
-
-void VulkanPicture::Clear ()
-{
-	DE_ASSERT(m_refCount == 0);
-
-	decodeWidth = 0;
-	decodeHeight = 0;
-	decodeSuperResWidth = 0;
-	deMemset(&reserved, 0, sizeof(reserved));
-}
-
-void VulkanPicture::Reset()
-{
-	DE_ASSERT(m_refCount == 0);
-
-	delete this;
-}
-
-} // video
+} // Draw
 } // vkt
+
+#endif // _VKTDRAWSAMPLEATTRIBUTETESTS_HPP
