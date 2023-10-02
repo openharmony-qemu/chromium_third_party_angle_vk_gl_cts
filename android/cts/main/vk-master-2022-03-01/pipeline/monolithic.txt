@@ -145531,6 +145531,7 @@ dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_more1
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_more2
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_more3
+dEQP-VK.pipeline.monolithic.misc.layer_read_from_frag
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards

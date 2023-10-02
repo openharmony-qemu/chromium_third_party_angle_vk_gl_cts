@@ -310243,6 +310243,7 @@ dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_
 dEQP-VK.pipeline.monolithic.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VK.pipeline.monolithic.misc.position_to_ssbo
 dEQP-VK.pipeline.monolithic.misc.primitive_id_from_tess
+dEQP-VK.pipeline.monolithic.misc.layer_read_from_frag
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards
