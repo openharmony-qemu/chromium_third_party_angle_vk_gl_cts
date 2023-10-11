@@ -1,9 +1,10 @@
 [
     {
-        "Name": "VK-GL-CTS",                   # 上游开源软件名全称
-        "License":         # 上游开源软件中包含的许可证信息
+        "Name": "vk-gl-cts",                   # 上游开源软件名全称
+        "License": "Apache-2.0",        # 上游开源软件中包含的许可证信息
         "License File":"LICENSE",      # 许可证所在文件路径
         "Version Number": "bfede065f419a93f3ea37dcc0c8fbcd794d3b7f8",
+        "Owner": "liujixin@huawei.com",
         "Upstream URL": "https://chromium.googlesource.com/angle/angle.git@bfede065f419a93f3ea37dcc0c8fbcd794d3b7f8",   # 上游软件包发布地址
         "Description": "第三方软件angle VK-GL-CTS"           # 开源软件功能描述
     }
