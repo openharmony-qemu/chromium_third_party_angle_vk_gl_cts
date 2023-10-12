@@ -74,15 +74,15 @@ used to filter file path.
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter">
                 <filteritem type="filename" name="*.png"
-                    desc="Chromium原生二进制文件，不会使用" />
+                    desc="chromium原生二进制文件，不会使用" />
                 <filteritem type="filename" name=".*pkm"
-                    desc="Chromium原生二进制文件，不会使用" />
+                    desc="chromium原生二进制文件，不会使用" />
                 <filteritem type="filename" name=".*bin"
-                    desc="Chromium原生二进制文件，不会使用" />
+                    desc="chromium原生二进制文件，不会使用" />
                 <filteritem type="filename" name=".*nspv"
-                    desc="Chromium原生二进制文件，不会使用" />
+                    desc="chromium原生二进制文件，不会使用" />
                 <filteritem type="filename" name=".*xcf"
-                    desc="Chromium原生二进制文件，不会使用" />
+                    desc="chromium原生二进制文件，不会使用" />
             </filefilter>
         </filefilterlist>
     </oatconfig>
