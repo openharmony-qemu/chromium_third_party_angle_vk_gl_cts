@@ -524,6 +524,7 @@ dEQP-VK.api.maintenance3_check.support_count_inline_uniform_block_extra_bindings
 dEQP-VK.api.maintenance3_check.support_count_inline_uniform_block_extra_bindings
 dEQP-VK.api.invariance.random
 dEQP-VK.api.invariance.memory_requirements_matching
+dEQP-VK.api.info.format_properties.undefined
 dEQP-VK.api.info.format_properties.r4g4_unorm_pack8
 dEQP-VK.api.info.format_properties.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.format_properties.b4g4r4a4_unorm_pack16
@@ -748,6 +749,7 @@ dEQP-VK.api.info.format_properties.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
 dEQP-VK.api.info.format_properties.g16_b16r16_2plane_444_unorm
 dEQP-VK.api.info.format_properties.depth_stencil
 dEQP-VK.api.info.format_properties.compressed_formats
+dEQP-VK.api.info.image_format_properties.1d.optimal.undefined
 dEQP-VK.api.info.image_format_properties.1d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties.1d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties.1d.optimal.b4g4r4a4_unorm_pack16
@@ -932,6 +934,7 @@ dEQP-VK.api.info.image_format_properties.1d.optimal.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties.1d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties.1d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties.1d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.image_format_properties.1d.linear.undefined
 dEQP-VK.api.info.image_format_properties.1d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties.1d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties.1d.linear.b4g4r4a4_unorm_pack16
@@ -1116,6 +1119,7 @@ dEQP-VK.api.info.image_format_properties.1d.linear.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties.1d.linear.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties.1d.linear.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties.1d.linear.astc_12x12_srgb_block
+dEQP-VK.api.info.image_format_properties.2d.optimal.undefined
 dEQP-VK.api.info.image_format_properties.2d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties.2d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties.2d.optimal.b4g4r4a4_unorm_pack16
@@ -1338,6 +1342,7 @@ dEQP-VK.api.info.image_format_properties.2d.optimal.g8_b8r8_2plane_444_unorm
 dEQP-VK.api.info.image_format_properties.2d.optimal.g10x6_b10x6r10x6_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties.2d.optimal.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties.2d.optimal.g16_b16r16_2plane_444_unorm
+dEQP-VK.api.info.image_format_properties.2d.linear.undefined
 dEQP-VK.api.info.image_format_properties.2d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties.2d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties.2d.linear.b4g4r4a4_unorm_pack16
@@ -1560,6 +1565,7 @@ dEQP-VK.api.info.image_format_properties.2d.linear.g8_b8r8_2plane_444_unorm
 dEQP-VK.api.info.image_format_properties.2d.linear.g10x6_b10x6r10x6_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties.2d.linear.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties.2d.linear.g16_b16r16_2plane_444_unorm
+dEQP-VK.api.info.image_format_properties.3d.optimal.undefined
 dEQP-VK.api.info.image_format_properties.3d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties.3d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties.3d.optimal.b4g4r4a4_unorm_pack16
@@ -1744,6 +1750,7 @@ dEQP-VK.api.info.image_format_properties.3d.optimal.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties.3d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties.3d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties.3d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.image_format_properties.3d.linear.undefined
 dEQP-VK.api.info.image_format_properties.3d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties.3d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties.3d.linear.b4g4r4a4_unorm_pack16
@@ -2091,6 +2098,7 @@ dEQP-VK.api.info.vulkan1p2_limits_validation.ext_line_rasterization
 dEQP-VK.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VK.api.info.vulkan1p3_limits_validation.khr_maintenance4
 dEQP-VK.api.info.vulkan1p3_limits_validation.max_inline_uniform_total_size
+dEQP-VK.api.info.image_format_properties2.1d.optimal.undefined
 dEQP-VK.api.info.image_format_properties2.1d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.1d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.1d.optimal.b4g4r4a4_unorm_pack16
@@ -2275,6 +2283,7 @@ dEQP-VK.api.info.image_format_properties2.1d.optimal.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties2.1d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties2.1d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties2.1d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.image_format_properties2.1d.linear.undefined
 dEQP-VK.api.info.image_format_properties2.1d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.1d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.1d.linear.b4g4r4a4_unorm_pack16
@@ -2459,6 +2468,7 @@ dEQP-VK.api.info.image_format_properties2.1d.linear.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties2.1d.linear.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties2.1d.linear.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties2.1d.linear.astc_12x12_srgb_block
+dEQP-VK.api.info.image_format_properties2.2d.optimal.undefined
 dEQP-VK.api.info.image_format_properties2.2d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.2d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.2d.optimal.b4g4r4a4_unorm_pack16
@@ -2681,6 +2691,7 @@ dEQP-VK.api.info.image_format_properties2.2d.optimal.g8_b8r8_2plane_444_unorm
 dEQP-VK.api.info.image_format_properties2.2d.optimal.g10x6_b10x6r10x6_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties2.2d.optimal.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties2.2d.optimal.g16_b16r16_2plane_444_unorm
+dEQP-VK.api.info.image_format_properties2.2d.linear.undefined
 dEQP-VK.api.info.image_format_properties2.2d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.2d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.2d.linear.b4g4r4a4_unorm_pack16
@@ -2903,6 +2914,7 @@ dEQP-VK.api.info.image_format_properties2.2d.linear.g8_b8r8_2plane_444_unorm
 dEQP-VK.api.info.image_format_properties2.2d.linear.g10x6_b10x6r10x6_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties2.2d.linear.g12x4_b12x4r12x4_2plane_444_unorm_3pack16
 dEQP-VK.api.info.image_format_properties2.2d.linear.g16_b16r16_2plane_444_unorm
+dEQP-VK.api.info.image_format_properties2.3d.optimal.undefined
 dEQP-VK.api.info.image_format_properties2.3d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.3d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.3d.optimal.b4g4r4a4_unorm_pack16
@@ -3087,6 +3099,7 @@ dEQP-VK.api.info.image_format_properties2.3d.optimal.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties2.3d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties2.3d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties2.3d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.image_format_properties2.3d.linear.undefined
 dEQP-VK.api.info.image_format_properties2.3d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.image_format_properties2.3d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.image_format_properties2.3d.linear.b4g4r4a4_unorm_pack16
@@ -3271,6 +3284,7 @@ dEQP-VK.api.info.image_format_properties2.3d.linear.astc_12x10_unorm_block
 dEQP-VK.api.info.image_format_properties2.3d.linear.astc_12x10_srgb_block
 dEQP-VK.api.info.image_format_properties2.3d.linear.astc_12x12_unorm_block
 dEQP-VK.api.info.image_format_properties2.3d.linear.astc_12x12_srgb_block
+dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.b4g4r4a4_unorm_pack16
@@ -3455,6 +3469,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.astc_12x10_unorm_blo
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.b4g4r4a4_unorm_pack16
@@ -3639,6 +3654,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.astc_12x10_unorm_bloc
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.astc_12x10_srgb_block
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.astc_12x12_unorm_block
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.astc_12x12_srgb_block
+dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.b4g4r4a4_unorm_pack16
@@ -3823,6 +3839,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.astc_12x10_unorm_blo
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.b4g4r4a4_unorm_pack16
@@ -4007,6 +4024,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.astc_12x10_unorm_bloc
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.astc_12x10_srgb_block
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.astc_12x12_unorm_block
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.astc_12x12_srgb_block
+dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.r4g4_unorm_pack8
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.b4g4r4a4_unorm_pack16
@@ -4191,6 +4209,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.astc_12x10_unorm_blo
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.astc_12x10_srgb_block
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.astc_12x12_unorm_block
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.astc_12x12_srgb_block
+dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.r4g4_unorm_pack8
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.r4g4b4a4_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.b4g4r4a4_unorm_pack16

@@ -322,6 +322,7 @@ dEQP-VKSC.api.maintenance3_check.support_count_inline_uniform_block_extra_bindin
 dEQP-VKSC.api.maintenance3_check.support_count_inline_uniform_block_extra_bindings
 dEQP-VKSC.api.invariance.random
 dEQP-VKSC.api.invariance.memory_requirements_matching
+dEQP-VKSC.api.info.format_properties.undefined
 dEQP-VKSC.api.info.format_properties.r4g4_unorm_pack8
 dEQP-VKSC.api.info.format_properties.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.format_properties.b4g4r4a4_unorm_pack16
@@ -546,6 +547,7 @@ dEQP-VKSC.api.info.format_properties.g12x4_b12x4r12x4_2plane_444_unorm_3pack16_e
 dEQP-VKSC.api.info.format_properties.g16_b16r16_2plane_444_unorm_ext
 dEQP-VKSC.api.info.format_properties.depth_stencil
 dEQP-VKSC.api.info.format_properties.compressed_formats
+dEQP-VKSC.api.info.image_format_properties.1d.optimal.undefined
 dEQP-VKSC.api.info.image_format_properties.1d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties.1d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties.1d.optimal.b4g4r4a4_unorm_pack16
@@ -730,6 +732,7 @@ dEQP-VKSC.api.info.image_format_properties.1d.optimal.astc_12x10_unorm_block
 dEQP-VKSC.api.info.image_format_properties.1d.optimal.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties.1d.optimal.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties.1d.optimal.astc_12x12_srgb_block
+dEQP-VKSC.api.info.image_format_properties.1d.linear.undefined
 dEQP-VKSC.api.info.image_format_properties.1d.linear.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties.1d.linear.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties.1d.linear.b4g4r4a4_unorm_pack16
@@ -914,6 +917,7 @@ dEQP-VKSC.api.info.image_format_properties.1d.linear.astc_12x10_unorm_block
 dEQP-VKSC.api.info.image_format_properties.1d.linear.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties.1d.linear.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties.1d.linear.astc_12x12_srgb_block
+dEQP-VKSC.api.info.image_format_properties.2d.optimal.undefined
 dEQP-VKSC.api.info.image_format_properties.2d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties.2d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties.2d.optimal.b4g4r4a4_unorm_pack16
@@ -1136,6 +1140,7 @@ dEQP-VKSC.api.info.image_format_properties.2d.optimal.g8_b8r8_2plane_444_unorm_e
 dEQP-VKSC.api.info.image_format_properties.2d.optimal.g10x6_b10x6r10x6_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties.2d.optimal.g12x4_b12x4r12x4_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties.2d.optimal.g16_b16r16_2plane_444_unorm_ext
+dEQP-VKSC.api.info.image_format_properties.2d.linear.undefined
 dEQP-VKSC.api.info.image_format_properties.2d.linear.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties.2d.linear.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties.2d.linear.b4g4r4a4_unorm_pack16
@@ -1358,6 +1363,7 @@ dEQP-VKSC.api.info.image_format_properties.2d.linear.g8_b8r8_2plane_444_unorm_ex
 dEQP-VKSC.api.info.image_format_properties.2d.linear.g10x6_b10x6r10x6_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties.2d.linear.g12x4_b12x4r12x4_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties.2d.linear.g16_b16r16_2plane_444_unorm_ext
+dEQP-VKSC.api.info.image_format_properties.3d.optimal.undefined
 dEQP-VKSC.api.info.image_format_properties.3d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties.3d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties.3d.optimal.b4g4r4a4_unorm_pack16
@@ -1542,6 +1548,7 @@ dEQP-VKSC.api.info.image_format_properties.3d.optimal.astc_12x10_unorm_block
 dEQP-VKSC.api.info.image_format_properties.3d.optimal.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties.3d.optimal.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties.3d.optimal.astc_12x12_srgb_block
+dEQP-VKSC.api.info.image_format_properties.3d.linear.undefined
 dEQP-VKSC.api.info.image_format_properties.3d.linear.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties.3d.linear.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties.3d.linear.b4g4r4a4_unorm_pack16
@@ -1800,6 +1807,7 @@ dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_vertex_attribute_divisor
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.timeline_semaphore
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_line_rasterization
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.robustness2
+dEQP-VKSC.api.info.image_format_properties2.1d.optimal.undefined
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.b4g4r4a4_unorm_pack16
@@ -1984,6 +1992,7 @@ dEQP-VKSC.api.info.image_format_properties2.1d.optimal.astc_12x10_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.astc_12x12_srgb_block
+dEQP-VKSC.api.info.image_format_properties2.1d.linear.undefined
 dEQP-VKSC.api.info.image_format_properties2.1d.linear.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.1d.linear.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties2.1d.linear.b4g4r4a4_unorm_pack16
@@ -2168,6 +2177,7 @@ dEQP-VKSC.api.info.image_format_properties2.1d.linear.astc_12x10_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.1d.linear.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties2.1d.linear.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.1d.linear.astc_12x12_srgb_block
+dEQP-VKSC.api.info.image_format_properties2.2d.optimal.undefined
 dEQP-VKSC.api.info.image_format_properties2.2d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.2d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties2.2d.optimal.b4g4r4a4_unorm_pack16
@@ -2390,6 +2400,7 @@ dEQP-VKSC.api.info.image_format_properties2.2d.optimal.g8_b8r8_2plane_444_unorm_
 dEQP-VKSC.api.info.image_format_properties2.2d.optimal.g10x6_b10x6r10x6_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties2.2d.optimal.g12x4_b12x4r12x4_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties2.2d.optimal.g16_b16r16_2plane_444_unorm_ext
+dEQP-VKSC.api.info.image_format_properties2.2d.linear.undefined
 dEQP-VKSC.api.info.image_format_properties2.2d.linear.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.2d.linear.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties2.2d.linear.b4g4r4a4_unorm_pack16
@@ -2612,6 +2623,7 @@ dEQP-VKSC.api.info.image_format_properties2.2d.linear.g8_b8r8_2plane_444_unorm_e
 dEQP-VKSC.api.info.image_format_properties2.2d.linear.g10x6_b10x6r10x6_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties2.2d.linear.g12x4_b12x4r12x4_2plane_444_unorm_3pack16_ext
 dEQP-VKSC.api.info.image_format_properties2.2d.linear.g16_b16r16_2plane_444_unorm_ext
+dEQP-VKSC.api.info.image_format_properties2.3d.optimal.undefined
 dEQP-VKSC.api.info.image_format_properties2.3d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.3d.optimal.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties2.3d.optimal.b4g4r4a4_unorm_pack16
@@ -2796,6 +2808,7 @@ dEQP-VKSC.api.info.image_format_properties2.3d.optimal.astc_12x10_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.3d.optimal.astc_12x10_srgb_block
 dEQP-VKSC.api.info.image_format_properties2.3d.optimal.astc_12x12_unorm_block
 dEQP-VKSC.api.info.image_format_properties2.3d.optimal.astc_12x12_srgb_block
+dEQP-VKSC.api.info.image_format_properties2.3d.linear.undefined
 dEQP-VKSC.api.info.image_format_properties2.3d.linear.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.3d.linear.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.info.image_format_properties2.3d.linear.b4g4r4a4_unorm_pack16
