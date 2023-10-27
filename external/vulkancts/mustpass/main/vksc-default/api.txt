@@ -281363,9 +281363,12 @@ dEQP-VKSC.api.command_buffers.submit_twice_secondary
 dEQP-VKSC.api.command_buffers.record_one_time_submit_primary
 dEQP-VKSC.api.command_buffers.record_one_time_submit_secondary
 dEQP-VKSC.api.command_buffers.render_pass_continue
+dEQP-VKSC.api.command_buffers.nested_render_pass_continue
 dEQP-VKSC.api.command_buffers.render_pass_continue_no_fb
 dEQP-VKSC.api.command_buffers.record_simul_use_secondary_one_primary
 dEQP-VKSC.api.command_buffers.record_simul_use_secondary_two_primary
+dEQP-VKSC.api.command_buffers.record_simul_use_nested
+dEQP-VKSC.api.command_buffers.record_simul_use_twice_nested
 dEQP-VKSC.api.command_buffers.record_query_precise_w_flag
 dEQP-VKSC.api.command_buffers.record_query_imprecise_w_flag
 dEQP-VKSC.api.command_buffers.record_query_imprecise_wo_flag
@@ -281387,6 +281390,8 @@ dEQP-VKSC.api.command_buffers.recording_to_ininitial
 dEQP-VKSC.api.command_buffers.executable_to_ininitial
 dEQP-VKSC.api.command_buffers.recording_to_invalid
 dEQP-VKSC.api.command_buffers.executable_to_invalid
+dEQP-VKSC.api.command_buffers.nested_execute
+dEQP-VKSC.api.command_buffers.nested_execute_multiple_levels
 dEQP-VKSC.api.buffer_view.create.suballocation.uniform.r4g4_unorm_pack8
 dEQP-VKSC.api.buffer_view.create.suballocation.uniform.r4g4b4a4_unorm_pack16
 dEQP-VKSC.api.buffer_view.create.suballocation.uniform.b4g4r4a4_unorm_pack16
