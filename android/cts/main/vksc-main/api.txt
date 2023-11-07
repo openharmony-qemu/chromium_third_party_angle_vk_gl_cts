@@ -282670,6 +282670,8 @@ dEQP-VKSC.api.descriptor_pool.repeated_free_reset_short
 dEQP-VKSC.api.descriptor_pool.repeated_free_reset_long
 dEQP-VKSC.api.descriptor_pool.out_of_pool_memory
 dEQP-VKSC.api.descriptor_pool.zero_pool_size_count
+dEQP-VKSC.api.descriptor_pool.repeated_free_no_reset_short
+dEQP-VKSC.api.descriptor_pool.repeated_free_no_reset_long
 dEQP-VKSC.api.null_handle.destroy_buffer
 dEQP-VKSC.api.null_handle.destroy_buffer_view
 dEQP-VKSC.api.null_handle.destroy_descriptor_set_layout
