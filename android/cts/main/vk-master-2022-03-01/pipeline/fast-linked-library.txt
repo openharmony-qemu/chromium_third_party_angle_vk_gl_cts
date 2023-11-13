@@ -308022,6 +308022,7 @@ dEQP-VK.pipeline.fast_linked_library.color_write_enable_maxa.cwe_after_bind.atta
 dEQP-VK.pipeline.fast_linked_library.color_write_enable_maxa.cwe_after_bind.attachments5_more3
 dEQP-VK.pipeline.fast_linked_library.misc.implicit_primitive_id
 dEQP-VK.pipeline.fast_linked_library.misc.implicit_primitive_id_with_tessellation
+dEQP-VK.pipeline.fast_linked_library.misc.compatible_render_pass
 dEQP-VK.pipeline.fast_linked_library.misc.interpolate_at_sample_no_sample_shading
 dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages
 dEQP-VK.pipeline.fast_linked_library.misc.unused_shader_stages_include_geom
