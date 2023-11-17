@@ -43204,6 +43204,7 @@ dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.multiple_arbitrary_descriptors.offset_view_nonzero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.descriptor_array.offset_view_zero
 dEQP-VK.binding_model.shader_access.secondary_cmd_buf.with_push_template.storage_buffer.vertex_fragment.descriptor_array.offset_view_nonzero
+dEQP-VK.binding_model.descriptor_update.empty_descriptor.uniform_buffer
 dEQP-VK.binding_model.descriptorset_random.sets4.noarray.ubolimitlow.sbolimitlow.sampledimglow.outimgtexlow.noiub.nouab.comp.noia.0
 dEQP-VK.binding_model.descriptorset_random.sets4.noarray.ubolimitlow.sbolimitlow.sampledimglow.outimgtexlow.noiub.nouab.comp.noia.1
 dEQP-VK.binding_model.descriptorset_random.sets4.noarray.ubolimitlow.sbolimitlow.sampledimglow.outimgtexlow.noiub.nouab.comp.noia.2
@@ -44777,4 +44778,3 @@ dEQP-VK.binding_model.descriptorset_random.sets32.runtimesize.ubolimithigh.sboli
 dEQP-VK.binding_model.descriptorset_random.sets32.runtimesize.ubolimithigh.sbolimithigh.sampledimghigh.storageimghigh.iublimitlow.uab.frag.ialimithigh.0
 dEQP-VK.binding_model.descriptorset_random.sets32.runtimesize.ubolimithigh.sbolimithigh.sampledimghigh.storageimghigh.iublimithigh.nouab.frag.ialimithigh.0
 dEQP-VK.binding_model.descriptorset_random.sets32.runtimesize.ubolimithigh.sbolimithigh.sampledimghigh.storageimghigh.iublimithigh.uab.frag.ialimithigh.0
-dEQP-VK.binding_model.descriptor_update.empty_descriptor.uniform_buffer
