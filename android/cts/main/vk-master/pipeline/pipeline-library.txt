@@ -269669,6 +269669,10 @@ dEQP-VK.pipeline.pipeline_library.vertex_input.max_attributes.128_attributes.bin
 dEQP-VK.pipeline.pipeline_library.vertex_input.max_attributes.query_max_attributes.binding_one_to_one.interleaved
 dEQP-VK.pipeline.pipeline_library.vertex_input.max_attributes.query_max_attributes.binding_one_to_many.interleaved
 dEQP-VK.pipeline.pipeline_library.vertex_input.max_attributes.query_max_attributes.binding_one_to_many.sequential
+dEQP-VK.pipeline.pipeline_library.vertex_input.misc.stride_change_vert_frag
+dEQP-VK.pipeline.pipeline_library.vertex_input.misc.stride_change_vert_geom_frag
+dEQP-VK.pipeline.pipeline_library.vertex_input.misc.stride_change_vert_tess_frag
+dEQP-VK.pipeline.pipeline_library.vertex_input.misc.stride_change_vert_tess_geom_frag
 dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_uint16.point_list
 dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_uint16.line_list
 dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_uint16.line_strip
