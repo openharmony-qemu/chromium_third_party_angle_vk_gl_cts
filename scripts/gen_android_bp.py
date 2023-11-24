@@ -24,7 +24,7 @@ import os
 import posixpath
 from fnmatch import fnmatch
 
-from ctsbuild.common import DEQP_DIR, writeFile
+from ctsbuild.common import DEQP_DIR, writeFile, which, execute
 
 SRC_ROOTS = [
 	"execserver",
@@ -38,6 +38,7 @@ SRC_ROOTS = [
 	"framework/qphelper",
 	"framework/randomshaders",
 	"framework/referencerenderer",
+	"framework/xexml",
 	"modules",
 ]
 
@@ -53,15 +54,33 @@ EXCLUDE_PATTERNS = [
 	"framework/randomshaders/rsgTest.cpp",
 	"executor/tools/*",
 	"execserver/tools/*",
+	"external/vulkancts/framework/vulkan/vkRenderDocUtil.cpp",
+	"external/vulkancts/modules/vulkan/vktTestPackageEntrySC.cpp",
+	"external/vulkancts/modules/vulkan/sc/*",
+	"external/vulkancts/vkscserver/*",
+	"external/vulkancts/vkscpc/*",
+	"external/vulkancts/framework/vulkan/generated/vulkansc/*",
+	"external/vulkancts/modules/vulkan/video/*",
+]
+
+# These are include folders where there are no source c/cpp files
+EXTRA_INCLUDE_DIRS = [
+	# This only has headers, so is not caught with INCLUDE_PATTERNS
+	"external/vulkancts/framework/vulkan/generated/vulkan",
 ]
 
 TEMPLATE = """
-# WARNING: This is auto-generated file. Do not modify, since changes will
-# be lost! Modify scripts/gen_android_mk.py instead.
+// WARNING: This is auto-generated file. Do not modify, since changes will
+// be lost! Modify scripts/gen_android_bp.py instead.
 
-LOCAL_SRC_FILES :={SRC_FILES}
+cc_defaults {
+    name: "libdeqp_gen",
 
-LOCAL_C_INCLUDES :={INCLUDES}
+    srcs: [
+{SRC_FILES}    ],
+    local_include_dirs: [
+{INCLUDES}    ],
+}
 
 """[1:-1]
 
@@ -120,26 +139,36 @@ def getSourceDirs (sourceFiles):
 			sourceDirs.append(sourceDir)
 			seenDirs.add(sourceDir)
 
+	sourceDirs.extend(EXTRA_INCLUDE_DIRS)
+	sourceDirs.sort()
+
 	return sourceDirs
 
-def genMkStringList (items):
+def genBpStringList (items):
 	src = ""
 
 	for item in items:
-		src += " \\\n\t%s" % item
+		src += "        \"%s\",\n" % item
 
 	return src
 
-def genAndroidMk (sourceDirs, sourceFiles):
+def genAndroidBp (sourceDirs, sourceFiles):
 	src = TEMPLATE
-	src = src.replace("{INCLUDES}", genMkStringList(["$(deqp_dir)/%s" % s for s in sourceDirs]))
-	src = src.replace("{SRC_FILES}", genMkStringList(sourceFiles))
+	src = src.replace("{INCLUDES}", genBpStringList(sourceDirs))
+	src = src.replace("{SRC_FILES}", genBpStringList(sourceFiles))
 
 	return src
 
 if __name__ == "__main__":
 	sourceFiles		= getSourceFiles()
 	sourceDirs		= getSourceDirs(sourceFiles)
-	androidMkText	= genAndroidMk(sourceDirs, sourceFiles)
+	androidBpText	= genAndroidBp(sourceDirs, sourceFiles)
 
-	writeFile(os.path.join(DEQP_DIR, "AndroidGen.mk"), androidMkText)
+	bpFilename = os.path.join(DEQP_DIR, "AndroidGen.bp")
+	writeFile(bpFilename, androidBpText)
+
+	# Format the generated file
+	if which("bpfmt") != None:
+		execute(["bpfmt", "-w", bpFilename])
+	else:
+		print("Warning: Could not find bpfmt, file won't be formatted.")
