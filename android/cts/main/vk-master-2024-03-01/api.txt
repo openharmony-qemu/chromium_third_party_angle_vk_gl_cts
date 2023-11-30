@@ -179,6 +179,8 @@ dEQP-VK.api.buffer_view.access.uniform_storage_texel_buffer.bind_as_storage.r16g
 dEQP-VK.api.command_buffers.nested_render_pass_continue
 dEQP-VK.api.command_buffers.record_simul_use_nested
 dEQP-VK.api.command_buffers.record_simul_use_twice_nested
+dEQP-VK.api.command_buffers.many_indirect_draws_on_secondary
+dEQP-VK.api.command_buffers.many_indirect_disps_on_secondary
 dEQP-VK.api.command_buffers.nested_execute
 dEQP-VK.api.command_buffers.nested_execute_multiple_levels
 dEQP-VK.api.copy_and_blit.core.image_to_image.all_formats.color.1d_to_1d.a8_unorm_khr.a8_unorm_khr.optimal_optimal
