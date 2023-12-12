@@ -1,3 +1,10 @@
+dEQP-VK.image.host_image_copy.depth_stencil.d16_unorm
+dEQP-VK.image.host_image_copy.depth_stencil.d16_unorm_s8_uint
+dEQP-VK.image.host_image_copy.depth_stencil.d24_unorm_s8_uint
+dEQP-VK.image.host_image_copy.depth_stencil.d32_sfloat
+dEQP-VK.image.host_image_copy.depth_stencil.d32_sfloat_s8_uint
+dEQP-VK.image.host_image_copy.depth_stencil.s8_uint
+dEQP-VK.image.host_image_copy.depth_stencil.x8_d24_unorm_pack32
 dEQP-VK.image.host_image_copy.dispatch_r10x6_unorm_pack16_r10x6_unorm_pack16.host_copy.host_image_to_memory_copy.barrier_transition.memcpy.general_general.color_attachment_optimal.linear.0_16_64.16x16
 dEQP-VK.image.host_image_copy.dispatch_r10x6_unorm_pack16_r10x6_unorm_pack16.host_copy.host_image_to_memory_copy.barrier_transition.memcpy.general_general.color_attachment_optimal.linear.0_16_64.32x28
 dEQP-VK.image.host_image_copy.dispatch_r10x6_unorm_pack16_r10x6_unorm_pack16.host_copy.host_image_to_memory_copy.barrier_transition.memcpy.general_general.color_attachment_optimal.linear.0_16_64.53x61
