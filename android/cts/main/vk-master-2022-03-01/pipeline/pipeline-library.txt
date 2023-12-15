@@ -284027,6 +284027,10 @@ dEQP-VK.pipeline.pipeline_library.color_write_enable_maxa.cwe_after_bind.attachm
 dEQP-VK.pipeline.pipeline_library.misc.implicit_primitive_id
 dEQP-VK.pipeline.pipeline_library.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.pipeline_library.misc.compatible_render_pass
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_2
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_4
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_8
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_16
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_geom
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_tess

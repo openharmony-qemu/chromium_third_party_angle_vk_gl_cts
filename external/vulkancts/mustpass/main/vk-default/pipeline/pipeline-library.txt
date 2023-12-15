@@ -32523,6 +32523,10 @@ dEQP-VK.pipeline.pipeline_library.misc.compatible_render_pass
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_holes
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_16
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_2
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_4
+dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_8
 dEQP-VK.pipeline.pipeline_library.misc.implicit_primitive_id
 dEQP-VK.pipeline.pipeline_library.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages
