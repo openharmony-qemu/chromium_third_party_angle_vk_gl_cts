@@ -295888,6 +295888,7 @@ dEQP-VK.api.maintenance5.format.image_format_props
 dEQP-VK.api.maintenance5.format.image_format_props2
 dEQP-VK.api.maintenance5.format.sparse_image_format_props
 dEQP-VK.api.maintenance5.format.sparse_image_format_props2
+dEQP-VK.api.maintenance6_check.maintenance6_properties
 dEQP-VK.api.null_handle.destroy_buffer
 dEQP-VK.api.null_handle.destroy_buffer_view
 dEQP-VK.api.null_handle.destroy_command_pool
