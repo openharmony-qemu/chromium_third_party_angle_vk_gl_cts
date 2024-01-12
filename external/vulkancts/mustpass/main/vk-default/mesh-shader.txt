@@ -16760,6 +16760,14 @@ dEQP-VK.mesh_shader.ext.query.mesh_invs_query.triangles.reset_before.get.no_wait
 dEQP-VK.mesh_shader.ext.query.mesh_invs_query.triangles.reset_before.get.no_wait.indirect_with_count_draw.64bit.with_availability.single_block.task_mesh.inside_rp.multi_view.with_secondary
 dEQP-VK.mesh_shader.ext.query.mesh_invs_query.triangles.reset_before.get.no_wait.indirect_with_count_draw.64bit.with_availability.single_block.task_mesh.inside_rp.single_view.only_primary
 dEQP-VK.mesh_shader.ext.query.mesh_invs_query.triangles.reset_before.get.no_wait.indirect_with_count_draw.64bit.with_availability.single_block.task_mesh.inside_rp.single_view.with_secondary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.inside_rp.multi_view.only_primary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.inside_rp.multi_view.with_secondary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.inside_rp.single_view.only_primary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.inside_rp.single_view.with_secondary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.task_mesh.inside_rp.multi_view.only_primary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.task_mesh.inside_rp.multi_view.with_secondary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.task_mesh.inside_rp.single_view.only_primary
+dEQP-VK.mesh_shader.ext.query.no_queries.lines.no_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.task_mesh.inside_rp.single_view.with_secondary
 dEQP-VK.mesh_shader.ext.query.prim_query.lines.host_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.include_rp.single_view.only_primary
 dEQP-VK.mesh_shader.ext.query.prim_query.lines.host_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.inside_rp.multi_view.only_primary
 dEQP-VK.mesh_shader.ext.query.prim_query.lines.host_reset.copy.no_wait.draw.32bit.no_availability.multiple_blocks.mesh_only.inside_rp.multi_view.with_secondary
