@@ -296030,6 +296030,7 @@ dEQP-VK.api.null_handle.destroy_render_pass
 dEQP-VK.api.null_handle.destroy_sampler
 dEQP-VK.api.null_handle.destroy_semaphore
 dEQP-VK.api.null_handle.destroy_shader_module
+dEQP-VK.api.null_handle.destroy_shader_object
 dEQP-VK.api.null_handle.free_command_buffers
 dEQP-VK.api.null_handle.free_descriptor_sets
 dEQP-VK.api.null_handle.free_memory
