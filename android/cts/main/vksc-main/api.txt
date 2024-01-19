@@ -1761,7 +1761,7 @@ dEQP-VKSC.api.info.get_physical_device_properties2.features.separate_depth_stenc
 dEQP-VKSC.api.info.get_physical_device_properties2.features.shader_demote_to_helper_invocation_features_ext
 dEQP-VKSC.api.info.get_physical_device_properties2.features.texel_buffer_alignment_features_ext
 dEQP-VKSC.api.info.get_physical_device_properties2.features.subgroup_size_control_features_ext
-dEQP-VKSC.api.info.get_physical_device_properties2.features.line_rasterization_features_ext
+dEQP-VKSC.api.info.get_physical_device_properties2.features.line_rasterization_features_khr
 dEQP-VKSC.api.info.get_physical_device_properties2.features.vulkan11_features
 dEQP-VKSC.api.info.get_physical_device_properties2.features.vulkan12_features
 dEQP-VKSC.api.info.get_physical_device_properties2.features.custom_border_color_features_ext
@@ -1799,6 +1799,7 @@ dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_descriptor_indexing
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_vertex_attribute_divisor
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.timeline_semaphore
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_line_rasterization
+dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.r4g4_unorm_pack8
 dEQP-VKSC.api.info.image_format_properties2.1d.optimal.r4g4b4a4_unorm_pack16
@@ -47233,7 +47234,7 @@ dEQP-VKSC.api.device_init.create_device_unsupported_features.separate_depth_sten
 dEQP-VKSC.api.device_init.create_device_unsupported_features.shader_demote_to_helper_invocation_features_ext
 dEQP-VKSC.api.device_init.create_device_unsupported_features.texel_buffer_alignment_features_ext
 dEQP-VKSC.api.device_init.create_device_unsupported_features.subgroup_size_control_features_ext
-dEQP-VKSC.api.device_init.create_device_unsupported_features.line_rasterization_features_ext
+dEQP-VKSC.api.device_init.create_device_unsupported_features.line_rasterization_features_khr
 dEQP-VKSC.api.device_init.create_device_unsupported_features.vulkan11_features
 dEQP-VKSC.api.device_init.create_device_unsupported_features.vulkan12_features
 dEQP-VKSC.api.device_init.create_device_unsupported_features.vulkan13_features

@@ -1976,7 +1976,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.pipeline_executable_pr
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_demote_to_helper_invocation_features
 dEQP-VK.api.info.get_physical_device_properties2.features.texel_buffer_alignment_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.subgroup_size_control_features
-dEQP-VK.api.info.get_physical_device_properties2.features.line_rasterization_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.line_rasterization_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.pipeline_creation_cache_control_features
 dEQP-VK.api.info.get_physical_device_properties2.features.vulkan11_features
 dEQP-VK.api.info.get_physical_device_properties2.features.vulkan12_features
@@ -2075,6 +2075,7 @@ dEQP-VK.api.info.vulkan1p2_limits_validation.fragment_density_map
 dEQP-VK.api.info.vulkan1p2_limits_validation.nv_ray_tracing
 dEQP-VK.api.info.vulkan1p2_limits_validation.timeline_semaphore
 dEQP-VK.api.info.vulkan1p2_limits_validation.ext_line_rasterization
+dEQP-VK.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VK.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VK.api.info.vulkan1p3_limits_validation.khr_maintenance4
 dEQP-VK.api.info.vulkan1p3_limits_validation.max_inline_uniform_total_size
@@ -50170,7 +50171,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.pipeline_executable_p
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_demote_to_helper_invocation_features
 dEQP-VK.api.device_init.create_device_unsupported_features.texel_buffer_alignment_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.subgroup_size_control_features
-dEQP-VK.api.device_init.create_device_unsupported_features.line_rasterization_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.line_rasterization_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.pipeline_creation_cache_control_features
 dEQP-VK.api.device_init.create_device_unsupported_features.vulkan11_features
 dEQP-VK.api.device_init.create_device_unsupported_features.vulkan12_features

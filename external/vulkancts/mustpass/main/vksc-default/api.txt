@@ -283053,6 +283053,7 @@ dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_line_rasterization
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_sample_locations
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.ext_vertex_attribute_divisor
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.general
+dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_maintenance_3
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_multiview
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_vertex_attribute_divisor

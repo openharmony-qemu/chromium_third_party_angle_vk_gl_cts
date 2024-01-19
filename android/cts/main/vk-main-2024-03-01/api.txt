@@ -67557,7 +67557,6 @@ dEQP-VK.api.info.get_physical_device_properties2.features.frame_boundary_feature
 dEQP-VK.api.info.get_physical_device_properties2.features.host_image_copy_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.image_2d_view_of_3d_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.image_sliced_view_of_3d_features_ext
-dEQP-VK.api.info.get_physical_device_properties2.features.line_rasterization_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance5_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance6_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.nested_command_buffer_features_ext
@@ -67590,6 +67589,7 @@ dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.2d.optimal.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.3d.linear.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.3d.optimal.undefined
+dEQP-VK.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VK.api.info.vulkan1p2_limits_validation.khr_vertex_attribute_divisor
 dEQP-VK.api.maintenance3_check.support_count_combined_image_sampler
 dEQP-VK.api.maintenance3_check.support_count_combined_image_sampler_extra_bindings

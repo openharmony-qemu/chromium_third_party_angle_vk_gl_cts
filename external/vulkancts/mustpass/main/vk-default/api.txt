@@ -295867,6 +295867,7 @@ dEQP-VK.api.info.vulkan1p2_limits_validation.ext_transform_feedback
 dEQP-VK.api.info.vulkan1p2_limits_validation.ext_vertex_attribute_divisor
 dEQP-VK.api.info.vulkan1p2_limits_validation.fragment_density_map
 dEQP-VK.api.info.vulkan1p2_limits_validation.general
+dEQP-VK.api.info.vulkan1p2_limits_validation.khr_line_rasterization
 dEQP-VK.api.info.vulkan1p2_limits_validation.khr_maintenance_3
 dEQP-VK.api.info.vulkan1p2_limits_validation.khr_multiview
 dEQP-VK.api.info.vulkan1p2_limits_validation.khr_push_descriptor
