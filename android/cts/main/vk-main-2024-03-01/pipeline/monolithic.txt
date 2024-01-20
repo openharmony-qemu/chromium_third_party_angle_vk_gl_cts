@@ -34387,6 +34387,7 @@ dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_holes
 dEQP-VK.pipeline.monolithic.misc.layer_read_from_frag
+dEQP-VK.pipeline.monolithic.misc.no_rendering
 dEQP-VK.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_invisible_check_depth
 dEQP-VK.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_invisible_sparse_check_depth
 dEQP-VK.pipeline.monolithic.multisample.alpha_to_coverage.samples_2.alpha_invisible_check_depth
