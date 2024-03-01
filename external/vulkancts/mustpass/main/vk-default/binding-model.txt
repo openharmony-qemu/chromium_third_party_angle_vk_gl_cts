@@ -41982,6 +41982,12 @@ dEQP-VK.binding_model.descriptorset_random.sets8.unifindexed.ubolimitlow.sbolimi
 dEQP-VK.binding_model.descriptorset_random.sets8.unifindexed.ubolimitlow.sbolimitlow.sampledimglow.storageimghigh.noiub.uab.vert.noia.0
 dEQP-VK.binding_model.dynamic_offset.shader_reuse_differing_layout_compute
 dEQP-VK.binding_model.dynamic_offset.shader_reuse_differing_layout_graphics
+dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_01
+dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_02
+dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_11
+dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_12
+dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_21
+dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_22
 dEQP-VK.binding_model.mutable_descriptor.multiple.mixed.update_copy.mutable_source.host_only_source.pool_expand_types.pre_update.no_array.comp
 dEQP-VK.binding_model.mutable_descriptor.multiple.mixed.update_copy.mutable_source.host_only_source.pool_expand_types.update_after_bind.no_array.comp
 dEQP-VK.binding_model.mutable_descriptor.multiple.mixed.update_copy.mutable_source.host_only_source.pool_no_types.pre_update.no_array.comp
