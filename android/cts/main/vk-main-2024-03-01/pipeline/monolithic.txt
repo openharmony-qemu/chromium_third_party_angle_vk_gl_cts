@@ -25648,6 +25648,7 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.misc.array_of_structs_interface
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_holes
