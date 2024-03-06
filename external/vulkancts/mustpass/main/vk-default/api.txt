@@ -244898,6 +244898,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.linear_color_attachme
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance4_features
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance5_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance6_features_khr
+dEQP-VK.api.device_init.create_device_unsupported_features.map_memory_placed_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.memory_decompression_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.memory_priority_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.mesh_shader_features_ext
@@ -244946,6 +244947,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.sampler_ycbcr_convers
 dEQP-VK.api.device_init.create_device_unsupported_features.scalar_block_layout_features
 dEQP-VK.api.device_init.create_device_unsupported_features.scheduling_controls_features_arm
 dEQP-VK.api.device_init.create_device_unsupported_features.separate_depth_stencil_layouts_features
+dEQP-VK.api.device_init.create_device_unsupported_features.shader_atomic_float16_vector_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_atomic_float2_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_atomic_float_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.shader_atomic_int64_features
@@ -245737,7 +245739,7 @@ dEQP-VK.api.frame_boundary.sync2.single_frame_multi_submissions
 dEQP-VK.api.frame_boundary.wsi.android
 dEQP-VK.api.frame_boundary.wsi.direct_drm
 dEQP-VK.api.frame_boundary.wsi.headless
-dEQP-VK.api.frame_boundary.wsi.macos
+dEQP-VK.api.frame_boundary.wsi.metal
 dEQP-VK.api.frame_boundary.wsi.wayland
 dEQP-VK.api.frame_boundary.wsi.win32
 dEQP-VK.api.frame_boundary.wsi.xcb
@@ -292045,10 +292047,10 @@ dEQP-VK.api.image_compression_control.swapchain.headless.default
 dEQP-VK.api.image_compression_control.swapchain.headless.disabled
 dEQP-VK.api.image_compression_control.swapchain.headless.explicit
 dEQP-VK.api.image_compression_control.swapchain.headless.fixed_rate_default
-dEQP-VK.api.image_compression_control.swapchain.macos.default
-dEQP-VK.api.image_compression_control.swapchain.macos.disabled
-dEQP-VK.api.image_compression_control.swapchain.macos.explicit
-dEQP-VK.api.image_compression_control.swapchain.macos.fixed_rate_default
+dEQP-VK.api.image_compression_control.swapchain.metal.default
+dEQP-VK.api.image_compression_control.swapchain.metal.disabled
+dEQP-VK.api.image_compression_control.swapchain.metal.explicit
+dEQP-VK.api.image_compression_control.swapchain.metal.fixed_rate_default
 dEQP-VK.api.image_compression_control.swapchain.wayland.default
 dEQP-VK.api.image_compression_control.swapchain.wayland.disabled
 dEQP-VK.api.image_compression_control.swapchain.wayland.explicit
@@ -292350,6 +292352,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.line_rasterization_fea
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance4_features
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance5_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance6_features_khr
+dEQP-VK.api.info.get_physical_device_properties2.features.map_memory_placed_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.memory_priority_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.mesh_shader_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.multi_draw_features_ext
@@ -292403,6 +292406,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.shader_object_features
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_quad_control_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_extended_types_features
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_rotate_features_khr
+dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_rotate_property_consistency_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_subgroup_uniform_control_flow_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_terminate_invocation_features
 dEQP-VK.api.info.get_physical_device_properties2.features.shader_tile_image_features_ext
