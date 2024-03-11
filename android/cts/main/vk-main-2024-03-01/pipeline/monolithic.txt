@@ -26503,6 +26503,8 @@ dEQP-VK.pipeline.monolithic.multisample.z_export.depth_static_atc
 dEQP-VK.pipeline.monolithic.multisample.z_export.depth_stencil_dynamic_atc
 dEQP-VK.pipeline.monolithic.multisample.z_export.depth_stencil_static_atc
 dEQP-VK.pipeline.monolithic.multisample.z_export.sample_mask_dynamic_atc
+dEQP-VK.pipeline.monolithic.multisample.z_export.sample_mask_pipeline_dynamic_atc
+dEQP-VK.pipeline.monolithic.multisample.z_export.sample_mask_pipeline_static_atc
 dEQP-VK.pipeline.monolithic.multisample.z_export.sample_mask_static_atc
 dEQP-VK.pipeline.monolithic.multisample.z_export.stencil_dynamic_atc
 dEQP-VK.pipeline.monolithic.multisample.z_export.stencil_static_atc
