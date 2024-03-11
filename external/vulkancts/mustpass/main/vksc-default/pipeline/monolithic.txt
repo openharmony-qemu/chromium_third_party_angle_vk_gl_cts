@@ -22293,6 +22293,12 @@ dEQP-VKSC.pipeline.monolithic.dynamic_offset.graphics.single_set.uniform_buffer.
 dEQP-VKSC.pipeline.monolithic.dynamic_offset.graphics.single_set.uniform_buffer.numcmdbuffers_2.sameorder.numdescriptorsetbindings_1.numdynamicbindings_2.numnondynamicbindings_0
 dEQP-VKSC.pipeline.monolithic.dynamic_offset.graphics.single_set.uniform_buffer.numcmdbuffers_2.sameorder.numdescriptorsetbindings_1.numdynamicbindings_2.numnondynamicbindings_1
 dEQP-VKSC.pipeline.monolithic.dynamic_vertex_attribute.nonsequential
+dEQP-VKSC.pipeline.monolithic.empty_fs.geom_empty_fs
+dEQP-VKSC.pipeline.monolithic.empty_fs.geom_no_fs
+dEQP-VKSC.pipeline.monolithic.empty_fs.tess_empty_fs
+dEQP-VKSC.pipeline.monolithic.empty_fs.tess_no_fs
+dEQP-VKSC.pipeline.monolithic.empty_fs.vert_empty_fs
+dEQP-VKSC.pipeline.monolithic.empty_fs.vert_no_fs
 dEQP-VKSC.pipeline.monolithic.extended_dynamic_state.after_pipelines.1_full_scissor
 dEQP-VKSC.pipeline.monolithic.extended_dynamic_state.after_pipelines.1_full_viewport
 dEQP-VKSC.pipeline.monolithic.extended_dynamic_state.after_pipelines.2_scissors

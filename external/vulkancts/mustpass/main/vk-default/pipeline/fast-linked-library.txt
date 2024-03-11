@@ -26969,6 +26969,12 @@ dEQP-VK.pipeline.fast_linked_library.early_destroy.cache_destroy_layout
 dEQP-VK.pipeline.fast_linked_library.early_destroy.no_cache
 dEQP-VK.pipeline.fast_linked_library.early_destroy.no_cache_destroy_layout
 dEQP-VK.pipeline.fast_linked_library.early_destroy.no_cache_destroy_layout_maintenance5
+dEQP-VK.pipeline.fast_linked_library.empty_fs.geom_empty_fs
+dEQP-VK.pipeline.fast_linked_library.empty_fs.geom_no_fs
+dEQP-VK.pipeline.fast_linked_library.empty_fs.tess_empty_fs
+dEQP-VK.pipeline.fast_linked_library.empty_fs.tess_no_fs
+dEQP-VK.pipeline.fast_linked_library.empty_fs.vert_empty_fs
+dEQP-VK.pipeline.fast_linked_library.empty_fs.vert_no_fs
 dEQP-VK.pipeline.fast_linked_library.executable_properties.graphics.vertex_stage_fragment_stage
 dEQP-VK.pipeline.fast_linked_library.executable_properties.graphics.vertex_stage_fragment_stage_internal_representations
 dEQP-VK.pipeline.fast_linked_library.executable_properties.graphics.vertex_stage_fragment_stage_statistics

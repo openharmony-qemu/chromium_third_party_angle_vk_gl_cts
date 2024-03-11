@@ -27732,6 +27732,12 @@ dEQP-VK.pipeline.monolithic.early_destroy.cache_destroy_layout
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout_maintenance5
+dEQP-VK.pipeline.monolithic.empty_fs.geom_empty_fs
+dEQP-VK.pipeline.monolithic.empty_fs.geom_no_fs
+dEQP-VK.pipeline.monolithic.empty_fs.tess_empty_fs
+dEQP-VK.pipeline.monolithic.empty_fs.tess_no_fs
+dEQP-VK.pipeline.monolithic.empty_fs.vert_empty_fs
+dEQP-VK.pipeline.monolithic.empty_fs.vert_no_fs
 dEQP-VK.pipeline.monolithic.executable_properties.compute.compute_stage
 dEQP-VK.pipeline.monolithic.executable_properties.compute.compute_stage_internal_representations
 dEQP-VK.pipeline.monolithic.executable_properties.compute.compute_stage_statistics

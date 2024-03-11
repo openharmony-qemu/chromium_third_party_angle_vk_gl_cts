@@ -10031,6 +10031,12 @@ dEQP-VK.pipeline.shader_object_linked_spirv.early_destroy.cache_destroy_layout
 dEQP-VK.pipeline.shader_object_linked_spirv.early_destroy.no_cache
 dEQP-VK.pipeline.shader_object_linked_spirv.early_destroy.no_cache_destroy_layout
 dEQP-VK.pipeline.shader_object_linked_spirv.early_destroy.no_cache_destroy_layout_maintenance5
+dEQP-VK.pipeline.shader_object_linked_spirv.empty_fs.geom_empty_fs
+dEQP-VK.pipeline.shader_object_linked_spirv.empty_fs.geom_no_fs
+dEQP-VK.pipeline.shader_object_linked_spirv.empty_fs.tess_empty_fs
+dEQP-VK.pipeline.shader_object_linked_spirv.empty_fs.tess_no_fs
+dEQP-VK.pipeline.shader_object_linked_spirv.empty_fs.vert_empty_fs
+dEQP-VK.pipeline.shader_object_linked_spirv.empty_fs.vert_no_fs
 dEQP-VK.pipeline.shader_object_linked_spirv.framebuffer_attachment.1d_19_32
 dEQP-VK.pipeline.shader_object_linked_spirv.framebuffer_attachment.1d_32_39
 dEQP-VK.pipeline.shader_object_linked_spirv.framebuffer_attachment.1d_32_48
