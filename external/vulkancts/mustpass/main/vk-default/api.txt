@@ -244893,6 +244893,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.inherited_viewport_sc
 dEQP-VK.api.device_init.create_device_unsupported_features.inline_uniform_block_features
 dEQP-VK.api.device_init.create_device_unsupported_features.invocation_mask_features_huawei
 dEQP-VK.api.device_init.create_device_unsupported_features.legacy_dithering_features_ext
+dEQP-VK.api.device_init.create_device_unsupported_features.legacy_vertex_attributes_features_ext
 dEQP-VK.api.device_init.create_device_unsupported_features.line_rasterization_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.linear_color_attachment_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.maintenance4_features
@@ -244940,6 +244941,7 @@ dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_maintenan
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_motion_blur_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_pipeline_features_khr
 dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_position_fetch_features_khr
+dEQP-VK.api.device_init.create_device_unsupported_features.ray_tracing_validation_features_nv
 dEQP-VK.api.device_init.create_device_unsupported_features.relaxed_line_rasterization_features_img
 dEQP-VK.api.device_init.create_device_unsupported_features.render_pass_striped_features_arm
 dEQP-VK.api.device_init.create_device_unsupported_features.representative_fragment_test_features_nv
@@ -292350,6 +292352,7 @@ dEQP-VK.api.info.get_physical_device_properties2.features.imageless_framebuffer_
 dEQP-VK.api.info.get_physical_device_properties2.features.index_type_uint8_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.inline_uniform_block_features
 dEQP-VK.api.info.get_physical_device_properties2.features.legacy_dithering_features_ext
+dEQP-VK.api.info.get_physical_device_properties2.features.legacy_vertex_attributes_features_ext
 dEQP-VK.api.info.get_physical_device_properties2.features.line_rasterization_features_khr
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance4_features
 dEQP-VK.api.info.get_physical_device_properties2.features.maintenance5_features_khr
@@ -296017,6 +296020,7 @@ dEQP-VK.api.maintenance5.format.image_format_props2
 dEQP-VK.api.maintenance5.format.sparse_image_format_props
 dEQP-VK.api.maintenance5.format.sparse_image_format_props2
 dEQP-VK.api.maintenance6_check.maintenance6_properties
+dEQP-VK.api.maintenance7.layered_api_vulkan_properties
 dEQP-VK.api.null_handle.destroy_buffer
 dEQP-VK.api.null_handle.destroy_buffer_view
 dEQP-VK.api.null_handle.destroy_command_pool
