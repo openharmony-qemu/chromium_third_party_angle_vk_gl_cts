@@ -30545,10 +30545,6 @@ dEQP-VK.pipeline.pipeline_library.max_varyings.test_tess_eval_io_between_tess_ev
 dEQP-VK.pipeline.pipeline_library.max_varyings.test_vertex_io_between_vertex_fragment
 dEQP-VK.pipeline.pipeline_library.misc.implicit_primitive_id
 dEQP-VK.pipeline.pipeline_library.misc.implicit_primitive_id_with_tessellation
-dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages
-dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_geom
-dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_tess
-dEQP-VK.pipeline.pipeline_library.misc.unused_shader_stages_include_tess_include_geom
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_16.alpha_invisible
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_16.alpha_invisible_sparse
 dEQP-VK.pipeline.pipeline_library.multisample.alpha_to_coverage.samples_16.alpha_opaque
