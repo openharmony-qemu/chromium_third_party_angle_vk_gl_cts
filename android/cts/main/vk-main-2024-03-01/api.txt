@@ -68667,6 +68667,8 @@ dEQP-VK.api.maintenance5.format.image_format_props2
 dEQP-VK.api.maintenance5.format.sparse_image_format_props
 dEQP-VK.api.maintenance5.format.sparse_image_format_props2
 dEQP-VK.api.maintenance6_check.maintenance6_properties
+dEQP-VK.api.maintenance7.layered_api_vulkan_properties
+dEQP-VK.api.maintenance7.total_dynamic_buffers_properties
 dEQP-VK.api.null_handle.destroy_shader_object
 dEQP-VK.api.object_management.alloc_callback_fail.merged_pipeline_cache
 dEQP-VK.api.object_management.alloc_callback_fail.merged_pipeline_cache_dst_sync
