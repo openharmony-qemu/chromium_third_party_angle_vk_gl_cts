@@ -746,6 +746,15 @@ dEQP-VK.binding_model.descriptor_buffer.ycbcr_sampler.graphics_tese_array
 dEQP-VK.binding_model.descriptor_buffer.ycbcr_sampler.graphics_vert
 dEQP-VK.binding_model.descriptor_buffer.ycbcr_sampler.graphics_vert_array
 dEQP-VK.binding_model.descriptor_combination.basic.descriptor_buffer_and_legacy_descriptor_in_command_buffer
+dEQP-VK.binding_model.inline_uniform_blocks.copy_at_offset_nonzero
+dEQP-VK.binding_model.inline_uniform_blocks.copy_from_offset_nonzero
+dEQP-VK.binding_model.inline_uniform_blocks.copy_size_16
+dEQP-VK.binding_model.inline_uniform_blocks.copy_size_4
+dEQP-VK.binding_model.inline_uniform_blocks.copy_size_8
+dEQP-VK.binding_model.inline_uniform_blocks.write_offset_nonzero
+dEQP-VK.binding_model.inline_uniform_blocks.write_size_16
+dEQP-VK.binding_model.inline_uniform_blocks.write_size_4
+dEQP-VK.binding_model.inline_uniform_blocks.write_size_8
 dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_01
 dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_02
 dEQP-VK.binding_model.mutable_descriptor.misc.mutable_type_out_of_range_11
