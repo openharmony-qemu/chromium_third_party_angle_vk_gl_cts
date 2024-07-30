@@ -34895,6 +34895,8 @@ dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.range_size_16_comman
 dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.range_size_256
 dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.range_size_256_command2
 dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.range_size_4_command2
+dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.range_size_max
+dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.range_size_max_command2
 dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.unused_disjoint_1
 dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.unused_disjoint_2
 dEQP-VK.pipeline.monolithic.push_constant.graphics_pipeline.unused_disjoint_3
