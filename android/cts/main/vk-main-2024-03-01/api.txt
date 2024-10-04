@@ -68668,6 +68668,7 @@ dEQP-VK.api.info.image_format_properties2.2d.linear.undefined
 dEQP-VK.api.info.image_format_properties2.2d.optimal.undefined
 dEQP-VK.api.info.image_format_properties2.3d.linear.undefined
 dEQP-VK.api.info.image_format_properties2.3d.optimal.undefined
+dEQP-VK.api.info.profiles.roadmap_2024
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.1d.optimal.undefined
 dEQP-VK.api.info.sparse_image_format_properties2.2d.linear.undefined
