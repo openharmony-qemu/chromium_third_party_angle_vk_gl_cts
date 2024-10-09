@@ -77982,11 +77982,6 @@ dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.image.bind_export_
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.image.export_bind_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.image.export_import_bind_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.dedicated.image.info
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.a2b10g10r10_unorm_pack32
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r16g16b16a16_sfloat
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r5g6b5_unorm_pack16
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r8g8b8_unorm
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.r8g8b8a8_unorm
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.bind_export_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.export_bind_import_bind
 dEQP-VK.api.external.memory.android_hardware_buffer.suballocated.buffer.export_import_bind_bind
