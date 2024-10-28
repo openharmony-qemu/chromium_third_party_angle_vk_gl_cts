@@ -44475,6 +44475,7 @@ dEQP-VK.pipeline.monolithic.stencil.no_stencil_att.render_passes.dynamic_enable.
 dEQP-VK.pipeline.monolithic.stencil.no_stencil_att.render_passes.static_enable.d16_unorm
 dEQP-VK.pipeline.monolithic.stencil.no_stencil_att.render_passes.static_enable.d32_sfloat
 dEQP-VK.pipeline.monolithic.stencil.no_stencil_att.render_passes.static_enable.x8_d24_unorm_pack32
+dEQP-VK.pipeline.monolithic.timestamp.misc_tests.check_timestamp_compute_and_graphics
 dEQP-VK.pipeline.monolithic.timestamp.misc_tests.fill_buffer_before_copy
 dEQP-VK.pipeline.monolithic.timestamp.misc_tests.two_cmd_buffers_secondary_transfer_queue
 dEQP-VK.pipeline.monolithic.timestamp.misc_tests.two_cmd_buffers_secondary_transfer_queue_with_availability_bit
