@@ -1945,9 +1945,7 @@ dEQP-VKSC.api.command_buffers.pool_create_reset_bit
 dEQP-VKSC.api.command_buffers.pool_create_transient_bit
 dEQP-VKSC.api.command_buffers.pool_reset_no_flags_res
 dEQP-VKSC.api.command_buffers.record_many_draws_primary_1
-dEQP-VKSC.api.command_buffers.record_many_draws_primary_2
 dEQP-VKSC.api.command_buffers.record_many_draws_secondary_1
-dEQP-VKSC.api.command_buffers.record_many_draws_secondary_2
 dEQP-VKSC.api.command_buffers.record_many_primary
 dEQP-VKSC.api.command_buffers.record_many_secondary
 dEQP-VKSC.api.command_buffers.record_one_time_submit_primary
