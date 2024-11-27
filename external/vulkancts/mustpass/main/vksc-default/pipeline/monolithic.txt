@@ -164229,6 +164229,7 @@ dEQP-VKSC.pipeline.monolithic.timestamp.basic_graphics_tests.vertex_shader_stage
 dEQP-VKSC.pipeline.monolithic.timestamp.calibrated.calibration_test
 dEQP-VKSC.pipeline.monolithic.timestamp.calibrated.dev_domain_test
 dEQP-VKSC.pipeline.monolithic.timestamp.calibrated.host_domain_test
+dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.check_timestamp_compute_and_graphics
 dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.consistent_results
 dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.fill_buffer_before_copy
 dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.reset_query_before_copy
