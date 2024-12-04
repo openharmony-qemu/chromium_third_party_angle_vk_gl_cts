@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "angle",
+        "License": "Apache-2.0",
+        "License File":"LICENSE",
+        "Version Number": "bfede065f419a93f3ea37dcc0c8fbcd794d3b7f8",
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/KhronosGroup/VK-GL-CTS@bfede065f419a93f3ea37dcc0c8fbcd794d3b7f8",
+        "Description": "第三方软件angle底层的图形渲染引擎的一部分，包含第三方软件rapidjson"
+    }
+]
