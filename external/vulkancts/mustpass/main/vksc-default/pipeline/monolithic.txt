@@ -66214,6 +66214,10 @@ dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_holes
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static_export_frag_depth
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static_export_frag_depth_with_sample_rate_shading
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static_with_sample_rate_shading
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_invisible
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_invisible_check_depth
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_opaque
