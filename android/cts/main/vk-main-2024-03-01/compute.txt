@@ -28,6 +28,7 @@ dEQP-VK.compute.pipeline.basic.replicated_composites_vector_constant
 dEQP-VK.compute.pipeline.basic.replicated_composites_vector_specconstant
 dEQP-VK.compute.pipeline.basic.replicated_composites_vector_value
 dEQP-VK.compute.pipeline.basic.secondary_compute_only_queue
+dEQP-VK.compute.pipeline.basic.undefined_values
 dEQP-VK.compute.pipeline.basic.webgl_spirv_loop
 dEQP-VK.compute.pipeline.cooperative_matrix.khr_a.subgroupscope.add.float16_float16.buffer.rowmajor.linear
 dEQP-VK.compute.pipeline.cooperative_matrix.khr_a.subgroupscope.add.float16_float16.buffer.rowmajor.tensorlayout
@@ -10591,6 +10592,7 @@ dEQP-VK.compute.shader_object_binary.basic.ubo_to_ssbo_multiple_groups
 dEQP-VK.compute.shader_object_binary.basic.ubo_to_ssbo_multiple_invocations
 dEQP-VK.compute.shader_object_binary.basic.ubo_to_ssbo_single_group
 dEQP-VK.compute.shader_object_binary.basic.ubo_to_ssbo_single_invocation
+dEQP-VK.compute.shader_object_binary.basic.undefined_values
 dEQP-VK.compute.shader_object_binary.basic.write_multiple_arr_multiple_groups
 dEQP-VK.compute.shader_object_binary.basic.write_multiple_arr_single_invocation
 dEQP-VK.compute.shader_object_binary.basic.write_multiple_unsized_arr_multiple_groups
@@ -25638,6 +25640,7 @@ dEQP-VK.compute.shader_object_spirv.basic.ubo_to_ssbo_multiple_groups
 dEQP-VK.compute.shader_object_spirv.basic.ubo_to_ssbo_multiple_invocations
 dEQP-VK.compute.shader_object_spirv.basic.ubo_to_ssbo_single_group
 dEQP-VK.compute.shader_object_spirv.basic.ubo_to_ssbo_single_invocation
+dEQP-VK.compute.shader_object_spirv.basic.undefined_values
 dEQP-VK.compute.shader_object_spirv.basic.write_multiple_arr_multiple_groups
 dEQP-VK.compute.shader_object_spirv.basic.write_multiple_arr_single_invocation
 dEQP-VK.compute.shader_object_spirv.basic.write_multiple_unsized_arr_multiple_groups
