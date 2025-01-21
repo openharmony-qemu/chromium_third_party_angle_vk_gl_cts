@@ -25794,6 +25794,9 @@ dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.compare_o
 dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.compare_ops.triangle_list_not_equal_not_equal_not_equal_not_equal_depth_bounds_test
 dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.depth_test_disabled.depth_write_enabled
 dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.host_visible.local_memory_depth_buffer
+dEQP-VKSC.pipeline.monolithic.depth.xfer_queue_layout.aspect_depth
+dEQP-VKSC.pipeline.monolithic.depth.xfer_queue_layout.aspect_depth_stencil
+dEQP-VKSC.pipeline.monolithic.depth.xfer_queue_layout.aspect_stencil
 dEQP-VKSC.pipeline.monolithic.descriptor_limits.compute_shader.sampled_images_10
 dEQP-VKSC.pipeline.monolithic.descriptor_limits.compute_shader.sampled_images_100
 dEQP-VKSC.pipeline.monolithic.descriptor_limits.compute_shader.sampled_images_1024
@@ -164229,6 +164232,7 @@ dEQP-VKSC.pipeline.monolithic.timestamp.basic_graphics_tests.vertex_shader_stage
 dEQP-VKSC.pipeline.monolithic.timestamp.calibrated.calibration_test
 dEQP-VKSC.pipeline.monolithic.timestamp.calibrated.dev_domain_test
 dEQP-VKSC.pipeline.monolithic.timestamp.calibrated.host_domain_test
+dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.check_timestamp_compute_and_graphics
 dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.consistent_results
 dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.fill_buffer_before_copy
 dEQP-VKSC.pipeline.monolithic.timestamp.misc_tests.reset_query_before_copy
