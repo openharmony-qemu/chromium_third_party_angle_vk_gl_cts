@@ -25794,6 +25794,9 @@ dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.compare_o
 dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.compare_ops.triangle_list_not_equal_not_equal_not_equal_not_equal_depth_bounds_test
 dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.depth_test_disabled.depth_write_enabled
 dEQP-VKSC.pipeline.monolithic.depth.nocolor.format.x8_d24_unorm_pack32.host_visible.local_memory_depth_buffer
+dEQP-VKSC.pipeline.monolithic.depth.xfer_queue_layout.aspect_depth
+dEQP-VKSC.pipeline.monolithic.depth.xfer_queue_layout.aspect_depth_stencil
+dEQP-VKSC.pipeline.monolithic.depth.xfer_queue_layout.aspect_stencil
 dEQP-VKSC.pipeline.monolithic.descriptor_limits.compute_shader.sampled_images_10
 dEQP-VKSC.pipeline.monolithic.descriptor_limits.compute_shader.sampled_images_100
 dEQP-VKSC.pipeline.monolithic.descriptor_limits.compute_shader.sampled_images_1024
@@ -66211,6 +66214,10 @@ dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_holes
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static_export_frag_depth
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static_export_frag_depth_with_sample_rate_shading
+dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static_with_sample_rate_shading
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_invisible
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_invisible_check_depth
 dEQP-VKSC.pipeline.monolithic.multisample.alpha_to_coverage.samples_16.alpha_opaque
@@ -165746,6 +165753,8 @@ dEQP-VKSC.pipeline.monolithic.vertex_input.misc.stride_change_vert_frag
 dEQP-VKSC.pipeline.monolithic.vertex_input.misc.stride_change_vert_geom_frag
 dEQP-VKSC.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_frag
 dEQP-VKSC.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_geom_frag
+dEQP-VKSC.pipeline.monolithic.vertex_input.misc.unused_binding
+dEQP-VKSC.pipeline.monolithic.vertex_input.misc.unused_binding_dynamic
 dEQP-VKSC.pipeline.monolithic.vertex_input.multiple_attributes.binding_one_to_many.attributes.f16vec2.f16vec3.f16vec4
 dEQP-VKSC.pipeline.monolithic.vertex_input.multiple_attributes.binding_one_to_many.attributes.f16vec2.f16vec3.mat2
 dEQP-VKSC.pipeline.monolithic.vertex_input.multiple_attributes.binding_one_to_many.attributes.f16vec2.f16vec3.mat3
