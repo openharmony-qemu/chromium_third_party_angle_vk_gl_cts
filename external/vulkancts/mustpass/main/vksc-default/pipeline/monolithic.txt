@@ -26803,6 +26803,8 @@ dEQP-VKSC.pipeline.monolithic.dynamic_offset.graphics.single_set.uniform_buffer.
 dEQP-VKSC.pipeline.monolithic.dynamic_vertex_attribute.nonsequential
 dEQP-VKSC.pipeline.monolithic.empty_fs.geom_empty_fs
 dEQP-VKSC.pipeline.monolithic.empty_fs.geom_no_fs
+dEQP-VKSC.pipeline.monolithic.empty_fs.masked_samples
+dEQP-VKSC.pipeline.monolithic.empty_fs.primitive_discard
 dEQP-VKSC.pipeline.monolithic.empty_fs.tess_empty_fs
 dEQP-VKSC.pipeline.monolithic.empty_fs.tess_no_fs
 dEQP-VKSC.pipeline.monolithic.empty_fs.vert_empty_fs
