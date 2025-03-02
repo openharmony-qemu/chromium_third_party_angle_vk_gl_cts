@@ -22,6 +22,7 @@ dEQP-VK.compute.pipeline.basic.max_local_size_y
 dEQP-VK.compute.pipeline.basic.max_local_size_z
 dEQP-VK.compute.pipeline.basic.pk_immediate
 dEQP-VK.compute.pipeline.basic.pkadd_immediate
+dEQP-VK.compute.pipeline.basic.read_unbound_ssbo
 dEQP-VK.compute.pipeline.basic.replicated_composites_array_array_constant
 dEQP-VK.compute.pipeline.basic.replicated_composites_array_array_specconstant
 dEQP-VK.compute.pipeline.basic.replicated_composites_array_array_value
@@ -15085,6 +15086,7 @@ dEQP-VK.compute.shader_object_binary.basic.image_barrier_single
 dEQP-VK.compute.shader_object_binary.basic.max_local_size_x
 dEQP-VK.compute.shader_object_binary.basic.max_local_size_y
 dEQP-VK.compute.shader_object_binary.basic.max_local_size_z
+dEQP-VK.compute.shader_object_binary.basic.read_unbound_ssbo
 dEQP-VK.compute.shader_object_binary.basic.replicated_composites_array_array_constant
 dEQP-VK.compute.shader_object_binary.basic.replicated_composites_array_array_specconstant
 dEQP-VK.compute.shader_object_binary.basic.replicated_composites_array_array_value
@@ -30133,6 +30135,7 @@ dEQP-VK.compute.shader_object_spirv.basic.image_barrier_single
 dEQP-VK.compute.shader_object_spirv.basic.max_local_size_x
 dEQP-VK.compute.shader_object_spirv.basic.max_local_size_y
 dEQP-VK.compute.shader_object_spirv.basic.max_local_size_z
+dEQP-VK.compute.shader_object_spirv.basic.read_unbound_ssbo
 dEQP-VK.compute.shader_object_spirv.basic.replicated_composites_array_array_constant
 dEQP-VK.compute.shader_object_spirv.basic.replicated_composites_array_array_specconstant
 dEQP-VK.compute.shader_object_spirv.basic.replicated_composites_array_array_value
