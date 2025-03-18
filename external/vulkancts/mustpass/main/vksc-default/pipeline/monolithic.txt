@@ -17744,6 +17744,10 @@ dEQP-VKSC.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachment
 dEQP-VKSC.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments5_more1
 dEQP-VKSC.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments5_more2
 dEQP-VKSC.pipeline.monolithic.color_write_enable_maxa.cwe_before_bind.attachments5_more3
+dEQP-VKSC.pipeline.monolithic.depth.depth_only.separate_render_passes_postpass
+dEQP-VKSC.pipeline.monolithic.depth.depth_only.separate_render_passes_prepass
+dEQP-VKSC.pipeline.monolithic.depth.depth_only.subpasses_postpass
+dEQP-VKSC.pipeline.monolithic.depth.depth_only.subpasses_prepass
 dEQP-VKSC.pipeline.monolithic.depth.format.d16_unorm.compare_ops.line_list_always_always_never_greater
 dEQP-VKSC.pipeline.monolithic.depth.format.d16_unorm.compare_ops.line_list_always_always_never_greater_depth_bounds_test
 dEQP-VKSC.pipeline.monolithic.depth.format.d16_unorm.compare_ops.line_list_always_equal_always_never
