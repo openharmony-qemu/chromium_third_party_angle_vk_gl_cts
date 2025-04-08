@@ -39,6 +39,8 @@ virtual void		getPhysicalDeviceExternalSemaphoreProperties					(VkPhysicalDevice
 virtual void		getPhysicalDeviceExternalFenceProperties						(VkPhysicalDevice physicalDevice, const VkPhysicalDeviceExternalFenceInfo* pExternalFenceInfo, VkExternalFenceProperties* pExternalFenceProperties) const;
 virtual VkResult	getPhysicalDeviceSciSyncAttributesNV							(VkPhysicalDevice physicalDevice, const VkSciSyncAttributesInfoNV* pSciSyncAttributesInfo, pt::NvSciSyncAttrList pAttributes) const;
 virtual VkResult	releaseDisplayEXT												(VkPhysicalDevice physicalDevice, VkDisplayKHR display) const;
+virtual VkResult	acquireWinrtDisplayNV											(VkPhysicalDevice physicalDevice, VkDisplayKHR display) const;
+virtual VkResult	getWinrtDisplayNV												(VkPhysicalDevice physicalDevice, uint32_t deviceRelativeId, VkDisplayKHR* pDisplay) const;
 virtual VkResult	getPhysicalDeviceSurfaceCapabilities2EXT						(VkPhysicalDevice physicalDevice, VkSurfaceKHR surface, VkSurfaceCapabilities2EXT* pSurfaceCapabilities) const;
 virtual VkResult	enumeratePhysicalDeviceGroups									(VkInstance instance, uint32_t* pPhysicalDeviceGroupCount, VkPhysicalDeviceGroupProperties* pPhysicalDeviceGroupProperties) const;
 virtual VkResult	getPhysicalDevicePresentRectanglesKHR							(VkPhysicalDevice physicalDevice, VkSurfaceKHR surface, uint32_t* pRectCount, VkRect2D* pRects) const;
@@ -49,7 +51,7 @@ virtual VkResult	getPhysicalDeviceDisplayProperties2KHR							(VkPhysicalDevice 
 virtual VkResult	getPhysicalDeviceDisplayPlaneProperties2KHR						(VkPhysicalDevice physicalDevice, uint32_t* pPropertyCount, VkDisplayPlaneProperties2KHR* pProperties) const;
 virtual VkResult	getDisplayModeProperties2KHR									(VkPhysicalDevice physicalDevice, VkDisplayKHR display, uint32_t* pPropertyCount, VkDisplayModeProperties2KHR* pProperties) const;
 virtual VkResult	getDisplayPlaneCapabilities2KHR									(VkPhysicalDevice physicalDevice, const VkDisplayPlaneInfo2KHR* pDisplayPlaneInfo, VkDisplayPlaneCapabilities2KHR* pCapabilities) const;
-virtual VkResult	getPhysicalDeviceCalibrateableTimeDomainsEXT					(VkPhysicalDevice physicalDevice, uint32_t* pTimeDomainCount, VkTimeDomainEXT* pTimeDomains) const;
+virtual VkResult	getPhysicalDeviceCalibrateableTimeDomainsKHR					(VkPhysicalDevice physicalDevice, uint32_t* pTimeDomainCount, VkTimeDomainKHR* pTimeDomains) const;
 virtual VkResult	createDebugUtilsMessengerEXT									(VkInstance instance, const VkDebugUtilsMessengerCreateInfoEXT* pCreateInfo, const VkAllocationCallbacks* pAllocator, VkDebugUtilsMessengerEXT* pMessenger) const;
 virtual void		destroyDebugUtilsMessengerEXT									(VkInstance instance, VkDebugUtilsMessengerEXT messenger, const VkAllocationCallbacks* pAllocator) const;
 virtual void		submitDebugUtilsMessageEXT										(VkInstance instance, VkDebugUtilsMessageSeverityFlagBitsEXT messageSeverity, VkDebugUtilsMessageTypeFlagsEXT messageTypes, const VkDebugUtilsMessengerCallbackDataEXT* pCallbackData) const;

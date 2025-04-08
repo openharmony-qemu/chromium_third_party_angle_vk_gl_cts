@@ -48,6 +48,8 @@ GetPhysicalDeviceExternalFencePropertiesFunc						getPhysicalDeviceExternalFence
 GetPhysicalDeviceExternalFencePropertiesKHRFunc						getPhysicalDeviceExternalFencePropertiesKHR;
 GetPhysicalDeviceSciSyncAttributesNVFunc							getPhysicalDeviceSciSyncAttributesNV;
 ReleaseDisplayEXTFunc												releaseDisplayEXT;
+AcquireWinrtDisplayNVFunc											acquireWinrtDisplayNV;
+GetWinrtDisplayNVFunc												getWinrtDisplayNV;
 GetPhysicalDeviceSurfaceCapabilities2EXTFunc						getPhysicalDeviceSurfaceCapabilities2EXT;
 EnumeratePhysicalDeviceGroupsFunc									enumeratePhysicalDeviceGroups;
 EnumeratePhysicalDeviceGroupsKHRFunc								enumeratePhysicalDeviceGroupsKHR;
@@ -59,6 +61,7 @@ GetPhysicalDeviceDisplayProperties2KHRFunc							getPhysicalDeviceDisplayPropert
 GetPhysicalDeviceDisplayPlaneProperties2KHRFunc						getPhysicalDeviceDisplayPlaneProperties2KHR;
 GetDisplayModeProperties2KHRFunc									getDisplayModeProperties2KHR;
 GetDisplayPlaneCapabilities2KHRFunc									getDisplayPlaneCapabilities2KHR;
+GetPhysicalDeviceCalibrateableTimeDomainsKHRFunc					getPhysicalDeviceCalibrateableTimeDomainsKHR;
 GetPhysicalDeviceCalibrateableTimeDomainsEXTFunc					getPhysicalDeviceCalibrateableTimeDomainsEXT;
 CreateDebugUtilsMessengerEXTFunc									createDebugUtilsMessengerEXT;
 DestroyDebugUtilsMessengerEXTFunc									destroyDebugUtilsMessengerEXT;

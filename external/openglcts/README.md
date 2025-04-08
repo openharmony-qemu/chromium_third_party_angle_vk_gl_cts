@@ -104,7 +104,7 @@ the Standard Template Library (STL).
 Configuring and Building the Tests
 ------------------------
 The CTS is built via CMake build system. The requirements for the build are as follows:
-- CMake 3.17.2 or newer
+- CMake 3.20.0 or newer
 - C++ compiler with STL and exceptions support
 - Unix: Make + GCC / Clang
 - Windows: Visual Studio or Windows SDK (available free-of-charge)
@@ -252,7 +252,6 @@ using Cmake.
 
 Requirements:
 - Visual Studio (2015 or newer recommended) or Windows SDK
-- CMake 3.17.2 Windows native version (i.e. not Cygwin version)
 - For GL/ES2/ES3.x tests: OpengGL, OpenGL ES 2 or ES 3.x libraries and headers
 
 To choose the backend build system for CMake, choose one of the following Generator Names for the
@@ -299,7 +298,6 @@ function wcmake () {
 
 Required tools:
 - Standard build utilities (make, gcc, etc.)
-- CMake 3.17.2
 - Necessary API libraries (OpenGL, GLES, EGL depending on configuration)
 
 Building ES2 or ES3.x conformance tests:
@@ -515,6 +513,12 @@ Waivers can be specified by supplying a `waivers` string extra. See the followin
 **NOTE**: Supplying a `summary` = `"true"` string extra will result in the `cts-run-summary.xml` file
 being written out but no tests will be executed.
 
+For GLES 3.2 conformance test, the conformance run configurations can be
+generated and written to a customized file, by specifying the file name through
+`khronosCTSTestParamFileName` argument. Example:
+
+	am start -n org.khronos.gl_cts/org.khronos.cts.ES32GetTestParamActivity -e khronosCTSTestParamFileName "/sdcard/cts-test-params.xml"
+
 Individual tests can be launched as well by targeting
 `org.khronos.gl_cts/android.app.NativeActivity` activity. Command line
 arguments must be supplied in a `cmdLine` string extra. See following example:
@@ -554,6 +558,9 @@ Full list of parameters for the `glcts` binary:
 ```
   -h, --help
     Show this help
+
+  -q, --quiet
+    Suppress messages to standard output
 
   -n, --deqp-case=<value>
     Test case(s) to run, supports wildcards (e.g. dEQP-GLES2.info.*)
@@ -671,6 +678,13 @@ Full list of parameters for the `glcts` binary:
     Enable or disable log file fflush
     default: 'enable'
 
+  --deqp-log-compact=[enable|disable]
+    Enable or disable the compact version of the log
+    default: 'disable'
+
+  --deqp-duplicate-case-name-check=[enable|disable]
+    Check for duplicate case names when creating test hierarchy
+    default: 'enable' in Debug mode, 'disable' in Release mode
 
   --deqp-renderdoc=[enable|disable]
     Enable RenderDoc frame markers
@@ -695,6 +709,10 @@ Full list of parameters for the `glcts` binary:
   --deqp-terminate-on-fail=[enable|disable]
     Terminate the run on first failure
     default: 'disable'
+
+  --deqp-terminate-on-device-lost=[enable|disable]
+    Terminate the run on first device lost error
+    default: 'enable'
 
   --deqp-egl-config-id=<value>
     Legacy name for --deqp-gl-config-id
