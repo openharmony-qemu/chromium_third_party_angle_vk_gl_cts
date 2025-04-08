@@ -4,8 +4,30 @@
  */
 
 
-void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::std::vector<const char*>& functions)
+bool checkVersion(uint32_t major, uint32_t minor, const uint32_t testedApiVersion)
 {
+	uint32_t testedMajor = VK_API_VERSION_MAJOR(testedApiVersion);
+	uint32_t testedMinor = VK_API_VERSION_MINOR(testedApiVersion);
+	// return true when tested api version is greater
+	// or equal to version represented by two uints
+	if (major == testedMajor)
+		return minor <= testedMinor;
+	return major < testedMajor;
+}
+
+bool extensionIsSupported(const std::vector<std::string> extNames, const std::string& ext)
+{
+	for (const std::string& supportedExtension : extNames)
+	{
+		if (supportedExtension == ext) return true;
+	}
+	return false;
+}
+
+void getInstanceExtensionFunctions (uint32_t apiVersion, const std::vector<std::string> vIEP, const std::vector<std::string> vDEP, const std::string extName, ::std::vector<const char*>& functions)
+{
+	(void)vIEP;
+(void)vDEP;
 	if (extName == "VK_KHR_surface")
 	{
 		functions.push_back("vkDestroySurfaceKHR");
@@ -17,7 +39,10 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, 
 	}
 	if (extName == "VK_KHR_swapchain")
 	{
-		if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkGetPhysicalDevicePresentRectanglesKHR");
+		// Dependencies: VK_VERSION_1_1
+		if (checkVersion(1, 1, apiVersion)) {
+			if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkGetPhysicalDevicePresentRectanglesKHR");
+		}
 		return;
 	}
 	if (extName == "VK_KHR_display")
@@ -165,10 +190,6 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, 
 	{
 		return;
 	}
-	if (extName == "VK_EXT_global_priority")
-	{
-		return;
-	}
 	if (extName == "VK_EXT_external_memory_host")
 	{
 		return;
@@ -177,12 +198,7 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, 
 	{
 		return;
 	}
-	if (extName == "VK_EXT_calibrated_timestamps")
-	{
-		functions.push_back("vkGetPhysicalDeviceCalibrateableTimeDomainsEXT");
-		return;
-	}
-	if (extName == "VK_EXT_vertex_attribute_divisor")
+	if (extName == "VK_KHR_global_priority")
 	{
 		return;
 	}
@@ -289,6 +305,12 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, 
 	{
 		return;
 	}
+	if (extName == "VK_NV_acquire_winrt_display")
+	{
+		functions.push_back("vkAcquireWinrtDisplayNV");
+		functions.push_back("vkGetWinrtDisplayNV");
+		return;
+	}
 	if (extName == "VK_EXT_vertex_input_dynamic_state")
 	{
 		return;
@@ -321,6 +343,27 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, 
 		functions.push_back("vkGetPhysicalDeviceSciSyncAttributesNV");
 		return;
 	}
+	if (extName == "VK_KHR_vertex_attribute_divisor")
+	{
+		return;
+	}
+	if (extName == "VK_QNX_external_memory_screen_buffer")
+	{
+		return;
+	}
+	if (extName == "VK_KHR_index_type_uint8")
+	{
+		return;
+	}
+	if (extName == "VK_KHR_line_rasterization")
+	{
+		return;
+	}
+	if (extName == "VK_KHR_calibrated_timestamps")
+	{
+		functions.push_back("vkGetPhysicalDeviceCalibrateableTimeDomainsKHR");
+		return;
+	}
 	if (extName == "VK_NV_device_diagnostic_checkpoints")
 	{
 		return;
@@ -329,11 +372,26 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, ::std::string extName, 
 	{
 		return;
 	}
+	if (extName == "VK_EXT_vertex_attribute_divisor")
+	{
+		return;
+	}
+	if (extName == "VK_EXT_global_priority")
+	{
+		return;
+	}
+	if (extName == "VK_EXT_calibrated_timestamps")
+	{
+		functions.push_back("vkGetPhysicalDeviceCalibrateableTimeDomainsEXT");
+		return;
+	}
 	DE_FATAL("Extension name not found");
 }
 
-void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::std::vector<const char*>& functions)
+void getDeviceExtensionFunctions (uint32_t apiVersion, const std::vector<std::string> vIEP, const std::vector<std::string> vDEP, const std::string extName, ::std::vector<const char*>& functions)
 {
+	(void)vIEP;
+(void)vDEP;
 	if (extName == "VK_KHR_surface")
 	{
 		return;
@@ -344,9 +402,12 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 		functions.push_back("vkGetSwapchainImagesKHR");
 		functions.push_back("vkAcquireNextImageKHR");
 		functions.push_back("vkQueuePresentKHR");
-		if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkGetDeviceGroupPresentCapabilitiesKHR");
-		if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkGetDeviceGroupSurfacePresentModesKHR");
-		if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkAcquireNextImage2KHR");
+		// Dependencies: VK_VERSION_1_1
+		if (checkVersion(1, 1, apiVersion)) {
+			if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkGetDeviceGroupPresentCapabilitiesKHR");
+			if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkGetDeviceGroupSurfacePresentModesKHR");
+			if(apiVersion >= VK_API_VERSION_1_1) functions.push_back("vkAcquireNextImage2KHR");
+		}
 		return;
 	}
 	if (extName == "VK_KHR_display")
@@ -501,10 +562,6 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 	{
 		return;
 	}
-	if (extName == "VK_EXT_global_priority")
-	{
-		return;
-	}
 	if (extName == "VK_EXT_external_memory_host")
 	{
 		functions.push_back("vkGetMemoryHostPointerPropertiesEXT");
@@ -514,12 +571,7 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 	{
 		return;
 	}
-	if (extName == "VK_EXT_calibrated_timestamps")
-	{
-		functions.push_back("vkGetCalibratedTimestampsEXT");
-		return;
-	}
-	if (extName == "VK_EXT_vertex_attribute_divisor")
+	if (extName == "VK_KHR_global_priority")
 	{
 		return;
 	}
@@ -626,6 +678,10 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 		functions.push_back("vkCmdPipelineBarrier2KHR");
 		functions.push_back("vkCmdWriteTimestamp2KHR");
 		functions.push_back("vkQueueSubmit2KHR");
+		// Dependencies: VK_NV_device_diagnostic_checkpoints
+		if (extensionIsSupported(vDEP, "VK_NV_device_diagnostic_checkpoints")) {
+			functions.push_back("vkGetQueueCheckpointData2NV");
+		}
 		return;
 	}
 	if (extName == "VK_EXT_ycbcr_2plane_444_formats")
@@ -647,6 +703,10 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 		return;
 	}
 	if (extName == "VK_EXT_4444_formats")
+	{
+		return;
+	}
+	if (extName == "VK_NV_acquire_winrt_display")
 	{
 		return;
 	}
@@ -697,6 +757,29 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 		functions.push_back("vkImportFenceSciSyncObjNV");
 		return;
 	}
+	if (extName == "VK_KHR_vertex_attribute_divisor")
+	{
+		return;
+	}
+	if (extName == "VK_QNX_external_memory_screen_buffer")
+	{
+		functions.push_back("vkGetScreenBufferPropertiesQNX");
+		return;
+	}
+	if (extName == "VK_KHR_index_type_uint8")
+	{
+		return;
+	}
+	if (extName == "VK_KHR_line_rasterization")
+	{
+		functions.push_back("vkCmdSetLineStippleKHR");
+		return;
+	}
+	if (extName == "VK_KHR_calibrated_timestamps")
+	{
+		functions.push_back("vkGetCalibratedTimestampsKHR");
+		return;
+	}
 	if (extName == "VK_NV_device_diagnostic_checkpoints")
 	{
 		functions.push_back("vkCmdSetCheckpointNV");
@@ -705,6 +788,19 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 	}
 	if (extName == "VK_KHR_format_feature_flags2")
 	{
+		return;
+	}
+	if (extName == "VK_EXT_vertex_attribute_divisor")
+	{
+		return;
+	}
+	if (extName == "VK_EXT_global_priority")
+	{
+		return;
+	}
+	if (extName == "VK_EXT_calibrated_timestamps")
+	{
+		functions.push_back("vkGetCalibratedTimestampsEXT");
 		return;
 	}
 	DE_FATAL("Extension name not found");
@@ -752,11 +848,9 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 	"VK_EXT_post_depth_coverage",
 	"VK_EXT_image_drm_format_modifier",
 	"VK_EXT_filter_cubic",
-	"VK_EXT_global_priority",
 	"VK_EXT_external_memory_host",
 	"VK_KHR_shader_clock",
-	"VK_EXT_calibrated_timestamps",
-	"VK_EXT_vertex_attribute_divisor",
+	"VK_KHR_global_priority",
 	"VK_KHR_swapchain_mutable_format",
 	"VK_EXT_pci_bus_info",
 	"VK_KHR_shader_terminate_invocation",
@@ -780,12 +874,21 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, ::std::string extName, ::
 	"VK_EXT_image_robustness",
 	"VK_KHR_copy_commands2",
 	"VK_EXT_4444_formats",
+	"VK_NV_acquire_winrt_display",
 	"VK_EXT_vertex_input_dynamic_state",
 	"VK_NV_external_sci_sync",
 	"VK_NV_external_memory_sci_buf",
 	"VK_EXT_extended_dynamic_state2",
 	"VK_EXT_color_write_enable",
 	"VK_NV_external_sci_sync2",
+	"VK_KHR_vertex_attribute_divisor",
+	"VK_QNX_external_memory_screen_buffer",
+	"VK_KHR_index_type_uint8",
+	"VK_KHR_line_rasterization",
+	"VK_KHR_calibrated_timestamps",
 	"VK_NV_device_diagnostic_checkpoints",
 	"VK_KHR_format_feature_flags2",
+	"VK_EXT_vertex_attribute_divisor",
+	"VK_EXT_global_priority",
+	"VK_EXT_calibrated_timestamps",
 };
