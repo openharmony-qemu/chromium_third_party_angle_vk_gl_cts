@@ -10827,6 +10827,7 @@ dEQP-VK.pipeline.pipeline_library.extended_dynamic_state.two_draws_static.sample
 dEQP-VK.pipeline.pipeline_library.extended_dynamic_state.two_draws_static.sample_shading_sample_count
 dEQP-VK.pipeline.pipeline_library.extended_dynamic_state.two_draws_static.vertex_input_float16
 dEQP-VK.pipeline.pipeline_library.graphics_library.fast.maintenance5
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.bad_rendering_create_info
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.common_frag_pipeline_library
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.null_rendering_create_info
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.unusual_multisample_state
