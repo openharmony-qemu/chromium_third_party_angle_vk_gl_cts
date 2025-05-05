@@ -68,6 +68,7 @@ dEQP-VK.compute.pipeline.basic.ubo_to_ssbo_multiple_invocations
 dEQP-VK.compute.pipeline.basic.ubo_to_ssbo_single_group
 dEQP-VK.compute.pipeline.basic.ubo_to_ssbo_single_invocation
 dEQP-VK.compute.pipeline.basic.undefined_values
+dEQP-VK.compute.pipeline.basic.vec2_nclamp_nan_component
 dEQP-VK.compute.pipeline.basic.webgl_spirv_loop
 dEQP-VK.compute.pipeline.basic.write_multiple_arr_multiple_groups
 dEQP-VK.compute.pipeline.basic.write_multiple_arr_single_invocation

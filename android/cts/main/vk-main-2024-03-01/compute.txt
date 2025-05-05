@@ -31,6 +31,7 @@ dEQP-VK.compute.pipeline.basic.replicated_composites_vector_specconstant
 dEQP-VK.compute.pipeline.basic.replicated_composites_vector_value
 dEQP-VK.compute.pipeline.basic.secondary_compute_only_queue
 dEQP-VK.compute.pipeline.basic.undefined_values
+dEQP-VK.compute.pipeline.basic.vec2_nclamp_nan_component
 dEQP-VK.compute.pipeline.basic.webgl_spirv_loop
 dEQP-VK.compute.pipeline.cooperative_matrix.khr_a.subgroupscope.add.float16_float16.buffer.rowmajor.linear
 dEQP-VK.compute.pipeline.cooperative_matrix.khr_a.subgroupscope.add.float16_float16.buffer.rowmajor.tensorlayout
