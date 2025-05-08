@@ -108451,6 +108451,8 @@ dEQP-VK.transform_feedback.simple.lines_or_triangles_triangle_strip_6_ptsz
 dEQP-VK.transform_feedback.simple.maintenance5
 dEQP-VK.transform_feedback.simple.max_output_components_128
 dEQP-VK.transform_feedback.simple.max_output_components_64
+dEQP-VK.transform_feedback.simple.multi_stream_single_raster
+dEQP-VK.transform_feedback.simple.multi_stream_single_raster_non_zero
 dEQP-VK.transform_feedback.simple.multiquery_14_ptsz
 dEQP-VK.transform_feedback.simple.multiquery_1_ptsz
 dEQP-VK.transform_feedback.simple.multiquery_3_ptsz
@@ -113872,6 +113874,8 @@ dEQP-VK.transform_feedback.simple_fast_gpl.lines_or_triangles_triangle_strip_6_p
 dEQP-VK.transform_feedback.simple_fast_gpl.maintenance5
 dEQP-VK.transform_feedback.simple_fast_gpl.max_output_components_128
 dEQP-VK.transform_feedback.simple_fast_gpl.max_output_components_64
+dEQP-VK.transform_feedback.simple_fast_gpl.multi_stream_single_raster
+dEQP-VK.transform_feedback.simple_fast_gpl.multi_stream_single_raster_non_zero
 dEQP-VK.transform_feedback.simple_fast_gpl.multiquery_1
 dEQP-VK.transform_feedback.simple_fast_gpl.multiquery_14
 dEQP-VK.transform_feedback.simple_fast_gpl.multiquery_14_ptsz
@@ -121741,6 +121745,8 @@ dEQP-VK.transform_feedback.simple_optimized_gpl.lines_or_triangles_triangle_stri
 dEQP-VK.transform_feedback.simple_optimized_gpl.maintenance5
 dEQP-VK.transform_feedback.simple_optimized_gpl.max_output_components_128
 dEQP-VK.transform_feedback.simple_optimized_gpl.max_output_components_64
+dEQP-VK.transform_feedback.simple_optimized_gpl.multi_stream_single_raster
+dEQP-VK.transform_feedback.simple_optimized_gpl.multi_stream_single_raster_non_zero
 dEQP-VK.transform_feedback.simple_optimized_gpl.multiquery_1
 dEQP-VK.transform_feedback.simple_optimized_gpl.multiquery_14
 dEQP-VK.transform_feedback.simple_optimized_gpl.multiquery_14_ptsz
