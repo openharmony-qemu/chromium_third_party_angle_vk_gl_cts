@@ -208,6 +208,9 @@ dEQP-VK.api.command_buffers.nested_execute_multiple_levels
 dEQP-VK.api.command_buffers.nested_render_pass_continue
 dEQP-VK.api.command_buffers.record_simul_use_nested
 dEQP-VK.api.command_buffers.record_simul_use_twice_nested
+dEQP-VK.api.command_buffers.secondary_push_constants_2
+dEQP-VK.api.command_buffers.secondary_push_descriptor_set_2
+dEQP-VK.api.command_buffers.secondary_push_descriptor_set_with_template
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.all_formats.color.1d.a1b5g5r5_unorm_pack16.a1b5g5r5_unorm_pack16.general_general_linear
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.all_formats.color.1d.a1b5g5r5_unorm_pack16.a1b5g5r5_unorm_pack16.general_general_nearest
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.all_formats.color.1d.a1b5g5r5_unorm_pack16.a1b5g5r5_unorm_pack16.general_optimal_linear
