@@ -36427,12 +36427,6 @@ dEQP-VK.api.descriptor_set.descriptor_set_layout_binding.update_subsequent_bindi
 dEQP-VK.api.device_init.create_device_global_priority.basic
 dEQP-VK.api.device_init.enumerate_devices_alloc_leak.basic
 dEQP-VK.api.external.fence.sync_fd.import_signaled_temporary
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d16_unorm
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d24_unorm_s8_uint
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.d32_sfloat_s8_uint
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.s8_uint
-dEQP-VK.api.external.memory.android_hardware_buffer.image_formats.x8_d24_unorm_pack32
 dEQP-VK.api.external.semaphore.sync_fd.import_signaled_temporary
 dEQP-VK.api.image_clearing.core.clear_color_attachment.cube_layers.a1r5g5b5_unorm_pack16_clamp_input
 dEQP-VK.api.image_clearing.core.clear_color_attachment.cube_layers.a2b10g10r10_unorm_pack32_clamp_input
