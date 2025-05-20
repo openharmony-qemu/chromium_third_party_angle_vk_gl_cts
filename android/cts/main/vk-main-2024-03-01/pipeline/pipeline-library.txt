@@ -11105,6 +11105,7 @@ dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec4.offset_9.padded.no
 dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec4.offset_9.padded.no_memory_offset.static
 dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec4.offset_9.padded.with_memory_offset.dynamic
 dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec4.offset_9.padded.with_memory_offset.static
+dEQP-VK.pipeline.pipeline_library.interface_matching.misc.skip_output_variable
 dEQP-VK.pipeline.pipeline_library.logic_op_na_formats.b8g8r8_srgb.and_blend
 dEQP-VK.pipeline.pipeline_library.logic_op_na_formats.b8g8r8_srgb.and_inverted_blend
 dEQP-VK.pipeline.pipeline_library.logic_op_na_formats.b8g8r8_srgb.and_inverted_noblend

@@ -34808,6 +34808,7 @@ dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.no_memor
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.no_memory_offset.static
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.with_memory_offset.dynamic
 dEQP-VK.pipeline.monolithic.input_attribute_offset.vec4.offset_9.padded.with_memory_offset.static
+dEQP-VK.pipeline.monolithic.interface_matching.misc.skip_output_variable
 dEQP-VK.pipeline.monolithic.logic_op_na_formats.b8g8r8_srgb.and_blend
 dEQP-VK.pipeline.monolithic.logic_op_na_formats.b8g8r8_srgb.and_inverted_blend
 dEQP-VK.pipeline.monolithic.logic_op_na_formats.b8g8r8_srgb.and_inverted_noblend
