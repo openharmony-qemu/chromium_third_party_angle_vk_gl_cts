@@ -22566,8 +22566,6 @@ dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.complex_blit_nearest
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.cube_slice_linear
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.cube_slice_nearest
-dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.max_slices_linear
-dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.max_slices_nearest
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.single_slices_linear
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.3d_to_2d_array.single_slices_nearest
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.array.all_remaining_layers
@@ -165897,8 +165895,6 @@ dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.complex_bl
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.complex_blit_nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.cube_slice_linear
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.cube_slice_nearest
-dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.max_slices_linear
-dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.max_slices_nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.single_slices_linear
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.3d_to_2d_array.single_slices_nearest
 dEQP-VK.api.copy_and_blit.core.blit_image.simple_tests.array.all_remaining_layers
@@ -236867,8 +236863,6 @@ dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.complex_blit_nearest
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.cube_slice_linear
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.cube_slice_nearest
-dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.max_slices_linear
-dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.max_slices_nearest
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.single_slices_linear
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.3d_to_2d_array.single_slices_nearest
 dEQP-VK.api.copy_and_blit.dedicated_allocation.blit_image.simple_tests.array.all_remaining_layers
