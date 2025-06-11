@@ -239014,7 +239014,8 @@ dEQP-VKSC.api.copy_and_blit.sparse.image_to_image.simple_tests.whole_image
 dEQP-VKSC.api.copy_and_blit.sparse.image_to_image.simple_tests.whole_image_diff_format
 dEQP-VKSC.api.copy_and_blit.sparse.image_to_image.simple_tests.whole_image_r32g32b32_sfloat
 dEQP-VKSC.api.copy_and_blit.sparse.image_to_image.simple_tests.whole_image_r32g32b32_uint
-dEQP-VKSC.api.debug_utils.long_labels
+dEQP-VKSC.api.debug_utils.long_labels_graphics
+dEQP-VKSC.api.debug_utils.long_labels_transfer
 dEQP-VKSC.api.descriptor_pool.out_of_pool_memory
 dEQP-VKSC.api.descriptor_pool.repeated_free_no_reset_long
 dEQP-VKSC.api.descriptor_pool.repeated_free_no_reset_short
