@@ -352742,10 +352742,10 @@ dEQP-VK.geometry.basic.output_vary_by_texture
 dEQP-VK.geometry.basic.output_vary_by_attribute_instancing
 dEQP-VK.geometry.basic.output_vary_by_uniform_instancing
 dEQP-VK.geometry.basic.output_vary_by_texture_instancing
-dEQP-VK.geometry.basic.point_size
-dEQP-VK.geometry.basic.primitive_id_in
-dEQP-VK.geometry.basic.primitive_id_in_restarted
-dEQP-VK.geometry.basic.primitive_id
+dEQP-VK.geometry.builtin_variable.in_block.point_size
+dEQP-VK.geometry.builtin_variable.in_block.primitive_id_in
+dEQP-VK.geometry.builtin_variable.in_block.primitive_id_in_restarted
+dEQP-VK.geometry.builtin_variable.in_block.primitive_id
 dEQP-VK.geometry.instanced.draw_1_instances_1_geometry_invocations
 dEQP-VK.geometry.instanced.draw_1_instances_2_geometry_invocations
 dEQP-VK.geometry.instanced.draw_1_instances_8_geometry_invocations
