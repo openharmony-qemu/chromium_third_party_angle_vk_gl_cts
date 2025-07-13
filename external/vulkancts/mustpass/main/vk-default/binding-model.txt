@@ -146364,3 +146364,11 @@ dEQP-VK.binding_model.shader_access.secondary_cmd_buf.bind2.with_template.unifor
 dEQP-VK.binding_model.stages.combined_image_sampler
 dEQP-VK.binding_model.stages.storage_buffer
 dEQP-VK.binding_model.stages.uniform_buffer
+dEQP-VK.binding_model.unused_invalid_descriptor.write.invalid.combined_image_sampler
+dEQP-VK.binding_model.unused_invalid_descriptor.write.invalid.sampled_image
+dEQP-VK.binding_model.unused_invalid_descriptor.write.invalid.storage_image
+dEQP-VK.binding_model.unused_invalid_descriptor.write.unused.combined_image_sampler
+dEQP-VK.binding_model.unused_invalid_descriptor.write.unused.sampled_image
+dEQP-VK.binding_model.unused_invalid_descriptor.write.unused.storage_buffer
+dEQP-VK.binding_model.unused_invalid_descriptor.write.unused.storage_image
+dEQP-VK.binding_model.unused_invalid_descriptor.write.unused.uniform_buffer
