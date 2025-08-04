@@ -13432,6 +13432,12 @@ dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_2
 dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_4
 dEQP-VK.pipeline.pipeline_library.misc.frag_lib_varying_samples_8
 dEQP-VK.pipeline.pipeline_library.misc.no_rendering
+dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_16
+dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_2
+dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_32
+dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_4
+dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_64
+dEQP-VK.pipeline.pipeline_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_8
 dEQP-VK.pipeline.pipeline_library.multisample.a2c_with_a2one.dynamic_a2c
 dEQP-VK.pipeline.pipeline_library.multisample.a2c_with_a2one.dynamic_a2c_dynamic_a2one
 dEQP-VK.pipeline.pipeline_library.multisample.a2c_with_a2one.dynamic_a2c_dynamic_a2one_export_frag_depth
