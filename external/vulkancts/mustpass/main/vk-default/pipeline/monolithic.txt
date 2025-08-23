@@ -99287,6 +99287,7 @@ dEQP-VK.pipeline.monolithic.misc.array_of_structs_interface
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_holes
+dEQP-VK.pipeline.monolithic.misc.identically_defined_layout
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VK.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
 dEQP-VK.pipeline.monolithic.misc.layer_read_from_frag

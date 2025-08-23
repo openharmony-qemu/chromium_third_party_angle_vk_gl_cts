@@ -66891,6 +66891,7 @@ dEQP-VKSC.pipeline.monolithic.misc.array_of_structs_interface
 dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_backwards
 dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VKSC.pipeline.monolithic.misc.descriptor_bind_test_holes
+dEQP-VKSC.pipeline.monolithic.misc.identically_defined_layout
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id
 dEQP-VKSC.pipeline.monolithic.misc.implicit_primitive_id_with_tessellation
 dEQP-VKSC.pipeline.monolithic.multisample.a2c_with_a2one.static
