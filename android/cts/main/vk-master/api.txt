@@ -296331,3 +296331,4 @@ dEQP-VK.api.buffer.invalid_buffer_features.vk_format_d24_unorm_s8_uint
 dEQP-VK.api.buffer.invalid_buffer_features.vk_format_d32_sfloat
 dEQP-VK.api.buffer.invalid_buffer_features.vk_format_d32_sfloat_s8_uint
 dEQP-VK.api.buffer.invalid_buffer_features.vk_format_x8_d24_unorm_pack32
+dEQP-VK.api.performance_counters_by_region.enumerate_counters
