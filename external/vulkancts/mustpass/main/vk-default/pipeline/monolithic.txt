@@ -284120,6 +284120,8 @@ dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_frag
 dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_geom_frag
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input_dynamic
+dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input_dynamic_integer
+dEQP-VK.pipeline.monolithic.vertex_input.misc.unbound_input_integer
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unused_binding
 dEQP-VK.pipeline.monolithic.vertex_input.misc.unused_binding_dynamic
 dEQP-VK.pipeline.monolithic.vertex_input.multiple_attributes.binding_one_to_many.attributes.f16vec2.f16vec3.f16vec4
