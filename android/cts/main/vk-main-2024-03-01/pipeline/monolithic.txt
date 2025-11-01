@@ -50754,6 +50754,7 @@ dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_holes
 dEQP-VK.pipeline.monolithic.misc.identically_defined_layout
 dEQP-VK.pipeline.monolithic.misc.layer_read_from_frag
 dEQP-VK.pipeline.monolithic.misc.no_rendering
+dEQP-VK.pipeline.monolithic.misc.no_rendering_unused_attachment
 dEQP-VK.pipeline.monolithic.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_16
 dEQP-VK.pipeline.monolithic.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_2
 dEQP-VK.pipeline.monolithic.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_32
