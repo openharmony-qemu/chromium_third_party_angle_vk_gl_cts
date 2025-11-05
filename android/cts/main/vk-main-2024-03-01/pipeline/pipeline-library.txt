@@ -13423,6 +13423,7 @@ dEQP-VK.pipeline.pipeline_library.logic_op_na_formats.r8g8b8a8_srgb.set_noblend
 dEQP-VK.pipeline.pipeline_library.logic_op_na_formats.r8g8b8a8_srgb.xor_blend
 dEQP-VK.pipeline.pipeline_library.logic_op_na_formats.r8g8b8a8_srgb.xor_noblend
 dEQP-VK.pipeline.pipeline_library.misc.array_of_structs_interface
+dEQP-VK.pipeline.pipeline_library.misc.color_write_mask_none
 dEQP-VK.pipeline.pipeline_library.misc.compatible_render_pass
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.pipeline_library.misc.descriptor_bind_test_backwards_holes

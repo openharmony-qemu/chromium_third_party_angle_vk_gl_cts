@@ -50748,6 +50748,7 @@ dEQP-VK.pipeline.monolithic.logic_op_na_formats.r8g8b8a8_srgb.set_noblend
 dEQP-VK.pipeline.monolithic.logic_op_na_formats.r8g8b8a8_srgb.xor_blend
 dEQP-VK.pipeline.monolithic.logic_op_na_formats.r8g8b8a8_srgb.xor_noblend
 dEQP-VK.pipeline.monolithic.misc.array_of_structs_interface
+dEQP-VK.pipeline.monolithic.misc.color_write_mask_none
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_backwards_holes
 dEQP-VK.pipeline.monolithic.misc.descriptor_bind_test_holes
