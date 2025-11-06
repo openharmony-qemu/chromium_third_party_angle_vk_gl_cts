@@ -143532,4 +143532,5 @@ dEQP-VK.api.object_management.single_alloc_callbacks.merged_pipeline_cache
 dEQP-VK.api.object_management.single_alloc_callbacks.merged_pipeline_cache_dst_sync
 dEQP-VK.api.object_management.single_alloc_callbacks.merged_pipeline_cache_src_dst_sync
 dEQP-VK.api.object_management.single_alloc_callbacks.merged_pipeline_cache_src_sync
+dEQP-VK.api.performance_counters_by_region.enumerate_counters
 dEQP-VK.api.version_check.unavailable_entry_points
