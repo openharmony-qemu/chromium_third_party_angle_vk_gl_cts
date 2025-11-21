@@ -10548,6 +10548,12 @@ dEQP-VK.pipeline.fast_linked_library.blend.dual_source.multi_attachments.r8g8b8_
 dEQP-VK.pipeline.fast_linked_library.blend.dual_source.multi_attachments.r8g8b8a8_snorm
 dEQP-VK.pipeline.fast_linked_library.blend.dual_source.multi_attachments.r8g8b8a8_srgb
 dEQP-VK.pipeline.fast_linked_library.blend.dual_source.multi_attachments.r8g8b8a8_unorm
+dEQP-VK.pipeline.fast_linked_library.blend.dynamic_dual_disable.att_count_1
+dEQP-VK.pipeline.fast_linked_library.blend.dynamic_dual_disable.att_count_1_plus_1
+dEQP-VK.pipeline.fast_linked_library.blend.dynamic_dual_disable.att_count_2
+dEQP-VK.pipeline.fast_linked_library.blend.dynamic_dual_disable.att_count_2_plus_1
+dEQP-VK.pipeline.fast_linked_library.blend.dynamic_dual_disable.att_count_8
+dEQP-VK.pipeline.fast_linked_library.blend.dynamic_dual_disable.att_count_8_plus_1
 dEQP-VK.pipeline.fast_linked_library.blend.dynamic_mask.format.e5b9g9r9_ufloat_pack32.states.mask_0_alpha_blend
 dEQP-VK.pipeline.fast_linked_library.blend.dynamic_mask.format.e5b9g9r9_ufloat_pack32.states.mask_0_no_blend
 dEQP-VK.pipeline.fast_linked_library.blend.dynamic_mask.format.e5b9g9r9_ufloat_pack32.states.mask_a_alpha_blend
@@ -13367,6 +13373,12 @@ dEQP-VK.pipeline.fast_linked_library.misc.frag_lib_varying_samples_2
 dEQP-VK.pipeline.fast_linked_library.misc.frag_lib_varying_samples_4
 dEQP-VK.pipeline.fast_linked_library.misc.frag_lib_varying_samples_8
 dEQP-VK.pipeline.fast_linked_library.misc.no_rendering
+dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_16
+dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_2
+dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_32
+dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_4
+dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_64
+dEQP-VK.pipeline.fast_linked_library.multisample.3d.64x64x8_1.r8g8b8a8_unorm.samples_8
 dEQP-VK.pipeline.fast_linked_library.multisample.a2c_with_a2one.dynamic_a2c
 dEQP-VK.pipeline.fast_linked_library.multisample.a2c_with_a2one.dynamic_a2c_dynamic_a2one
 dEQP-VK.pipeline.fast_linked_library.multisample.a2c_with_a2one.dynamic_a2c_dynamic_a2one_export_frag_depth
