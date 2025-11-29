@@ -49,6 +49,7 @@
 #include "vktDynamicRenderingRandomTests.hpp"
 #include "vktRenderPassDitheringTests.hpp"
 #include "vktDynamicRenderingUnusedAttachmentsTests.hpp"
+#include "vktRenderPassRemainingArrayLayersTests.hpp"
 
 #include "vktTestCaseUtil.hpp"
 #include "vktTestGroupUtil.hpp"
@@ -2699,8 +2700,8 @@ public:
                                            localStencilAttachmentIndex, renderingAttachmentLocationInfo,
                                            renderingInputAttachmentIndexInfo);
 
-                vk.cmdSetRenderingAttachmentLocationsKHR(commandBuffer, &renderingAttachmentLocationInfo);
-                vk.cmdSetRenderingInputAttachmentIndicesKHR(commandBuffer, &renderingInputAttachmentIndexInfo);
+                vk.cmdSetRenderingAttachmentLocations(commandBuffer, &renderingAttachmentLocationInfo);
+                vk.cmdSetRenderingInputAttachmentIndices(commandBuffer, &renderingInputAttachmentIndexInfo);
             }
         }
 #endif // CTS_USES_VULKANSC
@@ -2831,8 +2832,8 @@ public:
                     VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT, // srcAccessMask
                     VK_ACCESS_INPUT_ATTACHMENT_READ_BIT,          // dstAccessMask
 
-                    m_renderInfo.getInputAttachmentLayout(inputAttachmentNdx), // oldLayout
-                    m_renderInfo.getInputAttachmentLayout(inputAttachmentNdx), // newLayout;
+                    inputAttachmenLayout, // oldLayout
+                    inputAttachmenLayout, // newLayout;
 
                     VK_QUEUE_FAMILY_IGNORED, // srcQueueFamilyIndex;
                     VK_QUEUE_FAMILY_IGNORED, // destQueueFamilyIndex;
@@ -3402,14 +3403,11 @@ void pushDynamicRenderingCommands(const DeviceInterface &vk, VkCommandBuffer com
             {
                 if (renderingLayout == VK_IMAGE_LAYOUT_UNDEFINED)
                 {
-                    // find first subpass in which ds attachment is used
+                    // check all attachments and memorize first layout in which attachment should be
                     for (const AttachmentReference &attachmentReference : subpass.getColorAttachments())
                     {
                         if (attachmentIndex == attachmentReference.getAttachment())
-                        {
                             renderingLayout = attachmentReference.getImageLayout();
-                            break;
-                        }
                     }
                 }
                 else if (isAttachmentUsedAsSubpassInput(attachmentIndex, subpass))
@@ -3519,8 +3517,8 @@ void pushDynamicRenderingCommands(const DeviceInterface &vk, VkCommandBuffer com
                                                localStencilAttachmentIndex, renderingAttachmentLocationInfo,
                                                renderingInputAttachmentIndexInfo);
 
-                    vk.cmdSetRenderingAttachmentLocationsKHR(commandBuffer, &renderingAttachmentLocationInfo);
-                    vk.cmdSetRenderingInputAttachmentIndicesKHR(commandBuffer, &renderingInputAttachmentIndexInfo);
+                    vk.cmdSetRenderingAttachmentLocations(commandBuffer, &renderingAttachmentLocationInfo);
+                    vk.cmdSetRenderingInputAttachmentIndices(commandBuffer, &renderingInputAttachmentIndexInfo);
                 }
 
                 const VkCommandBuffer cmd = subpassRenderers[subpassNdx]->getCommandBuffer();
@@ -5668,6 +5666,41 @@ tcu::TestStatus renderPassTest(Context &context, TestConfig config)
             findColorAttachments(renderPassInfo, colorAttachmentIndices, colorAttachmentFormats);
             if (colorAttachmentIndices.size() > (size_t)properties.limits.maxColorAttachments)
                 TCU_THROW(NotSupportedError, "Required number of color attachments not supported.");
+
+#ifndef CTS_USES_VULKANSC
+            if (context.getUsedApiVersion() > VK_MAKE_API_VERSION(0, 1, 3, 0))
+            {
+                if (!context.getDeviceVulkan14Properties().dynamicRenderingLocalReadDepthStencilAttachments)
+                {
+                    for (const auto &subpass : renderPassInfo.getSubpasses())
+                    {
+                        for (const auto &input : subpass.getInputAttachments())
+                        {
+                            uint32_t index    = input.getAttachment();
+                            auto &attachment  = renderPassInfo.getAttachments()[index];
+                            const auto format = mapVkFormat(attachment.getFormat());
+                            if (tcu::hasDepthComponent(format.order) || tcu::hasStencilComponent(format.order))
+                                TCU_THROW(NotSupportedError,
+                                          "dynamicRenderingLocalReadDepthStencilAttachments not supported");
+                        }
+                    }
+                }
+                if (!context.getDeviceVulkan14Properties().dynamicRenderingLocalReadMultisampledAttachments)
+                {
+                    for (const auto &subpass : renderPassInfo.getSubpasses())
+                    {
+                        for (const auto &input : subpass.getInputAttachments())
+                        {
+                            uint32_t index   = input.getAttachment();
+                            auto &attachment = renderPassInfo.getAttachments()[index];
+                            if (attachment.getSamples() > vk::VK_SAMPLE_COUNT_1_BIT)
+                                TCU_THROW(NotSupportedError,
+                                          "dynamicRenderingLocalReadMultisampledAttachments not supported");
+                        }
+                    }
+                }
+            }
+#endif
         }
     }
 
@@ -8420,6 +8453,11 @@ tcu::TestCaseGroup *createRenderPassTestsInternal(tcu::TestContext &testCtx, con
             renderingTests->addChild(createNestedCommandBufferTests(testCtx, groupParams));
 #endif // CTS_USES_VULKANSC
         }
+    }
+
+    if (groupParams->renderingType != RENDERING_TYPE_DYNAMIC_RENDERING)
+    {
+        renderingTests->addChild(createRenderPassRemainingArrayLayersTests(testCtx, groupParams));
     }
 
     renderingTests->addChild(suballocationTestGroup.release());

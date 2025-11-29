@@ -119,14 +119,6 @@ Move<VkShaderEXT> createShaderFromBinary(const DeviceInterface &vk, VkDevice dev
     return createShader(vk, device, pCreateInfo);
 }
 
-Move<VkShaderEXT> createShader(const DeviceInterface &vk, VkDevice device,
-                               const vk::VkShaderCreateInfoEXT &shaderCreateInfo)
-{
-    VkShaderEXT object = VK_NULL_HANDLE;
-    VK_CHECK(vk.createShadersEXT(device, 1u, &shaderCreateInfo, nullptr, &object));
-    return Move<VkShaderEXT>(check<VkShaderEXT>(object), Deleter<VkShaderEXT>(vk, device, nullptr));
-}
-
 void addBasicShaderObjectShaders(vk::SourceCollections &programCollection)
 {
     std::stringstream vert;
@@ -368,7 +360,7 @@ void setDefaultShaderObjectDynamicStates(const vk::DeviceInterface &vk, vk::VkCo
         vk.cmdSetLineStippleEnableEXT(cmdBuffer, VK_FALSE);
     if (extensionEnabled(deviceExtensions, "VK_KHR_line_rasterization") ||
         extensionEnabled(deviceExtensions, "VK_EXT_line_rasterization"))
-        vk.cmdSetLineStippleKHR(cmdBuffer, 1u, 0x0F0F);
+        vk.cmdSetLineStipple(cmdBuffer, 1u, 0x0F0F);
     if (extensionEnabled(deviceExtensions, "VK_EXT_depth_clip_control"))
         vk.cmdSetDepthClipNegativeOneToOneEXT(cmdBuffer, VK_FALSE);
     VkBool32 colorWriteEnable = VK_TRUE;

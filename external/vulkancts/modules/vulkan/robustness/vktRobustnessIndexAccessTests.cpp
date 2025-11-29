@@ -394,7 +394,10 @@ void DrawIndexedTestCase::checkSupport(Context &context) const
         context.requireDeviceFunctionality("VK_EXT_multi_draw");
     if (m_robustnessVersion == 2)
     {
-        context.requireDeviceFunctionality("VK_EXT_robustness2");
+        if (!context.isDeviceFunctionalitySupported("VK_KHR_robustness2") &&
+            !context.isDeviceFunctionalitySupported("VK_EXT_robustness2"))
+
+            TCU_THROW(NotSupportedError, "VK_KHR_robustness2 and VK_EXT_robustness2 are not supported");
 
         const auto &vki           = context.getInstanceInterface();
         const auto physicalDevice = context.getPhysicalDevice();
@@ -817,7 +820,7 @@ tcu::TestStatus BindIndexBuffer2Instance::iterate(void)
     vk.cmdBindVertexBuffers(*cmdBuffer, 0, 1, &vertexBuffer.get(), &static_cast<const VkDeviceSize &>(0));
 
 #ifndef CTS_USES_VULKANSC
-    vk.cmdBindIndexBuffer2KHR(*cmdBuffer, indexBuffer.get(), bindingOffset, bindingSize, VK_INDEX_TYPE_UINT32);
+    vk.cmdBindIndexBuffer2(*cmdBuffer, indexBuffer.get(), bindingOffset, bindingSize, VK_INDEX_TYPE_UINT32);
 #else
     DE_UNREF(bindingOffset);
     DE_UNREF(bindingSize);

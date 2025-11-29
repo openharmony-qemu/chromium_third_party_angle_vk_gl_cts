@@ -171,11 +171,13 @@ void verifyDriverSupport(const uint32_t apiVersion, const vk::VkPhysicalDeviceFe
     switch (updateMethod)
     {
     case DESCRIPTOR_UPDATE_METHOD_WITH_PUSH:
-        extensionNames.push_back("VK_KHR_push_descriptor");
+        if (!vk::isCoreDeviceExtension(apiVersion, "VK_KHR_push_descriptor"))
+            extensionNames.push_back("VK_KHR_push_descriptor");
         break;
 
     case DESCRIPTOR_UPDATE_METHOD_WITH_PUSH_TEMPLATE:
-        extensionNames.push_back("VK_KHR_push_descriptor");
+        if (!vk::isCoreDeviceExtension(apiVersion, "VK_KHR_push_descriptor"))
+            extensionNames.push_back("VK_KHR_push_descriptor");
     // Fallthrough
     case DESCRIPTOR_UPDATE_METHOD_WITH_TEMPLATE:
         if (!vk::isCoreDeviceExtension(apiVersion, "VK_KHR_descriptor_update_template"))
@@ -198,7 +200,7 @@ void verifyDriverSupport(const uint32_t apiVersion, const vk::VkPhysicalDeviceFe
         {
             for (size_t requiredExtNdx = 0; requiredExtNdx < extensionNames.size(); requiredExtNdx++)
             {
-                if (deStringEqual(deviceExtensions[deviceExtNdx].c_str(), extensionNames[requiredExtNdx].c_str()))
+                if (deviceExtensions[deviceExtNdx] == extensionNames[requiredExtNdx])
                 {
                     --numExtensionsNeeded;
                     break;
@@ -494,7 +496,7 @@ void bindDescriptorSets(const vk::DeviceInterface &m_vki, vk::VkCommandBuffer cm
             dynamicOffsetCount,                                  // uint32_t dynamicOffsetCount;
             dynamicOffsets                                       // const uint32_t* pDynamicOffsets;
         };
-        m_vki.cmdBindDescriptorSets2KHR(cmdBuffer, &bindDescriptorSetsInfo);
+        m_vki.cmdBindDescriptorSets2(cmdBuffer, &bindDescriptorSetsInfo);
 #endif
     }
     else
@@ -1899,8 +1901,8 @@ void BufferRenderInstance::writeDrawCmdBuffer(vk::VkCommandBuffer cmd) const
     else if (m_updateMethod == DESCRIPTOR_UPDATE_METHOD_WITH_PUSH_TEMPLATE)
     {
         for (uint32_t setNdx = 0; setNdx < getDescriptorSetCount(m_descriptorSetCount); setNdx++)
-            m_vki.cmdPushDescriptorSetWithTemplateKHR(cmd, **m_updateTemplates[setNdx], getPipelineLayout(), setNdx,
-                                                      (const void *)m_updateRegistry[setNdx].getRawPointer());
+            m_vki.cmdPushDescriptorSetWithTemplate(cmd, **m_updateTemplates[setNdx], getPipelineLayout(), setNdx,
+                                                   (const void *)m_updateRegistry[setNdx].getRawPointer());
     }
     else if (m_updateMethod == DESCRIPTOR_UPDATE_METHOD_WITH_PUSH)
     {
@@ -2280,9 +2282,9 @@ void ComputeCommand::submitAndWait(uint32_t queueFamilyIndex, vk::VkQueue queue
     else
     {
         for (uint32_t setNdx = 0; setNdx < (uint32_t)(*updateTemplates).size(); setNdx++)
-            m_vki.cmdPushDescriptorSetWithTemplateKHR(*cmd, **(*updateTemplates)[setNdx], m_pipelineLayout,
-                                                      getDescriptorSetNdx(m_descriptorSetCount, setNdx),
-                                                      (const void *)(*updateRegistry)[setNdx].getRawPointer());
+            m_vki.cmdPushDescriptorSetWithTemplate(*cmd, **(*updateTemplates)[setNdx], m_pipelineLayout,
+                                                   getDescriptorSetNdx(m_descriptorSetCount, setNdx),
+                                                   (const void *)(*updateRegistry)[setNdx].getRawPointer());
     }
 #endif
 
@@ -3622,7 +3624,7 @@ public:
     ImageInstanceImages(const vk::DeviceInterface &vki, vk::VkDevice device, uint32_t queueFamilyIndex,
                         vk::VkQueue queue, vk::Allocator &allocator, vk::VkDescriptorType descriptorType,
                         vk::VkImageViewType viewType, int numImages, uint32_t numLevels, uint32_t baseMipLevel,
-                        uint32_t baseArraySlice);
+                        uint32_t baseArraySlice, bool computeOnly = false);
 
 private:
     static std::vector<tcu::TextureLevelPyramid> createSourceImages(int numImages, int numLevels,
@@ -3632,7 +3634,9 @@ private:
     static std::vector<ImageHandleSp> createImages(const vk::DeviceInterface &vki, vk::VkDevice device,
                                                    vk::Allocator &allocator, uint32_t queueFamilyIndex,
                                                    vk::VkQueue queue, vk::VkDescriptorType descriptorType,
-                                                   vk::VkImageViewType viewType, std::vector<AllocationSp> &imageMemory,
+                                                   vk::VkImageViewType viewType,
+                                                   vk::VkPipelineStageFlags pipelineStageFlags,
+                                                   std::vector<AllocationSp> &imageMemory,
                                                    const std::vector<tcu::TextureLevelPyramid> &sourceImages);
 
     static std::vector<ImageViewHandleSp> createImageViews(const vk::DeviceInterface &vki, vk::VkDevice device,
@@ -3655,7 +3659,8 @@ private:
 
     static void uploadImage(const vk::DeviceInterface &vki, vk::VkDevice device, uint32_t queueFamilyIndex,
                             vk::VkQueue queue, vk::Allocator &allocator, vk::VkImage image, vk::VkImageLayout layout,
-                            vk::VkImageViewType viewType, const tcu::TextureLevelPyramid &data);
+                            vk::VkPipelineStageFlags pipelineStageFlags, vk::VkImageViewType viewType,
+                            const tcu::TextureLevelPyramid &data);
 
 protected:
     enum
@@ -3664,6 +3669,7 @@ protected:
         ARRAY_SIZE = 2,
     };
 
+    const bool m_computeOnly;
     const vk::VkImageViewType m_viewType;
     const uint32_t m_baseMipLevel;
     const uint32_t m_baseArraySlice;
@@ -3678,15 +3684,18 @@ ImageInstanceImages::ImageInstanceImages(const vk::DeviceInterface &vki, vk::VkD
                                          vk::VkQueue queue, vk::Allocator &allocator,
                                          vk::VkDescriptorType descriptorType, vk::VkImageViewType viewType,
                                          int numImages, uint32_t numLevels, uint32_t baseMipLevel,
-                                         uint32_t baseArraySlice)
-    : m_viewType(viewType)
+                                         uint32_t baseArraySlice, bool computeOnly)
+    : m_computeOnly(computeOnly)
+    , m_viewType(viewType)
     , m_baseMipLevel(baseMipLevel)
     , m_baseArraySlice(baseArraySlice)
     , m_imageFormat(tcu::TextureFormat::RGBA, tcu::TextureFormat::UNORM_INT8)
     , m_sourceImage(createSourceImages(numImages, numLevels, viewType, m_imageFormat))
     , m_imageMemory()
-    , m_image(createImages(vki, device, allocator, queueFamilyIndex, queue, descriptorType, viewType, m_imageMemory,
-                           m_sourceImage))
+    , m_image(createImages(vki, device, allocator, queueFamilyIndex, queue, descriptorType, viewType,
+                           m_computeOnly ? vk::VK_PIPELINE_STAGE_COMPUTE_SHADER_BIT :
+                                           vk::VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT,
+                           m_imageMemory, m_sourceImage))
     , m_imageView(createImageViews(vki, device, viewType, m_sourceImage, m_image, m_baseMipLevel, m_baseArraySlice))
 {
 }
@@ -3707,6 +3716,7 @@ std::vector<ImageHandleSp> ImageInstanceImages::createImages(const vk::DeviceInt
                                                              vk::Allocator &allocator, uint32_t queueFamilyIndex,
                                                              vk::VkQueue queue, vk::VkDescriptorType descriptorType,
                                                              vk::VkImageViewType viewType,
+                                                             vk::VkPipelineStageFlags pipelineStageFlags,
                                                              std::vector<AllocationSp> &imageMemory,
                                                              const std::vector<tcu::TextureLevelPyramid> &sourceImages)
 {
@@ -3719,7 +3729,8 @@ std::vector<ImageHandleSp> ImageInstanceImages::createImages(const vk::DeviceInt
         vk::Move<vk::VkImage> image =
             createImage(vki, device, allocator, descriptorType, viewType, sourceImages[imageNdx], &memory);
 
-        uploadImage(vki, device, queueFamilyIndex, queue, allocator, *image, layout, viewType, sourceImages[imageNdx]);
+        uploadImage(vki, device, queueFamilyIndex, queue, allocator, *image, layout, pipelineStageFlags, viewType,
+                    sourceImages[imageNdx]);
 
         imageMemory.push_back(AllocationSp(memory.release()));
         images.push_back(ImageHandleSp(new ImageHandleUp(image)));
@@ -3900,8 +3911,8 @@ void ImageInstanceImages::populateSourceImage(tcu::TextureLevelPyramid *dst, vk:
 
 void ImageInstanceImages::uploadImage(const vk::DeviceInterface &vki, vk::VkDevice device, uint32_t queueFamilyIndex,
                                       vk::VkQueue queue, vk::Allocator &allocator, vk::VkImage image,
-                                      vk::VkImageLayout layout, vk::VkImageViewType viewType,
-                                      const tcu::TextureLevelPyramid &data)
+                                      vk::VkImageLayout layout, vk::VkPipelineStageFlags pipelineStageFlags,
+                                      vk::VkImageViewType viewType, const tcu::TextureLevelPyramid &data)
 {
     const uint32_t arraySize =
         (viewType == vk::VK_IMAGE_VIEW_TYPE_3D) ? (1) :
@@ -3930,7 +3941,7 @@ void ImageInstanceImages::uploadImage(const vk::DeviceInterface &vki, vk::VkDevi
 
     // copy buffer to image
     copyBufferToImage(vki, device, queue, queueFamilyIndex, *dataBuffer, dataBufferSize, copySlices, nullptr,
-                      vk::VK_IMAGE_ASPECT_COLOR_BIT, data.getNumLevels(), arraySize, image, layout);
+                      vk::VK_IMAGE_ASPECT_COLOR_BIT, data.getNumLevels(), arraySize, image, layout, pipelineStageFlags);
 }
 
 class ImageFetchInstanceImages : private ImageInstanceImages
@@ -4598,9 +4609,9 @@ void ImageFetchRenderInstance::writeDrawCmdBuffer(vk::VkCommandBuffer cmd) const
     else if (m_updateMethod == DESCRIPTOR_UPDATE_METHOD_WITH_PUSH_TEMPLATE)
     {
         for (uint32_t setNdx = 0; setNdx < getDescriptorSetCount(m_descriptorSetCount); setNdx++)
-            m_vki.cmdPushDescriptorSetWithTemplateKHR(cmd, **m_updateTemplates[setNdx], getPipelineLayout(),
-                                                      getDescriptorSetNdx(m_descriptorSetCount, setNdx),
-                                                      (const void *)m_updateRegistry[setNdx].getRawPointer());
+            m_vki.cmdPushDescriptorSetWithTemplate(cmd, **m_updateTemplates[setNdx], getPipelineLayout(),
+                                                   getDescriptorSetNdx(m_descriptorSetCount, setNdx),
+                                                   (const void *)m_updateRegistry[setNdx].getRawPointer());
     }
     else if (m_updateMethod == DESCRIPTOR_UPDATE_METHOD_WITH_PUSH)
     {
@@ -5172,7 +5183,7 @@ public:
                               vk::VkQueue queue, vk::Allocator &allocator, vk::VkDescriptorType descriptorType,
                               DescriptorSetCount descriptorSetCount, ShaderInputInterface shaderInterface,
                               vk::VkImageViewType viewType, uint32_t numLevels, uint32_t baseMipLevel,
-                              uint32_t baseArraySlice, bool immutable);
+                              uint32_t baseArraySlice, bool immutable, bool computeOnly);
 
     static std::vector<tcu::Sampler> getRefSamplers(DescriptorSetCount descriptorSetCount,
                                                     ShaderInputInterface shaderInterface);
@@ -5240,10 +5251,10 @@ ImageSampleInstanceImages::ImageSampleInstanceImages(const vk::DeviceInterface &
                                                      DescriptorSetCount descriptorSetCount,
                                                      ShaderInputInterface shaderInterface, vk::VkImageViewType viewType,
                                                      uint32_t numLevels, uint32_t baseMipLevel, uint32_t baseArraySlice,
-                                                     bool immutable)
+                                                     bool immutable, bool computeOnly)
     : ImageInstanceImages(vki, device, queueFamilyIndex, queue, allocator, descriptorType, viewType,
                           getNumImages(descriptorType, descriptorSetCount, shaderInterface), numLevels, baseMipLevel,
-                          baseArraySlice)
+                          baseArraySlice, computeOnly)
     , m_descriptorType(descriptorType)
     , m_shaderInterface(shaderInterface)
     , m_isImmutable(immutable)
@@ -5673,7 +5684,8 @@ ImageSampleRenderInstance::ImageSampleRenderInstance(
 #endif
     , m_updateBuilder()
     , m_images(m_vki, m_device, m_queueFamilyIndex, m_queue, m_allocator, m_descriptorType, m_descriptorSetCount,
-               m_shaderInterface, m_viewType, m_numLevels, m_baseMipLevel, m_baseArraySlice, isImmutable)
+               m_shaderInterface, m_viewType, m_numLevels, m_baseMipLevel, m_baseArraySlice, isImmutable,
+               context.getTestContext().getCommandLine().isComputeOnly())
     , m_descriptorSetLayouts(createDescriptorSetLayouts(m_vki, m_device, m_descriptorType, m_descriptorSetCount,
                                                         m_shaderInterface, m_stageFlags, m_images, m_updateMethod))
     , m_pipelineLayout(createPipelineLayout(m_vki, m_device, m_descriptorSetLayouts))
@@ -6413,9 +6425,9 @@ void ImageSampleRenderInstance::writeDrawCmdBuffer(vk::VkCommandBuffer cmd) cons
         for (uint32_t setNdx = 0; setNdx < getDescriptorSetCount(m_descriptorSetCount); setNdx++)
         {
             const uint32_t descriptorSetNdx = getDescriptorSetNdx(m_descriptorSetCount, setNdx);
-            m_vki.cmdPushDescriptorSetWithTemplateKHR(cmd, **m_updateTemplates[setNdx], getPipelineLayout(),
-                                                      descriptorSetNdx,
-                                                      (const void *)m_updateRegistry[setNdx].getRawPointer());
+            m_vki.cmdPushDescriptorSetWithTemplate(cmd, **m_updateTemplates[setNdx], getPipelineLayout(),
+                                                   descriptorSetNdx,
+                                                   (const void *)m_updateRegistry[setNdx].getRawPointer());
         }
     }
     else if (m_updateMethod == DESCRIPTOR_UPDATE_METHOD_WITH_PUSH)
@@ -6562,7 +6574,8 @@ ImageSampleComputeInstance::ImageSampleComputeInstance(
     , m_allocator(context.getDefaultAllocator())
     , m_result(m_vki, m_device, m_allocator)
     , m_images(m_vki, m_device, m_queueFamilyIndex, m_queue, m_allocator, m_descriptorType, m_descriptorSetCount,
-               m_shaderInterface, m_viewType, m_numLevels, m_baseMipLevel, m_baseArraySlice, isImmutableSampler)
+               m_shaderInterface, m_viewType, m_numLevels, m_baseMipLevel, m_baseArraySlice, isImmutableSampler,
+               context.getTestContext().getCommandLine().isComputeOnly())
 #ifndef CTS_USES_VULKANSC
     , m_updateRegistry()
 #endif
@@ -8778,9 +8791,9 @@ void TexelBufferRenderInstance::writeDrawCmdBuffer(vk::VkCommandBuffer cmd) cons
         for (uint32_t setNdx = 0; setNdx < getDescriptorSetCount(m_descriptorSetCount); setNdx++)
         {
             const uint32_t descriptorSetNdx = getDescriptorSetNdx(m_descriptorSetCount, setNdx);
-            m_vki.cmdPushDescriptorSetWithTemplateKHR(cmd, **m_updateTemplates[setNdx], getPipelineLayout(),
-                                                      descriptorSetNdx,
-                                                      (const void *)m_updateRegistry[setNdx].getRawPointer());
+            m_vki.cmdPushDescriptorSetWithTemplate(cmd, **m_updateTemplates[setNdx], getPipelineLayout(),
+                                                   descriptorSetNdx,
+                                                   (const void *)m_updateRegistry[setNdx].getRawPointer());
         }
     }
     else if (m_updateMethod == DESCRIPTOR_UPDATE_METHOD_WITH_PUSH)
