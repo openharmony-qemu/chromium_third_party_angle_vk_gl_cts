@@ -503,3 +503,13 @@ VkResult InstanceDriver::getPhysicalDeviceCooperativeMatrixPropertiesKHR (VkPhys
 {
     return m_vk.getPhysicalDeviceCooperativeMatrixPropertiesKHR(physicalDevice, pPropertyCount, pProperties);
 }
+
+VkResult InstanceDriver::getPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV (VkPhysicalDevice physicalDevice, uint32_t* pPropertyCount, VkCooperativeMatrixFlexibleDimensionsPropertiesNV* pProperties) const
+{
+    return m_vk.getPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV(physicalDevice, pPropertyCount, pProperties);
+}
+
+VkResult InstanceDriver::getPhysicalDeviceCooperativeVectorPropertiesNV (VkPhysicalDevice physicalDevice, uint32_t* pPropertyCount, VkCooperativeVectorPropertiesNV* pProperties) const
+{
+    return m_vk.getPhysicalDeviceCooperativeVectorPropertiesNV(physicalDevice, pPropertyCount, pProperties);
+}

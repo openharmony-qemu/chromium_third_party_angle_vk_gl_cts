@@ -440,6 +440,30 @@ inline VkLayerSettingEXT makeLayerSettingEXT (const char* pLayerName, const char
 	return res;
 }
 
+inline VkStridedDeviceAddressNV makeStridedDeviceAddressNV (VkDeviceAddress startAddress, VkDeviceSize strideInBytes)
+{
+	VkStridedDeviceAddressNV res;
+	res.startAddress	= startAddress;
+	res.strideInBytes	= strideInBytes;
+	return res;
+}
+
+inline VkClusterAccelerationStructureMoveObjectsInfoNV makeClusterAccelerationStructureMoveObjectsInfoNV (VkDeviceAddress srcAccelerationStructure)
+{
+	VkClusterAccelerationStructureMoveObjectsInfoNV res;
+	res.srcAccelerationStructure	= srcAccelerationStructure;
+	return res;
+}
+
+inline VkClusterAccelerationStructureBuildClustersBottomLevelInfoNV makeClusterAccelerationStructureBuildClustersBottomLevelInfoNV (uint32_t clusterReferencesCount, uint32_t clusterReferencesStride, VkDeviceAddress clusterReferences)
+{
+	VkClusterAccelerationStructureBuildClustersBottomLevelInfoNV res;
+	res.clusterReferencesCount	= clusterReferencesCount;
+	res.clusterReferencesStride	= clusterReferencesStride;
+	res.clusterReferences		= clusterReferences;
+	return res;
+}
+
 inline VkBindShaderGroupIndirectCommandNV makeBindShaderGroupIndirectCommandNV (uint32_t groupIndex)
 {
 	VkBindShaderGroupIndirectCommandNV res;
@@ -606,9 +630,9 @@ inline VkShaderResourceUsageAMD makeShaderResourceUsageAMD (uint32_t numUsedVgpr
 	return res;
 }
 
-inline VkVertexInputBindingDivisorDescriptionKHR makeVertexInputBindingDivisorDescriptionKHR (uint32_t binding, uint32_t divisor)
+inline VkVertexInputBindingDivisorDescription makeVertexInputBindingDivisorDescription (uint32_t binding, uint32_t divisor)
 {
-	VkVertexInputBindingDivisorDescriptionKHR res;
+	VkVertexInputBindingDivisorDescription res;
 	res.binding	= binding;
 	res.divisor	= divisor;
 	return res;
@@ -758,6 +782,15 @@ inline VkColorBlendAdvancedEXT makeColorBlendAdvancedEXT (VkBlendOp advancedBlen
 	return res;
 }
 
+inline VkPartitionedAccelerationStructureUpdateInstanceDataNV makePartitionedAccelerationStructureUpdateInstanceDataNV (uint32_t instanceIndex, uint32_t instanceContributionToHitGroupIndex, VkDeviceAddress accelerationStructure)
+{
+	VkPartitionedAccelerationStructureUpdateInstanceDataNV res;
+	res.instanceIndex						= instanceIndex;
+	res.instanceContributionToHitGroupIndex	= instanceContributionToHitGroupIndex;
+	res.accelerationStructure				= accelerationStructure;
+	return res;
+}
+
 inline VkMutableDescriptorTypeListEXT makeMutableDescriptorTypeListEXT (uint32_t descriptorTypeCount, const VkDescriptorType* pDescriptorTypes)
 {
 	VkMutableDescriptorTypeListEXT res;
@@ -848,6 +881,24 @@ inline VkVideoEncodeH265FrameSizeKHR makeVideoEncodeH265FrameSizeKHR (uint32_t f
 	res.frameISize	= frameISize;
 	res.framePSize	= framePSize;
 	res.frameBSize	= frameBSize;
+	return res;
+}
+
+inline VkVideoEncodeAV1QIndexKHR makeVideoEncodeAV1QIndexKHR (uint32_t intraQIndex, uint32_t predictiveQIndex, uint32_t bipredictiveQIndex)
+{
+	VkVideoEncodeAV1QIndexKHR res;
+	res.intraQIndex			= intraQIndex;
+	res.predictiveQIndex	= predictiveQIndex;
+	res.bipredictiveQIndex	= bipredictiveQIndex;
+	return res;
+}
+
+inline VkVideoEncodeAV1FrameSizeKHR makeVideoEncodeAV1FrameSizeKHR (uint32_t intraFrameSize, uint32_t predictiveFrameSize, uint32_t bipredictiveFrameSize)
+{
+	VkVideoEncodeAV1FrameSizeKHR res;
+	res.intraFrameSize			= intraFrameSize;
+	res.predictiveFrameSize		= predictiveFrameSize;
+	res.bipredictiveFrameSize	= bipredictiveFrameSize;
 	return res;
 }
 
@@ -972,5 +1023,24 @@ inline StdVideoEncodeH265WeightTableFlags makeStdVideoEncodeH265WeightTableFlags
 	res.chroma_weight_l0_flag	= chroma_weight_l0_flag;
 	res.luma_weight_l1_flag		= luma_weight_l1_flag;
 	res.chroma_weight_l1_flag	= chroma_weight_l1_flag;
+	return res;
+}
+
+inline StdVideoEncodeAV1ExtensionHeader makeStdVideoEncodeAV1ExtensionHeader (uint8_t temporal_id, uint8_t spatial_id)
+{
+	StdVideoEncodeAV1ExtensionHeader res;
+	res.temporal_id	= temporal_id;
+	res.spatial_id	= spatial_id;
+	return res;
+}
+
+inline StdVideoEncodeAV1DecoderModelInfo makeStdVideoEncodeAV1DecoderModelInfo (uint8_t buffer_delay_length_minus_1, uint8_t buffer_removal_time_length_minus_1, uint8_t frame_presentation_time_length_minus_1, uint8_t reserved1, uint32_t num_units_in_decoding_tick)
+{
+	StdVideoEncodeAV1DecoderModelInfo res;
+	res.buffer_delay_length_minus_1				= buffer_delay_length_minus_1;
+	res.buffer_removal_time_length_minus_1		= buffer_removal_time_length_minus_1;
+	res.frame_presentation_time_length_minus_1	= frame_presentation_time_length_minus_1;
+	res.reserved1								= reserved1;
+	res.num_units_in_decoding_tick				= num_units_in_decoding_tick;
 	return res;
 }
