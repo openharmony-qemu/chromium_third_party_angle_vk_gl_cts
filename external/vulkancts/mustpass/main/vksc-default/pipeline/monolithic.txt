@@ -1,3 +1,4 @@
+dEQP-VKSC.pipeline.monolithic.bind_buffers_2.dynamic_stride.binding_stride_index_mismatch
 dEQP-VKSC.pipeline.monolithic.bind_buffers_2.separate.stride_0_4_offset_0_0.count_1
 dEQP-VKSC.pipeline.monolithic.bind_buffers_2.separate.stride_0_4_offset_0_0.count_2
 dEQP-VKSC.pipeline.monolithic.bind_buffers_2.separate.stride_0_4_offset_0_0.count_3
