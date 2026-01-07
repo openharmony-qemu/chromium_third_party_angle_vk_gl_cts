@@ -317077,6 +317077,7 @@ dEQP-VK.api.info.image_format_properties2.3d.optimal.undefined
 dEQP-VK.api.info.image_format_properties2.3d.optimal.x8_d24_unorm_pack32
 dEQP-VK.api.info.profiles.roadmap_2022
 dEQP-VK.api.info.profiles.roadmap_2024
+dEQP-VK.api.info.profiles.roadmap_2026
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.a1r5g5b5_unorm_pack16
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.a2b10g10r10_sint_pack32
 dEQP-VK.api.info.sparse_image_format_properties2.1d.linear.a2b10g10r10_snorm_pack32
