@@ -301517,6 +301517,7 @@ dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_multiview
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_vertex_attribute_divisor
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.timeline_semaphore
+dEQP-VKSC.api.invariance.memory_dedicated_requirements_matching
 dEQP-VKSC.api.invariance.memory_requirements_matching
 dEQP-VKSC.api.invariance.random
 dEQP-VKSC.api.maintenance3_check.descriptor_set
