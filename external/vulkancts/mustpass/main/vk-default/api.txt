@@ -4557,6 +4557,7 @@ dEQP-VK.api.command_buffers.nested_execute
 dEQP-VK.api.command_buffers.nested_execute_multiple_levels
 dEQP-VK.api.command_buffers.nested_render_pass_continue
 dEQP-VK.api.command_buffers.order_bind_pipeline
+dEQP-VK.api.command_buffers.pipeline_shader_object_mix_with_secondaries
 dEQP-VK.api.command_buffers.pool_create_non_null_allocator
 dEQP-VK.api.command_buffers.pool_create_null_params
 dEQP-VK.api.command_buffers.pool_create_reset_bit

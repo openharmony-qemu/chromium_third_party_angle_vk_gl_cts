@@ -178,6 +178,7 @@ dEQP-VK.api.command_buffers.many_indirect_draws_on_secondary
 dEQP-VK.api.command_buffers.nested_execute
 dEQP-VK.api.command_buffers.nested_execute_multiple_levels
 dEQP-VK.api.command_buffers.nested_render_pass_continue
+dEQP-VK.api.command_buffers.pipeline_shader_object_mix_with_secondaries
 dEQP-VK.api.command_buffers.record_simul_use_nested
 dEQP-VK.api.command_buffers.record_simul_use_twice_nested
 dEQP-VK.api.copy_and_blit.copy_commands2.blit_image.simple_tests.array.all_remaining_layers
