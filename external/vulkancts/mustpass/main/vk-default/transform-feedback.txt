@@ -117665,6 +117665,7 @@ dEQP-VK.transform_feedback.simple.resume_endqueryindexed_streamid_0_4_512
 dEQP-VK.transform_feedback.simple.resume_endqueryindexed_streamid_0_8_131072
 dEQP-VK.transform_feedback.simple.resume_endqueryindexed_streamid_0_8_256
 dEQP-VK.transform_feedback.simple.resume_endqueryindexed_streamid_0_8_512
+dEQP-VK.transform_feedback.simple.shader_object_rebind
 dEQP-VK.transform_feedback.simple.streams_1
 dEQP-VK.transform_feedback.simple.streams_14
 dEQP-VK.transform_feedback.simple.streams_14_ptsz

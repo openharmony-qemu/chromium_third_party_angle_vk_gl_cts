@@ -112656,6 +112656,7 @@ dEQP-VK.transform_feedback.simple.query_triangle_strip_with_adjacency_6_60_32bit
 dEQP-VK.transform_feedback.simple.query_triangle_strip_with_adjacency_6_60_64bits_ptsz
 dEQP-VK.transform_feedback.simple.query_triangle_strip_with_adjacency_6_6_32bits_ptsz
 dEQP-VK.transform_feedback.simple.query_triangle_strip_with_adjacency_6_6_64bits_ptsz
+dEQP-VK.transform_feedback.simple.shader_object_rebind
 dEQP-VK.transform_feedback.simple.streams_14_ptsz
 dEQP-VK.transform_feedback.simple.streams_1_ptsz
 dEQP-VK.transform_feedback.simple.streams_3_ptsz
