@@ -33402,9 +33402,13 @@ dEQP-VK.pipeline.monolithic.dynamic_offset.graphics.single_set.uniform_buffer.nu
 dEQP-VK.pipeline.monolithic.dynamic_offset.graphics.single_set.uniform_buffer.numcmdbuffers_2.sameorder.numdescriptorsetbindings_1.numdynamicbindings_2.numnondynamicbindings_1.bind2
 dEQP-VK.pipeline.monolithic.dynamic_vertex_attribute.nonsequential
 dEQP-VK.pipeline.monolithic.early_destroy.cache
+dEQP-VK.pipeline.monolithic.early_destroy.cache_compute
 dEQP-VK.pipeline.monolithic.early_destroy.cache_destroy_layout
+dEQP-VK.pipeline.monolithic.early_destroy.cache_destroy_layout_compute
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache
+dEQP-VK.pipeline.monolithic.early_destroy.no_cache_compute
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout
+dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout_compute
 dEQP-VK.pipeline.monolithic.early_destroy.no_cache_destroy_layout_maintenance5
 dEQP-VK.pipeline.monolithic.empty_fs.geom_empty_fs
 dEQP-VK.pipeline.monolithic.empty_fs.geom_no_fs
