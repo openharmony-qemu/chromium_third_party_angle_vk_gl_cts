@@ -39335,6 +39335,10 @@ dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.dimensi
 dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.dimensions.src8192x6_dst8192x6.r8g8b8a8_unorm.r8g8b8a8_unorm.general_optimal
 dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.dimensions.src8192x6_dst8192x6.r8g8b8a8_unorm.r8g8b8a8_unorm.optimal_general
 dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.dimensions.src8192x6_dst8192x6.r8g8b8a8_unorm.r8g8b8a8_unorm.optimal_optimal
+dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.misc.ms_then_ss
+dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.misc.ms_then_ss_all_commands_barrier
+dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.misc.ms_then_ss_bottom_of_pipe_barrier
+dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.misc.ms_then_ss_transfer_barrier
 dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.simple_tests.depth
 dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.simple_tests.partial_image
 dEQP-VKSC.api.copy_and_blit.copy_commands2.image_to_image_transfer_queue.simple_tests.partial_image_linear
@@ -301517,6 +301521,7 @@ dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_multiview
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.khr_vertex_attribute_divisor
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.robustness2
 dEQP-VKSC.api.info.vulkan1p2_limits_validation.timeline_semaphore
+dEQP-VKSC.api.invariance.memory_dedicated_requirements_matching
 dEQP-VKSC.api.invariance.memory_requirements_matching
 dEQP-VKSC.api.invariance.random
 dEQP-VKSC.api.maintenance3_check.descriptor_set
