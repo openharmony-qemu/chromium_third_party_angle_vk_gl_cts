@@ -4589,6 +4589,7 @@ dEQP-VK.api.command_buffers.render_pass_continue_no_fb
 dEQP-VK.api.command_buffers.reset_implicit
 dEQP-VK.api.command_buffers.secondary_execute
 dEQP-VK.api.command_buffers.secondary_execute_twice
+dEQP-VK.api.command_buffers.secondary_on_transfer_queue
 dEQP-VK.api.command_buffers.secondary_push_constants_2
 dEQP-VK.api.command_buffers.secondary_push_descriptor_set_2
 dEQP-VK.api.command_buffers.secondary_push_descriptor_set_with_template

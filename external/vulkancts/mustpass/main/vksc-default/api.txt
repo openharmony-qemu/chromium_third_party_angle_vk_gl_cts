@@ -2056,6 +2056,7 @@ dEQP-VKSC.api.command_buffers.render_pass_continue_no_fb
 dEQP-VKSC.api.command_buffers.reset_implicit
 dEQP-VKSC.api.command_buffers.secondary_execute
 dEQP-VKSC.api.command_buffers.secondary_execute_twice
+dEQP-VKSC.api.command_buffers.secondary_on_transfer_queue
 dEQP-VKSC.api.command_buffers.submit_count_equal_zero
 dEQP-VKSC.api.command_buffers.submit_count_non_zero
 dEQP-VKSC.api.command_buffers.submit_null_fence
