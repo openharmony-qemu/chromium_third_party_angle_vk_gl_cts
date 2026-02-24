@@ -265483,8 +265483,9 @@ dEQP-VK.api.descriptor_set.descriptor_set_layout_binding.layout_binding_order
 dEQP-VK.api.descriptor_set.descriptor_set_layout_binding.update_subsequent_binding
 dEQP-VK.api.descriptor_set.descriptor_set_layout_lifetime.compute
 dEQP-VK.api.descriptor_set.descriptor_set_layout_lifetime.graphics
-dEQP-VK.api.device_address.command_flags.copy_from_memory_with_unbound_ranges
-dEQP-VK.api.device_address.command_flags.copy_to_memory_with_unbound_ranges
+dEQP-VK.api.device_address.misc.copy_from_memory_with_unbound_ranges
+dEQP-VK.api.device_address.misc.copy_to_memory_with_unbound_ranges
+dEQP-VK.api.device_address.misc.use_all_vertex_index_binds
 dEQP-VK.api.device_drm_properties.drm_files_exist
 dEQP-VK.api.device_init.create_device.basic
 dEQP-VK.api.device_init.create_device_features2.basic
