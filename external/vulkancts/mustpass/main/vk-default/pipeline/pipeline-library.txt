@@ -36714,6 +36714,10 @@ dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.view_index_from_de
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.view_index_from_device_index_in_pre_rasterization_link_time_opt
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.view_index_from_device_index_in_pre_rasterization_mesh_shading
 dEQP-VK.pipeline.pipeline_library.graphics_library.misc.other.view_index_from_device_index_in_pre_rasterization_mesh_shading_link_time_opt
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.primary_rebind.eso_unlinked_spriv
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.primary_rebind.fast_lib
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.primary_rebind.monolithic
+dEQP-VK.pipeline.pipeline_library.graphics_library.misc.primary_rebind.optimized_lib
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_00_11_11
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_01_11_1
 dEQP-VK.pipeline.pipeline_library.graphics_library.optimize.0_1111
