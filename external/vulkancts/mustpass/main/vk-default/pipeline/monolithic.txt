@@ -205444,6 +205444,10 @@ dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding3_numcalls2_storage_i
 dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding3_numcalls2_storage_texel_buffer
 dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding3_numcalls2_uniform_buffer
 dEQP-VK.pipeline.monolithic.push_descriptor.compute.binding3_numcalls2_uniform_texel_buffer
+dEQP-VK.pipeline.monolithic.push_descriptor.compute.incremental_updates
+dEQP-VK.pipeline.monolithic.push_descriptor.compute.incremental_updates_2
+dEQP-VK.pipeline.monolithic.push_descriptor.compute.incremental_updates_template
+dEQP-VK.pipeline.monolithic.push_descriptor.compute.incremental_updates_template_2
 dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding0_numcalls1_combined_image_sampler
 dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding0_numcalls1_input_attachment
 dEQP-VK.pipeline.monolithic.push_descriptor.graphics.binding0_numcalls1_sampled_image
