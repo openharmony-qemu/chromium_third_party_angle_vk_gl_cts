@@ -18,6 +18,8 @@ dEQP-VK.compute.pipeline.basic.empty_workgroup_all
 dEQP-VK.compute.pipeline.basic.empty_workgroup_x
 dEQP-VK.compute.pipeline.basic.empty_workgroup_y
 dEQP-VK.compute.pipeline.basic.empty_workgroup_z
+dEQP-VK.compute.pipeline.basic.float16_isnan_isinf
+dEQP-VK.compute.pipeline.basic.float64_isnan_isinf
 dEQP-VK.compute.pipeline.basic.image_atomic_op_local_size_1
 dEQP-VK.compute.pipeline.basic.image_atomic_op_local_size_8
 dEQP-VK.compute.pipeline.basic.image_barrier_multiple
