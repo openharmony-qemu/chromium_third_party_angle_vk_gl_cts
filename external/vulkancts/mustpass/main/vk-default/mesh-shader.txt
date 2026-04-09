@@ -2022,6 +2022,7 @@ dEQP-VK.mesh_shader.ext.pipeline.builtin.shader_objects.clip_distance
 dEQP-VK.mesh_shader.ext.pipeline.builtin.shader_objects.clip_distance_mix
 dEQP-VK.mesh_shader.ext.pipeline.builtin.shader_objects.cull_distance
 dEQP-VK.mesh_shader.ext.pipeline.builtin.shader_objects.cull_distance_mix
+dEQP-VK.mesh_shader.ext.properties.limits
 dEQP-VK.mesh_shader.ext.properties.max_mesh_output_components
 dEQP-VK.mesh_shader.ext.properties.max_mesh_output_primitives_1024
 dEQP-VK.mesh_shader.ext.properties.max_mesh_output_primitives_2048
