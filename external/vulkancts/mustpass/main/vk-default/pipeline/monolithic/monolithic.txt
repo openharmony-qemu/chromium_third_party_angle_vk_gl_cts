@@ -188199,6 +188199,8 @@ dEQP-VK.pipeline.monolithic.image_view.view_type.cube_array.format.r8g8b8a8_usca
 dEQP-VK.pipeline.monolithic.image_view.view_type.cube_array.format.r8g8b8a8_uscaled.subresource_range.lod_mip_levels_base_array_layer
 dEQP-VK.pipeline.monolithic.image_view.view_type.cube_array.format.r8g8b8a8_uscaled.subresource_range.lod_mip_levels_base_array_layer_compute
 dEQP-VK.pipeline.monolithic.image_view.view_type.cube_array.format.r8g8b8a8_uscaled.subresource_range.lod_mip_levels_compute
+dEQP-VK.pipeline.monolithic.input_assembly.misc.null_state_dynamic_primitive_rast_discard
+dEQP-VK.pipeline.monolithic.input_assembly.misc.null_state_dynamic_primitive_rast_discard_dynamic
 dEQP-VK.pipeline.monolithic.input_assembly.primitive_restart.index_type_uint16.divide_draw_line_list
 dEQP-VK.pipeline.monolithic.input_assembly.primitive_restart.index_type_uint16.divide_draw_line_list_with_adjacency
 dEQP-VK.pipeline.monolithic.input_assembly.primitive_restart.index_type_uint16.divide_draw_patch_list
@@ -456167,6 +456169,8 @@ dEQP-VK.pipeline.monolithic.vertex_input.max_attributes.64_attributes.binding_on
 dEQP-VK.pipeline.monolithic.vertex_input.max_attributes.query_max_attributes.binding_one_to_many.interleaved
 dEQP-VK.pipeline.monolithic.vertex_input.max_attributes.query_max_attributes.binding_one_to_many.sequential
 dEQP-VK.pipeline.monolithic.vertex_input.max_attributes.query_max_attributes.binding_one_to_one.interleaved
+dEQP-VK.pipeline.monolithic.vertex_input.misc.null_state_dynamic_input_rast_discard
+dEQP-VK.pipeline.monolithic.vertex_input.misc.null_state_dynamic_input_rast_discard_dynamic
 dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_frag
 dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_geom_frag
 dEQP-VK.pipeline.monolithic.vertex_input.misc.stride_change_vert_tess_frag
