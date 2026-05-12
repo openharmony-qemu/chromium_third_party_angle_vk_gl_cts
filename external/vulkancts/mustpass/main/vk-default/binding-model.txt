@@ -8,6 +8,7 @@ dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_6
 dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_7
 dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_8
 dEQP-VK.binding_model.buffer_device_address.capture_replay_stress.seed_9
+dEQP-VK.binding_model.buffer_device_address.misc.copy_struct
 dEQP-VK.binding_model.buffer_device_address.op_access_chain.fragment_store
 dEQP-VK.binding_model.buffer_device_address.op_access_chain.memory_model_offset
 dEQP-VK.binding_model.buffer_device_address.set0.depth1.basessbo.convert.nostore.multi.std140.comp
@@ -10807,6 +10808,8 @@ dEQP-VK.binding_model.descriptor_heap.resource_heap_access.graphics
 dEQP-VK.binding_model.descriptor_heap.resource_masking.resource_masking
 dEQP-VK.binding_model.descriptor_heap.sampler_heap_access.compute
 dEQP-VK.binding_model.descriptor_heap.sampler_heap_access.graphics
+dEQP-VK.binding_model.descriptor_heap.secondary.compute
+dEQP-VK.binding_model.descriptor_heap.secondary.graphics
 dEQP-VK.binding_model.descriptor_heap.shader_object_invariance.shader_object_invariance
 dEQP-VK.binding_model.descriptor_heap.special_heap.protected.acceleration_structure
 dEQP-VK.binding_model.descriptor_heap.special_heap.protected.sampled_image
