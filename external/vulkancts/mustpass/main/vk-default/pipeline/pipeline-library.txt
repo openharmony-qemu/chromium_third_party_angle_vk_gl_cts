@@ -36932,6 +36932,10 @@ dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_u
 dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_uint8.triangle_list_with_adjacency
 dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_uint8.triangle_strip
 dEQP-VK.pipeline.pipeline_library.input_assembly.primitive_topology.index_type_uint8.triangle_strip_with_adjacency
+dEQP-VK.pipeline.pipeline_library.input_attribute_offset.two_binds_vec4.offset_0.dynamic
+dEQP-VK.pipeline.pipeline_library.input_attribute_offset.two_binds_vec4.offset_1.dynamic
+dEQP-VK.pipeline.pipeline_library.input_attribute_offset.two_binds_vec4.offset_2.dynamic
+dEQP-VK.pipeline.pipeline_library.input_attribute_offset.two_binds_vec4.offset_3.dynamic
 dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec2.offset_0.overlapping.no_memory_offset.dynamic
 dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec2.offset_0.overlapping.no_memory_offset.static
 dEQP-VK.pipeline.pipeline_library.input_attribute_offset.vec2.offset_0.overlapping.with_memory_offset.dynamic
