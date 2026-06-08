@@ -34317,6 +34317,7 @@ dEQP-VK.ray_query.inside_aabbs.ray_end_tmax_zero.scaling_factor_5.rotation_4
 dEQP-VK.ray_query.misc.dynamic_indexing
 dEQP-VK.ray_query.misc.dynamic_indexing_inbounds
 dEQP-VK.ray_query.misc.dynamic_indexing_use_first
+dEQP-VK.ray_query.misc.preserve_flip_facing
 dEQP-VK.ray_query.misc.ray_per_inv_0_all
 dEQP-VK.ray_query.misc.ray_per_inv_0_single_first
 dEQP-VK.ray_query.misc.ray_per_inv_0_single_last
