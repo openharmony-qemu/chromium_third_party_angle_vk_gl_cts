@@ -52,7 +52,6 @@
 #include "vktTestGroupUtil.hpp"
 
 using namespace vk;
-using namespace std::placeholders;
 
 namespace vkt
 {
