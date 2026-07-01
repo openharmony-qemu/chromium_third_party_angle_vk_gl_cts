@@ -4633,6 +4633,8 @@ dEQP-VK.api.command_buffers.indirect_compute_dispatch_offsets_8_24
 dEQP-VK.api.command_buffers.indirect_compute_dispatch_offsets_8_28
 dEQP-VK.api.command_buffers.indirect_compute_dispatch_offsets_8_4
 dEQP-VK.api.command_buffers.indirect_compute_dispatch_offsets_8_8
+dEQP-VK.api.command_buffers.inherited_occlusion_query_without_primary_query_imprecise
+dEQP-VK.api.command_buffers.inherited_occlusion_query_without_primary_query_precise
 dEQP-VK.api.command_buffers.many_indirect_disps_on_secondary
 dEQP-VK.api.command_buffers.many_indirect_draws_on_secondary
 dEQP-VK.api.command_buffers.nested_execute
