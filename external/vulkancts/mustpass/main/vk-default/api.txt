@@ -206070,6 +206070,8 @@ dEQP-VK.api.device_init.create_device_queue2_all_protected.basic
 dEQP-VK.api.device_init.create_device_queue2_all_unprotected.basic
 dEQP-VK.api.device_init.create_device_queue2_split.basic
 dEQP-VK.api.device_init.create_device_queue2_two_queues.basic
+dEQP-VK.api.device_init.create_device_queue_priorities.basic
+dEQP-VK.api.device_init.create_device_queue_priorities.concurrent_submission
 dEQP-VK.api.device_init.create_device_unsupported_extensions.basic
 dEQP-VK.api.device_init.create_device_unsupported_features.16_bit_storage_features
 dEQP-VK.api.device_init.create_device_unsupported_features.4444_formats_features_ext
