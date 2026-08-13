@@ -2024,6 +2024,8 @@ dEQP-VKSC.api.command_buffers.indirect_compute_dispatch_offsets_8_24
 dEQP-VKSC.api.command_buffers.indirect_compute_dispatch_offsets_8_28
 dEQP-VKSC.api.command_buffers.indirect_compute_dispatch_offsets_8_4
 dEQP-VKSC.api.command_buffers.indirect_compute_dispatch_offsets_8_8
+dEQP-VKSC.api.command_buffers.inherited_occlusion_query_without_primary_query_imprecise
+dEQP-VKSC.api.command_buffers.inherited_occlusion_query_without_primary_query_precise
 dEQP-VKSC.api.command_buffers.many_indirect_disps_on_secondary
 dEQP-VKSC.api.command_buffers.many_indirect_draws_on_secondary
 dEQP-VKSC.api.command_buffers.nested_execute
@@ -190491,6 +190493,8 @@ dEQP-VKSC.api.device_init.create_device_queue2_all_protected.basic
 dEQP-VKSC.api.device_init.create_device_queue2_all_unprotected.basic
 dEQP-VKSC.api.device_init.create_device_queue2_split.basic
 dEQP-VKSC.api.device_init.create_device_queue2_two_queues.basic
+dEQP-VKSC.api.device_init.create_device_queue_priorities.basic
+dEQP-VKSC.api.device_init.create_device_queue_priorities.concurrent_submission
 dEQP-VKSC.api.device_init.create_device_unsupported_extensions.basic
 dEQP-VKSC.api.device_init.create_device_unsupported_features.16_bit_storage_features
 dEQP-VKSC.api.device_init.create_device_unsupported_features.4444_formats_features_ext
