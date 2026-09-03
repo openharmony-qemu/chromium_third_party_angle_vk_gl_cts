@@ -107265,6 +107265,7 @@ dEQP-VK.pipeline.monolithic.multisample_with_fragment_shading_rate.std_sample_lo
 dEQP-VK.pipeline.monolithic.multisample_with_fragment_shading_rate.std_sample_locations.verify_location.samples_2_invariable
 dEQP-VK.pipeline.monolithic.multisample_with_fragment_shading_rate.std_sample_locations.verify_location.samples_4_invariable
 dEQP-VK.pipeline.monolithic.multisample_with_fragment_shading_rate.std_sample_locations.verify_location.samples_8_invariable
+dEQP-VK.pipeline.monolithic.pipeline_binary.dedicated.unique_blob_keys
 dEQP-VK.pipeline.monolithic.pipeline_binary.dedicated.valid_key
 dEQP-VK.pipeline.monolithic.pipeline_cache.robustness.image_compute
 dEQP-VK.pipeline.monolithic.pipeline_cache.robustness.storage_compute
