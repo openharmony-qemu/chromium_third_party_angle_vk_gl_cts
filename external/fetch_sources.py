@@ -384,12 +384,12 @@ PACKAGES = [
     GitRepo(
         "https://github.com/KhronosGroup/Vulkan-Docs.git",
         "git@github.com:KhronosGroup/Vulkan-Docs.git",
-        "01aaacd99480487bf63830959513c5ca8ceb996d",
+        "e4e53e4b31e13eeaee1ad99fb940aa72b2ec1b14",
         "vulkan-docs"),
     GitRepo(
         "https://github.com/KhronosGroup/Vulkan-ValidationLayers.git",
         "git@github.com:KhronosGroup/Vulkan-ValidationLayers.git",
-        "1a06355117c974d9d8034e27e08e45f96b80b24f",
+        "77ce947684dd8f3a291fe5e14faa253b30551d9e",
         "vulkan-validationlayers",
         postCheckout="python3 scripts/update_deps.py --dir external  --optional tests  --api vulkan"),
     GitRepo(

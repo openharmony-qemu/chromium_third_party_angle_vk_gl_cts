@@ -139,6 +139,10 @@ void getInstanceExtensionFunctions (uint32_t apiVersion, const std::vector<std::
 	{
 		return;
 	}
+	if (extName == "VK_ARM_cooperative_matrix_layouts")
+	{
+		return;
+	}
 	if (extName == "VK_ARM_data_graph")
 	{
 		functions.push_back("vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM");
@@ -2185,6 +2189,10 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, const std::vector<std::st
 	{
 		functions.push_back("vkGetAndroidHardwareBufferPropertiesANDROID");
 		functions.push_back("vkGetMemoryAndroidHardwareBufferANDROID");
+		return;
+	}
+	if (extName == "VK_ARM_cooperative_matrix_layouts")
+	{
 		return;
 	}
 	if (extName == "VK_ARM_data_graph")
@@ -5172,6 +5180,7 @@ void getDeviceExtensionFunctions (uint32_t apiVersion, const std::vector<std::st
 	"VK_NV_compute_occupancy_priority",
 	"VK_EXT_cooperative_matrix_maintenance1",
 	"VK_EXT_shader_subgroup_partitioned",
+	"VK_ARM_cooperative_matrix_layouts",
 	"VK_EXT_shader_ocp_microscaling_types",
 	"VK_VALVE_shader_mixed_float_dot_product",
 	"VK_SEC_throttle_hint",

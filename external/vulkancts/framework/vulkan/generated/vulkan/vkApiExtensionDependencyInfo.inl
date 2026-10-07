@@ -5335,6 +5335,7 @@ static const std::tuple<uint32_t, uint32_t, const char*>	extensionRequiredCoreVe
 	std::make_tuple(1, 0, "VK_AMD_texture_gather_bias_lod"),
 	std::make_tuple(1, 0, "VK_ANDROID_external_format_resolve"),
 	std::make_tuple(1, 0, "VK_ANDROID_external_memory_android_hardware_buffer"),
+	std::make_tuple(1, 0, "VK_ARM_cooperative_matrix_layouts"),
 	std::make_tuple(1, 3, "VK_ARM_data_graph"),
 	std::make_tuple(1, 3, "VK_ARM_data_graph_instruction_set_tosa"),
 	std::make_tuple(1, 0, "VK_ARM_data_graph_neural_accelerator_statistics"),
