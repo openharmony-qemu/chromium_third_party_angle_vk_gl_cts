@@ -35,6 +35,10 @@ set(SCRIPTS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src/scripts")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/src/cmake")
 
 # Use FindShaderc.cmake to find or build shaderc
+# Build shaderc from source for the target architecture and link it statically,
+# so deqp-vk neither picks up a host Vulkan SDK library nor needs a shaderc
+# shared library at runtime.
+set(USE_STATIC_SHADERC ON CACHE BOOL "Build shaderc from source and link it statically")
 include(FetchContent)
 include(FindShaderc)
 
@@ -184,12 +188,3 @@ message(STATUS "VULKAN_VIDEO_ENCODER_INCLUDE_DIRS: ${VULKAN_VIDEO_ENCODER_INCLUD
 message(STATUS "VULKAN_VIDEO_ENCODER_LIBRARY: ${VULKAN_VIDEO_ENCODER_LIBRARY}")
 message(STATUS "VULKAN_VIDEO_PARSER_INCLUDE_DIRS: ${VULKAN_VIDEO_PARSER_INCLUDE_DIRS}")
 message(STATUS "VULKAN_VIDEO_PARSER_LIBRARY: ${VULKAN_VIDEO_PARSER_LIBRARY}")
-
-# Report shaderc status
-if(SHADERC_SHARED_LIBRARY)
-    message(STATUS "VVS: Using shaderc library: ${SHADERC_SHARED_LIBRARY}")
-elseif(SHADERC_LIB)
-    message(STATUS "VVS: Building shaderc from source as: ${SHADERC_LIB}")
-else()
-    message(WARNING "VVS: Shaderc not found - shader compilation will not be available")
-endif()
